@@ -71,8 +71,16 @@ open docs/index.html docs/digest.html   # or: python -m http.server -d docs
   subscription) — same shape as `fetch_abuseipdb()` in `scripts/fetch_iocs.py`.
 - News digest: for LLM-quality triage, add `DIGEST_LLM_API_KEY` (Actions
   secret) and optionally `DIGEST_LLM_BASE_URL` / `DIGEST_LLM_MODEL`
-  (Actions variables) pointing at any OpenAI-compatible endpoint; without
-  them the heuristic classifier runs, which is free but cruder.
+  (Actions variables) pointing at any OpenAI-compatible endpoint.
+  Recommended permanent free tiers (see mnfst/awesome-free-llm-apis):
+  Groq (`https://api.groq.com/openai/v1`, model `openai/gpt-oss-120b`,
+  1,000 req/day) or Google Gemini (1,500 req/day, free-tier prompts may
+  train models). Zero-key option for testing: Kilo Code's free pool
+  (`https://api.kilo.ai/api/gateway/v1`, model
+  `nvidia/nemotron-3-super-120b-a12b:free`, no API key, 200 req/hr) — its
+  pool and routing can change without notice, so don't rely on it in
+  production. Without any LLM the heuristic classifier runs: free,
+  deterministic, cruder.
 - IPv6 prefix support is stubbed out (`fetch_prefixes.py` currently filters
   to IPv4 only).
 - Cross-reference against your `header-study` site sample instead of/along

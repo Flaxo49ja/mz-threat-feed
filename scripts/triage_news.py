@@ -22,7 +22,7 @@ IN = ROOT / "data" / "news.json"
 SEEN = ROOT / "data" / "seen_links.json"
 OUT = ROOT / "data" / "triaged_news.json"
 
-MAX_LLM_ARTICLES = 40
+MAX_LLM_ARTICLES = 100
 LLM_DELAY_S = 0.5
 
 SYSTEM_PROMPT = """You are a cybersecurity news triage assistant for a threat-intel digest \
@@ -248,18 +248,22 @@ def heuristic_triage(article: dict) -> dict:
 
 def _extract_json(text: str) -> dict | None:
     text = text.strip()
+    # Reasoning models (nemotron etc.) may emit <think>...</think> before the
+    # answer; strip those blocks so brace-matching can't pick up thinking text.
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
     # Strip markdown code fences if the model adds them.
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
-    m = re.search(r"\{.*\}", text, re.DOTALL)
-    if not m:
-        return None
-    try:
-        obj = json.loads(m.group(0))
-    except json.JSONDecodeError:
-        return None
-    if not isinstance(obj, dict) or "relevant" not in obj:
-        return None
-    return obj
+    # Prefer the LAST balanced {...} block: models occasionally write example
+    # braces in prose before the real verdict.
+    candidates = re.findall(r"\{.*\}", text, re.DOTALL)
+    for candidate in reversed(candidates):
+        try:
+            obj = json.loads(candidate)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict) and "relevant" in obj:
+            return obj
+    return None
 
 
 def llm_triage(article: dict, base_url: str, key: str, model: str) -> dict | None:
@@ -340,12 +344,16 @@ def main():
 
         results.append({**a, "triage": verdict, "backend": backend})
         flag = "+" if verdict["relevant"] else "-"
-        print(f"[{flag}] ({backend}) {a['title'][:70]}")
+        print(f"[{flag}] ({backend}) {a['title'][:70]}", flush=True)
 
-    SEEN.parent.mkdir(exist_ok=True)
-    SEEN.write_text(json.dumps(sorted(set(new_links) | seen_links), indent=2))
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(results, indent=2))
+        # Checkpoint after every article: LLM runs can be slow and a timeout
+        # or crash must not lose completed work. Seen-links are updated with
+        # the results, so a rerun resumes where this one stopped.
+        SEEN.parent.mkdir(exist_ok=True)
+        SEEN.write_text(json.dumps(sorted(set(new_links) | seen_links), indent=2))
+        OUT.parent.mkdir(exist_ok=True)
+        OUT.write_text(json.dumps(results, indent=2))
+
     n_rel = sum(1 for r in results if r["triage"]["relevant"])
     print(f"\nWrote {OUT}: {len(results)} triaged ({n_rel} relevant, "
           f"{llm_used} via LLM, {len(results) - llm_used} heuristic)")
