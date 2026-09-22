@@ -59,6 +59,7 @@ For each article, respond with ONLY this JSON, no other text:
   "category": "one of: vulnerability | breach | ransomware | phishing | policy_regulation | infrastructure | tooling | other",
   "summary": "2-3 sentence neutral summary of what happened, in plain language, no jargon left unexplained",
   "why_it_matters_africa": "1-2 sentences, ONLY if relevant=true: concrete action or risk relevant to a small/under-resourced org. Leave empty string if relevant=false.",
+  "countries": ["ISO 3166-1 alpha-2 codes of African countries the article explicitly involves, e.g. [\"MZ\",\"ZA\"]. Empty array if no African country is named. Only infer from explicit country/city mentions or African organizations - never from company names alone."],
   "suggested_tags": ["short", "keyword", "tags"]
 }
 
@@ -71,6 +72,60 @@ relevant=false instead of inventing a connection."""
 # ---------------------------------------------------------------------------
 # Heuristic fallback
 # ---------------------------------------------------------------------------
+
+# Country tagging: term -> ISO 3166-1 alpha-2. Used to attach countries[] to
+# every verdict (heuristic directly, LLM via normalization). SADC members and
+# the rest of Africa both map here; the digest shows what it gets.
+COUNTRY_TERMS = {
+    "mozambique": "MZ", "mozambican": "MZ", "maputo": "MZ", "matola": "MZ",
+    "beira": "MZ", "nampula": "MZ", "quelimane": "MZ", "inhambane": "MZ",
+    "chimoio": "MZ", "xai-xai": "MZ", "lichinga": "MZ",
+    "south africa": "ZA", "south african": "ZA", "johannesburg": "ZA",
+    "joburg": "ZA", "cape town": "ZA", "pretoria": "ZA", "durban": "ZA",
+    "sandton": "ZA",
+    "zambia": "ZM", "zambian": "ZM", "lusaka": "ZM", "ndola": "ZM",
+    "zimbabwe": "ZW", "zimbabwean": "ZW", "harare": "ZW", "bulawayo": "ZW",
+    "botswana": "BW", "gaborone": "BW", "francistown": "BW",
+    "namibia": "NA", "namibian": "NA", "windhoek": "NA", "walvis bay": "NA",
+    "tanzania": "TZ", "tanzanian": "TZ", "dar es salaam": "TZ", "dodoma": "TZ",
+    "zanzibar": "TZ",
+    "malawi": "MW", "malawian": "MW", "lilongwe": "MW", "blantyre": "MW",
+    "angola": "AO", "angolan": "AO", "luanda": "AO", "cabinda": "AO",
+    "kenya": "KE", "kenyan": "KE", "nairobi": "KE",
+    "nigeria": "NG", "nigerian": "NG", "lagos": "NG", "abuja": "NG",
+    "ghana": "GH", "ghanaian": "GH", "accra": "GH",
+    "egypt": "EG", "egyptian": "EG", "cairo": "EG",
+    "morocco": "MA", "moroccan": "MA", "rabat": "MA", "casablanca": "MA",
+    "algeria": "DZ", "algerian": "DZ", "algiers": "DZ",
+    "tunisia": "TN", "tunisian": "TN", "tunis": "TN",
+    "libya": "LY", "libyan": "LY", "tripoli": "LY",
+    "sudan": "SD", "sudanese": "SD", "khartoum": "SD",
+    "ethiopia": "ET", "ethiopian": "ET", "addis ababa": "ET",
+    "uganda": "UG", "ugandan": "UG", "kampala": "UG",
+    "rwanda": "RW", "rwandan": "RW", "kigali": "RW",
+    "senegal": "SN", "senegalese": "SN", "dakar": "SN",
+    "ivory coast": "CI", "cote d'ivoire": "CI", "abidjan": "CI",
+    "cameroon": "CM", "cameroonian": "CM", "douala": "CM", "yaounde": "CM",
+    "congo": "CD", "kinshasa": "CD", "drc": "CD", "brazzaville": "CG",
+    "mauritius": "MU", "madagascar": "MG", "antananarivo": "MG",
+    "eswatini": "SZ", "swaziland": "SZ", "mbabane": "SZ",
+    "lesotho": "LS", "maseru": "LS",
+    "seychelles": "SC", "comoros": "KM",
+    "somalia": "SO", "somali": "SO", "mogadishu": "SO",
+    "mali": "ML", "malian": "ML", "bamako": "ML",
+    "niger": "NE", "niamey": "NE",
+    "burkina faso": "BF", "ouagadougou": "BF",
+    "benin": "BJ", "togo": "TG", "lome": "TG", "gabon": "GA",
+    "libreville": "GA", "guinea": "GN", "conakry": "GN",
+    "sierra leone": "SL", "freetown": "SL", "liberia": "LR", "monrovia": "LR",
+    "chad": "TD", "ndjamena": "TD", "central african republic": "CF",
+    "equatorial guinea": "GQ", "djibouti": "DJ", "eritrea": "ER",
+    "burundi": "BI", "gambia": "GM", "guinea-bissau": "GW",
+    "cape verde": "CV", "sao tome": "ST",
+}
+
+# Every valid code that can appear in a verdict's countries[] field.
+AFRICA_CODES = frozenset(COUNTRY_TERMS.values())
 
 AFRICA_TERMS = [
     "africa", "african", "sadc", "mozambique", "mozambican", "south africa",
@@ -232,12 +287,16 @@ def heuristic_triage(article: dict) -> dict:
     tags.extend(t.replace(" ", "-") for t in techniques[:2])
     tags = [t for t in tags if t and len(t) > 2][:5] or ["news"]
 
+    # Country tagging: every named African country/city maps to an ISO code.
+    countries = sorted({COUNTRY_TERMS[t] for t in _has_term(text, list(COUNTRY_TERMS))})
+
     return {
         "relevant": relevant,
         "relevance_reason": reason,
         "category": cat if cat in CATEGORIES else "other",
         "summary": summary,
         "why_it_matters_africa": why,
+        "countries": countries,
         "suggested_tags": tags,
     }
 
@@ -306,6 +365,17 @@ def llm_triage(article: dict, base_url: str, key: str, model: str) -> dict | Non
     parsed.setdefault("relevance_reason", "")
     parsed.setdefault("summary", "")
     parsed.setdefault("suggested_tags", [])
+
+    # Normalize countries: accept ISO codes or country/city names, keep only
+    # codes we can vouch for.
+    norm = set()
+    for c in parsed.get("countries") or []:
+        c = str(c).strip().lower()
+        if len(c) == 2 and c.upper() in AFRICA_CODES:
+            norm.add(c.upper())
+        elif c in COUNTRY_TERMS:
+            norm.add(COUNTRY_TERMS[c])
+    parsed["countries"] = sorted(norm)
     return parsed
 
 

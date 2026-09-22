@@ -1,0 +1,94 @@
+{
+  "_comment": "SADC networks tracked by the IOC cross-reference. Every ASN was verified against RIPEstat as-overview (holder string) and, for smaller registries, the country-asns routed list, on 2026-09-22. Rule: if the holder string does not name the country unambiguously, the entry waits. Unverified-but-likely (Unitel AO, Airtel ZM/ZW, MTN SA) stays out until checked. Remaining SADC states (LS, SZ, MG, MU, SC, KM, CD) are added the same way.",
+  "countries": [
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "asns": [
+        {"asn": "AS37342", "name": "Movitel SA"},
+        {"asn": "AS25139", "name": "TVCABO - Comunicacoes Multimedia Lda"},
+        {"asn": "AS37223", "name": "Vodacom Mocambique S.A"},
+        {"asn": "AS327700", "name": "MoRENet - Mozambique Research & Education Network"},
+        {"asn": "AS30619", "name": "TMCEL - Mocambique Telecom SA"},
+        {"asn": "AS37110", "name": "Moztel Lda"},
+        {"asn": "AS36865", "name": "Teledata Mozambique"},
+        {"asn": "AS42235", "name": "Intra Data Communication"},
+        {"asn": "AS37697", "name": "Webmasters Lda"},
+        {"asn": "AS31960", "name": "Eduardo Mondlane University"},
+        {"asn": "AS36945", "name": "Mocambique Celular SARL"},
+        {"asn": "AS37477", "name": "Mozabanco"},
+        {"asn": "AS328274", "name": "BIM - Banco Internacional de Mocambique"},
+        {"asn": "AS328187", "name": "EDM - Electricidade de Mocambique"}
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "asns": [
+        {"asn": "AS37457", "name": "Telkom SA"},
+        {"asn": "AS3741", "name": "Dimension Data (Internet Solutions)"},
+        {"asn": "AS36943", "name": "1-Grid (PTY) Ltd"}
+      ]
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "asns": [
+        {"asn": "AS37154", "name": "ZAMTEL - Zambia Telecommunications Company"}
+      ]
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "asns": [
+        {"asn": "AS37204", "name": "TelOne Zimbabwe"}
+      ]
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "asns": [
+        {"asn": "AS36969", "name": "Malawi Telecommunications Limited"},
+        {"asn": "AS37294", "name": "Telekom Networks Malawi (TNM)"},
+        {"asn": "AS329220", "name": "Department of E-Government Malawi"},
+        {"asn": "AS328300", "name": "National Bank of Malawi"},
+        {"asn": "AS328844", "name": "Afrimax Malawi"},
+        {"asn": "AS36944", "name": "UbuntuNet Alliance (research & education)"}
+      ]
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "asns": [
+        {"asn": "AS37678", "name": "Botswana Fibre Networks (BoFiNet)"}
+      ]
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "asns": [
+        {"asn": "AS20459", "name": "Telecom Namibia"},
+        {"asn": "AS37009", "name": "MTC - Mobile Telecommunications Namibia"},
+        {"asn": "AS33763", "name": "Paratus Telecommunications"}
+      ]
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "asns": [
+        {"asn": "AS33765", "name": "Tanzania Telecommunications Co. (TTCL)"}
+      ]
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "asns": [
+        {"asn": "AS37468", "name": "Angola Cables"},
+        {"asn": "AS36907", "name": "TV Cabo Angola"},
+        {"asn": "AS37384", "name": "Banco Keve"},
+        {"asn": "AS327691", "name": "Banco Millennium Atlantico"},
+        {"asn": "AS328718", "name": "AnyConnect Tecnologias e Telecomunicacoes"}
+      ]
+    }
+  ]
+}

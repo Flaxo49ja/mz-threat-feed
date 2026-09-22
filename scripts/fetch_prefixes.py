@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-"""Resolve Mozambican ASNs to their currently announced IPv4 prefixes via RIPEstat.
-No API key needed. Output: data/mz_prefixes.json -> [{asn, name, prefixes: [cidr,...]}]
+"""Resolve tracked SADC ASNs to their currently announced IPv4 prefixes via RIPEstat.
+
+Reads config/sadc_asns.json (multi-country). Output: data/prefixes.json ->
+[{country, code, asn, name, prefixes: [cidr,...]}]
+
+Kept compatible with the old single-country flow: if config/sadc_asns.json is
+missing, falls back to config/mz_asns.json tagged as MZ.
 """
 import json
 import time
@@ -8,39 +13,81 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CONFIG = ROOT / "config" / "mz_asns.json"
-OUT = ROOT / "data" / "mz_prefixes.json"
+SADC_CONFIG = ROOT / "config" / "sadc_asns.json"
+MZ_CONFIG = ROOT / "config" / "mz_asns.json"
+OUT = ROOT / "data" / "prefixes.json"
+LEGACY_OUT = ROOT / "data" / "mz_prefixes.json"
 
 RIPESTAT_URL = "https://stat.ripe.net/data/announced-prefixes/data.json?resource={asn}"
 
 
-def fetch_prefixes(asn: str) -> list[str]:
+def fetch_prefixes(asn: str, retries: int = 3) -> list[str]:
+    """Fetch announced IPv4 prefixes for one ASN, retrying transient failures.
+    RIPEstat regularly hiccups (SSL handshakes, 5xx) and a failed fetch would
+    silently zero out an entire network on the public ledger."""
     url = RIPESTAT_URL.format(asn=asn)
-    req = urllib.request.Request(url, headers={"User-Agent": "mz-threat-feed/1.0"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        data = json.load(resp)
-    prefixes = data.get("data", {}).get("prefixes", [])
-    return [p["prefix"] for p in prefixes if ":" not in p["prefix"]]  # IPv4 only for MVP
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "mz-threat-feed/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.load(resp)
+            prefixes = data.get("data", {}).get("prefixes", [])
+            return [p["prefix"] for p in prefixes if ":" not in p["prefix"]]  # IPv4 only for MVP
+        except Exception as e:
+            last_err = e
+            time.sleep(2 * (attempt + 1))
+    raise RuntimeError(f"gave up after {retries} attempts: {last_err}")
+
+
+def load_entries():
+    """Yield (code, country_name, asn, org) tuples from whichever config exists."""
+    if SADC_CONFIG.exists():
+        cfg = json.loads(SADC_CONFIG.read_text())
+        for country in cfg["countries"]:
+            for e in country["asns"]:
+                yield country["code"], country["name"], e["asn"], e["name"]
+    elif MZ_CONFIG.exists():
+        for e in json.loads(MZ_CONFIG.read_text()):
+            yield "MZ", "Mozambique", e["asn"], e["name"]
 
 
 def main():
-    asns = json.loads(CONFIG.read_text())
     results = []
-    for entry in asns:
-        asn, name = entry["asn"], entry["name"]
+    failed = []
+    total_prefixes = 0
+    for code, country, asn, name in load_entries():
         try:
             prefixes = fetch_prefixes(asn)
-            print(f"{asn} ({name}): {len(prefixes)} prefixes")
+            print(f"[{code}] {asn} ({name}): {len(prefixes)} prefixes", flush=True)
         except Exception as e:
-            print(f"{asn} ({name}): FAILED - {e}")
+            print(f"[{code}] {asn} ({name}): FAILED - {e}", flush=True)
             prefixes = []
-        results.append({"asn": asn, "name": name, "prefixes": prefixes})
+            failed.append(f"{code}/{asn}")
+        total_prefixes += len(prefixes)
+        results.append({
+            "country": country,
+            "code": code,
+            "asn": asn,
+            "name": name,
+            "prefixes": prefixes,
+        })
         time.sleep(1)  # be polite to RIPEstat
 
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(results, indent=2))
-    total = sum(len(r["prefixes"]) for r in results)
-    print(f"\nWrote {OUT} ({total} total prefixes across {len(results)} ASNs)")
+
+    # Keep the legacy file in sync (MZ only) so older dashboards keep working.
+    mz = [r for r in results if r["code"] == "MZ"]
+    LEGACY_OUT.write_text(json.dumps(mz, indent=2))
+
+    n_countries = len({r["code"] for r in results})
+    print(f"\nWrote {OUT}: {total_prefixes} prefixes across "
+          f"{len(results)} ASNs in {n_countries} countries")
+    print(f"Synced {LEGACY_OUT} ({sum(len(r['prefixes']) for r in mz)} MZ prefixes)")
+    if failed:
+        print(f"WARNING: {len(failed)} ASNs failed all retries: {', '.join(failed)}")
+        print("Their rows are empty this run - re-run before trusting the totals.")
 
 
 if __name__ == "__main__":

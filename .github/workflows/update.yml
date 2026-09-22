@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh MZ ASN prefixes (weekly is enough, but cheap to run daily)
+      - name: Refresh SADC ASN prefixes (weekly is enough, but cheap to run daily)
         run: python scripts/fetch_prefixes.py
 
       - name: Fetch IOCs
@@ -46,6 +46,19 @@ jobs:
 
       - name: Generate digest
         run: python scripts/generate_digest.py
+
+      - name: Export UI data
+        run: python scripts/export_ui_data.py
+
+      - name: Build UI
+        run: |
+          cd ui
+          npm install --no-audit --no-fund
+          npm run build
+          cd ..
+          rm -rf docs/ui
+          mkdir -p docs/ui
+          cp -r ui/dist/* docs/ui/
 
       - name: Commit data + dashboard
         run: |

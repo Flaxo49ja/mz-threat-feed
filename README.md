@@ -1,9 +1,14 @@
 # mz-threat-feed
 
-Open, reproducible threat-intel feed for Mozambique. Pulls IOCs (malicious
-IPs/domains) from free threat-intel sources, cross-references them against
-IP space registered to Mozambican ISPs/networks, and publishes a daily
-auto-updating dashboard via GitHub Pages.
+Open, reproducible threat-intel feed for Mozambique and the wider SADC
+region. Pulls IOCs (malicious IPs/domains) from free threat-intel sources,
+cross-references them against IP space registered to SADC ISPs/networks
+(anchored in Mozambique), and publishes a daily auto-updating dashboard via
+GitHub Pages.
+
+Every ASN in `config/sadc_asns.json` was verified against RIPEstat's live
+registry (holder string matched) before inclusion — see the config's header
+comment. The original Mozambique-only list is kept in `config/mz_asns.json`.
 
 Extends the regional-security-gap angle from the HTTP security header study:
 same "underrepresented region, open reproducible tooling" approach, applied
@@ -11,15 +16,17 @@ to threat intel instead of header scanning.
 
 ## How it works
 
-1. `scripts/fetch_prefixes.py` — resolves a list of Mozambican ASNs
-   (Movitel, Vodacom Mocambique, TVCABO, Teledata, MoRENet, banks, etc.) into
-   their currently announced IPv4 prefixes via [RIPEstat](https://stat.ripe.net)
-   (free, no API key).
+1. `scripts/fetch_prefixes.py` — resolves the verified SADC ASN config
+   (Telkom SA, TTCL, Telecom Namibia, Malawi Telecom, Angolan banks, plus
+   the Mozambican majors) into their currently announced IPv4 prefixes via
+   [RIPEstat](https://stat.ripe.net) (free, no API key), with retries and
+   per-country tagging.
 2. `scripts/fetch_iocs.py` — pulls recent malicious IOCs from
    [URLhaus](https://urlhaus.abuse.ch) (no key) and optionally
    [AbuseIPDB](https://www.abuseipdb.com) (free tier, needs API key).
 3. `scripts/cross_reference.py` — resolves each IOC to an IP and checks
-   whether it falls inside a tracked Mozambican prefix.
+   whether it falls inside a tracked SADC prefix, tagging each match with
+   its country.
 4. `scripts/generate_dashboard.py` — renders `docs/index.html`, a static
    dashboard showing totals and any matches.
 5. `scripts/fetch_news.py` — pulls recent cybersecurity headlines from
@@ -65,8 +72,11 @@ open docs/index.html docs/digest.html   # or: python -m http.server -d docs
 
 ## Extending
 
-- Add more ASNs to `config/mz_asns.json` as you find them (bgp.he.net,
-  ip2location.com, ipinfo.io are good sources).
+- Add more ASNs to `config/sadc_asns.json` as you verify them against
+  RIPEstat (bgp.he.net, peeringdb, ipinfo.io are good candidate sources —
+  but confirm the holder before committing). Remaining SADC states
+  (Lesotho, Eswatini, Madagascar, Mauritius, Seychelles, Comoros, DR Congo)
+  are candidates for future runs.
 - Add AlienVault OTX as a third IOC source (needs free API key + pulse
   subscription) — same shape as `fetch_abuseipdb()` in `scripts/fetch_iocs.py`.
 - News digest: for LLM-quality triage, add `DIGEST_LLM_API_KEY` (Actions

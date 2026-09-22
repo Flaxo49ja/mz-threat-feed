@@ -7,6 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+PREFIXES_FILE = DATA / "prefixes.json"
+LEGACY_PREFIXES = DATA / "mz_prefixes.json"
 OUT = ROOT / "docs" / "index.html"
 
 TEMPLATE = """<!DOCTYPE html>
@@ -43,7 +45,7 @@ TEMPLATE = """<!DOCTYPE html>
 
   <div class="stats">
     <div class="stat"><div class="n">{total_iocs}</div><div class="l">IOCs pulled</div></div>
-    <div class="stat"><div class="n">{total_prefixes}</div><div class="l">MZ prefixes tracked</div></div>
+    <div class="stat"><div class="n">{total_prefixes}</div><div class="l">prefixes tracked ({n_countries} countries)</div></div>
     <div class="stat match"><div class="n">{total_matches}</div><div class="l">Matches in MZ space</div></div>
   </div>
 
@@ -60,7 +62,7 @@ TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-ROW = """<tr><td>{ioc}</td><td>{resolved_ip}</td><td>{matched_org}</td><td>{source}</td><td>{first_seen}</td></tr>"""
+ROW = """<tr><td>{ioc}</td><td>{resolved_ip}</td><td>{matched_org}</td><td>{matched_country}</td><td>{source}</td><td>{first_seen}</td></tr>"""
 
 
 def _esc(value) -> str:
@@ -73,10 +75,12 @@ def _esc(value) -> str:
 
 def main():
     iocs = json.loads((DATA / "iocs.json").read_text()) if (DATA / "iocs.json").exists() else []
-    prefixes = json.loads((DATA / "mz_prefixes.json").read_text()) if (DATA / "mz_prefixes.json").exists() else []
+    pfile = PREFIXES_FILE if PREFIXES_FILE.exists() else LEGACY_PREFIXES
+    prefixes = json.loads(pfile.read_text()) if pfile.exists() else []
     matches = json.loads((DATA / "matches.json").read_text()) if (DATA / "matches.json").exists() else []
 
     total_prefixes = sum(len(p["prefixes"]) for p in prefixes)
+    n_countries = len({p.get("code", "MZ") for p in prefixes})
 
     if matches:
         rows = "\n".join(
@@ -84,20 +88,22 @@ def main():
                 ioc=_esc(m.get("ioc")),
                 resolved_ip=_esc(m.get("resolved_ip")),
                 matched_org=_esc(m.get("matched_org")),
+                matched_country=_esc(m.get("matched_country", "MZ")),
                 source=_esc(m.get("source")),
                 first_seen=_esc(m.get("first_seen")),
             )
             for m in matches
         )
-        matches_table = f"<table><tr><th>IOC</th><th>Resolved IP</th><th>MZ Org</th><th>Source</th><th>First Seen</th></tr>{rows}</table>"
+        matches_table = f"<table><tr><th>IOC</th><th>Resolved IP</th><th>Network</th><th>Country</th><th>Source</th><th>First Seen</th></tr>{rows}</table>"
     else:
-        matches_table = '<div class="empty">No IOCs currently overlap tracked Mozambican IP space.</div>'
+        matches_table = '<div class="empty">No IOCs currently overlap tracked SADC IP space.</div>'
 
     html = TEMPLATE.format(
         generated_at=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
         total_iocs=len(iocs),
         total_prefixes=total_prefixes,
         total_matches=len(matches),
+        n_countries=n_countries,
         matches_table=matches_table,
     )
 

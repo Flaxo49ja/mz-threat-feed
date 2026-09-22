@@ -72,7 +72,7 @@ TEMPLATE = """<!DOCTYPE html>
 
 CARD = """<div class="card">
   <h3><a href="{link}">{title}</a><span class="badge {category}">{category}</span></h3>
-  <div class="meta"><span class="src">{source}</span> &middot; {date} &middot; relevance: {relevance_reason}</div>
+  <div class="meta"><span class="src">{source}</span> &middot; {date}{countries} &middot; relevance: {relevance_reason}</div>
   <div>{summary}</div>
   {why_block}
   <div>{tags}</div>
@@ -90,6 +90,8 @@ def render_card(item: dict) -> str:
         f'<div class="why"><b>Why it matters here</b><br>{_esc(why)}</div>'
         if why else ""
     )
+    countries = t.get("countries") or []
+    country_bit = f' &middot; {" ".join(_esc(c) for c in countries)}' if countries else ""
     tags = " ".join(f'<span class="tag">{_esc(tag)}</span>' for tag in t.get("suggested_tags", []))
     return CARD.format(
         link=_esc(item.get("link", "#")),
@@ -97,6 +99,7 @@ def render_card(item: dict) -> str:
         category=_esc(t.get("category", "other")),
         source=_esc(item.get("source", "")),
         date=_esc(item.get("date", "")),
+        countries=country_bit,
         relevance_reason=_esc(t.get("relevance_reason", "")),
         summary=_esc(t.get("summary", "")),
         why_block=why_block,
