@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/*
+  MZ Threat Feed — field-bulletin design.
+  Reads like a regional CERT's working document: paper, ink, one signal red.
+  No neon, no glass, no glows. Color is information, not decoration.
+*/
+
+@theme {
+  /* Paper and ink */
+  --color-paper: #faf7f0;
+  --color-paper-raised: #fffdf8;
+  --color-paper-sunk: #f1ece0;
+  --color-ink: #1f2a24;
+  --color-ink-soft: #4c594f;
+  --color-ink-faint: #7d877e;
+
+  /* The one alarm color */
+  --color-oxide: #b3402a;
+  --color-oxide-deep: #8f2f1c;
+
+  /* Supporting, muted */
+  --color-moss: #3e6b4f;
+  --color-slate-line: #d8d2c2;
+  --color-slate-strong: #a9a28e;
+
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #ecc8bd;
+  color: var(--color-oxide-deep);
+}
+
+/* Browser chrome is part of the design, not left to defaults */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-paper-sunk);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-strong);
+  border: 2px solid var(--color-paper-sunk);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-faint);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-oxide);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* The one authored motion: a section unfolding as it enters view.
+   Slow, single, ease-out. Runs once; everything else is still. */
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.settle {
+  animation: settle 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Typographic helpers */
+.display {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-optical-sizing: auto;
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.rule-double {
+  border-top: 3px double var(--color-ink);
+}
+
+/* Print: this document exists to be printed and pinned up */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  a {
+    color: var(--color-ink) !important;
+  }
+  .settle {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .settle {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
