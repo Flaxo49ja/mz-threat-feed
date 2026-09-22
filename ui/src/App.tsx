@@ -25,14 +25,15 @@ export default function App() {
           </p>
           <h1 className="display mt-4 max-w-3xl text-4xl leading-[1.12] sm:text-[3.4rem]">
             What the internet's underworld is doing this week, and how much of it
-            touches Mozambique.
+            touches home.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
             Every day a script pulls indicators of compromise from public abuse feeds
-            and checks them against the IP ranges that Mozambican networks announce.
-            Alongside that, security news gets triaged for the people who actually have
-            to act on it: admins of banks, universities, ISPs and ministries who run
-            old software with small teams.
+            and checks them against the IP ranges that networks across Mozambique and
+            eight neighbouring SADC countries announce. Alongside that, security news
+            gets triaged for the people who actually have to act on it: admins of
+            banks, universities, ISPs and ministries who run old software with small
+            teams.
           </p>
           <p className="mt-5 text-sm text-ink-faint">
             Last pipeline run {lastRun}. Data comes straight from{' '}

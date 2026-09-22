@@ -59,6 +59,9 @@ export default function NewsDigest() {
                 <p className="mt-1">
                   {story.source} · {story.published}
                 </p>
+                {story.countries.length > 0 && (
+                  <p className="num mt-1 text-oxide">{story.countries.join(' · ')}</p>
+                )}
                 <p className="num mt-1 text-ink-faint">
                   {story.tags.slice(0, 3).map((t) => `#${t}`).join(' ')}
                 </p>

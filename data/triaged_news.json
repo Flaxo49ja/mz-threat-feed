@@ -11,6 +11,7 @@
       "category": "other",
       "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "malware",
         "backdoor"
@@ -30,6 +31,7 @@
       "category": "vulnerability",
       "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.",
       "why_it_matters_africa": "If you run wordpress, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "wordpress",
         "xss",
@@ -50,6 +52,7 @@
       "category": "vulnerability",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.",
       "why_it_matters_africa": "If you run zyxel, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "zyxel",
         "active-exploitation",
@@ -70,6 +73,7 @@
       "category": "other",
       "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "windows"
       ]
@@ -88,6 +92,7 @@
       "category": "other",
       "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "credential",
         "threat-actors"
@@ -107,6 +112,7 @@
       "category": "other",
       "summary": "Google has been fined \u20ac403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -125,6 +131,7 @@
       "category": "vulnerability",
       "summary": "A browser. A plugin.",
       "why_it_matters_africa": "If you run cisco, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "cisco",
         "rce",
@@ -145,6 +152,7 @@
       "category": "other",
       "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
       "why_it_matters_africa": "If you run powershell, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "powershell",
         "backdoor"
@@ -164,6 +172,7 @@
       "category": "other",
       "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "threat-actors"
       ]
@@ -182,6 +191,7 @@
       "category": "other",
       "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "backdoor",
         "breach"
@@ -201,6 +211,7 @@
       "category": "other",
       "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -219,6 +230,7 @@
       "category": "other",
       "summary": "A new CVE drops. Your scanner finds it.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "exploited",
         "exploitation"
@@ -238,6 +250,7 @@
       "category": "other",
       "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "bec",
         "credential"
@@ -257,6 +270,7 @@
       "category": "vulnerability",
       "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system.",
       "why_it_matters_africa": "If you run solarwinds, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "solarwinds",
         "rce",
@@ -277,6 +291,7 @@
       "category": "vulnerability",
       "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution.",
       "why_it_matters_africa": "If you run fortinet, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "fortinet",
         "rce",
@@ -297,6 +312,9 @@
       "category": "breach",
       "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
       "why_it_matters_africa": "If you run bigcommerce, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
       "suggested_tags": [
         "bigcommerce",
         "credential",
@@ -317,6 +335,7 @@
       "category": "vulnerability",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical.",
       "why_it_matters_africa": "If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "linux",
         "active-exploitation",
@@ -337,6 +356,7 @@
       "category": "other",
       "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
       "why_it_matters_africa": "If you run wordpress, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "wordpress",
         "cross-site"
@@ -356,6 +376,7 @@
       "category": "other",
       "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "microsoft 365"
       ]
@@ -374,6 +395,7 @@
       "category": "other",
       "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -392,6 +414,7 @@
       "category": "other",
       "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -410,6 +433,7 @@
       "category": "other",
       "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -428,6 +452,7 @@
       "category": "phishing",
       "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
       "why_it_matters_africa": "If you run entra, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "entra",
         "phishing"
@@ -447,6 +472,7 @@
       "category": "other",
       "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "windows"
       ]
@@ -465,6 +491,9 @@
       "category": "policy_regulation",
       "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
       "why_it_matters_africa": "If you run npm, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
       "suggested_tags": [
         "npm",
         "malware",
@@ -485,6 +514,7 @@
       "category": "other",
       "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -503,6 +533,9 @@
       "category": "other",
       "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs.",
       "why_it_matters_africa": "",
+      "countries": [
+        "ML"
+      ],
       "suggested_tags": [
         "chrome"
       ]
@@ -521,6 +554,7 @@
       "category": "other",
       "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to North Korea. [...]",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -539,6 +573,7 @@
       "category": "other",
       "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "ransomware",
         "breach"
@@ -558,6 +593,7 @@
       "category": "other",
       "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down permanently on September 27.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -576,6 +612,7 @@
       "category": "other",
       "summary": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -594,6 +631,7 @@
       "category": "other",
       "summary": "Google has been fined 403 million euros ($463 million) for breaching the European Union\u2019s strict privacy rules because it mishandled users\u2019 location data. The post Google Hit With $463 Million Fine for EU Location Data Rule Breach appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "bec",
         "breach"
@@ -613,6 +651,7 @@
       "category": "other",
       "summary": "The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware. The post Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "malware",
         "attackers"
@@ -632,6 +671,7 @@
       "category": "other",
       "summary": "Noopur Davis never planned a career in cybersecurity. She was a developer at Intergraph, and for many years that was all she wanted to be.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -650,6 +690,7 @@
       "category": "other",
       "summary": "The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push. The post Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -668,6 +709,7 @@
       "category": "other",
       "summary": "The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion. The post RatHat Android Trojan Uses AI for Automation appeared first on SecurityWeek .",
       "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "android",
         "malware"
@@ -687,6 +729,7 @@
       "category": "other",
       "summary": "It\u2019s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea. The post Rust Team Members and Popular Crate Owners Targeted via Video Calls appeared first on SecurityWeek .",
       "why_it_matters_africa": "If you run rust, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "rust",
         "attackers"
@@ -706,6 +749,7 @@
       "category": "other",
       "summary": "The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack. The post CrowdSec Confirms Source Code Stolen in Supply Chain Attack appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "data-breach",
         "breach"
@@ -725,6 +769,7 @@
       "category": "other",
       "summary": "The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. The post Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -743,6 +788,7 @@
       "category": "vulnerability",
       "summary": "Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory. The post Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities appeared first on SecurityWeek .",
       "why_it_matters_africa": "If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "linux",
         "exploited",
@@ -763,6 +809,7 @@
       "category": "other",
       "summary": "Ireland\u2019s Data Protection Commission will fine Google more than \u20ac403 million ($462 million) over the tech giant\u2019s processing of location data, concluding an inquiry into the company that began in early 2020.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -781,6 +828,7 @@
       "category": "other",
       "summary": "Belgium\u2019s national table tennis federation is investigating a cyberattack after a hacker claimed to have stolen data on tens of thousands of members.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -799,6 +847,7 @@
       "category": "other",
       "summary": "The university, commonly known as LMU Munich, said Saturday that an attacker accessed enrollment data stored on one of its IT systems.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -817,6 +866,7 @@
       "category": "ransomware",
       "summary": "The ShinyHunters extortion group hijacked the dark web leak site of the prolific Cl0p ransomware gang, according to material posted on the site over the weekend.",
       "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "ransomware"
       ]
@@ -835,6 +885,7 @@
       "category": "other",
       "summary": "The agreement between LinkedIn, ProAPIs and joint business operator Netswift also requires the firms to stop selling and transferring the data, no longer access LinkedIn through fake accounts and delete the data that was scraped, according to a senior LinkedIn executive.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -853,6 +904,7 @@
       "category": "other",
       "summary": "Huntress expands cybersecurity platform to Africa through QBS Software partnership MSSP Alert",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "africa"
       ]
@@ -871,6 +923,10 @@
       "category": "other",
       "summary": "Terra Industries leads strategic investment in Nigerian cybersecurity startup Aeon Portal ERP",
       "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
       "suggested_tags": [
         "nigeria"
       ]
@@ -889,6 +945,7 @@
       "category": "other",
       "summary": "Zuo Bruno Builds Zuoix Into a Preventive Cybersecurity Firm Across Africa We are Tech",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "africa"
       ]
@@ -907,6 +964,10 @@
       "category": "other",
       "summary": "Terra Industries puts $1M into Aeon, a Nigerian cybersecurity startup Resilience Media",
       "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
       "suggested_tags": [
         "nigeria"
       ]
@@ -925,6 +986,9 @@
       "category": "other",
       "summary": "Africa\u2019s AI Governance, Data & Cybersecurity to Take Center Stage at 4th TICON Confab in Zambia CediRates",
       "why_it_matters_africa": "",
+      "countries": [
+        "ZM"
+      ],
       "suggested_tags": [
         "africa",
         "zambia"
@@ -944,6 +1008,9 @@
       "category": "other",
       "summary": "Jihadist violence has emptied restoration sites across the north and east. But fragmented funding, poor data and donor reluctance to work in conflict zones are also pushing the initiative\u2019s 2030 targets beyond reach.",
       "why_it_matters_africa": "",
+      "countries": [
+        "BF"
+      ],
       "suggested_tags": [
         "news"
       ]
@@ -962,6 +1029,9 @@
       "category": "other",
       "summary": "The leader of the self-declared state made new inroads in the quest for US recognition but failed to secure an audience with Trump himself.",
       "why_it_matters_africa": "",
+      "countries": [
+        "SO"
+      ],
       "suggested_tags": [
         "news"
       ]
@@ -980,6 +1050,10 @@
       "category": "other",
       "summary": "While Washington lays diplomatic groundwork for access to Nigeria\u2019s critical minerals, Chinese firms have already secured a billion-dollar head start on the ground.",
       "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
       "suggested_tags": [
         "nigeria"
       ]
@@ -998,6 +1072,7 @@
       "category": "other",
       "summary": "The US Trump administration is hosting a G20 meeting on Ebola but is at odds with the continent on issues ranging from climate change to slavery",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "africa",
         "african"
@@ -1017,6 +1092,10 @@
       "category": "other",
       "summary": "Rural voters are proving markedly more receptive to the president.",
       "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
       "suggested_tags": [
         "nigeria"
       ]
@@ -1035,6 +1114,9 @@
       "category": "other",
       "summary": "The Ethio-Saudian tycoon bought Samir cheap in 1997, then let it die. A decade after the plant fell silent, a kingdom that imports 90% of its fuel is still paying for a broken promise.",
       "why_it_matters_africa": "",
+      "countries": [
+        "MA"
+      ],
       "suggested_tags": [
         "morocco"
       ]
@@ -1053,6 +1135,7 @@
       "category": "other",
       "summary": "Weeks before stepping down, the UN boss is still reshuffling essential aides in charge of the continent.",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "africa"
       ]
@@ -1071,6 +1154,9 @@
       "category": "other",
       "summary": "Algiers has begun to spell out the case behind its rupture with Abu Dhabi, alleging attempts to influence the 2019 and 2024 presidential elections. The claims are explosive \u2013 but the account carrying them provides little evidence of how the operations supposedly worked.",
       "why_it_matters_africa": "",
+      "countries": [
+        "DZ"
+      ],
       "suggested_tags": [
         "algeria"
       ]
@@ -1089,6 +1175,9 @@
       "category": "other",
       "summary": "Ukrainian drone operators are backing al-Qaeda\u2019s Tuareg allies while Washington seeks to re-engage with the regime\u2019s putschist regimes",
       "why_it_matters_africa": "",
+      "countries": [
+        "ML"
+      ],
       "suggested_tags": [
         "news"
       ]
@@ -1107,6 +1196,10 @@
       "category": "other",
       "summary": "After the 29 August mutiny, the Niger junta leader appears more isolated than ever. He has grown deeply distrustful of his own army, placing his confidence in a handful of loyal officers and his Russian and Algerian allies.",
       "why_it_matters_africa": "",
+      "countries": [
+        "DZ",
+        "NE"
+      ],
       "suggested_tags": [
         "algeria"
       ]
@@ -1125,6 +1218,7 @@
       "category": "other",
       "summary": "The Irish DPC found that Google users were unaware that their location was being used to influence them with ads",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -1143,6 +1237,7 @@
       "category": "other",
       "summary": "Sekoia said Exvicy, a new ClickFix MaaS framework, reused code from rival service ErrTraffic",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -1161,6 +1256,7 @@
       "category": "other",
       "summary": "CloudSEK linked GHAPPIER to a compromised npm package with valid trusted-publishing provenance",
       "why_it_matters_africa": "If you run npm, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "npm",
         "attackers"
@@ -1180,6 +1276,7 @@
       "category": "other",
       "summary": "ShinyHunters has claimed responsibility for hacking the Clop ransomware group, defacing its leak site and alleging theft of key operational data",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "ransomware"
       ]
@@ -1198,6 +1295,7 @@
       "category": "other",
       "summary": "A breach at image-sharing service Gyazo on September 11 affected over 23 million customers",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "breach"
       ]
@@ -1216,6 +1314,7 @@
       "category": "other",
       "summary": "Following a major data breach, Revolut customers are being sent convincing phishing messages",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "phishing",
         "data-breach"
@@ -1235,6 +1334,7 @@
       "category": "other",
       "summary": "Huntress researchers highlighted a new ransomware variant, named Settra, and the post-compromise techniques used in two recent attacks",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "ransomware"
       ]
@@ -1253,6 +1353,7 @@
       "category": "other",
       "summary": "The US cybersecurity agency is moving to a new vulnerability coordination platform called VINCE-NT",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -1271,6 +1372,7 @@
       "category": "other",
       "summary": "Black Kite has found that manufacturing remained the most targeted sector for ransomware attacks, and saw a big jump in incidents in H1 2026",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "ransomware"
       ]
@@ -1289,6 +1391,7 @@
       "category": "other",
       "summary": "ESET said FamousSparrow has replaced SparrowDoor with SparroWocky",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "backdoor"
       ]
@@ -1307,6 +1410,9 @@
       "category": "other",
       "summary": "CISA released guidance on using cyber decoys to detect & disrupt malicious activity inside networks",
       "why_it_matters_africa": "",
+      "countries": [
+        "ML"
+      ],
       "suggested_tags": [
         "news"
       ]
@@ -1325,6 +1431,7 @@
       "category": "other",
       "summary": "Researchers at Zimperium have uncovered a new Android malware strain, dubbed RatHat, with spyware and backdoor capabilities",
       "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "android",
         "malware",
@@ -1345,6 +1452,7 @@
       "category": "other",
       "summary": "New government figures reveal a 20% annual increase in certifications",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -1363,6 +1471,7 @@
       "category": "vulnerability",
       "summary": "Cisco urged ISE customers to apply a software update, as well as check for signs of exploitation",
       "why_it_matters_africa": "If you run cisco, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
         "cisco",
         "active-exploitation",
@@ -1383,6 +1492,7 @@
       "category": "other",
       "summary": "Spanish data protection agency AEPD reveals the country\u2019s first AI-powered data breach",
       "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
         "data-breach",
         "breach"

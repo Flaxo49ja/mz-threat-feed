@@ -1,4 +1,4 @@
-import { numbers, asnLedger } from '../data/feedData';
+import { numbers } from '../data/feedData';
 
 export default function StatsGrid() {
   const rows: Array<[string, string, string]> = [
@@ -8,16 +8,16 @@ export default function StatsGrid() {
       'malicious IPs and domains pulled from URLhaus and AbuseIPDB, deduplicated',
     ],
     [
-      numbers.mzPrefixes.toLocaleString('en-US'),
-      'Mozambican prefixes',
-      `the ${numbers.mzAsns} ASNs above announce these ranges, per RIPEstat`,
+      numbers.sadcPrefixes.toLocaleString('en-US'),
+      'prefixes watched',
+      `the ${numbers.sadcAsns} networks below announce these ranges across ${numbers.countriesTracked} countries, per RIPEstat`,
     ],
     [
       String(numbers.overlaps),
       'overlaps found',
       numbers.overlaps === 0
-        ? 'no IOC landed inside MZ space this run. The empty result is the result.'
-        : 'indicators that resolve into MZ-announced space',
+        ? 'no IOC landed inside tracked space this run. The empty result is the result.'
+        : 'indicators that resolve into tracked SADC space',
     ],
     [
       `${numbers.storiesKept} of ${numbers.storiesTriaged}`,
