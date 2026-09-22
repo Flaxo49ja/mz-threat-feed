@@ -34,6 +34,19 @@ jobs:
       - name: Generate dashboard
         run: python scripts/generate_dashboard.py
 
+      - name: Fetch news headlines
+        run: python scripts/fetch_news.py
+
+      - name: Triage news
+        env:
+          DIGEST_LLM_API_KEY: ${{ secrets.DIGEST_LLM_API_KEY }}
+          DIGEST_LLM_BASE_URL: ${{ vars.DIGEST_LLM_BASE_URL }}
+          DIGEST_LLM_MODEL: ${{ vars.DIGEST_LLM_MODEL }}
+        run: python scripts/triage_news.py
+
+      - name: Generate digest
+        run: python scripts/generate_digest.py
+
       - name: Commit data + dashboard
         run: |
           git config user.name "mz-threat-feed-bot"

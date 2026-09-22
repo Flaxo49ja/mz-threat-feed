@@ -22,7 +22,20 @@ to threat intel instead of header scanning.
    whether it falls inside a tracked Mozambican prefix.
 4. `scripts/generate_dashboard.py` — renders `docs/index.html`, a static
    dashboard showing totals and any matches.
-5. `.github/workflows/update.yml` — runs the whole pipeline daily via
+5. `scripts/fetch_news.py` — pulls recent cybersecurity headlines from
+   public RSS feeds (The Hacker News, BleepingComputer, SecurityWeek,
+   Google News Africa-cyber search, The Africa Report, etc.) into
+   `data/news.json`.
+6. `scripts/triage_news.py` — triages each headline for relevance to
+   IT/security staff at African organizations (governments, banks,
+   universities, SMEs, ISPs), producing verdict JSON per article. Uses an
+   OpenAI-compatible LLM if `DIGEST_LLM_API_KEY` is set (optionally with
+   `DIGEST_LLM_BASE_URL` and `DIGEST_LLM_MODEL`); otherwise falls back to a
+   conservative heuristic keyword classifier. Already-seen links
+   (`data/seen_links.json`) are skipped across runs.
+7. `scripts/generate_digest.py` — renders `docs/digest.html`, the weekly
+   news digest page, linked from the dashboard.
+8. `.github/workflows/update.yml` — runs the whole pipeline daily via
    GitHub Actions and publishes `docs/` to GitHub Pages.
 
 ## Local run
@@ -34,7 +47,10 @@ export ABUSEIPDB_API_KEY=your_key_here   # optional
 python scripts/fetch_iocs.py
 python scripts/cross_reference.py
 python scripts/generate_dashboard.py
-open docs/index.html   # or: python -m http.server -d docs
+python scripts/fetch_news.py          # RSS headlines
+python scripts/triage_news.py         # optional: export DIGEST_LLM_API_KEY first
+python scripts/generate_digest.py
+open docs/index.html docs/digest.html   # or: python -m http.server -d docs
 ```
 
 ## Deploy on GitHub
@@ -53,6 +69,10 @@ open docs/index.html   # or: python -m http.server -d docs
   ip2location.com, ipinfo.io are good sources).
 - Add AlienVault OTX as a third IOC source (needs free API key + pulse
   subscription) — same shape as `fetch_abuseipdb()` in `scripts/fetch_iocs.py`.
+- News digest: for LLM-quality triage, add `DIGEST_LLM_API_KEY` (Actions
+  secret) and optionally `DIGEST_LLM_BASE_URL` / `DIGEST_LLM_MODEL`
+  (Actions variables) pointing at any OpenAI-compatible endpoint; without
+  them the heuristic classifier runs, which is free but cruder.
 - IPv6 prefix support is stubbed out (`fetch_prefixes.py` currently filters
   to IPv4 only).
 - Cross-reference against your `header-study` site sample instead of/along
