@@ -17,6 +17,7 @@ SADC_CONFIG = ROOT / "config" / "sadc_asns.json"
 MZ_CONFIG = ROOT / "config" / "mz_asns.json"
 OUT = ROOT / "data" / "prefixes.json"
 LEGACY_OUT = ROOT / "data" / "mz_prefixes.json"
+CACHE = ROOT / "data" / "prefix_cache.json"  # resume support for long runs
 
 RIPESTAT_URL = "https://stat.ripe.net/data/announced-prefixes/data.json?resource={asn}"
 
@@ -53,17 +54,25 @@ def load_entries():
 
 
 def main():
+    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     results = []
     failed = []
     total_prefixes = 0
     for code, country, asn, name in load_entries():
-        try:
-            prefixes = fetch_prefixes(asn)
-            print(f"[{code}] {asn} ({name}): {len(prefixes)} prefixes", flush=True)
-        except Exception as e:
-            print(f"[{code}] {asn} ({name}): FAILED - {e}", flush=True)
-            prefixes = []
-            failed.append(f"{code}/{asn}")
+        key = f"{code}/{asn}"
+        if key in cache:
+            prefixes = cache[key]
+            print(f"[{code}] {asn} ({name}): {len(prefixes)} prefixes (cached)", flush=True)
+        else:
+            try:
+                prefixes = fetch_prefixes(asn)
+                print(f"[{code}] {asn} ({name}): {len(prefixes)} prefixes", flush=True)
+                cache[key] = prefixes
+                CACHE.write_text(json.dumps(cache))  # persist after each ASN, so a timeout costs nothing
+            except Exception as e:
+                print(f"[{code}] {asn} ({name}): FAILED - {e}", flush=True)
+                prefixes = []
+                failed.append(key)  # failures are NOT cached - a re-run must retry them
         total_prefixes += len(prefixes)
         results.append({
             "country": country,
@@ -88,6 +97,9 @@ def main():
     if failed:
         print(f"WARNING: {len(failed)} ASNs failed all retries: {', '.join(failed)}")
         print("Their rows are empty this run - re-run before trusting the totals.")
+    else:
+        # Clean run: drop the cache so tomorrow's cron fetches fresh prefixes.
+        CACHE.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "_comment": "SADC networks tracked by the IOC cross-reference. Every ASN was verified against RIPEstat as-overview (holder string) and, for smaller registries, the country-asns routed list, on 2026-09-22. Rule: if the holder string does not name the country unambiguously, the entry waits. Unverified-but-likely (Unitel AO, Airtel ZM/ZW, MTN SA) stays out until checked. Remaining SADC states (LS, SZ, MG, MU, SC, KM, CD) are added the same way.",
+  "_comment": "SADC networks tracked by the IOC cross-reference. Every ASN was verified against RIPEstat as-overview (holder string) and the country-asns routed list, on 2026-09-22. Rule: if the holder string does not name the country unambiguously, the entry waits (iRENALA MG and Leo LS were confirmed via their official sites; Airtel ZM/ZW, Unitel AO, MTN SA stay out until checked). Seychelles deliberately tracks only its three national ISPs plus the government - most of its 66 routed ASNs are offshore hosting/registration fronts, not Seychellois victim space. All 16 SADC states now covered.",
   "countries": [
     {
       "code": "MZ",
@@ -88,6 +88,77 @@
         {"asn": "AS37384", "name": "Banco Keve"},
         {"asn": "AS327691", "name": "Banco Millennium Atlantico"},
         {"asn": "AS328718", "name": "AnyConnect Tecnologias e Telecomunicacoes"}
+      ]
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "asns": [
+        {"asn": "AS33567", "name": "Econet Telecom Lesotho"},
+        {"asn": "AS37057", "name": "Vodacom Lesotho"},
+        {"asn": "AS25695", "name": "Leo (PTY) LTD - Lesotho ISP"},
+        {"asn": "AS328567", "name": "LEC Communications"}
+      ]
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "asns": [
+        {"asn": "AS19711", "name": "ESWATINI POST AND TELECOMMUNICATIONS CORPORATION (EPTC)"},
+        {"asn": "AS327765", "name": "Swazi MTN Ltd"},
+        {"asn": "AS328169", "name": "Swazi Mobile Limited"}
+      ]
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "asns": [
+        {"asn": "AS37054", "name": "Telecom Malagasy (Telma)"},
+        {"asn": "AS37037", "name": "Orange Madagascar"},
+        {"asn": "AS37303", "name": "Airtel Madagascar"},
+        {"asn": "AS37608", "name": "iRENALA - Madagascar Research & Education Network"}
+      ]
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "asns": [
+        {"asn": "AS23889", "name": "Mauritius Telecom Ltd"},
+        {"asn": "AS30999", "name": "EMTEL LIMITED"},
+        {"asn": "AS36868", "name": "Rogers Capital Technology Services Ltd"}
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "asns": [
+        {"asn": "AS36958", "name": "Intelvision Ltd"},
+        {"asn": "AS36867", "name": "Kokonet Ltd"},
+        {"asn": "AS36902", "name": "Cable & Wireless Seychelles"},
+        {"asn": "AS327861", "name": "Department of ICT Government of Seychelles"}
+      ]
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "asns": [
+        {"asn": "AS36939", "name": "Comores Telecom"},
+        {"asn": "AS328061", "name": "TELECOM COMORES S.A (TELCO S.A)"},
+        {"asn": "AS329646", "name": "Comores Cables"}
+      ]
+    },
+    {
+      "code": "CD",
+      "name": "DR Congo",
+      "asns": [
+        {"asn": "AS37677", "name": "Societe Congolaise des Postes et Telecommunications (SCPT)"},
+        {"asn": "AS37453", "name": "Vodacom Congo"},
+        {"asn": "AS37447", "name": "Orange RDC"},
+        {"asn": "AS37020", "name": "CELTEL DRC (Airtel Congo)"},
+        {"asn": "AS327738", "name": "Africell RDC"},
+        {"asn": "AS328569", "name": "Banque Centrale du Congo"},
+        {"asn": "AS328000", "name": "Equity Banque Commerciale du Congo"},
+        {"asn": "AS329342", "name": "Direction Generale des Douanes et Accises (DRC Customs)"}
       ]
     }
   ]
