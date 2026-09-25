@@ -1,5 +1,54 @@
 [
   {
+    "ioc": "115.55.239.220",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 09:02:19",
+    "tags": "None"
+  },
+  {
+    "ioc": "170.0.60.30",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 09:02:14",
+    "tags": "None"
+  },
+  {
+    "ioc": "2.184.53.121",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 09:02:14",
+    "tags": "None"
+  },
+  {
+    "ioc": "27.23.64.85",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 09:02:13",
+    "tags": "None"
+  },
+  {
+    "ioc": "13.140.176.180",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 09:01:19",
+    "tags": "64-bit,elf,x86-64"
+  },
+  {
+    "ioc": "180.116.96.34",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 09:00:21",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "46.16.150.139",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-09-25 08:57:16",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
     "ioc": "182.126.241.161",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -2835,13 +2884,6 @@
     "tags": "mirai"
   },
   {
-    "ioc": "180.116.96.34",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-24 03:47:15",
-    "tags": "mirai"
-  },
-  {
     "ioc": "196.189.98.77",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -3218,13 +3260,6 @@
     "source": "urlhaus",
     "first_seen": "2026-09-23 23:32:18",
     "tags": "None"
-  },
-  {
-    "ioc": "27.23.64.85",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-23 23:17:16",
-    "tags": "mirai"
   },
   {
     "ioc": "60.24.121.218",
@@ -3617,13 +3652,6 @@
     "source": "urlhaus",
     "first_seen": "2026-09-23 17:46:18",
     "tags": "Mozi"
-  },
-  {
-    "ioc": "46.16.150.139",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-23 17:44:18",
-    "tags": "32-bit,elf,mips,Mozi"
   },
   {
     "ioc": "113.231.202.211",
@@ -8055,13 +8083,6 @@
     "source": "urlhaus",
     "first_seen": "2026-09-21 17:02:19",
     "tags": "Mozi"
-  },
-  {
-    "ioc": "13.140.176.180",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-21 17:01:28",
-    "tags": "64-bit,elf,mirai,x86-64"
   },
   {
     "ioc": "42.85.129.179",
