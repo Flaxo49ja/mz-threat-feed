@@ -3,41 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mozambique Threat Intel Feed</title>
+<title>MZ Threat Feed — a security bulletin for the SADC region</title>
+<meta name="description" content="Daily threat-intel bulletin for the SADC region: IOCs checked against local IP space, security news triaged for small IT teams.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#0b0f14; --panel:#121822; --border:#232c3a; --text:#e6edf3; --muted:#8b96a5; --accent:#4fc3f7; --danger:#f47174; --ok:#4caf50; }
+  :root { --paper:#faf7f0; --paper-raised:#fffdf8; --paper-sunk:#f1ece0; --ink:#1f2a24; --ink-soft:#4c594f; --ink-faint:#7d877e; --oxide:#b3402a; --slate-line:#d8d2c2; --slate-strong:#a9a28e; }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,Segoe UI,Roboto,sans-serif; padding:32px 16px; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:'Public Sans',-apple-system,'Segoe UI',sans-serif; padding:32px 16px; -webkit-font-smoothing:antialiased; }
   .wrap { max-width:1000px; margin:0 auto; }
-  h1 { font-size:1.6rem; margin:0 0 4px; }
-  .sub { color:var(--muted); font-size:0.9rem; margin-bottom:28px; }
-  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:28px; }
-  .stat { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px; }
-  .stat .n { font-size:1.8rem; font-weight:700; }
-  .stat .l { color:var(--muted); font-size:0.8rem; text-transform:uppercase; letter-spacing:.04em; }
-  .match .n { color:var(--danger); }
-  table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
-  th, td { padding:10px 12px; text-align:left; font-size:0.85rem; border-bottom:1px solid var(--border); }
-  th { color:var(--muted); text-transform:uppercase; font-size:0.72rem; letter-spacing:.04em; }
-  tr:last-child td { border-bottom:none; }
-  .empty { padding:24px; text-align:center; color:var(--muted); }
-  footer { margin-top:28px; color:var(--muted); font-size:0.78rem; }
-  code { background:#1a2230; padding:2px 6px; border-radius:4px; }
+  h1 { font-family:'Newsreader',Georgia,serif; font-weight:500; letter-spacing:-0.02em; font-size:1.9rem; margin:0 0 4px; }
+  .kicker { font-family:'IBM Plex Mono',monospace; font-size:0.78rem; text-transform:uppercase; letter-spacing:.14em; color:var(--oxide); margin:0 0 10px; }
+  .sub { color:var(--ink-soft); font-size:0.95rem; margin-bottom:28px; max-width:44rem; line-height:1.55; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1px; background:var(--slate-line); border:1px solid var(--slate-line); margin-bottom:28px; }
+  .stat { background:var(--paper-raised); padding:18px; }
+  .stat .n { font-family:'IBM Plex Mono',monospace; font-variant-numeric:tabular-nums; font-size:1.9rem; font-weight:500; line-height:1.1; }
+  .stat .l { color:var(--oxide); font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:.08em; margin-top:8px; }
+  .stat .note { color:var(--ink-soft); font-size:0.8rem; margin-top:4px; }
+  .match .n { color:var(--oxide); }
+  h2 { font-family:'Newsreader',Georgia,serif; font-weight:500; letter-spacing:-0.02em; font-size:1.35rem; margin:0 0 12px; }
+  table { width:100%; border-collapse:collapse; background:var(--paper-raised); border:1px solid var(--ink); }
+  th, td { padding:9px 12px; text-align:left; font-size:0.83rem; border-bottom:1px solid var(--slate-line); }
+  th { background:var(--paper-sunk); color:var(--ink-soft); text-transform:uppercase; font-size:0.7rem; font-weight:600; letter-spacing:.1em; border-bottom:1px solid var(--ink); }
+  tbody tr:nth-child(even) { background:var(--paper-raised); }
+  tbody tr:nth-child(odd) { background:var(--paper); }
+  tbody tr:last-child td { border-bottom:none; }
+  td.num, th.num { font-family:'IBM Plex Mono',monospace; font-variant-numeric:tabular-nums; }
+  .empty { padding:24px; text-align:center; color:var(--ink-faint); background:var(--paper-raised); border:1px solid var(--slate-line); }
+  footer { margin-top:28px; padding-top:14px; border-top:1px solid var(--slate-line); color:var(--ink-faint); font-size:0.78rem; }
+  code { font-family:'IBM Plex Mono',monospace; font-size:0.9em; background:var(--paper-sunk); padding:2px 6px; }
+  a { color:var(--oxide); }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>🇲🇿 Mozambique Threat Intel Feed</h1>
-  <div class="sub">Open, reproducible IOC feed cross-referenced against Mozambican ISP/network IP space. Updated 2026-09-25 09:14 UTC.</div>
+  <p class="kicker">MZ Threat Feed</p>
+  <h1>MZ Threat Feed — SADC regional security bulletin</h1>
+  <div class="sub">Open, reproducible IOC feed cross-referenced against IP space announced across the SADC region — 16 countries, updated daily. Alongside it, a weekly digest triages security news for small IT teams across the region. <a href="ui/">Open the full dashboard &rarr;</a></div>
 
   <div class="stats">
-    <div class="stat"><div class="n">5819</div><div class="l">IOCs pulled</div></div>
-    <div class="stat"><div class="n">4052</div><div class="l">prefixes tracked (16 countries)</div></div>
-    <div class="stat match"><div class="n">121</div><div class="l">Matches in MZ space</div></div>
+    <div class="stat"><div class="n">5819</div><div class="l">IOCs pulled</div><div class="note">URLhaus and AbuseIPDB, deduplicated</div></div>
+    <div class="stat"><div class="n">4052</div><div class="l">prefixes tracked</div><div class="note">16 SADC countries, per RIPEstat</div></div>
+    <div class="stat match"><div class="n">121</div><div class="l">Matches in SADC space</div><div class="note">leads, not verdicts — check your logs</div></div>
   </div>
 
   <h2>Matches</h2>
-  <table><tr><th>IOC</th><th>Resolved IP</th><th>Network</th><th>Country</th><th>Source</th><th>First Seen</th></tr><tr><td>105.187.36.75</td><td>105.187.36.75</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-09-25 07:17:28</td></tr>
+  <table><thead><tr><th>IOC</th><th>Resolved IP</th><th>Network</th><th>Country</th><th>Source</th><th>First Seen</th></tr></thead><tbody><tr><td>105.187.36.75</td><td>105.187.36.75</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-09-25 07:17:28</td></tr>
 <tr><td>105.184.105.234</td><td>105.184.105.234</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-09-25 06:31:12</td></tr>
 <tr><td>105.224.12.28</td><td>105.224.12.28</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-09-25 03:01:18</td></tr>
 <tr><td>105.224.248.131</td><td>105.224.248.131</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-09-25 02:32:18</td></tr>
@@ -157,12 +169,12 @@
 <tr><td>105.184.15.32</td><td>105.184.15.32</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-08-29 15:22:08</td></tr>
 <tr><td>105.186.250.56</td><td>105.186.250.56</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-08-28 09:11:36</td></tr>
 <tr><td>105.184.58.165</td><td>105.184.58.165</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-08-27 10:01:41</td></tr>
-<tr><td>105.186.93.221</td><td>105.186.93.221</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-08-27 00:01:07</td></tr></table>
+<tr><td>105.186.93.221</td><td>105.186.93.221</td><td>Telkom SA</td><td>ZA</td><td>urlhaus</td><td>2026-08-27 00:01:07</td></tr></tbody></table>
 
   <footer>
-    Sources: URLhaus, AbuseIPDB (free tiers) &middot; MZ prefixes via RIPEstat &middot;
+    Updated 2026-09-25 09:17 UTC &middot; Sources: URLhaus, AbuseIPDB (free tiers) &middot; SADC prefixes via RIPEstat &middot;
     Data: <code>data/iocs.json</code>, <code>data/matches.json</code> &middot;
-    <a href="https://github.com/Anayo-Anyafulu/mz-threat-feed" style="color:var(--accent)">Source on GitHub</a>
+    <a href="https://github.com/Anayo-Anyafulu/mz-threat-feed">Source on GitHub</a>
   </footer>
 </div>
 </body>
