@@ -1,5 +1,104 @@
 [
   {
+    "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+    "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+    "source": "The Hacker News",
+    "date": "2026-09-25",
+    "excerpt": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHub Actions are listed below - actions-cool/issues-helper actions-cool/maintain-one-comment Visiting either of the repositories now shows the message: \"Access to this",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHub Actions are listed below - actions-cool/issues-helper actions-cool/maintain-one-comment Visiting either of the repositories now shows the message: \"Access to this",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "bec",
+        "malware"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+    "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+    "source": "The Hacker News",
+    "date": "2026-09-25",
+    "excerpt": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat Labs, continue to rely on the same JavaScript for Automation (JXA) dropper mechanism, but modify the lure and the delivery method. \"Where earlier variants embedded their payload key material",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects macos, java \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
+      "category": "other",
+      "summary": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat Labs, continue to rely on the same JavaScript for Automation (JXA) dropper mechanism, but modify the lure and the delivery method.",
+      "why_it_matters_africa": "If you run macos, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "macos",
+        "malware"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "The SOC Doesn't Need to Start Over with Every Alert",
+    "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+    "source": "The Hacker News",
+    "date": "2026-09-25",
+    "excerpt": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+    "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+    "source": "The Hacker News",
+    "date": "2026-09-25",
+    "excerpt": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's cold wallets and the overwhelming majority of platform assets remain",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "threat-actors"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "source": "The Hacker News",
+    "date": "2026-09-25",
+    "excerpt": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. The issue stems from a preg_replace() backslash",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects roundcube \u2014 widely deployed in under-resourced organizations \u2014 via sql injection, actively exploited.",
+      "category": "vulnerability",
+      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.",
+      "why_it_matters_africa": "If you run roundcube, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "roundcube",
+        "sql-injection",
+        "actively-exploited"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
     "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
     "source": "The Hacker News",
@@ -205,105 +304,196 @@
     "backend": "heuristic"
   },
   {
-    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-    "source": "The Hacker News",
-    "date": "2026-09-24",
-    "excerpt": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts \u2013",
+    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions.",
+      "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "microsoft 365"
+        "zero-day"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
-    "source": "The Hacker News",
-    "date": "2026-09-24",
-    "excerpt": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "ransomware",
+        "hacked"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Elementor WordPress flaw lets attackers create admin accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects wordpress, php \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
-      "category": "vulnerability",
-      "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).",
+      "relevance_reason": "Affects wordpress \u2014 widely deployed in under-resourced organizations \u2014 via cross-site, attackers.",
+      "category": "other",
+      "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
       "why_it_matters_africa": "If you run wordpress, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
         "wordpress",
-        "rce",
-        "remote-code"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-    "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-    "source": "The Hacker News",
-    "date": "2026-09-23",
-    "excerpt": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects docker \u2014 widely deployed in under-resourced organizations \u2014 via malware, attackers.",
-      "category": "policy_regulation",
-      "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/",
-      "why_it_matters_africa": "If you run docker, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [
-        "ML"
-      ],
-      "suggested_tags": [
-        "docker",
-        "malware",
+        "cross-site",
         "attackers"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-    "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
-    "source": "The Hacker News",
-    "date": "2026-09-23",
-    "excerpt": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+    "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects gitlab \u2014 widely deployed in under-resourced organizations \u2014 via credential.",
-      "category": "other",
-      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.",
-      "why_it_matters_africa": "If you run gitlab, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevance_reason": "Affects sharepoint \u2014 widely deployed in under-resourced organizations \u2014 via exploited, cve-.",
+      "category": "vulnerability",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
+      "why_it_matters_africa": "If you run sharepoint, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "gitlab",
+        "sharepoint",
+        "exploited",
+        "cve-"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
+    "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
         "credential"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-    "source": "The Hacker News",
-    "date": "2026-09-23",
-    "excerpt": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+    "title": "Microsoft plans to deprecate Windows Deployment Services",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects mikrotik \u2014 widely deployed in under-resourced organizations \u2014 via cve-, exposed.",
-      "category": "vulnerability",
-      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060).",
-      "why_it_matters_africa": "If you run mikrotik, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "mikrotik",
-        "cve-",
-        "exposed"
+        "windows"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "credential"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+    "source": "BleepingComputer",
+    "date": "2026-09-25",
+    "excerpt": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "windows"
       ]
     },
     "backend": "heuristic"
@@ -409,200 +599,116 @@
     "backend": "heuristic"
   },
   {
-    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-09-24",
-    "excerpt": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
+    "title": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure",
+    "link": "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/",
+    "source": "SecurityWeek",
+    "date": "2026-09-25",
+    "excerpt": "Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek .",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects roundcube \u2014 widely deployed in under-resourced organizations \u2014 via actively exploited, exploited.",
-      "category": "vulnerability",
-      "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
-      "why_it_matters_africa": "If you run roundcube, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevance_reason": "Affects docker \u2014 widely deployed in under-resourced organizations \u2014 via botnet.",
+      "category": "other",
+      "summary": "Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek .",
+      "why_it_matters_africa": "If you run docker, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "roundcube",
-        "actively-exploited",
-        "exploited"
+        "docker",
+        "botnet"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
-    "source": "BleepingComputer",
-    "date": "2026-09-24",
-    "excerpt": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
+    "title": "North Korea Suspected in $351 Million Bitget Crypto Heist",
+    "link": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+    "source": "SecurityWeek",
+    "date": "2026-09-25",
+    "excerpt": "Bitget\u2019s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen. The post North Korea Suspected in $351 Million Bitget Crypto Heist appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
+      "summary": "Bitget\u2019s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen. The post North Korea Suspected in $351 Million Bitget Crypto Heist appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
       "countries": [],
-      "suggested_tags": [
-        "windows"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-    "source": "BleepingComputer",
-    "date": "2026-09-24",
-    "excerpt": "\u200bThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "\u200bThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "ransomware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-    "source": "BleepingComputer",
-    "date": "2026-09-24",
-    "excerpt": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Attack activity against government-sector organizations, the same targets common across SADC.",
-      "category": "breach",
-      "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
-      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "hacked"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Microsoft fixes bug that broke Windows File History backup feature",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-    "source": "BleepingComputer",
-    "date": "2026-09-24",
-    "excerpt": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "windows"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-09-23",
-    "excerpt": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "windows"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "New RemControl Android banking malware targets users in Europe and Canada",
-    "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-    "source": "BleepingComputer",
-    "date": "2026-09-23",
-    "excerpt": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects android \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
-      "category": "other",
-      "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
-      "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "android",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-    "source": "BleepingComputer",
-    "date": "2026-09-23",
-    "excerpt": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects vpn \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
-      "category": "vulnerability",
-      "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
-      "why_it_matters_africa": "If you run vpn, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "vpn",
-        "rce",
-        "remote-code"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Hackers start exploiting critical WordPress flaw for code execution",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-    "source": "BleepingComputer",
-    "date": "2026-09-23",
-    "excerpt": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects wordpress \u2014 widely deployed in under-resourced organizations \u2014 via cve-, threat actors.",
-      "category": "vulnerability",
-      "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
-      "why_it_matters_africa": "If you run wordpress, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "wordpress",
-        "cve-",
-        "threat-actors"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-    "source": "BleepingComputer",
-    "date": "2026-09-23",
-    "excerpt": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ML"
-      ],
       "suggested_tags": [
         "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks",
+    "link": "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/",
+    "source": "SecurityWeek",
+    "date": "2026-09-25",
+    "excerpt": "Homeland Security Secretary Markwayne Mullin tasked CISA with developing the plan in July. The post CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Homeland Security Secretary Markwayne Mullin tasked CISA with developing the plan in July. The post CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
+    "link": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
+    "source": "SecurityWeek",
+    "date": "2026-09-25",
+    "excerpt": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services. The post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services. The post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
+    "link": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+    "source": "SecurityWeek",
+    "date": "2026-09-25",
+    "excerpt": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events. The post Windows, Linux, Android File Notification Systems Leak User Activity appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events. The post Windows, Linux, Android File Notification Systems Leak User Activity appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "linux"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "\u2018SalesBleed\u2019 Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+    "link": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+    "source": "SecurityWeek",
+    "date": "2026-09-25",
+    "excerpt": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks. The post &#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks. The post &#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "phishing"
       ]
     },
     "backend": "heuristic"
@@ -686,35 +792,35 @@
     "backend": "heuristic"
   },
   {
-    "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
-    "link": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
-    "source": "SecurityWeek",
-    "date": "2026-09-24",
-    "excerpt": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration. The post AI-Powered Campaign Targets Hundreds of Online Retailers appeared first on SecurityWeek .",
+    "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
+    "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+    "source": "The Record",
+    "date": "2026-09-25",
+    "excerpt": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company \u201creceived credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.\u201d",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration. The post AI-Powered Campaign Targets Hundreds of Online Retailers appeared first on SecurityWeek .",
+      "summary": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company \u201creceived credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.\u201d",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "exploitation"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Island Raises $400 Million at $6.4 Billion Valuation",
-    "link": "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/",
-    "source": "SecurityWeek",
-    "date": "2026-09-24",
-    "excerpt": "The enterprise security firm has raised more than $1 billion since its launch in 2020; Evolution Equity Partners led the latest funding round. The post Island Raises $400 Million at $6.4 Billion Valuation appeared first on SecurityWeek .",
+    "title": "Labcorp to overhaul data security practices, pay $2.3 million fine for cybersecurity failings",
+    "link": "https://therecord.media/labcorp-to-overhaul-security-practices-settlement",
+    "source": "The Record",
+    "date": "2026-09-25",
+    "excerpt": "Security changes include creating an incident response plan for vendor security failings, limiting how much data Labcorp shares with vendors and building an expansive risk management team charged with tracking vendors\u2019 compliance with data security practices.",
     "triage": {
       "relevant": false,
       "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "The enterprise security firm has raised more than $1 billion since its launch in 2020; Evolution Equity Partners led the latest funding round. The post Island Raises $400 Million at $6.4 Billion Valuation appeared first on SecurityWeek .",
+      "summary": "Security changes include creating an incident response plan for vendor security failings, limiting how much data Labcorp shares with vendors and building an expansive risk management team charged with tracking vendors\u2019 compliance with data security practices.",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -724,16 +830,16 @@
     "backend": "heuristic"
   },
   {
-    "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
-    "link": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
-    "source": "SecurityWeek",
-    "date": "2026-09-24",
-    "excerpt": "Revision 4 of NIST\u2019s operational technology security guide is open for public comments until November 30. The post OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators appeared first on SecurityWeek .",
+    "title": "Crypto CEO accuses North Korea of stealing $387 million from Bitget platform",
+    "link": "https://therecord.media/crypto-ceo-accuses-north-korea-of-387-million-theft",
+    "source": "The Record",
+    "date": "2026-09-25",
+    "excerpt": "The CEO said the company has a User Protection Fund that has over $464 million and those funds will be used to cover the losses.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Revision 4 of NIST\u2019s operational technology security guide is open for public comments until November 30. The post OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators appeared first on SecurityWeek .",
+      "summary": "The CEO said the company has a User Protection Fund that has over $464 million and those funds will be used to cover the losses.",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -743,16 +849,16 @@
     "backend": "heuristic"
   },
   {
-    "title": "Begin at the End: How to Enable Agentic Remediation",
-    "link": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
-    "source": "SecurityWeek",
-    "date": "2026-09-24",
-    "excerpt": "Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. The post Begin at the End: How to Enable Agentic Remediation appeared first on SecurityWeek .",
+    "title": "Cyberattack hits Welsh police force, may have affected staff data",
+    "link": "https://therecord.media/wales-cyberattack-police-breach",
+    "source": "The Record",
+    "date": "2026-09-25",
+    "excerpt": "Dyfed-Powys Police in Wales said a cyberattack affecting the force disrupted some non-emergency systems and may have compromised staff information.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk.",
+      "summary": "Dyfed-Powys Police in Wales said a cyberattack affecting the force disrupted some non-emergency systems and may have compromised staff information.",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -762,160 +868,58 @@
     "backend": "heuristic"
   },
   {
-    "title": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
-    "link": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
-    "source": "SecurityWeek",
-    "date": "2026-09-24",
-    "excerpt": "The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication. The post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek .",
+    "title": "Doubts grow over claims OpenAI agent hacked Australian Medicare portal",
+    "link": "https://therecord.media/openai-australia-breach-cyber",
+    "source": "The Record",
+    "date": "2026-09-25",
+    "excerpt": "Researchers are questioning whether an OpenAI agent needed to hack an Australian government health portal to access it, after a review of the website\u2019s archived code found it explicitly directed visitors to an unauthenticated endpoint.",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects solarwinds \u2014 widely deployed in under-resourced organizations \u2014 via rce, exploited.",
-      "category": "vulnerability",
-      "summary": "The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication. The post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek .",
-      "why_it_matters_africa": "If you run solarwinds, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "solarwinds",
-        "rce",
-        "exploited"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Astrana Health Data Breach Impacts Private, Confidential Information",
-    "link": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
-    "source": "SecurityWeek",
-    "date": "2026-09-24",
-    "excerpt": "Hackers impersonated the company\u2019s personnel and contacted its employees to gain access to Astrana Health\u2019s servers. The post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Hackers impersonated the company\u2019s personnel and contacted its employees to gain access to Astrana Health\u2019s servers. The post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "data-breach",
-        "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
-    "link": "https://therecord.media/russia-forensics-technology-doj",
-    "source": "The Record",
-    "date": "2026-09-24",
-    "excerpt": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
-    "link": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
-    "source": "The Record",
-    "date": "2026-09-24",
-    "excerpt": "U.S. Sens. Mark Warner (D-VA) and Ted Cruz (R-TX) introduced the Telecommunications Cybersecurity and Resilience Act on Thursday, arguing that the new effort was necessary in light of the Salt Typhoon attacks which saw Chinese hackers breach nearly all of the major telecommunications giants in the U.S.",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Attack activity against telecom-sector organizations, the same targets common across SADC.",
+      "relevance_reason": "Attack activity against government-sector organizations, the same targets common across SADC.",
       "category": "breach",
-      "summary": "U.S. Sens.",
+      "summary": "Researchers are questioning whether an OpenAI agent needed to hack an Australian government health portal to access it, after a review of the website\u2019s archived code found it explicitly directed visitors to an unauthenticated endpoint.",
       "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "breach"
+        "hacked"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers\u2019s deportation",
-    "link": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
-    "source": "The Record",
-    "date": "2026-09-24",
-    "excerpt": "Ardit Kutleshi, 28, was extradited from his home country of Kosovo last year after prosecutors accused him and his older brother of running Rydox \u2014 an illicit platform used by cybercriminals to sell stolen personal information, illegal access to devices and other tools for carrying out fraud.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Ardit Kutleshi, 28, was extradited from his home country of Kosovo last year after prosecutors accused him and his older brother of running Rydox \u2014 an illicit platform used by cybercriminals to sell stolen personal information, illegal access to devices and other tools for carrying out fraud.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Kyiv internet providers report major outages after Russian attacks damage data centers",
-    "link": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
-    "source": "The Record",
-    "date": "2026-09-24",
-    "excerpt": "At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday\u2019s drone attack, according to internet monitoring group NetBlocks.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday\u2019s drone attack, according to internet monitoring group NetBlocks.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Astrana latest healthcare tech firm to report data breach to SEC",
-    "link": "https://therecord.media/astrana-cyberattack-sec-ransomware",
-    "source": "The Record",
-    "date": "2026-09-24",
-    "excerpt": "The healthcare firm Astrana warned regulators that hackers accessed confidential information by impersonating company personnel.",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Attack activity against healthcare-sector organizations, the same targets common across SADC.",
-      "category": "breach",
-      "summary": "The healthcare firm Astrana warned regulators that hackers accessed confidential information by impersonating company personnel.",
-      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "data-breach",
-        "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Terra Industries Leads $1m Pre-Seed Round in Nigerian Cybersecurity Startup Aeon - techafricanews.com",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVhlRllpcFNxaGdIX2U4a0tiVndRMWp0LVRNZE10ZzBMSXlvaVBMcloyVGpJbTRsNTFIXzJKSWYwazI0MVhxVUdQMDZHbU9ZcXlFaUtRbVVaSjk4WVU2X2xTSlZmcUxnZkp1T25JdVBWQ0hCWWpYOW9PU193VWZaSTdsYXlhWXBBcFUtQzZMSQ?oc=5",
+    "title": "Mastercard Report Finds EEMEA SMEs Prioritising Cybersecurity, AI and Digital Assets - TechAfrica News",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHZibEhUcEtoS0NBQ1VicjhqU09TWnU2QjhrdkthZmtyMDlaTTVrSHY3UmNObC1PRFY3TGZyaW9XLUNXZndEdmdGa2RLMEdUazRmVThFWnBIWmx5THA4TGk4T1VRYmtMRHhUQ0lOUU5Oa1JZdjlDcXdET1FqSVlhZ0V0MURaaHVScG4wLV9IOWZjdTJ1ZTNlQ2VjN21GX002MGQyRVgyTDd4NGNPRmYxU2tRNWRLNi1uUlNHUUVKOA?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-09-21",
-    "excerpt": "Terra Industries Leads $1m Pre-Seed Round in Nigerian Cybersecurity Startup Aeon techafricanews.com",
+    "date": "2026-09-25",
+    "excerpt": "Mastercard Report Finds EEMEA SMEs Prioritising Cybersecurity, AI and Digital Assets TechAfrica News",
     "triage": {
       "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Terra Industries Leads $1m Pre-Seed Round in Nigerian Cybersecurity Startup Aeon techafricanews.com",
+      "summary": "Mastercard Report Finds EEMEA SMEs Prioritising Cybersecurity, AI and Digital Assets TechAfrica News",
       "why_it_matters_africa": "",
-      "countries": [
-        "NE",
-        "NG"
-      ],
+      "countries": [],
       "suggested_tags": [
-        "nigeria"
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Larry Yon: The US tech leader re-engineering Africa\u2019s digital power - TechCabal",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQmhKclBCdXAySUJST3pjN1FYQzJuckdwVlVueGk3M0IwWkJiZHdTbXBhcldnVzdFWDFiOGpNelZuMDVIRUZGSkNGc2JtVHoyaWNQR3lzU2FsZTZtWTBoWTVSSnNiN2gwME14UE5KZ0x2Y0NCMFhNQ1FlVGdKQnhqVzY1T0hiX3RIWmd1Qg?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-09-25",
+    "excerpt": "Larry Yon: The US tech leader re-engineering Africa\u2019s digital power TechCabal",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Larry Yon: The US tech leader re-engineering Africa\u2019s digital power TechCabal",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "africa"
       ]
     },
     "backend": "heuristic"
@@ -943,20 +947,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "UAE Cyber Security Council and Visa Partner to Strengthen Government Cybersecurity Skills - techafricanews.com",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2RSckFXM0o4bVo5WWc3Q2g0bmtpMENqTWMxQk1ld190NlNINlZ0VDhkUXRBYlpsYXhhZXhPZ004UTRUOFVHcm9BZVA1RXU0UnpjSFJpWnIwcVhreWhhUEVOcDJ2ZDAyUkdmelZ3aWhjLURBUS1xY3F0MzdfbGYtSEk5aExtaU9Vb2VQLUtkWWttdy13UThDUjVhSlNiWHZScGRzQw?oc=5",
+    "title": "Terra Industries Leads $1m Pre-Seed Round in Nigerian Cybersecurity Startup Aeon - TechAfrica News",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVhlRllpcFNxaGdIX2U4a0tiVndRMWp0LVRNZE10ZzBMSXlvaVBMcloyVGpJbTRsNTFIXzJKSWYwazI0MVhxVUdQMDZHbU9ZcXlFaUtRbVVaSjk4WVU2X2xTSlZmcUxnZkp1T25JdVBWQ0hCWWpYOW9PU193VWZaSTdsYXlhWXBBcFUtQzZMSQ?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-09-23",
-    "excerpt": "UAE Cyber Security Council and Visa Partner to Strengthen Government Cybersecurity Skills techafricanews.com",
+    "date": "2026-09-21",
+    "excerpt": "Terra Industries Leads $1m Pre-Seed Round in Nigerian Cybersecurity Startup Aeon TechAfrica News",
     "triage": {
       "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "UAE Cyber Security Council and Visa Partner to Strengthen Government Cybersecurity Skills techafricanews.com",
+      "summary": "Terra Industries Leads $1m Pre-Seed Round in Nigerian Cybersecurity Startup Aeon TechAfrica News",
       "why_it_matters_africa": "",
-      "countries": [],
+      "countries": [
+        "NE",
+        "NG"
+      ],
       "suggested_tags": [
-        "news"
+        "nigeria"
       ]
     },
     "backend": "heuristic"
@@ -979,6 +986,115 @@
       ],
       "suggested_tags": [
         "nigeria"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Fatmata Binta: The top chef taking fine dining from the table to the mat",
+    "link": "https://www.theafricareport.com/431513/fatmata-binta-the-top-chef-taking-fine-dining-from-the-table-to-the-mat/",
+    "source": "The Africa Report",
+    "date": "2026-09-26",
+    "excerpt": "From fleeing Sierra Leone\u2019s civil war to resisting marriage at 16, the first African winner of the \u20ac100,000 ($113,839) Basque Culinary World Prize has taken Fulani cuisine and indigenous ingredients global, bringing guests together on mats to eat with their hands and rethink how African food is experienced.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "category": "other",
+      "summary": "From fleeing Sierra Leone\u2019s civil war to resisting marriage at 16, the first African winner of the \u20ac100,000 ($113,839) Basque Culinary World Prize has taken Fulani cuisine and indigenous ingredients global, bringing guests together on mats to eat with their hands and rethink how African food is experienced.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "SL"
+      ],
+      "suggested_tags": [
+        "africa",
+        "african"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Nigeria: 10 things about Atiku\u2019s in-law Ibrahim-Imam leading his 2027 campaign",
+    "link": "https://www.theafricareport.com/431833/nigeria-10-things-about-atikus-in-law-ibrahim-imam-leading-his-2027-campaign/",
+    "source": "The Africa Report",
+    "date": "2026-09-25",
+    "excerpt": "Nigeria\u2019s former vice president and presidential candidate of the opposition African Democratic Congress (ADC), Atiku Abubakar, has unveiled a \u2018lean\u2019 campaign team for his 2027 presidential bid, naming veteran Borno politician Kashim Ibrahim-Imam as director general.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Nigeria\u2019s former vice president and presidential candidate of the opposition African Democratic Congress (ADC), Atiku Abubakar, has unveiled a \u2018lean\u2019 campaign team for his 2027 presidential bid, naming veteran Borno politician Kashim Ibrahim-Imam as director general.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
+      "suggested_tags": [
+        "africa",
+        "african"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Kenya\u2019s Maraga: \u2018I am the pioneer\u2019 of anti-corruption",
+    "link": "https://www.theafricareport.com/431743/kenyas-maraga-i-am-the-pioneer-of-anti-corruption/",
+    "source": "The Africa Report",
+    "date": "2026-09-25",
+    "excerpt": "Kenya\u2019s former Supreme Court Chief Justice takes next year\u2019s election to the global stage in Washington and New York.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Kenya\u2019s former Supreme Court Chief Justice takes next year\u2019s election to the global stage in Washington and New York.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "KE"
+      ],
+      "suggested_tags": [
+        "kenya"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Houthis tighten grip on Bab el-Mandeb \u2013 and African ports may lose out",
+    "link": "https://www.theafricareport.com/431747/houthis-tighten-grip-on-bab-el-mandeb-and-african-ports-may-lose-out/",
+    "source": "The Africa Report",
+    "date": "2026-09-25",
+    "excerpt": "Soaring fuel costs are tempting carriers back to Bab el-Mandeb, threatening West Africa\u2019s mega-ship boom. Only a handful of deepwater hubs, and Djibouti, look set to gain.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Soaring fuel costs are tempting carriers back to Bab el-Mandeb, threatening West Africa\u2019s mega-ship boom. Only a handful of deepwater hubs, and Djibouti, look set to gain.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "DJ"
+      ],
+      "suggested_tags": [
+        "africa",
+        "african"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Eastern DRC: Why does the village of Point Z\u00e9ro matter so much in the war?",
+    "link": "https://www.theafricareport.com/431745/eastern-drc-why-does-the-village-of-point-zero-matter-so-much-in-the-war/",
+    "source": "The Africa Report",
+    "date": "2026-09-25",
+    "excerpt": "The village, perched in the highlands at the crossroads of several strategic routes, has been the scene of fierce fighting for weeks.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The village, perched in the highlands at the crossroads of several strategic routes, has been the scene of fierce fighting for weeks.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "CD"
+      ],
+      "suggested_tags": [
+        "news"
       ]
     },
     "backend": "heuristic"
@@ -1092,111 +1208,61 @@
     "backend": "heuristic"
   },
   {
-    "title": "Ethiopia: Are Abiy\u2019s Tigray enemies planning a quick march towards Addis? Watch Weldiya",
-    "link": "https://www.theafricareport.com/431639/ethiopia-are-abiys-tigray-enemies-planning-a-quick-march-towards-addis-watch-weldiya/",
-    "source": "The Africa Report",
-    "date": "2026-09-24",
-    "excerpt": "Airports have fallen, key roads are under attack, and Tigrayan forces and their new allies are going after strategic junctions across northern Ethiopia as fighting spreads into Afar and Amhara. Down the road lies Weldiya, a key stop on the route Tigrayan forces used during their dramatic 2021 push south.",
+    "title": "Zero-Click Vulnerabilities in Salesforce Agentforce Expose Wider AI Agent Risk",
+    "link": "https://www.infosecurity-magazine.com/news/vulnerabilities-salesforce-ai/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-09-25",
+    "excerpt": "The \u2018SalesBleed\u2019 set of weaknesses in Salesforce\u2019s Agentforce agents exposed CRM data to attackers via prompt injection and DNS exfiltration",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Airports have fallen, key roads are under attack, and Tigrayan forces and their new allies are going after strategic junctions across northern Ethiopia as fighting spreads into Afar and Amhara. Down the road lies Weldiya, a key stop on the route Tigrayan forces used during their dramatic 2021 push south.",
+      "summary": "The \u2018SalesBleed\u2019 set of weaknesses in Salesforce\u2019s Agentforce agents exposed CRM data to attackers via prompt injection and DNS exfiltration",
       "why_it_matters_africa": "",
-      "countries": [
-        "ET"
-      ],
+      "countries": [],
       "suggested_tags": [
-        "ethiopia"
+        "exposed",
+        "attackers"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Islamists\u2019 revival reshapes Morocco\u2019s parliament as PAM takes top spot",
-    "link": "https://www.theafricareport.com/431640/islamists-revival-reshapes-moroccos-parliament-as-pam-takes-top-spot/",
-    "source": "The Africa Report",
-    "date": "2026-09-24",
-    "excerpt": "The Islamist PJD rebounds to 54 seats and Aziz Akhannouch\u2019s RNI loses its crown, in a vote marked by falling turnout. The constitution obliges Morocco\u2019s King Mohammed VI to choose a head of government from the winning party \u2013 but not who, or how soon.",
+    "title": "CISA Unveils Election Security Plan Ahead of 2026 Midterms",
+    "link": "https://www.infosecurity-magazine.com/news/cisa-election-security-midterms/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-09-25",
+    "excerpt": "The CISA plan provides guidance and resources for election officials to secure systems such as voter registration databases and voting machines",
     "triage": {
       "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "The Islamist PJD rebounds to 54 seats and Aziz Akhannouch\u2019s RNI loses its crown, in a vote marked by falling turnout. The constitution obliges Morocco\u2019s King Mohammed VI to choose a head of government from the winning party \u2013 but not who, or how soon.",
+      "summary": "The CISA plan provides guidance and resources for election officials to secure systems such as voter registration databases and voting machines",
       "why_it_matters_africa": "",
-      "countries": [
-        "MA"
-      ],
+      "countries": [],
       "suggested_tags": [
-        "morocco"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "How China took control of Africa\u2019s lithium",
-    "link": "https://www.theafricareport.com/431642/how-china-took-control-of-africas-lithium/",
-    "source": "The Africa Report",
-    "date": "2026-09-24",
-    "excerpt": "From Zimbabwe to Mali and Ghana, Chinese companies have come to dominate Africa\u2019s emerging lithium industry, bringing an ability to buy, build and process when western rivals hesitate.",
+    "title": "RemControl Banking Trojan Gives Attackers Remote Control of Android Devices",
+    "link": "https://www.infosecurity-magazine.com/news/banking-trojan-remote-control/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-09-25",
+    "excerpt": "The newly-discovered trojan abuses the Android Accessibility Service to gain control over victim devices and collect sensitive banking credentials",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevant": true,
+      "relevance_reason": "Affects android \u2014 widely deployed in under-resourced organizations \u2014 via credential, attackers.",
       "category": "other",
-      "summary": "From Zimbabwe to Mali and Ghana, Chinese companies have come to dominate Africa\u2019s emerging lithium industry, bringing an ability to buy, build and process when western rivals hesitate.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "GH",
-        "ML",
-        "ZW"
-      ],
+      "summary": "The newly-discovered trojan abuses the Android Accessibility Service to gain control over victim devices and collect sensitive banking credentials",
+      "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
-        "africa",
-        "ghana"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Ghana International Bank\u2019s new CEO looks to connect US capital and African opportunity",
-    "link": "https://www.theafricareport.com/431568/ghana-international-banks-new-ceo-looks-to-connect-us-capital-and-african-opportunity/",
-    "source": "The Africa Report",
-    "date": "2026-09-24",
-    "excerpt": "Pan-African trade bank chief Ian Greenstreet wants to make the London-based trade bank \u201cthe trusted financial intermediary\u201d between Western capital markets and the continent.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Pan-African trade bank chief Ian Greenstreet wants to make the London-based trade bank \u201cthe trusted financial intermediary\u201d between Western capital markets and the continent.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "GH"
-      ],
-      "suggested_tags": [
-        "africa",
-        "african"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Kenya\u2019s Quickmart owners set to sell stake in NSE float",
-    "link": "https://www.theafricareport.com/431555/kenyas-quickmart-owners-set-to-sell-stake-in-nse-float/",
-    "source": "The Africa Report",
-    "date": "2026-09-24",
-    "excerpt": "Kenya\u2019s second-largest supermarket chain, Quickmart, is set to float a 50% stake on the Nairobi Securities Exchange as its primary private-equity backer prepares for a partial exit.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Kenya\u2019s second-largest supermarket chain, Quickmart, is set to float a 50% stake on the Nairobi Securities Exchange as its primary private-equity backer prepares for a partial exit.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "KE"
-      ],
-      "suggested_tags": [
-        "kenya",
-        "nairobi"
+        "android",
+        "credential",
+        "attackers"
       ]
     },
     "backend": "heuristic"
@@ -1423,64 +1489,6 @@
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
       "summary": "The EU Court of Auditors has criticized EU shortcomings in responding to major cyber incidents",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "North Korean Attackers Hit 30,000 Devices and Steal $10.7m",
-    "link": "https://www.infosecurity-magazine.com/news/north-korean-waterplum-30000/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-09-22",
-    "excerpt": "WaterPlum compromised 30,000 devices and took funds or credentials from 7000 crypto wallets",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "WaterPlum compromised 30,000 devices and took funds or credentials from 7000 crypto wallets",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "credential",
-        "attackers"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "AI Incident Response Readiness Lags Behind AI Adoption, ISACA Finds",
-    "link": "https://www.infosecurity-magazine.com/news/orgs-lack-ai-incident-response/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-09-22",
-    "excerpt": "A new report by ISACA found that 71% of orgs have not run AI incident response exercises as teams face rising pressure",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "A new report by ISACA found that 71% of orgs have not run AI incident response exercises as teams face rising pressure",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Network Segmentation Failures Are Expanding the Corporate Attack Surface",
-    "link": "https://www.infosecurity-magazine.com/news/segmentation-failures-expanding/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-09-22",
-    "excerpt": "Forescout warns that incomplete network segmentation is widening the potential blast radius of attacks",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Forescout warns that incomplete network segmentation is widening the potential blast radius of attacks",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
