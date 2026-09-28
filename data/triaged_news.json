@@ -1,15 +1,56 @@
 [
   {
+    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+    "source": "The Hacker News",
+    "date": "2026-09-28",
+    "excerpt": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. \"The destructive operations",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects azure \u2014 widely deployed in under-resourced organizations \u2014 via attackers.",
+      "category": "policy_regulation",
+      "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft.",
+      "why_it_matters_africa": "If you run azure, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "azure",
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+    "source": "The Hacker News",
+    "date": "2026-09-28",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects citrix \u2014 widely deployed in under-resourced organizations \u2014 via active exploitation, exploited.",
+      "category": "vulnerability",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.",
+      "why_it_matters_africa": "If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "citrix",
+        "active-exploitation",
+        "exploited"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
     "source": "The Hacker News",
     "date": "2026-09-27",
-    "excerpt": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and",
+    "excerpt": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr",
     "triage": {
       "relevant": true,
       "relevance_reason": "Affects citrix \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
       "category": "vulnerability",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix.",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws.",
       "why_it_matters_africa": "If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
@@ -260,44 +301,137 @@
     "backend": "heuristic"
   },
   {
-    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-    "source": "The Hacker News",
-    "date": "2026-09-25",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane,",
+    "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+    "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+    "source": "BleepingComputer",
+    "date": "2026-09-28",
+    "excerpt": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects magento \u2014 widely deployed in under-resourced organizations \u2014 via active exploitation, exploited.",
-      "category": "vulnerability",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.",
-      "why_it_matters_africa": "If you run magento, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "magento",
-        "active-exploitation",
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+    "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+    "source": "BleepingComputer",
+    "date": "2026-09-28",
+    "excerpt": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+    "source": "BleepingComputer",
+    "date": "2026-09-28",
+    "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects citrix \u2014 widely deployed in under-resourced organizations \u2014 via exploited.",
+      "category": "vulnerability",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities.",
+      "why_it_matters_africa": "If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "citrix",
         "exploited"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-    "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-    "source": "The Hacker News",
-    "date": "2026-09-24",
-    "excerpt": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",
+    "title": "OpenAI is preparing \u201co,\u201d an always-on ChatGPT assistant that could handle email",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+    "source": "BleepingComputer",
+    "date": "2026-09-27",
+    "excerpt": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "source": "BleepingComputer",
+    "date": "2026-09-27",
+    "excerpt": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects android \u2014 widely deployed in under-resourced organizations \u2014 via unpatched.",
+      "relevance_reason": "Affects citrix \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
       "category": "vulnerability",
-      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone.",
-      "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [
-        "ML"
-      ],
+      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
+      "why_it_matters_africa": "If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
-        "android",
-        "unpatched"
+        "citrix",
+        "rce",
+        "remote-code"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+    "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+    "source": "BleepingComputer",
+    "date": "2026-09-27",
+    "excerpt": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+    "source": "BleepingComputer",
+    "date": "2026-09-27",
+    "excerpt": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
       ]
     },
     "backend": "heuristic"
@@ -462,136 +596,41 @@
     "backend": "heuristic"
   },
   {
-    "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
+    "title": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
+    "link": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+    "source": "SecurityWeek",
+    "date": "2026-09-28",
+    "excerpt": "The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised. The post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised. The post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
+    "link": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+    "source": "SecurityWeek",
+    "date": "2026-09-28",
+    "excerpt": "Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772. The post Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug appeared first on SecurityWeek .",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects sharepoint \u2014 widely deployed in under-resourced organizations \u2014 via exploited, cve-.",
+      "relevance_reason": "Affects citrix \u2014 widely deployed in under-resourced organizations \u2014 via zero-day, cve-.",
       "category": "vulnerability",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
-      "why_it_matters_africa": "If you run sharepoint, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "summary": "Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772. The post Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug appeared first on SecurityWeek .",
+      "why_it_matters_africa": "If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "sharepoint",
-        "exploited",
+        "citrix",
+        "zero-day",
         "cve-"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-    "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "credential"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Microsoft plans to deprecate Windows Deployment Services",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "windows"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "credential"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Microsoft: Recent Windows updates cause desktop loading issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-    "source": "BleepingComputer",
-    "date": "2026-09-25",
-    "excerpt": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "windows"
       ]
     },
     "backend": "heuristic"
@@ -753,44 +792,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
-    "link": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
-    "source": "SecurityWeek",
-    "date": "2026-09-25",
-    "excerpt": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events. The post Windows, Linux, Android File Notification Systems Leak User Activity appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events. The post Windows, Linux, Android File Notification Systems Leak User Activity appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "linux"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "\u2018SalesBleed\u2019 Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
-    "link": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
-    "source": "SecurityWeek",
-    "date": "2026-09-25",
-    "excerpt": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks. The post &#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks. The post &#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "phishing"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
     "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
     "source": "The Record",
@@ -905,25 +906,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Larry Yon: The US tech leader re-engineering Africa\u2019s digital power - TechCabal",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQmhKclBCdXAySUJST3pjN1FYQzJuckdwVlVueGk3M0IwWkJiZHdTbXBhcldnVzdFWDFiOGpNelZuMDVIRUZGSkNGc2JtVHoyaWNQR3lzU2FsZTZtWTBoWTVSSnNiN2gwME14UE5KZ0x2Y0NCMFhNQ1FlVGdKQnhqVzY1T0hiX3RIWmd1Qg?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-09-25",
-    "excerpt": "Larry Yon: The US tech leader re-engineering Africa\u2019s digital power TechCabal",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Larry Yon: The US tech leader re-engineering Africa\u2019s digital power TechCabal",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Nearly 50 African women cybersecurity professionals gather in Addis Ababa for regional training - Tech Review Africa",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUFBwMmZHUk5UaDJ2LTFQN2JtMHYzcUs4NFhMRURxcTdRTXRBV1c4UkctdC1Wb2V5NFNlaWJKRjhfcTlrdW5CU1RDMUs5dTROT01NY2dLeVFubDZRbkR6TGdQYUNTX0V1LWpkd2s1UU5XdTlaM2V0dG9iV19nUmpwWEdkSFZBNjJjUkdjOEFmbkRtS25teTNhbEZWazVDa2N2c0dmdTZISVpvOFFLYXY0NmVLNzlPUzAyRGFUQTZiRnRWSGtncUsxYUkwRVNwVUU?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -960,6 +942,70 @@
       "countries": [],
       "suggested_tags": [
         "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "South Africa: Five big political players in KwaZulu-Natal",
+    "link": "https://www.theafricareport.com/431853/south-africa-five-big-political-players-in-kwazulu-natal/",
+    "source": "The Africa Report",
+    "date": "2026-09-28",
+    "excerpt": "KwaZulu-Natal is the second-biggest province in voter numbers and it caused the biggest upset in the 2024 general elections. Here are five political players to watch ahead of the 4 November local government elections.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "KwaZulu-Natal is the second-biggest province in voter numbers and it caused the biggest upset in the 2024 general elections. Here are five political players to watch ahead of the 4 November local government elections.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "ZA"
+      ],
+      "suggested_tags": [
+        "africa",
+        "south africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "John Boadu vs Boakye Agyarko: Who can rebuild Bawumia\u2019s NPP ahead of Ghana\u2019s 2028 polls?",
+    "link": "https://www.theafricareport.com/431683/john-boadu-vs-boakye-agyarko-who-can-rebuild-bawumias-npp-ahead-of-ghanas-2028-polls/",
+    "source": "The Africa Report",
+    "date": "2026-09-28",
+    "excerpt": "One offers the muscle of the old party machine; the other promises reconciliation and a reset. On 3 October, NPP delegates will choose their path back to power.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "One offers the muscle of the old party machine; the other promises reconciliation and a reset. On 3 October, NPP delegates will choose their path back to power.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "GH"
+      ],
+      "suggested_tags": [
+        "ghana"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "The women running\u00a0Ethiopia\u2019s economy",
+    "link": "https://www.theafricareport.com/431720/the-women-running-ethiopias-economy/",
+    "source": "The Africa Report",
+    "date": "2026-09-28",
+    "excerpt": "The most powerful women in Ethiopia\u2019s economy right now are not necessarily the entrepreneurs on magazine covers. They are the officials setting tax targets and negotiating the country\u2019s way out of sovereign default, alongside executives running its biggest phone company, ride-hailing network and infrastructure projects.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The most powerful women in Ethiopia\u2019s economy right now are not necessarily the entrepreneurs on magazine covers. They are the officials setting tax targets and negotiating the country\u2019s way out of sovereign default, alongside executives running its biggest phone company, ride-hailing network and infrastructure projects.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "ET"
+      ],
+      "suggested_tags": [
+        "ethiopia"
       ]
     },
     "backend": "heuristic"
@@ -1053,6 +1099,28 @@
     "backend": "heuristic"
   },
   {
+    "title": "How Aliko Dangote is plotting a comeback in Nigerian flour milling",
+    "link": "https://www.theafricareport.com/431559/how-aliko-dangote-is-plotting-a-comeback-in-nigerian-flour-milling/",
+    "source": "The Africa Report",
+    "date": "2026-09-25",
+    "excerpt": "Aliko Dangote\u2019s latest bet puts him back in a crowded market he left seven years ago, against rivals who have spent that time getting bigger.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Aliko Dangote\u2019s latest bet puts him back in a crowded market he left seven years ago, against rivals who have spent that time getting bigger.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
+      "suggested_tags": [
+        "nigeria"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Houthis tighten grip on Bab el-Mandeb \u2013 and African ports may lose out",
     "link": "https://www.theafricareport.com/431747/houthis-tighten-grip-on-bab-el-mandeb-and-african-ports-may-lose-out/",
     "source": "The Africa Report",
@@ -1096,86 +1164,41 @@
     "backend": "heuristic"
   },
   {
-    "title": "Heavy fighting, internet disruption as Ethiopia conflict rages",
-    "link": "https://www.theafricareport.com/431765/heavy-fighting-internet-disruption-as-ethiopia-conflict-rages/",
-    "source": "The Africa Report",
-    "date": "2026-09-25",
-    "excerpt": "Ethiopian forces battled overnight to repel an assault by Tigray rebels in the Afar region, a humanitarian source said Friday, with reports of an internet blackout in the north of the country.",
+    "title": "MCP Is Creating Major Governance Gaps, Researchers Warn",
+    "link": "https://www.infosecurity-magazine.com/news/mcp-creating-major-governance-gaps/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-09-28",
+    "excerpt": "Ox Security found security shortcomings in analysis of over 15,000 MCP servers",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Ethiopian forces battled overnight to repel an assault by Tigray rebels in the Afar region, a humanitarian source said Friday, with reports of an internet blackout in the north of the country.",
+      "summary": "Ox Security found security shortcomings in analysis of over 15,000 MCP servers",
       "why_it_matters_africa": "",
-      "countries": [
-        "ET"
-      ],
-      "suggested_tags": [
-        "ethiopia"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Zimbabwe: Who is Dilesh Nguwaya, the businessman behind Bulawayo\u2019s waste deal?",
-    "link": "https://www.theafricareport.com/431705/zimbabwe-who-is-dilesh-nguwaya-the-businessman-at-the-centre-of-bulawayos-waste-management-tender-battle/",
-    "source": "The Africa Report",
-    "date": "2026-09-25",
-    "excerpt": "From a multi-million-dollar Covid-19 medical equipment supply scandal in Zimbabwe to his involvement in Harare waste management and his latest foray into Bulawayo\u2019s waste management tender, Nguwaya\u2019s business dealings continue to attract controversy.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "From a multi-million-dollar Covid-19 medical equipment supply scandal in Zimbabwe to his involvement in Harare waste management and his latest foray into Bulawayo\u2019s waste management tender, Nguwaya\u2019s business dealings continue to attract controversy.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ZW"
-      ],
-      "suggested_tags": [
-        "zimbabwe",
-        "harare"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Is Africa\u2019s $27bn displacement economy really investable?",
-    "link": "https://www.theafricareport.com/431661/is-africas-27bn-displacement-economy-really-investable/",
-    "source": "The Africa Report",
-    "date": "2026-09-25",
-    "excerpt": "A recent study puts Africa\u2019s displacement economy at $27bn. The harder test is whether private capital can enter without turning vulnerability into a business model.",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "A recent study puts Africa\u2019s displacement economy at $27bn. The harder test is whether private capital can enter without turning vulnerability into a business model.",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [],
       "suggested_tags": [
-        "africa"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Kenya to double Ethiopian power imports as domestic grid pressures mount",
-    "link": "https://www.theafricareport.com/431601/kenya-to-double-ethiopian-power-imports-as-domestic-grid-pressures-mount/",
-    "source": "The Africa Report",
-    "date": "2026-09-25",
-    "excerpt": "Nairobi prepares to increase cross-border electricity flows to 400MW under an existing 25-year pact to bolster thin domestic reserves with cheaper regional hydropower.",
+    "title": "Citrix Patches Critical Zero Days Under Active Exploitation",
+    "link": "https://www.infosecurity-magazine.com/news/citrix-patches-critical-zero-days/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-09-28",
+    "excerpt": "Citrix has confirmed exploitation of two critical zero-day RCE bugs",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Nairobi prepares to increase cross-border electricity flows to 400MW under an existing 25-year pact to bolster thin domestic reserves with cheaper regional hydropower.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ET",
-        "KE"
-      ],
+      "relevant": true,
+      "relevance_reason": "Affects citrix \u2014 widely deployed in under-resourced organizations \u2014 via rce, zero-day.",
+      "category": "vulnerability",
+      "summary": "Citrix has confirmed exploitation of two critical zero-day RCE bugs",
+      "why_it_matters_africa": "If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
-        "kenya",
-        "ethiopia"
+        "citrix",
+        "rce",
+        "zero-day"
       ]
     },
     "backend": "heuristic"
@@ -1428,44 +1451,6 @@
       "countries": [],
       "suggested_tags": [
         "ransomware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "ShinyHunters Claims FBI Hack Via PeopleSoft Zero Day",
-    "link": "https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-09-23",
-    "excerpt": "Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "zero-day"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "EU Auditors Warn Information-Sharing Gaps Are Hindering Cyber Incident Response",
-    "link": "https://www.infosecurity-magazine.com/news/eu-auditors-slam-blocs-cyberinfo/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-09-23",
-    "excerpt": "The EU Court of Auditors has criticized EU shortcomings in responding to major cyber incidents",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The EU Court of Auditors has criticized EU shortcomings in responding to major cyber incidents",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
       ]
     },
     "backend": "heuristic"
