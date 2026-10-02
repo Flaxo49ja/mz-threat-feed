@@ -1,5 +1,137 @@
 [
   {
+    "ioc": "105.186.111.168",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-02 09:02:12",
+    "tags": "mirai",
+    "resolved_ip": "105.186.111.168",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.224.242.90",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-02 06:16:22",
+    "tags": "32-bit,arm,elf,mirai,Mozi",
+    "resolved_ip": "105.224.242.90",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.224.5.162",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-02 05:32:12",
+    "tags": "mirai",
+    "resolved_ip": "105.224.5.162",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.225.107.62",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-02 03:47:12",
+    "tags": "mirai",
+    "resolved_ip": "105.225.107.62",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.186.214.211",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-02 02:31:16",
+    "tags": "mirai",
+    "resolved_ip": "105.186.214.211",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.224.28.127",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 22:17:15",
+    "tags": "mirai",
+    "resolved_ip": "105.224.28.127",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.184.34.53",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 20:32:18",
+    "tags": "mirai",
+    "resolved_ip": "105.184.34.53",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.186.240.247",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 20:01:15",
+    "tags": "mirai",
+    "resolved_ip": "105.186.240.247",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.184.94.10",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 18:03:27",
+    "tags": "32-bit,arm,elf,mirai,Mozi",
+    "resolved_ip": "105.184.94.10",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.224.47.70",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 17:56:17",
+    "tags": "32-bit,arm,elf,mirai,Mozi",
+    "resolved_ip": "105.224.47.70",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.186.171.99",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 17:46:16",
+    "tags": "mirai",
+    "resolved_ip": "105.186.171.99",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.184.51.38",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-01 12:02:11",
+    "tags": "mirai",
+    "resolved_ip": "105.184.51.38",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
     "ioc": "105.224.32.139",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -61,17 +193,6 @@
     "first_seen": "2026-09-30 15:31:19",
     "tags": "mirai",
     "resolved_ip": "105.226.5.81",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.224.47.70",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-30 11:32:13",
-    "tags": "mirai",
-    "resolved_ip": "105.224.47.70",
     "matched_asn": "AS37457",
     "matched_org": "Telkom SA",
     "matched_country": "ZA"
@@ -1667,39 +1788,6 @@
     "first_seen": "2026-09-02 00:14:13",
     "tags": "32-bit,arm,elf,mirai,Mozi",
     "resolved_ip": "105.184.239.231",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.224.39.134",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-01 20:15:20",
-    "tags": "32-bit,arm,elf,mirai,Mozi",
-    "resolved_ip": "105.224.39.134",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.225.115.56",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-01 10:01:44",
-    "tags": "mirai",
-    "resolved_ip": "105.225.115.56",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.184.91.101",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-01 10:01:36",
-    "tags": "mirai",
-    "resolved_ip": "105.184.91.101",
     "matched_asn": "AS37457",
     "matched_org": "Telkom SA",
     "matched_country": "ZA"
