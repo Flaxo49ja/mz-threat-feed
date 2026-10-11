@@ -1,5 +1,43 @@
 [
   {
+    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+    "source": "The Hacker News",
+    "date": "2026-10-11",
+    "excerpt": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "ios"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+    "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+    "source": "The Hacker News",
+    "date": "2026-10-10",
+    "excerpt": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "bec"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
     "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
     "source": "The Hacker News",
@@ -54,25 +92,6 @@
       "countries": [],
       "suggested_tags": [
         "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "source": "The Hacker News",
-    "date": "2026-10-09",
-    "excerpt": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "ios"
       ]
     },
     "backend": "heuristic"
@@ -277,20 +296,58 @@
     "backend": "heuristic"
   },
   {
-    "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-    "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-    "source": "The Hacker News",
-    "date": "2026-10-08",
-    "excerpt": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology Group, has been sanctioned by the U.S. and the UK. The hackers scanned websites for flaws using a tool containing more",
+    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+    "source": "BleepingComputer",
+    "date": "2026-10-10",
+    "excerpt": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology Group, has been sanctioned by the U.S.",
+      "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
         "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+    "source": "BleepingComputer",
+    "date": "2026-10-10",
+    "excerpt": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+    "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+    "source": "BleepingComputer",
+    "date": "2026-10-10",
+    "excerpt": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "exposed"
       ]
     },
     "backend": "heuristic"
@@ -527,65 +584,20 @@
     "backend": "heuristic"
   },
   {
-    "title": "Low-cost Android phones ship with residential proxy malware",
-    "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
-    "source": "BleepingComputer",
-    "date": "2026-10-08",
-    "excerpt": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects android \u2014 widely deployed in under-resourced organizations \u2014 via malware, attackers.",
-      "category": "other",
-      "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
-      "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [
-        "ML"
-      ],
-      "suggested_tags": [
-        "android",
-        "malware",
-        "attackers"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
-    "link": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
-    "source": "BleepingComputer",
-    "date": "2026-10-08",
-    "excerpt": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
+    "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+    "link": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+    "source": "SecurityWeek",
+    "date": "2026-10-10",
+    "excerpt": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company\u2019s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
+      "summary": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company\u2019s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
-      "countries": [
-        "ML"
-      ],
-      "suggested_tags": [
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
-    "source": "BleepingComputer",
-    "date": "2026-10-08",
-    "excerpt": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects cisco \u2014 widely deployed in under-resourced organizations \u2014 via exploited.",
-      "category": "vulnerability",
-      "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
-      "why_it_matters_africa": "If you run cisco, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "cisco",
-        "exploited"
+        "news"
       ]
     },
     "backend": "heuristic"
@@ -768,25 +780,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
-    "link": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
-    "source": "SecurityWeek",
-    "date": "2026-10-09",
-    "excerpt": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted. The post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted. The post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
     "link": "https://therecord.media/japan-germany-ransomware-arrest",
     "source": "The Record",
@@ -903,6 +896,28 @@
     "backend": "heuristic"
   },
   {
+    "title": "Ghana elevates cybersecurity to essential services level - ITWeb Africa",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYjFHYXlDeTlVQzdjeWdHMU1rTk1KeTRDQXVwTnNGQ2szNEtGd2piRV9GZUJpb2FVdUJpbV9uUlRXdEIwZ0UxQXcyaGVKcV9ES25UUGtQMi1zbGZWdWU4M3hneC05bDk3RlZkZGh2NjhmajlBZ1RTb3FqSThZcWM1clJCaFJBX0oxOHJpRmlEdkEyMUthRWFmc2toNzFvN255cUg4cw?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-09",
+    "excerpt": "Ghana elevates cybersecurity to essential services level ITWeb Africa",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, ghana, directly relevant to the region.",
+      "category": "other",
+      "summary": "Ghana elevates cybersecurity to essential services level ITWeb Africa",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [
+        "GH"
+      ],
+      "suggested_tags": [
+        "africa",
+        "ghana"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Cybersecurity awareness month spotlights Binance's commitment to keeping African crypto users safe - Business Insider Africa",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeWZBOW5HX0wxaXZOUFU2T19hQUkzSHE2bmV6ZFZzSE96NlBwQ1hmUWdjLWJZbno4Nmdwd1JEbm5aOTRNcjFqQkRTbnZJcjk3SjhHcXdkSjVkS1htWWRPRGh4WEVfbnRoSWwzYkw2bEdkNXBvbjdSdUF0aVVVZGlqNXRlRjB6aXFMNTZjUDlmdlZRV1NUSloyRlhCb1lQV0QwWWZ5LUREeElNLUJvbEZxbXV2RlZXdnZ1UkJhVWJia0JTNXFYZi00WHA3X3FteTNNRUE?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -923,23 +938,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "Ghana elevates cybersecurity to essential services level - ITWeb Africa",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYjFHYXlDeTlVQzdjeWdHMU1rTk1KeTRDQXVwTnNGQ2szNEtGd2piRV9GZUJpb2FVdUJpbV9uUlRXdEIwZ0UxQXcyaGVKcV9ES25UUGtQMi1zbGZWdWU4M3hneC05bDk3RlZkZGh2NjhmajlBZ1RTb3FqSThZcWM1clJCaFJBX0oxOHJpRmlEdkEyMUthRWFmc2toNzFvN255cUg4cw?oc=5",
+    "title": "Mozambique consults Sofala stakeholders on National Cybersecurity Strategy 2026\u20132030 - Tech Review Africa",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWlo4MjJ3OVBBZkNVTEdXNWt0eTlXTFN0TTJmOEc5ZEw2bTF4WnpJUXZWem5zS2x1WEpaYU9JR05qejkzN2J3cVNFMEVzeW81T09tM0JxOEFRRW9Za09yaW5KQUhSYUctQ0lHOVo5ams3NjhiSWxaSm1YOUdtZE0wWHlJUVdGRG83T1JvTnJ4UkItejdESzU4RGs5eUItb0Y3cWo4MjhOdWFMdkZ2NFRtaGV5U2ZWVG5WMDJ6MmpZWQ?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-09",
-    "excerpt": "Ghana elevates cybersecurity to essential services level ITWeb Africa",
+    "date": "2026-10-10",
+    "excerpt": "Mozambique consults Sofala stakeholders on National Cybersecurity Strategy 2026\u20132030 Tech Review Africa",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Security story involving africa, ghana, directly relevant to the region.",
+      "relevance_reason": "Security story involving africa, mozambique, directly relevant to the region.",
       "category": "other",
-      "summary": "Ghana elevates cybersecurity to essential services level ITWeb Africa",
+      "summary": "Mozambique consults Sofala stakeholders on National Cybersecurity Strategy 2026\u20132030 Tech Review Africa",
       "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [
-        "GH"
+        "MZ"
       ],
       "suggested_tags": [
         "africa",
-        "ghana"
+        "mozambique"
       ]
     },
     "backend": "heuristic"
@@ -1005,6 +1020,26 @@
     "backend": "heuristic"
   },
   {
+    "title": "Cybersecurity Awareness Month spotlights Binance's commitment to keeping African crypto users safe - The Citizen",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZGdGOGJkdm5ET0VwMXBJYU9SUVYwV0VCWmg0Sm1wd0xTUjF1MUVPVWcwS2tqNnBRc0VCaVlqQmllOWg4cjJ6d2xXTDgwN0dyNDJVbWZtWVk0WTZIdE9GQm5jODlfYUoxdTh6TjNReUE2bkt2c1IxQXp1XzhfdjlNcS1qU0FsOFBjWDdWa29ZZ3RRLVR4dG9hOFNkRUtnb1N6S2taeDFGMDZ4aVczTXprUXZTSXNVRFI5R0Vsc0MteXRjSGFKdEpkUmdDRnZhdw?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-08",
+    "excerpt": "Cybersecurity Awareness Month spotlights Binance's commitment to keeping African crypto users safe The Citizen",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, african, directly relevant to the region.",
+      "category": "other",
+      "summary": "Cybersecurity Awareness Month spotlights Binance's commitment to keeping African crypto users safe The Citizen",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa",
+        "african"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "From AI to cybersecurity, Africa\u2019s regulators are facing a digital economy that no longer fits old rules - TechTrendsKE",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmblM4OXlJS0lCNXlIalgzZ1ZjcVl0aVo3cmNkaUZQX3hiRXV4MG5oLV9BeG9TYW9FNE96NEpEQlBvWVh2T3k2MDIwdE4zZ1NOX0ZjcDNGczlLT2NodzhHUjBqcU9JVFNXM3h6WDJ6a0ZJTDE1QXBkd09IdTY5Zw?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -1016,6 +1051,25 @@
       "category": "policy_regulation",
       "summary": "From AI to cybersecurity, Africa\u2019s regulators are facing a digital economy that no longer fits old rules TechTrendsKE",
       "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Can cloud seeding help end droughts in Africa?",
+    "link": "https://www.theafricareport.com/432762/can-cloud-seeding-help-end-droughts-in-africa/",
+    "source": "The Africa Report",
+    "date": "2026-10-10",
+    "excerpt": "Cloud seeding promises to squeeze more rain from clouds in a world facing worsening water shortages. But the science remains uncertain, the costs are high and the risks are not fully understood. As droughts intensify across Africa, can a decades-old technology really help solve the continent\u2019s water crisis?",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cloud seeding promises to squeeze more rain from clouds in a world facing worsening water shortages. But the science remains uncertain, the costs are high and the risks are not fully understood.",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
         "africa"
@@ -1209,28 +1263,6 @@
       ],
       "suggested_tags": [
         "ghana"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Is Assab Port the real prize in the looming Ethiopia-Eritrea war?",
-    "link": "https://www.theafricareport.com/432744/is-assab-port-the-real-prize-in-the-looming-ethiopia-eritrea-war/",
-    "source": "The Africa Report",
-    "date": "2026-10-08",
-    "excerpt": "Four years after fighting side by side in the 2020-2022 Tigray war, Abiy Ahmed and Isaias Afwerki\u2019s countries are closer to war with each other than at any point since their 2018 rapprochement. How far could it go?",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Four years after fighting side by side in the 2020-2022 Tigray war, Abiy Ahmed and Isaias Afwerki\u2019s countries are closer to war with each other than at any point since their 2018 rapprochement. How far could it go?",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ER",
-        "ET"
-      ],
-      "suggested_tags": [
-        "ethiopia"
       ]
     },
     "backend": "heuristic"
