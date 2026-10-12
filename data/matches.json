@@ -1,5 +1,27 @@
 [
   {
+    "ioc": "105.224.11.212",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-12 07:20:10",
+    "tags": "None",
+    "resolved_ip": "105.224.11.212",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
+    "ioc": "105.226.5.161",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-11 18:58:13",
+    "tags": "32-bit,arm,elf,Mozi",
+    "resolved_ip": "105.226.5.161",
+    "matched_asn": "AS37457",
+    "matched_org": "Telkom SA",
+    "matched_country": "ZA"
+  },
+  {
     "ioc": "105.186.68.166",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -1854,50 +1876,6 @@
     "first_seen": "2026-09-12 00:07:22",
     "tags": "32-bit,arm,elf,mirai,Mozi",
     "resolved_ip": "105.186.142.56",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.184.213.176",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-11 19:12:13",
-    "tags": "32-bit,arm,elf,mirai,Mozi",
-    "resolved_ip": "105.184.213.176",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.186.220.180",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-11 10:00:20",
-    "tags": "mirai",
-    "resolved_ip": "105.186.220.180",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.186.95.116",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-11 07:16:29",
-    "tags": "32-bit,arm,elf,mirai,Mozi",
-    "resolved_ip": "105.186.95.116",
-    "matched_asn": "AS37457",
-    "matched_org": "Telkom SA",
-    "matched_country": "ZA"
-  },
-  {
-    "ioc": "105.187.32.75",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-11 05:13:22",
-    "tags": "32-bit,arm,elf,mirai,Mozi",
-    "resolved_ip": "105.187.32.75",
     "matched_asn": "AS37457",
     "matched_org": "Telkom SA",
     "matched_country": "ZA"
