@@ -39,10 +39,17 @@
 <body>
 <div class="wrap">
   <h1>🛰️ Africa/SADC Threat Intel Digest</h1>
-  <div class="sub">Weekly triage of cybersecurity news for IT/security staff at African organizations. Updated 2026-10-12 11:30 UTC &middot; 20 relevant of 80 triaged</div>
+  <div class="sub">Weekly triage of cybersecurity news for IT/security staff at African organizations. Updated 2026-10-13 11:19 UTC &middot; 19 relevant of 81 triaged</div>
 
   <h2>Relevant this week</h2>
   <div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html">Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies</a><span class="badge policy_regulation">policy_regulation</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-13 &middot; ML &middot; relevance: Affects android — widely deployed in under-resourced organizations — via malware.</div>
+  <div>Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa.</div>
+  <div class="why"><b>Why it matters here</b><br>If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">android</span> <span class="tag">malware</span></div>
+</div>
+<div class="card">
   <h3><a href="https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html">Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE</a><span class="badge vulnerability">vulnerability</span></h3>
   <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-12 &middot; relevance: Affects wordpress, php — widely deployed in under-resourced organizations — via rce, remote code.</div>
   <div>A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE).</div>
@@ -50,39 +57,60 @@
   <div><span class="tag">wordpress</span> <span class="tag">rce</span> <span class="tag">remote-code</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html">Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: Affects linux — widely deployed in under-resourced organizations — via remote code, attackers.</div>
-  <div>Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its changelog described the fix only as &quot;fixed a bug that could lead to a crash,&quot; with no CVE assigned and no security</div>
-  <div class="why"><b>Why it matters here</b><br>If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">linux</span> <span class="tag">remote-code</span> <span class="tag">attackers</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html">Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: Affects java — widely deployed in under-resourced organizations — via cve-, attackers.</div>
-  <div>Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the &quot;com/ahsay/obs/api/ApiStructsAction.java&quot;</div>
-  <div class="why"><b>Why it matters here</b><br>If you run java, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">java</span> <span class="tag">cve-</span> <span class="tag">attackers</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/">Citrix warns admins to patch new NetScaler RCE flaw immediately</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: Affects citrix — widely deployed in under-resourced organizations — via rce.</div>
-  <div>Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]</div>
-  <div class="why"><b>Why it matters here</b><br>If you run citrix, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">citrix</span> <span class="tag">rce</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/">In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years</a><span class="badge breach">breach</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-09 &middot; relevance: Affects npm — widely deployed in under-resourced organizations — via botnet, breach.</div>
-  <div>Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on SecurityWeek .</div>
-  <div class="why"><b>Why it matters here</b><br>If you run npm, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">npm</span> <span class="tag">botnet</span> <span class="tag">breach</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack">Belarusian hacktivists admit to 2023 breach of Russian state healthcare network</a><span class="badge breach">breach</span></h3>
-  <div class="meta"><span class="src">The Record</span> &middot; 2026-10-09 &middot; relevance: Attack activity against healthcare-sector organizations, the same targets common across SADC.</div>
-  <div>The Belarusian Cyber Partisans concurred with Russian research that they indeed spent months inside the network for the Moscow Department of Health.</div>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/">Anthropic takes risky AI tests offline after models breach govt sites</a><span class="badge breach">breach</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: Attack activity against government-sector organizations, the same targets common across SADC.</div>
+  <div>Anthropic announced that its internal AI models undergoing &quot;high-risk and cybersecurity evaluations&quot; no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels.</div>
   <div class="why"><b>Why it matters here</b><br>If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
   <div><span class="tag">breach</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/">Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: Affects windows — widely deployed in under-resourced organizations — via malware.</div>
+  <div>A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities.</div>
+  <div class="why"><b>Why it matters here</b><br>If you run windows, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">windows</span> <span class="tag">malware</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/">GitLab warns of max severity code execution vulnerability</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: Affects gitlab — widely deployed in under-resourced organizations — via attackers.</div>
+  <div>GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]</div>
+  <div class="why"><b>Why it matters here</b><br>If you run gitlab, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">gitlab</span> <span class="tag">attackers</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/">Bricksforge WordPress Plugin Vulnerability Exploited in the Wild</a><span class="badge vulnerability">vulnerability</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-12 &middot; relevance: Affects wordpress — widely deployed in under-resourced organizations — via exploited, in the wild.</div>
+  <div>The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites. The post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek .</div>
+  <div class="why"><b>Why it matters here</b><br>If you run wordpress, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">wordpress</span> <span class="tag">exploited</span> <span class="tag">in-the-wild</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVVZQktEVzhDaUFYZE54ejNENnY2Vm13YlViRFl2RDVsRUU3eDV5ZlhoMElIazctVldMbEtEbGVrUGVvbUEwTkZqRnM3MnNOX0d0OGRfdXNSc1l1NjFsalpQT2hkSEt2Z0d1ajVjY1Y0QjVhbENHb3MzRndrVVlMOHFQT2U5MmpHRmhnSXNmSGVXSXpGT3l6MHlCMUJWSmptQmpVbVV4REhJWHhxc1JN?oc=5">Africa Cybersecurity Whitepaper: Africa&#x27;s Digital Defense Race - Mastercard</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Africa Cybersecurity Whitepaper: Africa&#x27;s Digital Defense Race Mastercard</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOLU1LT0t0dVRzTTFEeEEzQkY4UlFjS1Z5R2RlSmRPQ1RDc1VIQ2pCOWQtTmEtSXY1RFNIRnZSTFBtZEtsQUh6M1lXMkFEelZ0eVYyMWE0aUFDM2FjWHpTUkt3WGJoeU9BQXB1OTVodk1IY2hMbUV4ZW43Z2NoZGd3aWI5Q2d2YVQxUnpab0hraHZQOGhhMWZ1eGNvVXlNLUd6YlVpdG85bnZMYVBhbDlxOA?oc=5">Africa’s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance - CircleID</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Africa’s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPcHJVd2luejVZX0tjbFRFSnpHM2I3YVlwWkp1LUNCaDhVVjduZkpyd1FnSmoxQm5CRndqX0RoTjNjQkkxQ3J1aTRTV2pwU2NRNmhJUzVGOHE4dWNJbXZzNlVTanlrYk1vQVVTN0p2Z0xIWWU4ak15R3RzTE0ycWRPZFFYX0Q2TFZEdUVEbTM5aE0xaTM5WFJSN3NyVQ?oc=5">Africa’s Digital Growth Brings Cybersecurity Risks, Mastercard Report Shows - CIO Africa</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Africa’s Digital Growth Brings Cybersecurity Risks, Mastercard Report Shows CIO Africa</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMihwJBVV95cUxNRnUzMEZYZWx4Q0w1X2FhUXphOGpJUHJ4RVFsLTdPVHdoMVJIVFRQRUtUcHFwc3FhU2VEN2ZWM0FBZDhfNUFSSHJmMzEyRElRRy14S1c5RTJfb1NIcUtRQXFKc2NPdGFuQ1VXUkNyUk1LY0pxdlM5RVNqV3NYeUJTWEthMU9WRXRQWnhHeWFKTjVDeExFN0Nic3U4VlB2cTJWWU16ZXY1NU53QkxHWlFWOU1vd0N0MmtNMjdVYUh6RUU4YjFaY056bGZ0UjNxQVdtamxXeGlkREdZR2V4bjJuVlpfNWZ3clNYVVFfU0Fad2lHNDhsd0hKOHd2eHNjQzAycmM4R2p4Yw?oc=5">Cybersecurity &amp; Infrastructure Protection: Safeguarding Africa&#x27;s Broadcast Operations In An Increasingly Connected Media Landscape - Broadcast Media Africa</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-13 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Cybersecurity &amp; Infrastructure Protection: Safeguarding Africa&#x27;s Broadcast Operations In An Increasingly Connected Media Landscape Broadcast Media Africa</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span></div>
 </div>
 <div class="card">
   <h3><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0MtQjVPV3EwWnNqU3JaOWxqRkI1dG5ybWxGbjBBQ0dzMzg2SGIxZW93ejRZdDRKNENMQVNjUDNyQUN6Y3NpUVlNUkdfTFNvVjdYMENQRktjODRuRVhTUDUwaGJTNlF2Zk5wN3p5QkF0ZmlxSDJPZEJFTnJwQnZ1NnZyOUxRTkFpWHhha0FnQUJRRld3X1RVdHZn?oc=5">Why cybersecurity is now part of citizen service - ITWeb Africa</a><span class="badge other">other</span></h3>
@@ -92,30 +120,30 @@
   <div><span class="tag">africa</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOTUxlSkI5OFQ2dUplQllZTm5YenQ4TVYzRE5MWHJ5R1RRQm44M20zRFprbU4xRXdZMjFSQW14Zlg2WUljT2VpM2FrRFZlSVllS0RZYWVZSEVQVkdjamx0LV8wel82b1JrV0Rmdjk5TDF1eHo4OWh4eExjaFZwVWRoWVkzSmJKUTFIR3F2Wmhid1lWNUtpa0VTWnQwN2l2eWt4RFMwMg?oc=5">ITSEC Asia, SGCI Partner To Strengthen Cybersecurity Capabilities In Côte d’Ivoire - CIO Africa</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
-  <div>ITSEC Asia, SGCI Partner To Strengthen Cybersecurity Capabilities In Côte d’Ivoire CIO Africa</div>
+  <h3><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXRJdVBtQ1d1b1RNdnFmMzBFelUzRFZfRXNac1o5eFZOeVVXMFhDVkotcWZqUjNiSkl2bkFkN0dfdkRhYndobklxdVEzN0ptUjljRE1pZkNEMm8tTDJUTzQxbG5SNDdKLTBFaS1teE12cW5DNkhsWDFYR01WWHlCanAyWlN5ZFBURXhlemxMZUR6dW5RWU50bHRhOTN5LXlJS0NCdlFia1JnLTlk?oc=5">Cyberattacks on African firms rise faster than global average - Africa Business Communities</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, african, directly relevant to the region.</div>
+  <div>Cyberattacks on African firms rise faster than global average Africa Business Communities</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span> <span class="tag">african</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPRkhSb3p3aDdrb2JHa1psR0JTZ0Q5X24xUUdGSjI5NEtwVEx3S1Vqc0tnVDlHVUw5UFliT2FtVms5TjdBS1dfNXloTmtlcTBPQXk2Z3ctb2lVR0VJbEptWjBjZFpycW0yMUpGZEdoY3NUdjItdkNXMkotaTByUnFfRTAxSVk1UHMtYWtwYTNuaWt4UXh0MENGaUtjSTRpUQ?oc=5">Cyber resilience key to Africa’s digital growth, Mastercard whitepaper finds - KBC Digital</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-13 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Cyber resilience key to Africa’s digital growth, Mastercard whitepaper finds KBC Digital</div>
   <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
   <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOd0pYYnYtRjFCbzRYbUx1T1gzVU5tc3BnRjVETHdBbFBoVzIzbTNVdmNLZkhwalA4TWNSVF8wTFUxVm9JcE9RXzlxWmVrdnp1Znhlc1hET2RPdHYwY285elhRbjNBaEZXVkI2bGFGXzZSX1BSU0hIbVpJbFRCV0laY0hpOGZ4Rmg1Szg4d2tVeFVaTFlvek9ScHNrNEZaQQ?oc=5">Mozambique: Government updating national cybersecurity strategy - CLUB OF MOZAMBIQUE</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; MZ &middot; relevance: Security story involving mozambique, directly relevant to the region.</div>
+  <div>Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in Mozambique should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">mozambique</span></div>
 </div>
 <div class="card">
   <h3><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0tIUUN4dVltVkNOT1JoeW9GWTRETDFTUllaM1NkaDB0Tm5CNldvRXlpektEeDFWMTVmSkprTlppeklPaDZsWGRsMVRzeEZPZUVDOTdkV193a3g2SU9wbWM2N3FMUW9kODBvOTJoTTBFckszLWNQUW4zYU1PNEhPdGFBVjBHRm1l?oc=5">M-Pesa boom raises cybersecurity risks, Mastercard warns - Capital FM Africa</a><span class="badge other">other</span></h3>
   <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
   <div>M-Pesa boom raises cybersecurity risks, Mastercard warns Capital FM Africa</div>
-  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">africa</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeWZBOW5HX0wxaXZOUFU2T19hQUkzSHE2bmV6ZFZzSE96NlBwQ1hmUWdjLWJZbno4Nmdwd1JEbm5aOTRNcjFqQkRTbnZJcjk3SjhHcXdkSjVkS1htWWRPRGh4WEVfbnRoSWwzYkw2bEdkNXBvbjdSdUF0aVVVZGlqNXRlRjB6aXFMNTZjUDlmdlZRV1NUSloyRlhCb1lQV0QwWWZ5LUREeElNLUJvbEZxbXV2RlZXdnZ1UkJhVWJia0JTNXFYZi00WHA3X3FteTNNRUE?oc=5">Cybersecurity awareness month spotlights Binance&#x27;s commitment to keeping African crypto users safe - Business Insider Africa</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-06 &middot; relevance: Security story involving africa, african, directly relevant to the region.</div>
-  <div>Cybersecurity awareness month spotlights Binance&#x27;s commitment to keeping African crypto users safe Business Insider Africa</div>
-  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">africa</span> <span class="tag">african</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQalF0RWVfOTlBWFBsUUxlZEhBenM0RHZHa1hUbDIxckctem5ZWXVuWFdncHZTQWtkYUF6OEREUWo2WmlRQXVOenNNeUE5bGZzSTZHZzZpRjREX3Z0N2hncG1Pc29yUU4xV0dVNDRLRDdhNGRESm1xQ3hjS056WHpDOXR5YzdOa3hrSnRHRFFBeEI3bHY2czZqeWpLUVg2Y1Nac0ZObQ?oc=5">Why Africa’s cybersecurity needs a new standard - MyBroadband</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
-  <div>Why Africa’s cybersecurity needs a new standard MyBroadband</div>
   <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
   <div><span class="tag">africa</span></div>
 </div>
@@ -127,32 +155,11 @@
   <div><span class="tag">africa</span> <span class="tag">mozambique</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPYjFHYXlDeTlVQzdjeWdHMU1rTk1KeTRDQXVwTnNGQ2szNEtGd2piRV9GZUJpb2FVdUJpbV9uUlRXdEIwZ0UxQXcyaGVKcV9ES25UUGtQMi1zbGZWdWU4M3hneC05bDk3RlZkZGh2NjhmajlBZ1RTb3FqSThZcWM1clJCaFJBX0oxOHJpRmlEdkEyMUthRWFmc2toNzFvN255cUg4cw?oc=5">Ghana elevates cybersecurity to essential services level - ITWeb Africa</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-09 &middot; GH &middot; relevance: Security story involving africa, ghana, directly relevant to the region.</div>
-  <div>Ghana elevates cybersecurity to essential services level ITWeb Africa</div>
-  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">africa</span> <span class="tag">ghana</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxQamFhRlRpekJYWnQtdjcxYklQckV6MmJKMU9MZksxOWlUTDd4ZmRtQWJzODJNUTJHOFprRFdldnEyTWxvV1djSzloWUp0YS02bHNyNjR4a1hOMkxYM29KTUQ4MDJ6bk9iNFlPc1NIWVpFT3F5Q05UWHpqaExabWdrdTRoZ2s3LW1Ma1ExQ0Yxem9Vcy1YVlktcDJTMlRXRWhyazRQQmJpQ1ZQVktXdkthQkJtd25iYnc2cGVWckpuUko3SXp6UE1mcWJzNFRFYVd4RU1rZlBDVVBhVjBPVHc?oc=5">Africa’s crypto growth raises cybersecurity stakes as Binance pushes user protection and digital literacy - Africa Sustainability Matters</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-06 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
-  <div>Africa’s crypto growth raises cybersecurity stakes as Binance pushes user protection and digital literacy Africa Sustainability Matters</div>
+  <h3><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQalF0RWVfOTlBWFBsUUxlZEhBenM0RHZHa1hUbDIxckctem5ZWXVuWFdncHZTQWtkYUF6OEREUWo2WmlRQXVOenNNeUE5bGZzSTZHZzZpRjREX3Z0N2hncG1Pc29yUU4xV0dVNDRLRDdhNGRESm1xQ3hjS056WHpDOXR5YzdOa3hrSnRHRFFBeEI3bHY2czZqeWpLUVg2Y1Nac0ZObQ?oc=5">Why Africa’s cybersecurity needs a new standard - MyBroadband</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-12 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Why Africa’s cybersecurity needs a new standard MyBroadband</div>
   <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
   <div><span class="tag">africa</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPY3g2M0V5ZTBBc3l1cXB6THVINFlla1pTRTNPQ1VQczd0RE5oQXBLYkJERm9hMUJZRE82eDhJNUVhYjNkWXdwXzR6TW8tQ2J0dzJTeGJ5WUN1XzQzbm1IU21BY0xKZG1RUERyRE5scXhhVkxDYUduX1hxNkhyR2ZhNnRzTHRCVFZrU3JHczZRY2hkYThhWHBSREt3dGEtanNjVFhKczY2VGstMzRGdmVsTWNFd3RrODA1Ulk4aXZn?oc=5">Short-term risk from AI and cyber security has spiked, warns Marsh Africa - ITWeb</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-08 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
-  <div>Short-term risk from AI and cyber security has spiked, warns Marsh Africa ITWeb</div>
-  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">africa</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.theafricareport.com/432775/sudan-trumps-arms-embargo-push-hits-a-wall-at-the-un/">Sudan: Trump’s arms embargo push hits a wall at the UN</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-09 &middot; SD &middot; relevance: Security story involving sudan, directly relevant to the region.</div>
-  <div>A second setback at the UN, strained relations with Khartoum and unanswered questions about the UAE have exposed the contradictions in Washington’s efforts to end Sudan’s war.</div>
-  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in Sudan should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">sudan</span> <span class="tag">exposed</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.infosecurity-magazine.com/news/palo-alto-vpn-vulnerability-target/">Months-Old Palo Alto VPN Vulnerability Remains a Target for Ransomware Groups</a><span class="badge ransomware">ransomware</span></h3>
@@ -168,23 +175,51 @@
   <div class="why"><b>Why it matters here</b><br>If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
   <div><span class="tag">ransomware</span></div>
 </div>
-<div class="card">
-  <h3><a href="https://www.infosecurity-magazine.com/news/chinese-hacker-ai-korean-banks/">Chinese Hacker Deployed AI in Campaign Against South Korean Banks</a><span class="badge breach">breach</span></h3>
-  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-08 &middot; relevance: Attack activity against bank, banks-sector organizations, the same targets common across SADC.</div>
-  <div>CrowdStrike revealed that a Chinese-speaking hacker deployed agentic pentesting tool ARTEX and Claude to help breach data from South Korean financial firms</div>
-  <div class="why"><b>Why it matters here</b><br>If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">breach</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.infosecurity-magazine.com/news/critical-vulnerability-atlassian/">Critical Flaw in Multiple Atlassian Products Exploited in the Wild</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-08 &middot; relevance: Affects atlassian, confluence — widely deployed in under-resourced organizations — via exploited, in the wild.</div>
-  <div>A critical vulnerability affecting eight Atlassian products, including Jira and Confluence, is being exploited in the wild, said VulnCheck</div>
-  <div class="why"><b>Why it matters here</b><br>If you run atlassian, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">atlassian</span> <span class="tag">exploited</span> <span class="tag">in-the-wild</span></div>
-</div>
 
   <h2>Not relevant (filtered out)</h2>
   <div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html">Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store&#x27;s fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely.</div>
+  
+  <div><span class="tag">attackers</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html">Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Two of 31 newly disclosed flaws in Progress Software&#x27;s MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical.</div>
+  
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html">GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. &quot;GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD</div>
+  
+  <div><span class="tag">gitlab</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html">⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it.</div>
+  
+  <div><span class="tag">ransomware</span> <span class="tag">malware</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html">Bring Your Own Agent: Your Employees&#x27; Assistants Are Already Logged In</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta&#x27;s Muse because it doesn&#x27;t identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services.</div>
+  
+  <div><span class="tag">bec</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html">Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis.</div>
+  
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
   <h3><a href="https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html">Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch</a><span class="badge other">other</span></h3>
   <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
   <div>Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker &quot;to direct the appliance to issue requests on their</div>
@@ -234,39 +269,46 @@
   <div><span class="tag">breach</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html">TP-Link Sued by Four More U.S. States Over Router Security and China Ties</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February.</div>
-  
-  <div><span class="tag">tp-link</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/anthropic-launches-free-ai.html">Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
-  <div>Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). &quot;It&#x27;s an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,&quot; Anthropic said.</div>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/">Norway fines Microsoft ad firm $9.6 million over Grindr data sharing</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>Norway&#x27;s Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]</div>
   
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html">Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon.</div>
-  
-  <div><span class="tag">exploited</span> <span class="tag">cve-</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html">The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The &quot;Horizons of Identity Security&quot; report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a</div>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/">Yandex confirms service outage as users lose access to cloud files</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]</div>
   
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html">GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site&#x27;s .onion address using only public information, and then take that address over. Searchlight Cyber, which disclosed the flaw on October 8, says an attacker who recovers the key can redirect the site&#x27;s visitors to a copy of the site they control.</div>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/">Ledger confirms spy chip implant behind wallet crypto thefts</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users&#x27; cryptocurrency wallets. [...]</div>
+  
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/">Cyberattack shuts down refrigerators at French supermarkets</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]</div>
   
   <div><span class="tag">attackers</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/">Retail giant Ahold Delhaize takes systems offline after cyberattack</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Retail giant Ahold Delhaize, one of the world&#x27;s largest food retail chains, confirmed today that it had to take some systems offline in response to a &quot;cybersecurity incident&quot; affecting its network. [...]</div>
+  
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/">Microsoft: Windows 11 23H2 reaches end of support in 30 days</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]</div>
+  
+  <div><span class="tag">windows</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/">Nippon Columbia malware incident exposes 8.6 million karaoke fan records</a><span class="badge other">other</span></h3>
@@ -311,60 +353,46 @@
   <div><span class="tag">exploited</span> <span class="tag">unpatched</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/">FBI arrests another suspected ShinyHunters hacker after agency breach</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]</div>
-  
-  <div><span class="tag">breach</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/">Germany arrests alleged core Qilin ransomware member after extradition</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]</div>
-  
-  <div><span class="tag">ransomware</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/">How to keep AI agents within their permissions</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy.</div>
-  
-  <div><span class="tag">credential</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/">Max severity SonicWall SMA1000 flaw now exploited in attacks</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]</div>
-  
-  <div><span class="tag">exploited</span> <span class="tag">cve-</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/">Man admits to running network of 15,000 money mules for cybercriminals</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]</div>
+  <h3><a href="https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/">AI Turns Familiar Cyberattacks Into a Race Against Time</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses. The post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek .</div>
   
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/">Microsoft: Outdated Windows devices will stop receiving security updates</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year&#x27;s Windows Update certificate rotation. [...]</div>
+  <h3><a href="https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/">$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek .</div>
   
-  <div><span class="tag">windows</span></div>
+  <div><span class="tag">attackers</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/">Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]</div>
+  <h3><a href="https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/">Cyberattack Prompts Ahold Delhaize to Disconnect Systems</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>The company says it took some of its systems offline to contain a security issue within its network. The post Cyberattack Prompts Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek .</div>
   
-  <div><span class="tag">zero-day</span></div>
+  <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/">FBI disrupts Chinese hacking tools used to breach critical infrastructure</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-08 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]</div>
+  <h3><a href="https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/">Refrigeration Controller Hack Spoils Food Across European Supermarkets</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost. The post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared first on SecurityWeek .</div>
   
-  <div><span class="tag">breach</span></div>
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/">IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-12 &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>The all-stock deal brings Elisity’s least-privilege access technology into IonQ’s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek .</div>
+  
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/">Canonical Websites Disrupted in Second DDoS Attack This Year</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek .</div>
+  
+  <div><span class="tag">ddos</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/">Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US</a><span class="badge other">other</span></h3>
@@ -388,46 +416,18 @@
   <div><span class="tag">ransomware</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/">Critical SonicWall Vulnerability Exploited Days After Disclosure</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek .</div>
-  
-  <div><span class="tag">exploited</span> <span class="tag">cve-</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/">Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek .</div>
+  <h3><a href="https://therecord.media/ukraine-strikes-third-yandex-data-center">Ukraine strikes third Yandex data center, disrupting digital services across Russia</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Record</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>A third Yandex data center in Russia was hit by Ukrainian drones over the weekend, forcing it to shut down and causing further disruptions to cloud services, payments, deliveries and other online services across the country.</div>
   
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/">Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-10 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .</div>
+  <h3><a href="https://therecord.media/cyberattack-disrupts-refridgeration-in-france">Cyberattack disrupts refrigeration at hundreds of French supermarkets</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Record</span> &middot; 2026-10-11 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets, spoiling fresh food at stores run by some of the country’s largest grocery chains.</div>
   
   <div><span class="tag">news</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/">OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The ChatGPT maker said the researchers &quot;violated clear policies on handling sensitive information.” The post OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks appeared first on SecurityWeek .</div>
-  
-  <div><span class="tag">news</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/">Google Domains Impacted by Recent ccTLD Hijacks</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains. The post Google Domains Impacted by Recent ccTLD Hijacks appeared first on SecurityWeek .</div>
-  
-  <div><span class="tag">news</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/">Unpatched AhsayCBS Vulnerabilities Exploited in the Wild</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands. The post Unpatched AhsayCBS Vulnerabilities Exploited in the Wild appeared first on SecurityWeek .</div>
-  
-  <div><span class="tag">exploited</span> <span class="tag">in-the-wild</span></div>
 </div>
 <div class="card">
   <h3><a href="https://therecord.media/japan-germany-ransomware-arrest">Japan confirms arrest of Russian Qilin operative, extradition to Germany</a><span class="badge other">other</span></h3>
@@ -451,79 +451,100 @@
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation">FBI touts another ShinyHunters arrest in response to data breach</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Record</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>“We will continue to work closely with our partners to disrupt what’s left of the ShinyHunters group and their associates, no matter where they operate,&quot; FBI Director Kash Patel said.</div>
-  
-  <div><span class="tag">data-breach</span> <span class="tag">breach</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmdLMC1USjdobWloMGlhUGgzQ1dBZzVFQXlXMGRpRlphM0ZsUDFfZ1dLb0FLN1JyclFka3RVWTNlWjJqcUpvUTY5dXIzdEpqQk5MMWt2RkxsN1FEbzJFWGFUY0JVdERlVENNcGF1dzkyaHh3VVJaQ2sxZHZHUUQ3cFJUbjB0TnpsOGRGZ1JzeTgtUm9fQmFqNnNZQTY5OVk4Q0xwWU9SU2RteXNjZ0RFWHNn?oc=5">Why exporting tech services is South Africa’s biggest growth opportunity - IOL</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-09 &middot; ZA &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Why exporting tech services is South Africa’s biggest growth opportunity IOL</div>
-  
-  <div><span class="tag">africa</span> <span class="tag">south africa</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.theafricareport.com/432916/us-africa-week-ahead-imf-moves-to-bangkok-while-us-attends-energy-forums-in-cape-town/">US-Africa Week Ahead: IMF moves to Bangkok while US attends energy forums in Cape Town</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-12 &middot; ZA &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The bad blood between the Donald Trump administration and South Africa isn’t enough to keep the US from energy and mining prospects.</div>
-  
-  <div><span class="tag">africa</span> <span class="tag">south africa</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.theafricareport.com/432829/wagner-africa-corps-and-touadera-russians-shielding-the-car-president/">Wagner, Africa Corps and Touadéra: Russians shielding the CAR president</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-11 &middot; CF &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Nearly a decade after turning to Moscow, the Central African Republic president is still surrounded by Russians: spies, propagandists, fighters and mining fixers. Meet the men who make up Faustin-Archange Touadéra’s Kremlin-backed inner circle.</div>
-  
-  <div><span class="tag">africa</span> <span class="tag">african</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.theafricareport.com/432762/can-cloud-seeding-help-end-droughts-in-africa/">Can cloud seeding help end droughts in Africa?</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-10 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Cloud seeding promises to squeeze more rain from clouds in a world facing worsening water shortages. But the science remains uncertain, the costs are high and the risks are not fully understood.</div>
+  <h3><a href="https://www.theafricareport.com/432929/tramadol-in-africa-how-drug-trafficking-thrives-where-pain-relief-is-scarce/">Tramadol in Africa: How drug trafficking thrives where pain relief is scarce</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>West and Central Africa account for 97% of all tramadol seizures worldwide. The illicit trade in the painkiller thrives in a region where access to essential medication remains desperately limited.</div>
   
   <div><span class="tag">africa</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.theafricareport.com/432910/tigray-insurgency-withers-as-federal-forces-enter-shire-and-resume-flights-to-mekelle/">Tigray insurgency withers as federal forces enter Shire and resume flights to Mekelle</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-10 &middot; ET &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Defections and retreating rebels leave a power vacuum in northern Ethiopia, raising the stakes in an escalating diplomatic standoff over sea access.</div>
+  <h3><a href="https://www.theafricareport.com/433163/nigeria-why-dangote-is-keeping-an-oversubscribed-ipo-open/">Nigeria: Why Dangote is keeping an oversubscribed IPO open</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; NE NG &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>Only just over 3% of the $49bn refinery is up for sale. Extending the offer to 27 October is about building a pan-African shareholder base, not raising more cash.</div>
   
-  <div><span class="tag">ethiopia</span></div>
+  <div><span class="tag">africa</span> <span class="tag">african</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.theafricareport.com/432899/us-vows-to-cripple-icc-as-former-judge-navi-pillay-wins-nobel-peace-prize/">US vows to ‘cripple ICC’ as former judge Navi Pillay wins Nobel Peace Prize</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>‘Unapologetic pursuit of national power’ butts heads with ‘unaccountable global arbiter’, as America sanctions the International Criminal Court.</div>
+  <h3><a href="https://www.theafricareport.com/433099/zimbabwes-portfolio-problem-can-sanctioned-tycoon-tagwirei-still-woo-investors/">Zimbabwe’s portfolio problem: Can sanctioned tycoon Tagwirei still woo investors?</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; ZW &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>President Emmerson Mnangagwa’s 8 October appointment of businessman Kudakwashe Tagwirei as economic development minister has put the controversial Zimbabwe dealmaker — currently under sanctions — in charge of selling the country to the world, raising eyebrows at home.</div>
+  
+  <div><span class="tag">zimbabwe</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.theafricareport.com/433160/former-drc-president-kabila-forms-new-force-with-m23-armed-group/">Former DRC president Kabila forms new force with M23 armed group</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; CD RW &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Former Democratic Republic of Congo president Joseph Kabila on Monday joined forces with the Rwanda-backed M23 armed group to head a new outfit, taking a more direct role in the insurgency ravaging the country’s volatile east.</div>
+  
+  <div><span class="tag">rwanda</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.theafricareport.com/433052/south-africa-the-paris-airport-gamble-behind-cape-towns-global-catamaran-triumph/">South Africa: The Paris airport gamble behind Cape Town’s global catamaran triumph</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; ZA &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>South Africa’s boatyards are taking on the world, turning Cape Town into a global catamaran hub. At the heart of the export boom is Voyage Yachts, a homegrown builder whose million-dollar vessels are made to sail around the world.</div>
+  
+  <div><span class="tag">africa</span> <span class="tag">south africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.theafricareport.com/432913/zambias-1-5bn-imf-reset-the-fiscal-slippage-behind-hichilemas-new-deal/">Zambia’s $1.5bn IMF reset: The fiscal slippage behind Hichilema’s new deal</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; ZM &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Behind Zambia’s rosy growth figures lies an acute domestic cash crunch, forcing President Hakainde Hichilema back into a $1.5bn IMF straightjacket.</div>
+  
+  <div><span class="tag">zambia</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.theafricareport.com/432985/squeezing-the-cow-without-stopping-the-milk-ghanas-dilemma-over-tullows-tax-debt/">‘Squeezing the cow without stopping the milk’: Ghana’s dilemma over Tullow’s tax debt</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-13 &middot; GH &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Once one of Africa’s boldest frontier explorers, Tullow Oil has shed operations across the globe, lost a landmark $196.5m tax battle in Ghana, and now pins its entire future on two ageing offshore fields – while Accra holds all the cards and the debt clock keeps ticking.</div>
+  
+  <div><span class="tag">africa</span> <span class="tag">ghana</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.theafricareport.com/432989/anglophone-cameroon-10-years-on-the-war-continues/">Anglophone Cameroon: 10 years on, the war continues</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-12 &middot; CM &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Deprived of some of their diaspora support, Anglophone separatists are pressing on with their bloody attacks a decade into the crisis. President Paul Biya, re-elected a year ago for an eighth term, is betting on attrition.</div>
   
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.theafricareport.com/432882/jacob-zuma-alive-or-in-hospital-how-much-does-his-mk-party-need-him/">Jacob Zuma: Alive or in hospital, how much does his MK Party need him?</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Former president Jacob Zuma, 84, was admitted to hospital just less than a month before the 4 November local government elections. Could his absence scupper the chances of his fledgeling uMkhonto weSizwe Party to get into municipalities?</div>
+  <h3><a href="https://www.theafricareport.com/433000/the-women-shaping-moroccos-economy/">The women shaping Morocco’s economy</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-12 &middot; MA &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>Women hold 29% of board seats at listed companies in Morocco, which has just appointed its first female prime minister. Six executives at the helm of its banks, investment funds, drugmakers and industrial groups are setting the pace.</div>
+  
+  <div><span class="tag">morocco</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.theafricareport.com/433117/how-afreximbank-is-challenging-standard-bank-in-big-ticket-project-finance/">How Afreximbank is challenging Standard Bank in big-ticket project finance</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-12 &middot; ZA &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>The multilateral lender is vying with the South African giant for the top spot in financing megaprojects. The contest at the summit mostly exposes the limits of the commercial banking model in meeting Africa’s needs.</div>
+  
+  <div><span class="tag">africa</span> <span class="tag">african</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.infosecurity-magazine.com/news/uk-government-sweeping-ai-security/">UK Government Announces Sweeping New AI Security Plans</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>The government is planning tweaks to legislation, new incident response and more to head of AI security threats</div>
   
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.theafricareport.com/432812/saddam-haftars-ambition-to-rule-libya-runs-into-trouble-in-the-sahel/">Saddam Haftar’s ambition to rule Libya runs into trouble in the Sahel</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-09 &middot; LY ML NE TD &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Between hostage releases, support for rebel movements and a new alliance with Chad, Field Marshal Khalifa Haftar’s heir is seeking to establish himself as an indispensable interlocutor. But the Sahel juntas in Mali and Niger see it as meddling.</div>
+  <h3><a href="https://www.infosecurity-magazine.com/news/fifth-cisos-take-time-off-avoid/">Fifth of CISOs Take Time Off to Avoid Patch Tuesday</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-13 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Socura report claims CISOs are calling in sick or taking holiday to miss Patch Tuesday</div>
   
-  <div><span class="tag">libya</span></div>
+  <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.theafricareport.com/432779/nigeria-nnpcs-fuel-revenue-plunges-78-amid-dangote-led-price-war/">Nigeria: NNPC’s fuel revenue plunges 78% amid Dangote-led price war</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-09 &middot; NE NG &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>NNPC’s petroleum product revenue plunged nearly 78% in 2025 as the launch of the Dangote refinery and full market deregulation ignited a brutal price war across Nigeria’s downstream sector.</div>
+  <h3><a href="https://www.infosecurity-magazine.com/news/luna-moth-leaks-ransomware-playbook/">Luna Moth Leaks Shed Light on Ransomware Group&#x27;s Inner Workings</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-12 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Leaked documents suggest a multi-pronged operation, with social engineering and more technical attackers working together to manipulate a single target</div>
   
-  <div><span class="tag">nigeria</span></div>
+  <div><span class="tag">ransomware</span> <span class="tag">attackers</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.theafricareport.com/432788/how-simon-tiemtores-bid-for-oryx-energies-fuel-network-fell-through/">How Simon Tiemtoré’s bid for Oryx Energies’ fuel network fell through</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-09 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The American-Burkinabé banker had positioned himself, via Lilium Capital Group, to acquire a network of some 400 service stations. But the talks ultimately came to nothing.</div>
+  <h3><a href="https://www.infosecurity-magazine.com/news/french-supermarket-chains/">Major French Supermarket Chains Hit by Cyber-Attack, Food Stock Impacted</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-12 &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>The CEO of Cooperative U confirmed a cyber-attack affected the food stock in several stores from October 11</div>
   
   <div><span class="tag">news</span></div>
 </div>
@@ -589,20 +610,6 @@
   <div>Russia-aligned UAC-0099 has steadily upgraded its MATCHBOIL downloader since 2024</div>
   
   <div><span class="tag">malware</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.infosecurity-magazine.com/news/europol-us-gao-alarm-quantum/">Europol and US Spending Watchdog Sound the Alarm Over Quantum Threats</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-08 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Europol and US Government Accountability Office urge faster transition to post-quantum cryptography</div>
-  
-  <div><span class="tag">news</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.infosecurity-magazine.com/news/fbi-secret-service-fortibleed/">FBI and Secret Service Warn of FortiBleed Lockout Threat</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-08 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The FBI and Secret Service are warning Fortigate admins that their systems are still being targeted</div>
-  
-  <div><span class="tag">fortigate</span></div>
 </div>
 
   <footer>
