@@ -1,5 +1,1629 @@
 [
   {
+    "ioc": "105.184.168.190",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 08:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.238.139.238",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 08:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.239.231.145",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 08:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.227.203.38",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:58:18",
+    "tags": "cowrie,elf,honeypot,mips"
+  },
+  {
+    "ioc": "119.184.8.229",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:53:35",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "105.224.29.86",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:47:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "125.41.2.138",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:47:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.224.10.16",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:47:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.51.92.255",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "105.184.120.172",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:32:13",
+    "tags": "None"
+  },
+  {
+    "ioc": "138.204.196.244",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:32:12",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.234.167.165",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:27:41",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "171.213.198.0",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:22:34",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "vtivision-fi.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:05:14",
+    "tags": "ascii,opendir,powershell,ps1"
+  },
+  {
+    "ioc": "drive.google.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:03:12",
+    "tags": "ascii,Encoded,GuLoader,rat,RemcosRAT"
+  },
+  {
+    "ioc": "175.165.82.203",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:02:23",
+    "tags": "None"
+  },
+  {
+    "ioc": "175.149.85.227",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 07:02:22",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.228.247.58",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:59:34",
+    "tags": "cowrie,elf,honeypot,mips,Mozi"
+  },
+  {
+    "ioc": "5.83.136.39",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:36:21",
+    "tags": "ua-wget"
+  },
+  {
+    "ioc": "132.243.165.98",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:36:05",
+    "tags": "ua-wget"
+  },
+  {
+    "ioc": "154.6.145.213",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:35:07",
+    "tags": "script"
+  },
+  {
+    "ioc": "219.156.116.253",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:29:16",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "8.166.135.58",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:29:16",
+    "tags": "honeypot,shardlure"
+  },
+  {
+    "ioc": "gitlab.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:29:13",
+    "tags": "CheatSheet,gitlab,zip"
+  },
+  {
+    "ioc": "115.55.61.246",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:29:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "github.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:28",
+    "tags": "github,Stealc,zip"
+  },
+  {
+    "ioc": "175.165.74.103",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:27",
+    "tags": "cowrie,elf,honeypot,mipsel,Mozi"
+  },
+  {
+    "ioc": "219.155.221.103",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:23",
+    "tags": "elf"
+  },
+  {
+    "ioc": "45.87.174.8",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:19",
+    "tags": "45-87-174-8,cowrie,elf,honeypot"
+  },
+  {
+    "ioc": "216.9.225.228",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:18",
+    "tags": "elf"
+  },
+  {
+    "ioc": "105.225.99.51",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:15",
+    "tags": "elf"
+  },
+  {
+    "ioc": "mc-modhub.vercel.app",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:09",
+    "tags": "SilentNet"
+  },
+  {
+    "ioc": "raw.githubusercontent.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:09",
+    "tags": "CheatSheet,exe,github"
+  },
+  {
+    "ioc": "cmp4.top",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:13:07",
+    "tags": "cowrie,honeypot"
+  },
+  {
+    "ioc": "cdn.discordapp.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:12:23",
+    "tags": "IRAHook"
+  },
+  {
+    "ioc": "115.49.69.231",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:12:14",
+    "tags": "cowrie,elf,honeypot,mips,Mozi"
+  },
+  {
+    "ioc": "runelite.cc",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:12:13",
+    "tags": "runelure,stealer"
+  },
+  {
+    "ioc": "80.78.27.100",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 06:12:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.113.209.143",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.56.103.148",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:44:18",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "116.140.142.13",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:40:30",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "210.208.110.20",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:34:20",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "115.58.124.116",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "180.131.167.125",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "93.113.167.49",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:02:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "37.28.177.69",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 05:02:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.227.206.252",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 04:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.235.91.212",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 04:02:16",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "203.160.9.182",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:56:10",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "191.243.174.35",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "61.53.84.98",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:38:33",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "183.151.200.30",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:32:11",
+    "tags": "None"
+  },
+  {
+    "ioc": "59.97.250.29",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "45.165.172.92",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "105.225.95.127",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "59.97.250.116",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "210.208.110.51",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:07:14",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "220.168.238.209",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:02:17",
+    "tags": "None"
+  },
+  {
+    "ioc": "222.137.141.44",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 03:02:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.119.34.156",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 02:59:20",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "196.190.69.149",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 02:21:18",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "221.202.234.23",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 02:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.113.205.239",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 02:02:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "38.43.93.61",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:52:24",
+    "tags": "elf,ua-wget"
+  },
+  {
+    "ioc": "91.92.43.221",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:52:20",
+    "tags": "elf,ua-wget"
+  },
+  {
+    "ioc": "42.230.54.62",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.55.37.135",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:32:11",
+    "tags": "None"
+  },
+  {
+    "ioc": "221.15.189.37",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:17:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "180.190.200.74",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "175.174.13.217",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:02:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "178.207.243.137",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 01:02:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "222.140.182.253",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:50:18",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "180.244.225.170",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "222.127.50.108",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:46:14",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "182.121.213.133",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.113.34.105",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.113.0.7",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "ggi.dietondemand.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:22:14",
+    "tags": "2KeyFactory,exe,msstore,WailsLoader,XP8LWPQS0M4JV6"
+  },
+  {
+    "ioc": "42.227.202.119",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:21:20",
+    "tags": "elf,iot"
+  },
+  {
+    "ioc": "42.231.249.63",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:17:14",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.239.231.217",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "125.42.225.92",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:16:21",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "dir.sonikjp.org",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:11:20",
+    "tags": "exe,msstore,WailsLoader,XP8C94NJ9JQ6B9"
+  },
+  {
+    "ioc": "sep.dailytechinsight.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:11:20",
+    "tags": "exe,msstore,WailsLoader,XP8C9MQ5GXGV8S"
+  },
+  {
+    "ioc": "db.foodbook.pk",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:11:13",
+    "tags": "exe,msstore,WailsLoader,XPFCZWR9RK8XL4"
+  },
+  {
+    "ioc": "ww.menara5d.net",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-16 00:11:13",
+    "tags": "exe,msstore,WailsLoader,xp9m1jz5pf49kc"
+  },
+  {
+    "ioc": "115.50.89.97",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:57:16",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "115.61.118.122",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:51:25",
+    "tags": "cowrie,elf,honeypot,mips,Mozi"
+  },
+  {
+    "ioc": "42.227.207.135",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:50:23",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "221.15.178.114",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:47:20",
+    "tags": "cowrie,elf,honeypot,mips,Mozi"
+  },
+  {
+    "ioc": "124.92.76.80",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:43:19",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "42.234.233.113",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:32:20",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.62.117.230",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:17:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "brotherspizzapeoria.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:14:05",
+    "tags": "msstore,qr2auth,signed,WailsLoader,xp9m1jz5pf49kc"
+  },
+  {
+    "ioc": "115.55.53.145",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:02:10",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "221.15.173.51",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 23:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.49.24.236",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 22:57:09",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "61.133.30.139",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 22:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "42.177.21.160",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 22:32:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "anthonyspizzeriainc.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:54:07",
+    "tags": "exe,msstore,signed,WailsLoader"
+  },
+  {
+    "ioc": "123.13.52.10",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "36.32.176.115",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:45:21",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "219.157.186.140",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:34:18",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "113.236.92.29",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:26:39",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "182.127.111.173",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:14:24",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "114.228.131.9",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 21:08:20",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "42.230.42.54",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:56:21",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "125.42.32.7",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:47:19",
+    "tags": "None"
+  },
+  {
+    "ioc": "124.94.170.244",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "59.97.248.127",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:47:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "45.166.188.48",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:32:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "117.131.92.150",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:24:10",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "106.58.126.200",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:17:27",
+    "tags": "None"
+  },
+  {
+    "ioc": "220.191.125.250",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "221.15.185.193",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "221.214.181.197",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:04:21",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "101.109.199.229",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:02:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.121.85.243",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:02:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.122.233.48",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:02:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.57.180.160",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:02:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "105.225.25.212",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:02:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.55.192.158",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:01:17",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "223.151.72.37",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 20:00:09",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "196.221.145.214",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:53:17",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "116.139.137.227",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:25:14",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "123.12.234.123",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "120.28.194.92",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.116.112.212",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:31",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "melonandworld.top",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:22",
+    "tags": "botnetdomain,elf,ua-wget"
+  },
+  {
+    "ioc": "111.179.145.25",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:21",
+    "tags": "None"
+  },
+  {
+    "ioc": "scribblebubblebibi.top",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:19",
+    "tags": "botnetdomain,sh,ua-wget"
+  },
+  {
+    "ioc": "113.21.43.36",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:19",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "steelstanleystaystrong.top",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:12",
+    "tags": "botnetdomain,sh,ua-wget"
+  },
+  {
+    "ioc": "griffcar.com.br",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:11",
+    "tags": "contract,hungarian,hungary,payload"
+  },
+  {
+    "ioc": "182.234.145.4",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "plochcarsportsball.top",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:10",
+    "tags": "botnetdomain,sh,ua-wget"
+  },
+  {
+    "ioc": "110.138.8.251",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 19:07:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "112.248.245.25",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:42:36",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "109.238.87.75",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:41:42",
+    "tags": "exe"
+  },
+  {
+    "ioc": "cdw.omsules.life",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:40:02",
+    "tags": "malware,pw-dvx.to,stealer"
+  },
+  {
+    "ioc": "139.227.137.155",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:26",
+    "tags": "arm,cowrie,elf,honeypot,Mozi"
+  },
+  {
+    "ioc": "cdt.omsules.life",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:20",
+    "tags": "malware,pw-dvx.to,stealer"
+  },
+  {
+    "ioc": "42.227.196.224",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:17",
+    "tags": "cowrie,elf,honeypot,mips,Mozi"
+  },
+  {
+    "ioc": "151.240.157.27",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:11",
+    "tags": "docker,sh"
+  },
+  {
+    "ioc": "dklak.cam",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "64.235.41.52",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:10",
+    "tags": "exe,malware"
+  },
+  {
+    "ioc": "donutsmputilitys.netlify.app",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:10",
+    "tags": "SilentNet"
+  },
+  {
+    "ioc": "internetmissouri.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:09",
+    "tags": "ClickFix,macOS,MacSync,zsh"
+  },
+  {
+    "ioc": "209.54.102.168",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:39:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "222.134.167.0",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:17:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.10.70.119",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 18:16:13",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "125.44.190.24",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:52:18",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "59.96.140.65",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:32:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "59.97.254.36",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "222.137.37.123",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:17:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "222.141.135.181",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:17:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "130.12.182.175",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:13:09",
+    "tags": "d52f85,dropped-by-amadey"
+  },
+  {
+    "ioc": "113.228.106.96",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:07:33",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "59.97.255.15",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 17:02:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "61.52.222.63",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:57:14",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "175.175.254.97",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:47:15",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "124.6.167.113",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.148.142.77",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:32:25",
+    "tags": "None"
+  },
+  {
+    "ioc": "124.6.169.54",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:18:10",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "d-j-d.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:12:08",
+    "tags": "dropped-by-amadey,f4d9f4"
+  },
+  {
+    "ioc": "61.52.185.167",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:02:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "61.137.159.194",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 16:02:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "101.59.79.119",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:55:11",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "119.189.172.143",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:47:27",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.12.230.43",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:47:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "v-w-v.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:38:08",
+    "tags": "dll"
+  },
+  {
+    "ioc": "c-f-u.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:37:16",
+    "tags": "exe"
+  },
+  {
+    "ioc": "ld-cf.com",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:37:08",
+    "tags": "dll"
+  },
+  {
+    "ioc": "123.9.68.39",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:03:19",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "60.18.99.133",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 15:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "113.53.69.165",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:37:14",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "115.52.22.187",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:36:17",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "39.77.250.226",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:33:10",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "219.157.39.145",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "45.172.218.85",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:32:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "221.15.10.194",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "60.214.231.246",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:06:11",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "61.53.140.82",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 14:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "66.205.236.190",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 13:45:14",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "222.134.163.77",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 13:32:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "27.215.124.78",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 13:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "27.216.33.36",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 13:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.55.130.202",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 13:17:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.127.64.151",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 12:52:11",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "61.52.182.76",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 12:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "27.45.183.118",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 12:17:09",
+    "tags": "None"
+  },
+  {
+    "ioc": "61.243.141.19",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 12:17:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "37.34.181.111",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 12:17:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "60.23.236.153",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 12:17:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.117.119.237",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:20",
+    "tags": "None"
+  },
+  {
+    "ioc": "175.151.87.39",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "175.165.199.119",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.113.206.163",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.119.11.178",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "59.180.153.189",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.116.81.29",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "182.116.120.14",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:47:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "112.198.194.175",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:39:19",
+    "tags": "112-198-194-175,cowrie,elf,honeypot,mirai"
+  },
+  {
+    "ioc": "163.142.77.44",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:32:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.12.232.231",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:32:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "216.126.86.128",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:02:20",
+    "tags": "None"
+  },
+  {
+    "ioc": "196.206.115.18",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:02:11",
+    "tags": "None"
+  },
+  {
+    "ioc": "201.110.21.150",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 11:02:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "221.1.227.111",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:47:10",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.11.8.153",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "120.84.214.210",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:47:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "220.198.112.236",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:47:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "219.157.20.98",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:47:06",
+    "tags": "None"
+  },
+  {
+    "ioc": "60.19.211.40",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:32:11",
+    "tags": "None"
+  },
+  {
+    "ioc": "60.19.213.66",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:32:08",
+    "tags": "None"
+  },
+  {
+    "ioc": "180.191.49.27",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:02:25",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "36.255.97.170",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 10:01:05",
+    "tags": "None"
+  },
+  {
+    "ioc": "up.sb",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:57:22",
+    "tags": "docker"
+  },
+  {
+    "ioc": "205.185.117.117",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:56:17",
+    "tags": "docker,elf"
+  },
+  {
+    "ioc": "42.6.101.155",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:49:16",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "121.202.142.137",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:32:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.14.235.37",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "27.215.140.2",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:17:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "119.179.250.149",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:03:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.55.129.26",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:02:30",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "115.63.245.203",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "123.4.18.86",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "121.231.77.24",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:02:07",
+    "tags": "None"
+  },
+  {
+    "ioc": "119.166.84.226",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 09:02:05",
+    "tags": "None"
+  },
+  {
+    "ioc": "115.55.206.233",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 08:49:17",
+    "tags": "32-bit,elf,mips,Mozi"
+  },
+  {
+    "ioc": "45.183.184.74",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 08:48:17",
+    "tags": "32-bit,arm,elf,Mozi"
+  },
+  {
+    "ioc": "105.184.177.151",
+    "type": "domain_or_ip",
+    "source": "urlhaus",
+    "first_seen": "2026-10-15 08:47:07",
+    "tags": "None"
+  },
+  {
     "ioc": "202.83.167.117",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -21,13 +1645,6 @@
     "tags": "None"
   },
   {
-    "ioc": "115.55.206.233",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 08:17:07",
-    "tags": "None"
-  },
-  {
     "ioc": "103.66.176.192",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -40,13 +1657,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-15 07:57:19",
     "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "42.227.196.224",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 07:47:10",
-    "tags": "None"
   },
   {
     "ioc": "42.226.236.209",
@@ -67,13 +1677,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-15 07:47:07",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.55.61.246",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 07:32:08",
     "tags": "None"
   },
   {
@@ -168,27 +1771,6 @@
     "tags": "None"
   },
   {
-    "ioc": "121.202.142.137",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 06:18:19",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "196.190.69.149",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 06:17:07",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.62.117.230",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 06:07:21",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
     "ioc": "202.166.165.60",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -238,13 +1820,6 @@
     "tags": "None"
   },
   {
-    "ioc": "221.15.178.114",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 04:32:08",
-    "tags": "None"
-  },
-  {
     "ioc": "222.127.186.27",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -284,13 +1859,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-15 03:17:06",
-    "tags": "None"
-  },
-  {
-    "ioc": "60.214.231.246",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 03:02:07",
     "tags": "None"
   },
   {
@@ -364,13 +1932,6 @@
     "tags": "None"
   },
   {
-    "ioc": "119.166.84.226",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 01:17:22",
-    "tags": "None"
-  },
-  {
     "ioc": "182.126.90.240",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -410,13 +1971,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-15 01:02:08",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.55.53.145",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 01:02:07",
     "tags": "None"
   },
   {
@@ -490,18 +2044,11 @@
     "tags": "AsyncRAT,exe,rat"
   },
   {
-    "ioc": "cdn.discordapp.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 00:55:29",
-    "tags": "IRAHook"
-  },
-  {
     "ioc": "totemstudios.xyz",
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-15 00:55:03",
-    "tags": "None"
+    "tags": "zip"
   },
   {
     "ioc": "csgroup.host",
@@ -515,13 +2062,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-15 00:54:27",
-    "tags": "None"
-  },
-  {
-    "ioc": "github.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-15 00:54:11",
     "tags": "None"
   },
   {
@@ -662,13 +2202,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-14 23:47:13",
-    "tags": "None"
-  },
-  {
-    "ioc": "42.228.247.58",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 23:47:08",
     "tags": "None"
   },
   {
@@ -854,13 +2387,6 @@
     "tags": "32-bit,elf,mips,Mozi"
   },
   {
-    "ioc": "222.137.37.123",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 21:02:06",
-    "tags": "None"
-  },
-  {
     "ioc": "123.4.197.98",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -917,13 +2443,6 @@
     "tags": "32-bit,elf,mips,Mozi"
   },
   {
-    "ioc": "61.243.141.19",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 19:42:18",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
     "ioc": "60.23.239.98",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -943,13 +2462,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-14 18:45:16",
     "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "5.83.136.39",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 18:34:15",
-    "tags": "ua-wget"
   },
   {
     "ioc": "221.15.174.1",
@@ -1197,13 +2709,6 @@
     "tags": "None"
   },
   {
-    "ioc": "42.227.207.135",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 15:32:07",
-    "tags": "None"
-  },
-  {
     "ioc": "182.114.194.42",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -1223,13 +2728,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-14 15:17:06",
     "tags": "None"
-  },
-  {
-    "ioc": "38.43.93.61",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 15:11:13",
-    "tags": "elf,ua-wget"
   },
   {
     "ioc": "153.56.180.69",
@@ -1348,13 +2846,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-14 14:02:09",
-    "tags": "None"
-  },
-  {
-    "ioc": "36.32.176.115",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 13:47:15",
     "tags": "None"
   },
   {
@@ -1680,13 +3171,6 @@
     "tags": "None"
   },
   {
-    "ioc": "219.157.20.98",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 10:02:07",
-    "tags": "None"
-  },
-  {
     "ioc": "125.42.127.94",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -1727,13 +3211,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-14 08:32:08",
     "tags": "None"
-  },
-  {
-    "ioc": "up.sb",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 08:22:10",
-    "tags": "docker"
   },
   {
     "ioc": "software.security-analyze.ltd",
@@ -1862,13 +3339,6 @@
     "tags": "None"
   },
   {
-    "ioc": "124.92.76.80",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 07:17:08",
-    "tags": "None"
-  },
-  {
     "ioc": "170.84.133.235",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -1930,13 +3400,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-14 05:59:13",
     "tags": "32-bit,arm,elf,Mozi"
-  },
-  {
-    "ioc": "drive.google.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-14 05:47:10",
-    "tags": "rat,RemcosRAT"
   },
   {
     "ioc": "115.49.27.218",
@@ -2583,13 +4046,6 @@
     "tags": "None"
   },
   {
-    "ioc": "42.227.203.38",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-13 22:47:06",
-    "tags": "None"
-  },
-  {
     "ioc": "42.224.145.69",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -3101,13 +4557,6 @@
     "tags": "None"
   },
   {
-    "ioc": "60.23.236.153",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-13 15:47:08",
-    "tags": "None"
-  },
-  {
     "ioc": "59.97.249.134",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -3134,13 +4583,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-13 15:32:09",
     "tags": "None"
-  },
-  {
-    "ioc": "210.208.110.20",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-13 15:02:23",
-    "tags": "arm,cowrie,elf,honeypot,Mozi"
   },
   {
     "ioc": "45.153.34.108",
@@ -3612,13 +5054,6 @@
     "tags": "None"
   },
   {
-    "ioc": "125.42.32.7",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-13 11:43:33",
-    "tags": "32-bit,arm,elf,Mozi"
-  },
-  {
     "ioc": "222.138.101.246",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -3654,13 +5089,6 @@
     "tags": "None"
   },
   {
-    "ioc": "182.127.64.151",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-13 11:17:06",
-    "tags": "None"
-  },
-  {
     "ioc": "182.127.0.237",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -3679,13 +5107,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-13 10:47:07",
-    "tags": "None"
-  },
-  {
-    "ioc": "124.6.169.54",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-13 10:47:06",
     "tags": "None"
   },
   {
@@ -4949,13 +6370,6 @@
     "tags": "ClickFix,DEU,exe,FileFix,Loader,powershell"
   },
   {
-    "ioc": "180.191.49.27",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-12 18:11:07",
-    "tags": "None"
-  },
-  {
     "ioc": "146.103.101.229",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -5887,13 +7301,6 @@
     "tags": "None"
   },
   {
-    "ioc": "raw.githubusercontent.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-12 07:12:11",
-    "tags": "FakeGit,luajit,SmartLoader,Stealc,zip"
-  },
-  {
     "ioc": "175.165.87.25",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -6125,24 +7532,10 @@
     "tags": "None"
   },
   {
-    "ioc": "203.160.9.182",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-12 02:32:08",
-    "tags": "None"
-  },
-  {
     "ioc": "219.157.32.89",
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-12 02:32:08",
-    "tags": "None"
-  },
-  {
-    "ioc": "210.208.110.51",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-12 02:32:07",
     "tags": "None"
   },
   {
@@ -6706,13 +8099,6 @@
     "tags": "32-bit,elf,mips,Mozi"
   },
   {
-    "ioc": "gitlab.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-11 14:42:11",
-    "tags": "CheatSheet,exe,gitlab"
-  },
-  {
     "ioc": "42.59.90.183",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -6739,13 +8125,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-11 14:31:22",
     "tags": "elf,ssh"
-  },
-  {
-    "ioc": "mc-modhub.vercel.app",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-11 14:31:20",
-    "tags": "SilentNet"
   },
   {
     "ioc": "120.28.192.219",
@@ -6909,25 +8288,11 @@
     "tags": "None"
   },
   {
-    "ioc": "42.6.101.155",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-11 11:42:15",
-    "tags": "arm,cowrie,elf,honeypot,Mozi"
-  },
-  {
     "ioc": "27.215.122.210",
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-11 11:32:06",
     "tags": "None"
-  },
-  {
-    "ioc": "37.28.177.69",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-11 11:10:54",
-    "tags": "cowrie,elf,honeypot,mipsel,Mozi"
   },
   {
     "ioc": "42.239.255.151",
@@ -8008,13 +9373,6 @@
     "tags": "32-bit,elf,mips,Mozi"
   },
   {
-    "ioc": "124.6.167.113",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-10 15:40:10",
-    "tags": "32-bit,arm,elf,Mozi"
-  },
-  {
     "ioc": "27.44.146.163",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -8624,13 +9982,6 @@
     "tags": "None"
   },
   {
-    "ioc": "113.53.69.165",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-10 08:17:06",
-    "tags": "None"
-  },
-  {
     "ioc": "193.93.228.160",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -9198,13 +10549,6 @@
     "tags": "None"
   },
   {
-    "ioc": "45.183.184.74",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-10 00:47:06",
-    "tags": "None"
-  },
-  {
     "ioc": "39.40.186.7",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -9213,13 +10557,6 @@
   },
   {
     "ioc": "27.207.38.255",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-10 00:32:08",
-    "tags": "None"
-  },
-  {
-    "ioc": "120.28.194.92",
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-10 00:32:08",
@@ -10087,13 +11424,6 @@
     "tags": "None"
   },
   {
-    "ioc": "196.221.145.214",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-09 10:32:07",
-    "tags": "None"
-  },
-  {
     "ioc": "196.189.130.28",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -10252,13 +11582,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-09 07:47:06",
-    "tags": "None"
-  },
-  {
-    "ioc": "101.59.79.119",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-09 07:47:05",
     "tags": "None"
   },
   {
@@ -10707,13 +12030,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-09 01:17:09",
-    "tags": "None"
-  },
-  {
-    "ioc": "222.127.50.108",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-09 01:17:07",
     "tags": "None"
   },
   {
@@ -12044,13 +13360,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-08 06:47:08",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "45.166.188.48",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-08 06:47:07",
     "tags": "mirai"
   },
   {
@@ -14452,13 +15761,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-10-06 23:17:28",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "117.131.92.150",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-06 23:17:26",
     "tags": "mirai"
   },
   {
@@ -17808,13 +19110,6 @@
     "tags": "ContagiousInterview,DPRK,githook"
   },
   {
-    "ioc": "66.205.236.190",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-05 06:23:14",
-    "tags": "32-bit,arm,cowrie,elf,honeypot,mirai"
-  },
-  {
     "ioc": "kdglsj93fdslkg.com",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -19334,13 +20629,6 @@
     "tags": "mirai"
   },
   {
-    "ioc": "112.198.194.175",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-04 09:17:15",
-    "tags": "mirai"
-  },
-  {
     "ioc": "125.42.8.63",
     "type": "domain_or_ip",
     "source": "urlhaus",
@@ -19360,13 +20648,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-04 08:47:10",
     "tags": "None"
-  },
-  {
-    "ioc": "221.214.181.197",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-04 08:35:22",
-    "tags": "32-bit,elf,mips,Mozi"
   },
   {
     "ioc": "182.52.28.20",
@@ -24820,13 +26101,6 @@
     "source": "urlhaus",
     "first_seen": "2026-10-01 12:47:09",
     "tags": "None"
-  },
-  {
-    "ioc": "138.204.196.244",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-10-01 12:47:09",
-    "tags": "mirai"
   },
   {
     "ioc": "116.10.133.88",
@@ -30525,13 +31799,6 @@
     "source": "urlhaus",
     "first_seen": "2026-09-28 09:02:12",
     "tags": "Mozi"
-  },
-  {
-    "ioc": "180.190.200.74",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-28 09:02:11",
-    "tags": "mirai"
   },
   {
     "ioc": "42.177.111.4",
@@ -39359,13 +40626,6 @@
     "source": "urlhaus",
     "first_seen": "2026-09-23 02:17:30",
     "tags": "Mozi"
-  },
-  {
-    "ioc": "45.165.172.92",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-23 02:17:11",
-    "tags": "mirai"
   },
   {
     "ioc": "105.184.7.4",
@@ -49123,1399 +50383,6 @@
     "type": "domain_or_ip",
     "source": "urlhaus",
     "first_seen": "2026-09-16 00:35:39",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "182.117.79.51",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 23:50:17",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "27.215.120.165",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 23:49:19",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "125.44.18.250",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 23:34:22",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "175.165.153.80",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 22:55:14",
-    "tags": "None"
-  },
-  {
-    "ioc": "222.139.41.139",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 22:39:14",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "125.41.78.139",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 22:32:28",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "222.138.151.181",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 22:27:30",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "110.138.2.93",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 22:17:29",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "154.242.14.181",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 22:00:27",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "125.43.24.175",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:57:16",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "182.121.86.104",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:25:27",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "175.175.205.233",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:17:38",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "223.151.72.234",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:14:23",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "105.186.175.32",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:10:23",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "115.52.19.185",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:09:28",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "123.190.195.138",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 21:09:27",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "91.92.42.84",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 20:58:21",
-    "tags": "64-bit,elf,x86-64"
-  },
-  {
-    "ioc": "221.203.184.166",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 20:56:18",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "182.116.115.180",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 20:39:27",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "113.59.1.51",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 20:25:14",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "85.11.167.41",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 18:53:31",
-    "tags": "64-bit,elf,x86-64"
-  },
-  {
-    "ioc": "110.136.53.112",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 18:51:12",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "36.27.76.223",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 18:32:04",
-    "tags": "elf,iot,Mozi"
-  },
-  {
-    "ioc": "86.38.182.156",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 18:31:21",
-    "tags": "elf,iot"
-  },
-  {
-    "ioc": "182.116.12.102",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 18:00:22",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "37.49.225.23",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 17:05:25",
-    "tags": "32-bit,elf,mirai,x86-32"
-  },
-  {
-    "ioc": "219.155.231.171",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 17:04:19",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "105.184.187.73",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 17:01:33",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "123.4.171.86",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 16:51:22",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "182.117.7.153",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 16:32:21",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "115.56.172.115",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 16:27:20",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "125.41.3.155",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 16:22:17",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "222.136.20.146",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 16:22:12",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "114.226.84.162",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 16:01:20",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "109.61.211.193",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:54:16",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "159.69.59.93",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:51:14",
-    "tags": "rat,RemcosRAT,stego"
-  },
-  {
-    "ioc": "204.44.93.123",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:38:11",
-    "tags": "hta,opendir"
-  },
-  {
-    "ioc": "42.226.212.217",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:26:24",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "36.69.70.247",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:22:15",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "get.cativated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:20",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.acttivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:17",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.activatedd.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:17",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.activtaed.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:17",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.ctivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:15",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.sctivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:15",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.activates.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:15",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.actiated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:19:15",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.acrivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:18:11",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "get.acitvated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:18:11",
-    "tags": "ascii,fakemas,powershell,ps1,ua-ps"
-  },
-  {
-    "ioc": "219.155.86.48",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:17:20",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "163.142.94.207",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 15:11:15",
-    "tags": "None"
-  },
-  {
-    "ioc": "175.165.85.14",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 14:35:30",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "123.4.195.120",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 14:08:14",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "125.47.54.47",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 13:55:15",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "uno-play.online",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 13:48:31",
-    "tags": "Electron,spyware,stealer"
-  },
-  {
-    "ioc": "115.51.95.94",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 13:46:18",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "114.226.195.162",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 13:35:21",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "27.215.55.48",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 13:15:16",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "www.2bxvrc1.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 12:52:13",
-    "tags": "SilverFox,ValleyRAT"
-  },
-  {
-    "ioc": "222.137.4.182",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 12:33:21",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "copiose.org",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 12:25:11",
-    "tags": "ClickFix"
-  },
-  {
-    "ioc": "49.73.228.94",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 12:10:23",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "61.53.118.140",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 11:47:12",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "175.11.53.167",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 11:29:18",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "115.63.11.34",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 11:08:22",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "123.14.37.140",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:54:11",
-    "tags": "None"
-  },
-  {
-    "ioc": "docmntageant.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:34:13",
-    "tags": "None"
-  },
-  {
-    "ioc": "125.45.65.90",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:21:13",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "42.86.81.207",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:05:13",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "36.70.100.38",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:35",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "27.37.102.255",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:29",
-    "tags": "None"
-  },
-  {
-    "ioc": "42.238.161.249",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:27",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "60.243.252.219",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:27",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.227.202.242",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.236.213.184",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.224.30.47",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.235.90.147",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "39.187.82.248",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.231.110.122",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "45.163.68.86",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "222.141.113.84",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:26",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "59.96.139.238",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:23",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "27.194.240.129",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "60.23.232.29",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "None"
-  },
-  {
-    "ioc": "58.65.210.30",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "59.96.142.171",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "None"
-  },
-  {
-    "ioc": "60.19.216.218",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "None"
-  },
-  {
-    "ioc": "42.232.81.235",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "61.52.1.179",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "60.23.237.52",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:22",
-    "tags": "None"
-  },
-  {
-    "ioc": "61.52.34.120",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "61.52.198.150",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "112.242.157.83",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "222.138.148.176",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "115.55.57.245",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.7.137.136",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "None"
-  },
-  {
-    "ioc": "42.56.161.20",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "None"
-  },
-  {
-    "ioc": "182.121.142.232",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:21",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "42.55.51.96",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:20",
-    "tags": "None"
-  },
-  {
-    "ioc": "45.148.148.89",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:02:18",
-    "tags": "None"
-  },
-  {
-    "ioc": "119.152.34.90",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:50",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "120.84.212.223",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:46",
-    "tags": "None"
-  },
-  {
-    "ioc": "219.157.60.223",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:45",
-    "tags": "None"
-  },
-  {
-    "ioc": "157.211.251.105",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:43",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "120.84.215.236",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:39",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.51.96.198",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:38",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "175.165.81.26",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:38",
-    "tags": "None"
-  },
-  {
-    "ioc": "182.120.10.236",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "115.58.159.120",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "115.58.36.2",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "210.208.111.2",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "175.147.122.133",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "None"
-  },
-  {
-    "ioc": "123.129.128.124",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "123.9.241.148",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:37",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "175.165.82.24",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:35",
-    "tags": "None"
-  },
-  {
-    "ioc": "109.108.56.174",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:34",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "119.187.249.55",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:34",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "176.239.101.112",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:33",
-    "tags": "None"
-  },
-  {
-    "ioc": "120.84.215.19",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:33",
-    "tags": "None"
-  },
-  {
-    "ioc": "113.228.146.66",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:33",
-    "tags": "None"
-  },
-  {
-    "ioc": "112.248.110.120",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:31",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "123.190.2.234",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:31",
-    "tags": "None"
-  },
-  {
-    "ioc": "119.184.248.39",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:31",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "182.116.38.162",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:31",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "116.138.234.238",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:30",
-    "tags": "None"
-  },
-  {
-    "ioc": "175.165.109.74",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:30",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.52.42.63",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:30",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "115.50.64.96",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:30",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "182.120.38.21",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:30",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "123.173.75.150",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:28",
-    "tags": "None"
-  },
-  {
-    "ioc": "124.94.213.26",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:28",
-    "tags": "None"
-  },
-  {
-    "ioc": "219.157.19.229",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:27",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "109.126.197.13",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:24",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "121.226.176.56",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:22",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "122.241.95.91",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:22",
-    "tags": "None"
-  },
-  {
-    "ioc": "110.86.160.129",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:20",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "113.233.13.192",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:20",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.50.96.62",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:20",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "125.47.108.74",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:20",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "182.119.224.243",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:19",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "182.126.45.81",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:19",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "117.90.54.196",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:19",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "115.56.153.153",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:19",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "125.40.128.130",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:01:19",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "221.200.109.235",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:00:19",
-    "tags": "None"
-  },
-  {
-    "ioc": "105.184.17.134",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:00:17",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "101.108.15.52",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:00:16",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "108.59.215.252",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:00:16",
-    "tags": "None"
-  },
-  {
-    "ioc": "115.63.242.224",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:00:15",
-    "tags": "None"
-  },
-  {
-    "ioc": "110.136.98.236",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 10:00:13",
-    "tags": "None"
-  },
-  {
-    "ioc": "194.59.30.143",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 09:35:17",
-    "tags": "honeypot,ssh"
-  },
-  {
-    "ioc": "110.136.52.230",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 09:24:19",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "37.221.65.76",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 08:25:28",
-    "tags": "elf,mirai,ua-wget"
-  },
-  {
-    "ioc": "61.53.117.208",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 08:03:12",
-    "tags": "Mozi"
-  },
-  {
-    "ioc": "160.250.181.123",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 07:56:21",
-    "tags": "elf,mirai,ua-wget"
-  },
-  {
-    "ioc": "170.233.57.178",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 07:12:12",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "dnswwt.club",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 07:05:29",
-    "tags": "DCAgentRMM,ManageEngine"
-  },
-  {
-    "ioc": "42.225.230.45",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:55:32",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "86.122.231.80",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:08:26",
-    "tags": "cowrie,honeypot,loader-payload"
-  },
-  {
-    "ioc": "5.182.210.61",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:08:26",
-    "tags": "cowrie,honeypot,loader-payload"
-  },
-  {
-    "ioc": "194.59.31.231",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:26",
-    "tags": "honeypot,ssh"
-  },
-  {
-    "ioc": "103.196.161.144",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:26",
-    "tags": "None"
-  },
-  {
-    "ioc": "42.178.61.190",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:21",
-    "tags": "elf,iot,Mozi"
-  },
-  {
-    "ioc": "get.actiavted.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:19",
-    "tags": "fakemas,OverlordRAT,ua-ps"
-  },
-  {
-    "ioc": "contididit.conti.pk",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:18",
-    "tags": "OverlordRAT"
-  },
-  {
-    "ioc": "get.atcivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:18",
-    "tags": "fakemas,OverlordRAT,ua-ps"
-  },
-  {
-    "ioc": "67.205.179.30",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:18",
-    "tags": "elf,mirai"
-  },
-  {
-    "ioc": "get.activatde.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:17",
-    "tags": "fakemas,OverlordRAT,ua-ps"
-  },
-  {
-    "ioc": "get.activeted.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:16",
-    "tags": "fakemas,OverlordRAT,ua-ps"
-  },
-  {
-    "ioc": "zenithclient.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:15",
-    "tags": "jar,minecraft,SilentNet,stealer"
-  },
-  {
-    "ioc": "wizzyaddon.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:15",
-    "tags": "jar,minecraft,SilentNet,stealer"
-  },
-  {
-    "ioc": "meteorclientplus.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:15",
-    "tags": "jar,minecraft,SilentNet,stealer"
-  },
-  {
-    "ioc": "speddebug.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:14",
-    "tags": "jar,minecraft,SilentNet,stealer"
-  },
-  {
-    "ioc": "202.182.127.3",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:13",
-    "tags": "adb,android,malware-download,shell-script"
-  },
-  {
-    "ioc": "x9v2mq4t.bossbey.store",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:12",
-    "tags": "Amos,ClearFake,ClickFix,EtherHiding,FakeCaptcha,macOS"
-  },
-  {
-    "ioc": "q7k2m9xb.us-theeloncode.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:12",
-    "tags": "Amos,ClearFake,ClickFix,EtherHiding,FakeCaptcha,macOS"
-  },
-  {
-    "ioc": "iyn4ce9o.casero.store",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:11",
-    "tags": "Amos,ClearFake,ClickFix,EtherHiding,FakeCaptcha,macOS"
-  },
-  {
-    "ioc": "k3p8wz1n.bvcbx.store",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:07:11",
-    "tags": "Amos,ClearFake,ClickFix,EtherHiding,FakeCaptcha,macOS"
-  },
-  {
-    "ioc": "get.ativated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:23",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "get.activted.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:23",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "get.activaed.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:22",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "massgravel.dev",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:20",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "get.acivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:17",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "get.actvated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:17",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "debloatex.com",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:15",
-    "tags": "malware,pw-123,stealer"
-  },
-  {
-    "ioc": "get.actrivated.win",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 06:06:13",
-    "tags": "fakemas,ua-ps"
-  },
-  {
-    "ioc": "58.47.106.225",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 05:59:14",
-    "tags": "mirai"
-  },
-  {
-    "ioc": "42.6.201.11",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 05:31:16",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "112.246.112.31",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 05:14:12",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "221.203.182.29",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 04:52:23",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "101.108.96.80",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 04:49:16",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "105.186.160.251",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 02:56:23",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "59.180.159.83",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 02:22:37",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "119.191.237.76",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 01:50:17",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "216.126.86.68",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 01:48:17",
-    "tags": "32-bit,arm,elf,mirai,Mozi"
-  },
-  {
-    "ioc": "113.239.253.191",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 01:31:19",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "27.44.144.176",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 01:01:21",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "59.96.137.7",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 00:41:21",
-    "tags": "32-bit,elf,mips,Mozi"
-  },
-  {
-    "ioc": "42.52.88.206",
-    "type": "domain_or_ip",
-    "source": "urlhaus",
-    "first_seen": "2026-09-15 00:06:19",
     "tags": "32-bit,elf,mips,Mozi"
   }
 ]
