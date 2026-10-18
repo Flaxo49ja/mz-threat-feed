@@ -1,5 +1,12 @@
 [
   {
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "source": "The Hacker News",
+    "date": "2026-10-17",
+    "excerpt": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of"
+  },
+  {
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
     "source": "The Hacker News",
@@ -11,7 +18,7 @@
     "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
     "source": "The Hacker News",
     "date": "2026-10-16",
-    "excerpt": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped"
+    "excerpt": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped"
   },
   {
     "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
@@ -98,11 +105,18 @@
     "excerpt": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting"
   },
   {
-    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-    "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-    "source": "The Hacker News",
-    "date": "2026-10-15",
-    "excerpt": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could"
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "source": "BleepingComputer",
+    "date": "2026-10-17",
+    "excerpt": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]"
+  },
+  {
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "source": "BleepingComputer",
+    "date": "2026-10-17",
+    "excerpt": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]"
   },
   {
     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -196,18 +210,11 @@
     "excerpt": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]"
   },
   {
-    "title": "Police arrests 95 suspects in international CSAM crackdown action",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-    "source": "BleepingComputer",
-    "date": "2026-10-15",
-    "excerpt": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online messaging groups. [...]"
-  },
-  {
-    "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-    "source": "BleepingComputer",
-    "date": "2026-10-15",
-    "excerpt": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]"
+    "title": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
+    "link": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+    "source": "SecurityWeek",
+    "date": "2026-10-17",
+    "excerpt": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek ."
   },
   {
     "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
@@ -273,13 +280,6 @@
     "excerpt": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Watch Now: Zero Trust Strategies Summit &#8211; All Sessions Available on Demand appeared first on SecurityWeek ."
   },
   {
-    "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
-    "link": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
-    "source": "SecurityWeek",
-    "date": "2026-10-15",
-    "excerpt": "Most of the data is related to applications, claims, and payments submitted between 2007 and 2025. The post UK Legal Aid Agency Hack Scope Widens After Forensic Review appeared first on SecurityWeek ."
-  },
-  {
     "title": "Proofpoint lines up $6.3 billion deal for Varonis\u2019 data security",
     "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
     "source": "The Record",
@@ -315,25 +315,11 @@
     "excerpt": "The incident, which involved a government contractor, has halted all production of bankruptcy notices."
   },
   {
-    "title": "Why Is Mastercard (MA) Expanding Into Africa Cybersecurity And Asia Pacific Fleet Payments? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPckZhLTNXRFpOSnRHaFFPTnhLLUVxRjJpbkN6Wl9Dbzd0cG9CbFdqX3hueEdZYllnR0xwLUFYT2kydWZiV2JDZnlobFJMRW1xdVJGRnFvOHk4M0hER1BSMzg3cWpoYk1PZ0lRMGU3bjZaQWo1SnpNREtnYktKU0ZZbkM1eDhvNHBXNG5kMjY2Q19jV2VMMnJyX2gwWFdiYTZY?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-13",
-    "excerpt": "Why Is Mastercard (MA) Expanding Into Africa Cybersecurity And Asia Pacific Fleet Payments? Yahoo Finance"
-  },
-  {
     "title": "Liquid C2 Partners with KnowBe4 to Strengthen Workforce Cybersecurity Across Africa - TechAfrica News",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmxOblhaTXhTVUtBWnZBS3prRnJ4bHgxWURKTjIwQXcycUVpZGZndjVYem13enk2YXlaa05nODNjQmxZVHZsM1YyRFV6bzVvS2pkbGFVOWNPZzFZblZaQXl4akpBQUNLQVVueUV6bnFnOGpCb1RERmpKb3RsSk5JWjAzeDVZWDNKdk1jMDVKd3I1NVgwRmwzVmc1aDkzYm9OUkpXdXBELVlDMUZWMDFCdmlhUWpGQnJVX2QxaDdSOA?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-13",
     "excerpt": "Liquid C2 Partners with KnowBe4 to Strengthen Workforce Cybersecurity Across Africa TechAfrica News"
-  },
-  {
-    "title": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance - CircleID",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLU1LT0t0dVRzTTFEeEEzQkY4UlFjS1Z5R2RlSmRPQ1RDc1VIQ2pCOWQtTmEtSXY1RFNIRnZSTFBtZEtsQUh6M1lXMkFEelZ0eVYyMWE0aUFDM2FjWHpTUkt3WGJoeU9BQXB1OTVodk1IY2hMbUV4ZW43Z2NoZGd3aWI5Q2d2YVQxUnpab0hraHZQOGhhMWZ1eGNvVXlNLUd6YlVpdG85bnZMYVBhbDlxOA?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID"
   },
   {
     "title": "Chad courts Russian investors as Moscow offers cybersecurity and digital expertise - Business Insider Africa",
@@ -343,11 +329,11 @@
     "excerpt": "Chad courts Russian investors as Moscow offers cybersecurity and digital expertise Business Insider Africa"
   },
   {
-    "title": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart - Tech Build Africa",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tSGJsSTZ0eXR4RmN4eU9MTUZRSVI3VUtSZl9xNjdMeTVXNUZpQXFVLVVqWkxqV0RmYm5CcWpXb0p1dzE3dlN5S2szSFRwQm9NMVd5akNzUDU2RmlibE1PeUdyMlI1QURrbHdBUkJILTgyMFNKS3V4NWdMc2o4enc?oc=5",
+    "title": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance - CircleID",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLU1LT0t0dVRzTTFEeEEzQkY4UlFjS1Z5R2RlSmRPQ1RDc1VIQ2pCOWQtTmEtSXY1RFNIRnZSTFBtZEtsQUh6M1lXMkFEelZ0eVYyMWE0aUFDM2FjWHpTUkt3WGJoeU9BQXB1OTVodk1IY2hMbUV4ZW43Z2NoZGd3aWI5Q2d2YVQxUnpab0hraHZQOGhhMWZ1eGNvVXlNLUd6YlVpdG85bnZMYVBhbDlxOA?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-16",
-    "excerpt": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart Tech Build Africa"
+    "date": "2026-10-12",
+    "excerpt": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID"
   },
   {
     "title": "SADC STRENGTHENS REGIONAL CYBERSECURITY AND CYBERCRIME COOPERATION - SADC",
@@ -357,11 +343,11 @@
     "excerpt": "SADC STRENGTHENS REGIONAL CYBERSECURITY AND CYBERCRIME COOPERATION SADC"
   },
   {
-    "title": "Cyberattacks Target Morocco\u2019s Europe\u2013Africa Data Link - CIO Africa",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pTHU3S2E1Y2RySUVtY2Q1X2V0b00xWmVmbjVhMDN3eGhiUlR0NEdSTUE1WW42a2dHN0lGdVBHTHdrS1M1MW1yZXMxMkNMYjBBWjc3V0F1ZXV4R1ZQWnN0VEY5N0lCM21vaEExWWJwbEFDZmQwVjh3RDBVTnBtQk0?oc=5",
+    "title": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart - Tech Build Africa",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tSGJsSTZ0eXR4RmN4eU9MTUZRSVI3VUtSZl9xNjdMeTVXNUZpQXFVLVVqWkxqV0RmYm5CcWpXb0p1dzE3dlN5S2szSFRwQm9NMVd5akNzUDU2RmlibE1PeUdyMlI1QURrbHdBUkJILTgyMFNKS3V4NWdMc2o4enc?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-16",
-    "excerpt": "Cyberattacks Target Morocco\u2019s Europe\u2013Africa Data Link CIO Africa"
+    "excerpt": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart Tech Build Africa"
   },
   {
     "title": "French supermarket freezer hack exposes blind spots for African retail cybersecurity - Capmad",
@@ -378,11 +364,11 @@
     "excerpt": "Morocco Calls for Stronger African Cooperation on Cybersecurity Morocco World News"
   },
   {
-    "title": "Mobile money boom raises cybersecurity risks, Mastercard warns - Capital FM Africa",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0tIUUN4dVltVkNOT1JoeW9GWTRETDFTUllaM1NkaDB0Tm5CNldvRXlpektEeDFWMTVmSkprTlppeklPaDZsWGRsMVRzeEZPZUVDOTdkV193a3g2SU9wbWM2N3FMUW9kODBvOTJoTTBFckszLWNQUW4zYU1PNEhPdGFBVjBHRm1l?oc=5",
+    "title": "SADC strengthens cybersecurity framework at Luanda summit - Channel Africa",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXhMWnVUcGZ5Q1FqY1hocGNPa3VGMjAtQnRGR1NzcFl3cEk1MVB1LWtob1hhcERPSl9hZGROLS00dzlVMVR4djlPbFVkR0p3MEt1ZmRxX09mNFFibXExNVZEX3J0U3ZONHM0NnQ0ZDhIT1h2aXR5ZUNZdUFCZkJlc2tSbkkzNVlfaXlPMzRjcTZad0kyeDcta0ZMcDVGc2VGT0dJdXNScWt5NmxMa1E?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa"
+    "date": "2026-10-17",
+    "excerpt": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa"
   },
   {
     "title": "Why cybersecurity is now a national security issue for South Africa - TechCentral",
@@ -392,11 +378,11 @@
     "excerpt": "Why cybersecurity is now a national security issue for South Africa TechCentral"
   },
   {
-    "title": "Mozambique: Government updating national cybersecurity strategy - CLUB OF MOZAMBIQUE",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0pYYnYtRjFCbzRYbUx1T1gzVU5tc3BnRjVETHdBbFBoVzIzbTNVdmNLZkhwalA4TWNSVF8wTFUxVm9JcE9RXzlxWmVrdnp1Znhlc1hET2RPdHYwY285elhRbjNBaEZXVkI2bGFGXzZSX1BSU0hIbVpJbFRCV0laY0hpOGZ4Rmg1Szg4d2tVeFVaTFlvek9ScHNrNEZaQQ?oc=5",
+    "title": "Mobile money boom raises cybersecurity risks, Mastercard warns - Capital FM Africa",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0tIUUN4dVltVkNOT1JoeW9GWTRETDFTUllaM1NkaDB0Tm5CNldvRXlpektEeDFWMTVmSkprTlppeklPaDZsWGRsMVRzeEZPZUVDOTdkV193a3g2SU9wbWM2N3FMUW9kODBvOTJoTTBFckszLWNQUW4zYU1PNEhPdGFBVjBHRm1l?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-12",
-    "excerpt": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE"
+    "excerpt": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa"
   },
   {
     "title": "BMA Industry Report: Experts Warn Of Critical Cybersecurity Risks Facing Africa\u2019s Broadcasters - Broadcast Media Africa",
@@ -406,11 +392,11 @@
     "excerpt": "BMA Industry Report: Experts Warn Of Critical Cybersecurity Risks Facing Africa\u2019s Broadcasters Broadcast Media Africa"
   },
   {
-    "title": "Liquid C2 adds KnowBe4 security training to Secure360 - tech dot africa",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pYTJFYks3TXpIX3RKcFVLLS1hM28yRmY1Qld1WG85cjZGT1FBVnk1aE5pV05rd3RXQ2pKSHE3U1BSakNCRmJxaXNuOUYtWEdfMmVHdUhvRnVuX3cwdWtKUF9pbW1qQ3M3?oc=5",
+    "title": "Mozambique: Government updating national cybersecurity strategy - CLUB OF MOZAMBIQUE",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0pYYnYtRjFCbzRYbUx1T1gzVU5tc3BnRjVETHdBbFBoVzIzbTNVdmNLZkhwalA4TWNSVF8wTFUxVm9JcE9RXzlxWmVrdnp1Znhlc1hET2RPdHYwY285elhRbjNBaEZXVkI2bGFGXzZSX1BSU0hIbVpJbFRCV0laY0hpOGZ4Rmg1Szg4d2tVeFVaTFlvek9ScHNrNEZaQQ?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-16",
-    "excerpt": "Liquid C2 adds KnowBe4 security training to Secure360 tech dot africa"
+    "date": "2026-10-12",
+    "excerpt": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE"
   },
   {
     "title": "Fatou Bensouda: Treated \u2018like a criminal\u2019 for pursuing the world\u2019s most powerful",

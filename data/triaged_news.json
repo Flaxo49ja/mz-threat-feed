@@ -1,5 +1,26 @@
 [
   {
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "source": "The Hacker News",
+    "date": "2026-10-17",
+    "excerpt": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "windows"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
     "source": "The Hacker News",
@@ -25,12 +46,12 @@
     "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
     "source": "The Hacker News",
     "date": "2026-10-16",
-    "excerpt": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+    "excerpt": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -276,21 +297,42 @@
     "backend": "heuristic"
   },
   {
-    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-    "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-    "source": "The Hacker News",
-    "date": "2026-10-15",
-    "excerpt": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "source": "BleepingComputer",
+    "date": "2026-10-17",
+    "excerpt": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects nginx \u2014 widely deployed in under-resourced organizations \u2014 via rce.",
-      "category": "vulnerability",
-      "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit.",
-      "why_it_matters_africa": "If you run nginx, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevance_reason": "Affects microsoft 365 \u2014 widely deployed in under-resourced organizations \u2014 via breach.",
+      "category": "breach",
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "why_it_matters_africa": "If you run microsoft 365, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "nginx",
-        "rce"
+        "microsoft 365",
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "source": "BleepingComputer",
+    "date": "2026-10-17",
+    "excerpt": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects drupal \u2014 widely deployed in under-resourced organizations \u2014 via rce, attackers.",
+      "category": "vulnerability",
+      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "why_it_matters_africa": "If you run drupal, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "drupal",
+        "rce",
+        "attackers"
       ]
     },
     "backend": "heuristic"
@@ -553,39 +595,20 @@
     "backend": "heuristic"
   },
   {
-    "title": "Police arrests 95 suspects in international CSAM crackdown action",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-    "source": "BleepingComputer",
-    "date": "2026-10-15",
-    "excerpt": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online messaging groups. [...]",
+    "title": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
+    "link": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+    "source": "SecurityWeek",
+    "date": "2026-10-17",
+    "excerpt": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online messaging groups. [...]",
+      "summary": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-    "source": "BleepingComputer",
-    "date": "2026-10-15",
-    "excerpt": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "windows"
+        "threat-actors"
       ]
     },
     "backend": "heuristic"
@@ -765,25 +788,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
-    "link": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
-    "source": "SecurityWeek",
-    "date": "2026-10-15",
-    "excerpt": "Most of the data is related to applications, claims, and payments submitted between 2007 and 2025. The post UK Legal Aid Agency Hack Scope Widens After Forensic Review appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Most of the data is related to applications, claims, and payments submitted between 2007 and 2025. The post UK Legal Aid Agency Hack Scope Widens After Forensic Review appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Proofpoint lines up $6.3 billion deal for Varonis\u2019 data security",
     "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
     "source": "The Record",
@@ -882,25 +886,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Why Is Mastercard (MA) Expanding Into Africa Cybersecurity And Asia Pacific Fleet Payments? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPckZhLTNXRFpOSnRHaFFPTnhLLUVxRjJpbkN6Wl9Dbzd0cG9CbFdqX3hueEdZYllnR0xwLUFYT2kydWZiV2JDZnlobFJMRW1xdVJGRnFvOHk4M0hER1BSMzg3cWpoYk1PZ0lRMGU3bjZaQWo1SnpNREtnYktKU0ZZbkM1eDhvNHBXNG5kMjY2Q19jV2VMMnJyX2gwWFdiYTZY?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-13",
-    "excerpt": "Why Is Mastercard (MA) Expanding Into Africa Cybersecurity And Asia Pacific Fleet Payments? Yahoo Finance",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Why Is Mastercard (MA) Expanding Into Africa Cybersecurity And Asia Pacific Fleet Payments? Yahoo Finance",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Liquid C2 Partners with KnowBe4 to Strengthen Workforce Cybersecurity Across Africa - TechAfrica News",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmxOblhaTXhTVUtBWnZBS3prRnJ4bHgxWURKTjIwQXcycUVpZGZndjVYem13enk2YXlaa05nODNjQmxZVHZsM1YyRFV6bzVvS2pkbGFVOWNPZzFZblZaQXl4akpBQUNLQVVueUV6bnFnOGpCb1RERmpKb3RsSk5JWjAzeDVZWDNKdk1jMDVKd3I1NVgwRmwzVmc1aDkzYm9OUkpXdXBELVlDMUZWMDFCdmlhUWpGQnJVX2QxaDdSOA?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -911,25 +896,6 @@
       "relevance_reason": "Security story involving africa, directly relevant to the region.",
       "category": "other",
       "summary": "Liquid C2 Partners with KnowBe4 to Strengthen Workforce Cybersecurity Across Africa TechAfrica News",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance - CircleID",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLU1LT0t0dVRzTTFEeEEzQkY4UlFjS1Z5R2RlSmRPQ1RDc1VIQ2pCOWQtTmEtSXY1RFNIRnZSTFBtZEtsQUh6M1lXMkFEelZ0eVYyMWE0aUFDM2FjWHpTUkt3WGJoeU9BQXB1OTVodk1IY2hMbUV4ZW43Z2NoZGd3aWI5Q2d2YVQxUnpab0hraHZQOGhhMWZ1eGNvVXlNLUd6YlVpdG85bnZMYVBhbDlxOA?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID",
       "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [],
       "suggested_tags": [
@@ -960,17 +926,17 @@
     "backend": "heuristic"
   },
   {
-    "title": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart - Tech Build Africa",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tSGJsSTZ0eXR4RmN4eU9MTUZRSVI3VUtSZl9xNjdMeTVXNUZpQXFVLVVqWkxqV0RmYm5CcWpXb0p1dzE3dlN5S2szSFRwQm9NMVd5akNzUDU2RmlibE1PeUdyMlI1QURrbHdBUkJILTgyMFNKS3V4NWdMc2o4enc?oc=5",
+    "title": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance - CircleID",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLU1LT0t0dVRzTTFEeEEzQkY4UlFjS1Z5R2RlSmRPQ1RDc1VIQ2pCOWQtTmEtSXY1RFNIRnZSTFBtZEtsQUh6M1lXMkFEelZ0eVYyMWE0aUFDM2FjWHpTUkt3WGJoeU9BQXB1OTVodk1IY2hMbUV4ZW43Z2NoZGd3aWI5Q2d2YVQxUnpab0hraHZQOGhhMWZ1eGNvVXlNLUd6YlVpdG85bnZMYVBhbDlxOA?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-16",
-    "excerpt": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart Tech Build Africa",
+    "date": "2026-10-12",
+    "excerpt": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
       "category": "other",
-      "summary": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart Tech Build Africa",
-      "why_it_matters_africa": "",
+      "summary": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [],
       "suggested_tags": [
         "africa"
@@ -998,23 +964,20 @@
     "backend": "heuristic"
   },
   {
-    "title": "Cyberattacks Target Morocco\u2019s Europe\u2013Africa Data Link - CIO Africa",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pTHU3S2E1Y2RySUVtY2Q1X2V0b00xWmVmbjVhMDN3eGhiUlR0NEdSTUE1WW42a2dHN0lGdVBHTHdrS1M1MW1yZXMxMkNMYjBBWjc3V0F1ZXV4R1ZQWnN0VEY5N0lCM21vaEExWWJwbEFDZmQwVjh3RDBVTnBtQk0?oc=5",
+    "title": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart - Tech Build Africa",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tSGJsSTZ0eXR4RmN4eU9MTUZRSVI3VUtSZl9xNjdMeTVXNUZpQXFVLVVqWkxqV0RmYm5CcWpXb0p1dzE3dlN5S2szSFRwQm9NMVd5akNzUDU2RmlibE1PeUdyMlI1QURrbHdBUkJILTgyMFNKS3V4NWdMc2o4enc?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-16",
-    "excerpt": "Cyberattacks Target Morocco\u2019s Europe\u2013Africa Data Link CIO Africa",
+    "excerpt": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart Tech Build Africa",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, morocco, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "Cyberattacks Target Morocco\u2019s Europe\u2013Africa Data Link CIO Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [
-        "MA"
-      ],
+      "summary": "Cybersecurity Awareness Month: Junior Achievement (JA) Africa Launches CyberSmart Tech Build Africa",
+      "why_it_matters_africa": "",
+      "countries": [],
       "suggested_tags": [
-        "africa",
-        "morocco"
+        "africa"
       ]
     },
     "backend": "heuristic"
@@ -1062,20 +1025,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "Mobile money boom raises cybersecurity risks, Mastercard warns - Capital FM Africa",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0tIUUN4dVltVkNOT1JoeW9GWTRETDFTUllaM1NkaDB0Tm5CNldvRXlpektEeDFWMTVmSkprTlppeklPaDZsWGRsMVRzeEZPZUVDOTdkV193a3g2SU9wbWM2N3FMUW9kODBvOTJoTTBFckszLWNQUW4zYU1PNEhPdGFBVjBHRm1l?oc=5",
+    "title": "SADC strengthens cybersecurity framework at Luanda summit - Channel Africa",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXhMWnVUcGZ5Q1FqY1hocGNPa3VGMjAtQnRGR1NzcFl3cEk1MVB1LWtob1hhcERPSl9hZGROLS00dzlVMVR4djlPbFVkR0p3MEt1ZmRxX09mNFFibXExNVZEX3J0U3ZONHM0NnQ0ZDhIT1h2aXR5ZUNZdUFCZkJlc2tSbkkzNVlfaXlPMzRjcTZad0kyeDcta0ZMcDVGc2VGT0dJdXNScWt5NmxMa1E?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa",
+    "date": "2026-10-17",
+    "excerpt": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
+      "summary": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa",
+      "why_it_matters_africa": "",
+      "countries": [
+        "AO"
+      ],
       "suggested_tags": [
-        "africa"
+        "africa",
+        "sadc"
       ]
     },
     "backend": "heuristic"
@@ -1103,22 +1069,20 @@
     "backend": "heuristic"
   },
   {
-    "title": "Mozambique: Government updating national cybersecurity strategy - CLUB OF MOZAMBIQUE",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0pYYnYtRjFCbzRYbUx1T1gzVU5tc3BnRjVETHdBbFBoVzIzbTNVdmNLZkhwalA4TWNSVF8wTFUxVm9JcE9RXzlxWmVrdnp1Znhlc1hET2RPdHYwY285elhRbjNBaEZXVkI2bGFGXzZSX1BSU0hIbVpJbFRCV0laY0hpOGZ4Rmg1Szg4d2tVeFVaTFlvek9ScHNrNEZaQQ?oc=5",
+    "title": "Mobile money boom raises cybersecurity risks, Mastercard warns - Capital FM Africa",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0tIUUN4dVltVkNOT1JoeW9GWTRETDFTUllaM1NkaDB0Tm5CNldvRXlpektEeDFWMTVmSkprTlppeklPaDZsWGRsMVRzeEZPZUVDOTdkV193a3g2SU9wbWM2N3FMUW9kODBvOTJoTTBFckszLWNQUW4zYU1PNEhPdGFBVjBHRm1l?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-12",
-    "excerpt": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE",
+    "excerpt": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Security story involving mozambique, directly relevant to the region.",
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
       "category": "other",
-      "summary": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE",
-      "why_it_matters_africa": "Regional story: organizations in Mozambique should check whether the described exposure or technique applies to their own systems.",
-      "countries": [
-        "MZ"
-      ],
+      "summary": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
       "suggested_tags": [
-        "mozambique"
+        "africa"
       ]
     },
     "backend": "heuristic"
@@ -1143,20 +1107,22 @@
     "backend": "heuristic"
   },
   {
-    "title": "Liquid C2 adds KnowBe4 security training to Secure360 - tech dot africa",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pYTJFYks3TXpIX3RKcFVLLS1hM28yRmY1Qld1WG85cjZGT1FBVnk1aE5pV05rd3RXQ2pKSHE3U1BSakNCRmJxaXNuOUYtWEdfMmVHdUhvRnVuX3cwdWtKUF9pbW1qQ3M3?oc=5",
+    "title": "Mozambique: Government updating national cybersecurity strategy - CLUB OF MOZAMBIQUE",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0pYYnYtRjFCbzRYbUx1T1gzVU5tc3BnRjVETHdBbFBoVzIzbTNVdmNLZkhwalA4TWNSVF8wTFUxVm9JcE9RXzlxWmVrdnp1Znhlc1hET2RPdHYwY285elhRbjNBaEZXVkI2bGFGXzZSX1BSU0hIbVpJbFRCV0laY0hpOGZ4Rmg1Szg4d2tVeFVaTFlvek9ScHNrNEZaQQ?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-16",
-    "excerpt": "Liquid C2 adds KnowBe4 security training to Secure360 tech dot africa",
+    "date": "2026-10-12",
+    "excerpt": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevant": true,
+      "relevance_reason": "Security story involving mozambique, directly relevant to the region.",
       "category": "other",
-      "summary": "Liquid C2 adds KnowBe4 security training to Secure360 tech dot africa",
-      "why_it_matters_africa": "",
-      "countries": [],
+      "summary": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE",
+      "why_it_matters_africa": "Regional story: organizations in Mozambique should check whether the described exposure or technique applies to their own systems.",
+      "countries": [
+        "MZ"
+      ],
       "suggested_tags": [
-        "africa"
+        "mozambique"
       ]
     },
     "backend": "heuristic"
