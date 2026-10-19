@@ -1,5 +1,66 @@
 [
   {
+    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+    "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+    "source": "The Hacker News",
+    "date": "2026-10-19",
+    "excerpt": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "unpatched",
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+    "source": "The Hacker News",
+    "date": "2026-10-19",
+    "excerpt": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "breach",
+        "exposed"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "source": "The Hacker News",
+    "date": "2026-10-18",
+    "excerpt": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects microsoft 365 \u2014 widely deployed in under-resourced organizations \u2014 via attackers, threat actors.",
+      "category": "policy_regulation",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
+      "why_it_matters_africa": "If you run microsoft 365, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "microsoft 365",
+        "attackers",
+        "threat-actors"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
     "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
     "source": "The Hacker News",
@@ -240,58 +301,39 @@
     "backend": "heuristic"
   },
   {
-    "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-    "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-    "source": "The Hacker News",
-    "date": "2026-10-15",
-    "excerpt": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Citizen Lab said Thursday. The hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background. The Citizen",
+    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+    "source": "BleepingComputer",
+    "date": "2026-10-19",
+    "excerpt": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Citizen Lab said Thursday. The hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background.",
+      "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "news"
+        "exchange server"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-    "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-    "source": "The Hacker News",
-    "date": "2026-10-15",
-    "excerpt": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives",
+    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+    "source": "BleepingComputer",
+    "date": "2026-10-18",
+    "excerpt": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives",
+      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "powershell"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-    "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-    "source": "The Hacker News",
-    "date": "2026-10-15",
-    "excerpt": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "php"
+        "attackers"
       ]
     },
     "backend": "heuristic"
@@ -557,16 +599,16 @@
     "backend": "heuristic"
   },
   {
-    "title": "Is AI pentesting as good as a human pentester?",
-    "link": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
-    "source": "BleepingComputer",
-    "date": "2026-10-15",
-    "excerpt": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security testing. [...]",
+    "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+    "link": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
+    "source": "SecurityWeek",
+    "date": "2026-10-19",
+    "excerpt": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware. The post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security testing.",
+      "summary": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware. The post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -576,20 +618,20 @@
     "backend": "heuristic"
   },
   {
-    "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-    "source": "BleepingComputer",
-    "date": "2026-10-15",
-    "excerpt": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
+    "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+    "link": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+    "source": "SecurityWeek",
+    "date": "2026-10-18",
+    "excerpt": "CyberSN\u2019s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It\u2019s a mixed bag. The post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
+      "summary": "CyberSN\u2019s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It\u2019s a mixed bag.",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "windows"
+        "news"
       ]
     },
     "backend": "heuristic"
@@ -750,44 +792,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Context Is King in the Fight Against Modern Cyberattacks",
-    "link": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
-    "source": "SecurityWeek",
-    "date": "2026-10-15",
-    "excerpt": "Contextual defense helps security teams connect the signals, anticipate what comes next, and stop threats before they escalate. The post Context Is King in the Fight Against Modern Cyberattacks appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Contextual defense helps security teams connect the signals, anticipate what comes next, and stop threats before they escalate. The post Context Is King in the Fight Against Modern Cyberattacks appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Watch Now: Zero Trust Strategies Summit \u2013 All Sessions Available on Demand",
-    "link": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
-    "source": "SecurityWeek",
-    "date": "2026-10-15",
-    "excerpt": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Watch Now: Zero Trust Strategies Summit &#8211; All Sessions Available on Demand appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Watch Now: Zero Trust Strategies Summit &#8211; All Sessions Available on Demand appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Proofpoint lines up $6.3 billion deal for Varonis\u2019 data security",
     "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
     "source": "The Record",
@@ -926,25 +930,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance - CircleID",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLU1LT0t0dVRzTTFEeEEzQkY4UlFjS1Z5R2RlSmRPQ1RDc1VIQ2pCOWQtTmEtSXY1RFNIRnZSTFBtZEtsQUh6M1lXMkFEelZ0eVYyMWE0aUFDM2FjWHpTUkt3WGJoeU9BQXB1OTVodk1IY2hMbUV4ZW43Z2NoZGd3aWI5Q2d2YVQxUnpab0hraHZQOGhhMWZ1eGNvVXlNLUd6YlVpdG85bnZMYVBhbDlxOA?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Africa\u2019s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance CircleID",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "SADC STRENGTHENS REGIONAL CYBERSECURITY AND CYBERCRIME COOPERATION - SADC",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3BQZ0V6QzBHaGZScml2VkNFQ1hPa3BIcm9zQmJQTU9HZlFFVTBXZ2MwcGY0bG9DWTZ6QW5jVDRBMU12RDNRQXc3YklmZFROcWo4U2dxY1Zmdi1HOVlMcnRYX1VCOENHelVySUJtQXJReUoxa1FFWXhaWGhGSFkwc2E0Z0xGbVU0TFdYekpweEwzOHZtX25RTWdITmhKSDdQ?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -983,21 +968,20 @@
     "backend": "heuristic"
   },
   {
-    "title": "French supermarket freezer hack exposes blind spots for African retail cybersecurity - Capmad",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYU1xN0tFSTdCWk1tMWVhZjdRbEh4cnB6UHZNZTZIaVV5WGVnUmM0RDAwcHdaazkxQlRpTjhYeGFuNHpoemtQaEhPSG1vQXBFc0RsNm9FdGVoamlTTVp6T1prVjl0QjR6a2RDRU5WRWJDeVJXRXdaT3Q4el9FV0c0bUtTa1VTVUtmSVVCODdmd1lTUVFfdnhGeTBKRkwyUl9QUExGZkxmc2U0N1ZBY3VCdlp3?oc=5",
+    "title": "JA Africa Rolls out digital safety training - Africa Business Communities",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUZKQWFhMFotaXZDek9ueEJpR0lFNG9uTVRCYkhwYTRsbTZDWkh5WjEtT3AyaUFmMjMySGdfUGdLWXVwLWFKeXNtLXdmVld5VmFnLXJqWlhGSUkzUVZ0RUhJcVlfTExDVnB4dEt4dmJUTkJkMUNRam9nM3pBS0h4WG0tZ2kyYVNCM1loYm1FaTRrbXUx?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-14",
-    "excerpt": "French supermarket freezer hack exposes blind spots for African retail cybersecurity Capmad",
+    "date": "2026-10-17",
+    "excerpt": "JA Africa Rolls out digital safety training Africa Business Communities",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, african, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "French supermarket freezer hack exposes blind spots for African retail cybersecurity Capmad",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "summary": "JA Africa Rolls out digital safety training Africa Business Communities",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "africa",
-        "african"
+        "africa"
       ]
     },
     "backend": "heuristic"
@@ -1025,23 +1009,21 @@
     "backend": "heuristic"
   },
   {
-    "title": "SADC strengthens cybersecurity framework at Luanda summit - Channel Africa",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXhMWnVUcGZ5Q1FqY1hocGNPa3VGMjAtQnRGR1NzcFl3cEk1MVB1LWtob1hhcERPSl9hZGROLS00dzlVMVR4djlPbFVkR0p3MEt1ZmRxX09mNFFibXExNVZEX3J0U3ZONHM0NnQ0ZDhIT1h2aXR5ZUNZdUFCZkJlc2tSbkkzNVlfaXlPMzRjcTZad0kyeDcta0ZMcDVGc2VGT0dJdXNScWt5NmxMa1E?oc=5",
+    "title": "French supermarket freezer hack exposes blind spots for African retail cybersecurity - Capmad",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYU1xN0tFSTdCWk1tMWVhZjdRbEh4cnB6UHZNZTZIaVV5WGVnUmM0RDAwcHdaazkxQlRpTjhYeGFuNHpoemtQaEhPSG1vQXBFc0RsNm9FdGVoamlTTVp6T1prVjl0QjR6a2RDRU5WRWJDeVJXRXdaT3Q4el9FV0c0bUtTa1VTVUtmSVVCODdmd1lTUVFfdnhGeTBKRkwyUl9QUExGZkxmc2U0N1ZBY3VCdlp3?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-17",
-    "excerpt": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa",
+    "date": "2026-10-14",
+    "excerpt": "French supermarket freezer hack exposes blind spots for African retail cybersecurity Capmad",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, african, directly relevant to the region.",
       "category": "other",
-      "summary": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa",
-      "why_it_matters_africa": "",
-      "countries": [
-        "AO"
-      ],
+      "summary": "French supermarket freezer hack exposes blind spots for African retail cybersecurity Capmad",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
       "suggested_tags": [
         "africa",
-        "sadc"
+        "african"
       ]
     },
     "backend": "heuristic"
@@ -1069,20 +1051,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "Mobile money boom raises cybersecurity risks, Mastercard warns - Capital FM Africa",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0tIUUN4dVltVkNOT1JoeW9GWTRETDFTUllaM1NkaDB0Tm5CNldvRXlpektEeDFWMTVmSkprTlppeklPaDZsWGRsMVRzeEZPZUVDOTdkV193a3g2SU9wbWM2N3FMUW9kODBvOTJoTTBFckszLWNQUW4zYU1PNEhPdGFBVjBHRm1l?oc=5",
+    "title": "SADC strengthens cybersecurity framework at Luanda summit - Channel Africa",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXhMWnVUcGZ5Q1FqY1hocGNPa3VGMjAtQnRGR1NzcFl3cEk1MVB1LWtob1hhcERPSl9hZGROLS00dzlVMVR4djlPbFVkR0p3MEt1ZmRxX09mNFFibXExNVZEX3J0U3ZONHM0NnQ0ZDhIT1h2aXR5ZUNZdUFCZkJlc2tSbkkzNVlfaXlPMzRjcTZad0kyeDcta0ZMcDVGc2VGT0dJdXNScWt5NmxMa1E?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa",
+    "date": "2026-10-17",
+    "excerpt": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "Mobile money boom raises cybersecurity risks, Mastercard warns Capital FM Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
+      "summary": "SADC strengthens cybersecurity framework at Luanda summit Channel Africa",
+      "why_it_matters_africa": "",
+      "countries": [
+        "AO"
+      ],
       "suggested_tags": [
-        "africa"
+        "africa",
+        "sadc"
       ]
     },
     "backend": "heuristic"
@@ -1107,22 +1092,44 @@
     "backend": "heuristic"
   },
   {
-    "title": "Mozambique: Government updating national cybersecurity strategy - CLUB OF MOZAMBIQUE",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0pYYnYtRjFCbzRYbUx1T1gzVU5tc3BnRjVETHdBbFBoVzIzbTNVdmNLZkhwalA4TWNSVF8wTFUxVm9JcE9RXzlxWmVrdnp1Znhlc1hET2RPdHYwY285elhRbjNBaEZXVkI2bGFGXzZSX1BSU0hIbVpJbFRCV0laY0hpOGZ4Rmg1Szg4d2tVeFVaTFlvek9ScHNrNEZaQQ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-12",
-    "excerpt": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE",
+    "title": "South Sudan: Salva Kiir dissolves government after seizing control of state revenue",
+    "link": "https://www.theafricareport.com/433835/south-sudan-salva-kiir-dissolves-government-after-seizing-control-of-state-revenue/",
+    "source": "The Africa Report",
+    "date": "2026-10-19",
+    "excerpt": "South Sudan\u2019s political crisis is deepening as scrutiny grows over a private company\u2019s control of state tax revenue. At the centre is a business network linked to President Salva Kiir\u2019s family.",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving mozambique, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Mozambique: Government updating national cybersecurity strategy CLUB OF MOZAMBIQUE",
-      "why_it_matters_africa": "Regional story: organizations in Mozambique should check whether the described exposure or technique applies to their own systems.",
+      "summary": "South Sudan\u2019s political crisis is deepening as scrutiny grows over a private company\u2019s control of state tax revenue. At the centre is a business network linked to President Salva Kiir\u2019s family.",
+      "why_it_matters_africa": "",
       "countries": [
-        "MZ"
+        "SD"
       ],
       "suggested_tags": [
-        "mozambique"
+        "sudan"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Nigeria 2027: Can Tinubu\u2019s billionaires break Peter Obi\u2019s hold on the southeast?",
+    "link": "https://www.theafricareport.com/433708/nigeria-2027-can-tinubus-billionaires-break-peter-obis-hold-on-the-southeast/",
+    "source": "The Africa Report",
+    "date": "2026-10-19",
+    "excerpt": "The president\u2019s son, Seyi Tinubu, has recruited wealthy Igbo businessmen, built a grassroots campaign network and won the backing of powerful governors. But can money and political connections overturn the popular loyalty that delivered Peter Obi a landslide in 2023?",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The president\u2019s son, Seyi Tinubu, has recruited wealthy Igbo businessmen, built a grassroots campaign network and won the backing of powerful governors. But can money and political connections overturn the popular loyalty that delivered Peter Obi a landslide in 2023?",
+      "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
+      "suggested_tags": [
+        "nigeria"
       ]
     },
     "backend": "heuristic"
@@ -1292,49 +1299,6 @@
       ],
       "suggested_tags": [
         "ethiopia"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "US-Sudan: Burhan pitches Saudi-backed ceasefire and access to minerals in letter to Trump",
-    "link": "https://www.theafricareport.com/433729/us-sudan-burhan-pitches-saudi-backed-ceasefire-and-access-to-minerals-in-letter-to-trump/",
-    "source": "The Africa Report",
-    "date": "2026-10-16",
-    "excerpt": "Sudan\u2019s military ruler tries an end-run around the US president\u2019s senior adviser for Arab and African Affairs, Massad Boulos, and the UAE-accommodating Quad.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Sudan\u2019s military ruler tries an end-run around the US president\u2019s senior adviser for Arab and African Affairs, Massad Boulos, and the UAE-accommodating Quad.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "SD"
-      ],
-      "suggested_tags": [
-        "africa",
-        "african"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Ghana\u2019s cocaine coast: Who is letting the traffickers through?",
-    "link": "https://www.theafricareport.com/433698/ghanas-cocaine-coast-who-is-letting-the-traffickers-through/",
-    "source": "The Africa Report",
-    "date": "2026-10-15",
-    "excerpt": "Tonnes of cocaine are slipping through Ghana\u2019s ports and turning up in Europe. Customs officers face prosecution, but questions remain over how such huge shipments escaped detection and who allowed them through.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Tonnes of cocaine are slipping through Ghana\u2019s ports and turning up in Europe. Customs officers face prosecution, but questions remain over how such huge shipments escaped detection and who allowed them through.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "GH"
-      ],
-      "suggested_tags": [
-        "ghana"
       ]
     },
     "backend": "heuristic"
