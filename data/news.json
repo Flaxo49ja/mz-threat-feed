@@ -1,10 +1,73 @@
 [
   {
+    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+    "source": "The Hacker News",
+    "date": "2026-10-24",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating"
+  },
+  {
+    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report"
+  },
+  {
+    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+    "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any"
+  },
+  {
+    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an"
+  },
+  {
+    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+    "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,"
+  },
+  {
+    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called"
+  },
+  {
+    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of"
+  },
+  {
+    "title": "Critical Flaw in Python\u2019s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+    "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first."
+  },
+  {
     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
     "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
     "source": "The Hacker News",
     "date": "2026-10-23",
     "excerpt": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw"
+  },
+  {
+    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents\u2019 Token Balances",
+    "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+    "source": "The Hacker News",
+    "date": "2026-10-23",
+    "excerpt": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set"
   },
   {
     "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
@@ -42,67 +105,53 @@
     "excerpt": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed"
   },
   {
-    "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-    "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network"
+    "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]"
   },
   {
-    "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-    "link": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018. According to multiple reports from the Associated Press, the New York Times, Reuters, and the Wall Street Journal, state District Court Judge Francis J. Mathew called"
+    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]"
   },
   {
-    "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-    "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026. \"Authorities identified"
+    "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]"
   },
   {
-    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-    "link": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,"
+    "title": "Quest Diagnostics confirms data breach exposed patient records",
+    "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]"
   },
   {
-    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-    "link": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the company behind OpenCode, fixed the flaw in version 1.18.33 on September"
+    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+    "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]"
   },
   {
-    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m."
+    "title": "You gave your AI agent access, but who is giving it orders?",
+    "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act [...]"
   },
   {
-    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:"
-  },
-  {
-    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server"
-  },
-  {
-    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,"
+    "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "source": "BleepingComputer",
+    "date": "2026-10-23",
+    "excerpt": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]"
   },
   {
     "title": "Railway warns devs to rotate secrets after potential breach",
@@ -161,53 +210,32 @@
     "excerpt": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]"
   },
   {
-    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-    "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-    "source": "BleepingComputer",
-    "date": "2026-10-22",
-    "excerpt": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]"
+    "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+    "link": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+    "source": "SecurityWeek",
+    "date": "2026-10-23",
+    "excerpt": "Noteworthy stories that might have slipped under the radar: Russia\u2019s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware appeared first on SecurityWeek ."
   },
   {
-    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-10-21",
-    "excerpt": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]"
+    "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
+    "link": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
+    "source": "SecurityWeek",
+    "date": "2026-10-23",
+    "excerpt": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet. The post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on SecurityWeek ."
   },
   {
-    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-    "source": "BleepingComputer",
-    "date": "2026-10-21",
-    "excerpt": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]"
+    "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+    "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+    "source": "SecurityWeek",
+    "date": "2026-10-23",
+    "excerpt": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek ."
   },
   {
-    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-    "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-    "source": "BleepingComputer",
-    "date": "2026-10-21",
-    "excerpt": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]"
-  },
-  {
-    "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-    "source": "BleepingComputer",
-    "date": "2026-10-21",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]"
-  },
-  {
-    "title": "OpenAI agents disabled safety monitoring, one lied about it",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-    "source": "BleepingComputer",
-    "date": "2026-10-21",
-    "excerpt": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]"
-  },
-  {
-    "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-    "source": "BleepingComputer",
-    "date": "2026-10-21",
-    "excerpt": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]"
+    "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
+    "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+    "source": "SecurityWeek",
+    "date": "2026-10-23",
+    "excerpt": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek ."
   },
   {
     "title": "11 Million Impacted by Capcom Data Breach",
@@ -217,11 +245,11 @@
     "excerpt": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek ."
   },
   {
-    "title": "Quest Diagnostics Reports Cyber Breach Affecting \u2018Certain Patient Records\u2019",
+    "title": "Quest Diagnostics Data Breach Exposed \u2018Certain Patient Records\u2019",
     "link": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
     "source": "SecurityWeek",
     "date": "2026-10-23",
-    "excerpt": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting &#8216;Certain Patient Records&#8217; appeared first on SecurityWeek ."
+    "excerpt": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Data Breach Exposed &#8216;Certain Patient Records&#8217; appeared first on SecurityWeek ."
   },
   {
     "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
@@ -252,32 +280,32 @@
     "excerpt": "Corey Thuen hires hackers for what he calls \u2018the evil bit\u2019 \u2014 an adversarial streak he believes is either there or it isn\u2019t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek ."
   },
   {
-    "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
-    "link": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
-    "source": "SecurityWeek",
-    "date": "2026-10-22",
-    "excerpt": "The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek ."
+    "title": "FCC bans two devices with surveillance chips linked to Huawei",
+    "link": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+    "source": "The Record",
+    "date": "2026-10-23",
+    "excerpt": "The banned items \u2014 a wireless video transmitter and dashboard camera \u2014 are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as \u201cdesigned for the surveillance market.\u201d"
   },
   {
-    "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
-    "link": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-    "source": "SecurityWeek",
-    "date": "2026-10-22",
-    "excerpt": "Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek ."
+    "title": "UK proposes 14-year prison terms for undersea cable sabotage",
+    "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+    "source": "The Record",
+    "date": "2026-10-23",
+    "excerpt": "In an era of hybrid threats, the British government wants to update the Submarine Telegraph Act 1885, which carries a maximum fine of \u00a31,000 and five years\u2019 imprisonment in cases of deliberate damage."
   },
   {
-    "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-    "link": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-    "source": "SecurityWeek",
-    "date": "2026-10-22",
-    "excerpt": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities appeared first on SecurityWeek ."
+    "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
+    "link": "https://therecord.media/quest-diagnostics-network-intrusion",
+    "source": "The Record",
+    "date": "2026-10-23",
+    "excerpt": "Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data."
   },
   {
-    "title": "Splunk, SolarWinds Release Fresh Security Updates",
-    "link": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
-    "source": "SecurityWeek",
-    "date": "2026-10-22",
-    "excerpt": "Patched vulnerabilities could allow attackers to execute code, elevate privileges, and leak sensitive information. The post Splunk, SolarWinds Release Fresh Security Updates appeared first on SecurityWeek ."
+    "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
+    "link": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
+    "source": "The Record",
+    "date": "2026-10-23",
+    "excerpt": "The headline-grabbing bugs known colloquially as PHP2Shell are giving cyber analysts a lot to track \u2014 and a lot to debunk."
   },
   {
     "title": "Toronto crime tips org freezes operations after details of data breach come to light",
@@ -287,34 +315,6 @@
     "excerpt": "Late Wednesday night the Toronto chapter of Crime Stoppers broke ranks with the national association, revealing a timeline showing what it knew and when along with an announcement that it will pause operations."
   },
   {
-    "title": "Indian tech company eMudhra announces withdrawal from certificate business after security incident",
-    "link": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
-    "source": "The Record",
-    "date": "2026-10-22",
-    "excerpt": "The issue was publicized by cybersecurity researcher Scott Helme, who published a blog saying that instead of a random 384-bit number, one of the company's private keys was just the number four."
-  },
-  {
-    "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
-    "link": "https://therecord.media/china-cyber-connectwise-ai",
-    "source": "The Record",
-    "date": "2026-10-22",
-    "excerpt": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said."
-  },
-  {
-    "title": "Cybercrime crackdown across Africa leads to 1,462 arrests, $105 million seized",
-    "link": "https://therecord.media/africa-cybercrime-interpol-arrests",
-    "source": "The Record",
-    "date": "2026-10-22",
-    "excerpt": "More than 1,400 suspected cybercriminals were arrested across Africa this summer as part of a crackdown on the gangs perpetrating online fraud, ransomware and business email compromise attacks, Interpol said."
-  },
-  {
-    "title": "South Carolina officials offer assistance after state capital hit with cyberattack",
-    "link": "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
-    "source": "The Record",
-    "date": "2026-10-22",
-    "excerpt": "The systems impacted by the attack include the MyColaSC platform that citizens use to pay utility bills, report non-emergency issues and access other city services."
-  },
-  {
     "title": "Africa\u2019s Cybersecurity Gap Is Not a Treaty Problem. It Is a Readiness Problem - African Arguments",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkFLNExDN2pUTnZxWHA4R1o5b2JWWURKYUVybFVmV040RVNfWktJVDhRRTFXblpzdE1US2k1bkljbG1vc2FOWWR5Y3ZlaDhGVE5YaDg0VnpKcGotanVDeTZIeE5nT3dGMG9mNzAyc3lTZXlNMHVSN2NyU3lpVlplYXd3dHpOcWtsUGpDeW1NNHREdm5TSmFpMzZqR3lfdjRHX0RGc3VEMmZ6dnVBT2lQeE5vOA?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -322,25 +322,18 @@
     "excerpt": "Africa\u2019s Cybersecurity Gap Is Not a Treaty Problem. It Is a Readiness Problem African Arguments"
   },
   {
-    "title": "NEC Africa Strengthens Ecobank\u2019s Cybersecurity Via Integrated Platform - CIO Africa",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOWRCVmpxTGExbkdhV3NNOVA4N1J6XzBxMjV3U3MxSzNTZFY3dEtJOTE5WHl3eVNZYW1kNGpZUGpIbmtNVm1ENndpalk2ZThISE11clhKNUQ1REVpZE5LVWVoU1I0cXY0bVZ5VnZ3YXBmREtNbUJuVEd4SldvQ1R4ZEs3cGd4dUJqbHI1UHVCcGZvQnhJc1E?oc=5",
+    "title": "Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown - CISO Series",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CMnpIcVNoSG0wNDJraUZVM05RWHdBenJqZmVDeTlNazVPSE96MmEwb1ZxZndUb1dPV3NIeTBwZ092WGVJZUkxbU5VQm9MNXhwV2syOGl5UFhQMUlxS1ZSZk1KQ3hkMWpkWXc?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-23",
-    "excerpt": "NEC Africa Strengthens Ecobank\u2019s Cybersecurity Via Integrated Platform CIO Africa"
+    "excerpt": "Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown CISO Series"
   },
   {
-    "title": "Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity - Powers of Africa",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWdXdDlzdmVPV3U5dE9qd0MzTE9UUTJjZS1CXzlFNEEza0tGX00wQXJNalZhamc2a3N3VUY1dWdWemRRTkhjTDJRQTFKQ0xMMlpWU0U3eDc5VlZFaUJuX1R1VjZQVHlGaWl0WGJldXZUX0h1aDhhNkR3MjhyMFBsYkI4Y3hlTWdNSWY1azdoX1lWckIxbHJkZEtaOWNiSFdBejF4bnEzYkpHQlZQYVHSAbMBQVVfeXFMTUJGVE5LcWFUaXFFUkVfZXh4WWI2NXgwSnBnYU5fNFhsODFNam94cXFldnFQaHNFTDBFXzJKVzRWSllWLU1yRmNTZ3Z5Z3dRekNsTHVmYXo2UDFZd2Nsd3FZSlBEQ09rOS12eVVBWU1iVnRzYzFXRDdmRHo3NmtMMWJrUU12ZzFZRVo1VXlIUDlvYzBwQnFzSDV2dTBxZ204ZXh2d3Y4T0NJTzFyZ1E1WEdFUWc?oc=5",
+    "title": "PHP2Shell Vulnerabilities Trigger Cybersecurity Alerts Across Africa - We are Tech",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDhzOThIVVFlSXpPemlUMnNZQWQ2bWZQNXhjd3Ztd0tyOThfXzNqbHhaak5tVGFrQ3owQ294ZWh4S3drSVowT3NyYXdwNUphZmdIVDNDXzJ2TVdLdGdKeDNGQTUxSjdzX1NkUkFscEpTZE1jY3UzVHY1QmprcWlxOXhWWmNSQzRxblNuNXBOa29iNktFeU5NUV95RHFtOXZuLWY0WEFIQVM0elNuRjA1emxWaU5fSVVtQkE?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-21",
-    "excerpt": "Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity Powers of Africa"
-  },
-  {
-    "title": "Morocco Ranks Third in Africa for Cyber Threats in 2025 - Morocco World News",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWG9pbW1tLVZjRXJHeXVqZ2lhbUR0UDg0Z2YwSkVobFhUdThzNUNqTTZZQ3BxTTJ2NkJuNzJxZWxwN0R4UlhxTkNhZXgzYWhxYmxXeXFDbFdWRkNVQ2VyQVVrY0ZQaGdmSDAyR2NKbF9JWlpZUEZCb295eGtuX1dMN0w0VmdnUXB2STh3WURfMFlRV2tzQ0YxTEViN0RpbERYQmVodTZ3Zw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-22",
-    "excerpt": "Morocco Ranks Third in Africa for Cyber Threats in 2025 Morocco World News"
+    "date": "2026-10-23",
+    "excerpt": "PHP2Shell Vulnerabilities Trigger Cybersecurity Alerts Across Africa We are Tech"
   },
   {
     "title": "Cybersecurity: The 99 Per Cent Nobody Plans For - CIO Africa",
@@ -350,6 +343,13 @@
     "excerpt": "Cybersecurity: The 99 Per Cent Nobody Plans For CIO Africa"
   },
   {
+    "title": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world - Daily Maverick",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFAwcVJlcXNIVEhJUzhOcWQxVXhETWJnVVZwVGFuLS1BalZCTGQ5TXZBWkxxWjlNRjVydTlLQk5NSWpCbkFWVE4tY2ZDQml6R3Bwb3h5R29TSkpTVXB3ektTQ2FWOGx1S0VuQk81c1laSkk5Z2QyaTB2RElvMnBNRWk4TWFReG9hT3pMMmpUNnZHQjhfblRoX3FxLXlieTVtNW5uVU9VUUdFNHVlZ1djQjhONHZ0SVFlZkh1TXZYckVSTFE3LTZ5cnhobHpiYXZfeDFHVEMyOA?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-23",
+    "excerpt": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick"
+  },
+  {
     "title": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme - Realnews Magazine",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFpzdVhpSU5kSjFjVVNNcklTNG56NXEzRkEyYVhvenZ6MlZjYm9VclFGODRIbXdIUnVybkJya0tTbjFENk43WnFacWxNTTR0QjBTbnJ1cTJfMXJPa0RtNW9lZTZJR0lvR3BzQy1ZeThTRmtOS1hMR1Q5XzVHMEluUE5IMVFuTkVuT0VMSEdkZFk1b1RGbHVhb0RjREYtanFzMUlSUnRzMW9nZGl4U19PeQ?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -357,18 +357,53 @@
     "excerpt": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme Realnews Magazine"
   },
   {
-    "title": "Cybersecurity test raises questions about safety of connected vehicles - EWN",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNG1jNWpZa1RXU2g2VnNOZkVkWFlWRnZ2SHJrSnVRTTFhTGRWSFhvUzhUSy1pSHFlNW5FMkZVX0pWOERRb29zNEVVdFFLX2MyUGhHZkpTdUlWbEFNQmg1V1JVYmpacWNPcFZUZVBJeVJKQTdwSHlhTXJwbWlMSllDeFltbkR0bnEyQVRrY0xBQzFUQTNDYWQwYmVyR1BrdENDUWdsSFVn?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-19",
-    "excerpt": "Cybersecurity test raises questions about safety of connected vehicles EWN"
-  },
-  {
     "title": "AU digital summit to focus on AI, cybersecurity, inclusion - Channel Africa",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMkNuZzZha0gtYkxKSmRjYlVRS1hZRTM5REJuZXNXU2o0alg4TVJxU0RDMU5OTEZSRGtFQWoyRGJGazBuRW96cVdsWHVybTVucWViQnBZS29aenZlbjdsbmFxTGVhU1FKWHFYRFhkN2s5ajNHNlZZVUlJUFR5QWpVZWVRUDVlbTV5bkJISW1xR3U3d1F6dFdjdTIwckhfazVhMDgzdl9YcUpBNU9J?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-20",
     "excerpt": "AU digital summit to focus on AI, cybersecurity, inclusion Channel Africa"
+  },
+  {
+    "title": "Ghana\u2019s presidential daughters: Nkrumah, Limann, Rawlings, Kufuor\u2019s legacies in safe hands",
+    "link": "https://www.theafricareport.com/434360/ghanas-presidential-daughters-where-are-they/",
+    "source": "The Africa Report",
+    "date": "2026-10-24",
+    "excerpt": "From cabinet positions and UN peacekeeping missions to business ventures and family foundations, the daughters of Ghana\u2019s former leaders are carving out their own paths while navigating the privileges and burdens of powerful surnames."
+  },
+  {
+    "title": "South Africa: From DA to MK Party, Bongani Baloyi says party-hopping makes him fit to lead Joburg",
+    "link": "https://www.theafricareport.com/434291/south-africa-from-da-to-mk-party-bongani-baloyi-says-party-hopping-makes-him-fit-to-lead-joburg/",
+    "source": "The Africa Report",
+    "date": "2026-10-23",
+    "excerpt": "The 39-year-old politician has crossed political divides, from serving as mayor under the Democratic Alliance to running for Johannesburg\u2019s top job on the ticket of Jacob Zuma\u2019s nationalist-conservative uMkhonto weSizwe Party."
+  },
+  {
+    "title": "Tony Elumelu\u2019s $802m Seplat windfall \u2013 and his bigger bet on Nigeria",
+    "link": "https://www.theafricareport.com/434373/tony-elumelus-802m-seplat-windfall-and-his-bigger-bet-on-nigeria/",
+    "source": "The Africa Report",
+    "date": "2026-10-23",
+    "excerpt": "A soaring stake in Seplat Energy has delivered a spectacular paper gain for companies controlled by the Nigerian. Elumelu believes the real prize is uniting Nigerian finance, oil and industry to transform the economy."
+  },
+  {
+    "title": "Exclusive: Emmanuel Macron cancels planned visits to Nigeria and Senegal",
+    "link": "https://www.theafricareport.com/434399/exclusive-emmanuel-macron-cancels-planned-visits-to-nigeria-and-senegal/",
+    "source": "The Africa Report",
+    "date": "2026-10-23",
+    "excerpt": "Caught up in France\u2019s social unrest, the president has cancelled his planned late-October tour of Nigeria and Senegal, just as Paris is seeking to revive its relations with West Africa."
+  },
+  {
+    "title": "Algeria-Niger \u2018security pact\u2019: What\u2019s behind Algiers\u2019 military push into the Sahel?",
+    "link": "https://www.theafricareport.com/434371/algeria-niger-security-pact-whats-behind-algiers-military-push-into-the-sahel/",
+    "source": "The Africa Report",
+    "date": "2026-10-23",
+    "excerpt": "Algiers and Niamey deepen military cooperation as army chief Sa\u00efd Chengriha and defence minister Salifou Mody sign an agreement aimed at strengthening security ties amid regional threats."
+  },
+  {
+    "title": "Meet the African diaspora candidates running in the US midterm elections",
+    "link": "https://www.theafricareport.com/434310/meet-the-african-diaspora-candidates-running-in-the-us-midterm-elections/",
+    "source": "The Africa Report",
+    "date": "2026-10-23",
+    "excerpt": "Seven African-origin candidates are making a play for Congress, as immigrant communities face a dual wave of escalating hostile rhetoric and aggressive state-level crackdowns."
   },
   {
     "title": "Kenya walks a tightrope in Dangote fuel supply deal amid exclusivity row, pipeline\u00a0stake",
@@ -399,46 +434,25 @@
     "excerpt": "Billions in investment and ambitious export plans are fuelling the Maghreb\u2019s green hydrogen push. But soaring costs, water scarcity and a shortage of committed buyers threaten to derail the pursuit of supplying Europe with low-carbon fuel. Here is a breakdown in infographics."
   },
   {
-    "title": "Rwanda: Paul Barril, the French \u2018secret agent\u2019 at the heart of the Tutsi genocide",
-    "link": "https://www.theafricareport.com/434290/rwanda-paul-barril-the-french-secret-agent-at-the-heart-of-the-tutsi-genocide/",
-    "source": "The Africa Report",
-    "date": "2026-10-22",
-    "excerpt": "After leaving the French gendarmerie for the private sector, Paul Barril, who died on Tuesday, became a notorious figure in Africa, particularly because of his ties to the Rwandan regime responsible for the 1994 genocide."
+    "title": "Gaming Giant Capcom Confirms Data Breach Exposed Users\u2019 Personal Information",
+    "link": "https://www.infosecurity-magazine.com/news/capcom-confirms-data-breach/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-23",
+    "excerpt": "Japanese video games giant Capcom confirmed unauthorized access to its online account system"
   },
   {
-    "title": "Africa helped Gilbert Houngbo make ILO history. Can it deliver again in his tough reelection fight?",
-    "link": "https://www.theafricareport.com/434179/africa-helped-gilbert-houngbo-make-ilo-history-can-it-deliver-again-in-his-tough-reelection-fight/",
-    "source": "The Africa Report",
-    "date": "2026-10-22",
-    "excerpt": "Facing heavyweight challengers from Spain and Peru, the former Togolese prime minister says the African Union backs his bid for another term as head of the International Labour Organization, while African trade unions are mobilising support."
+    "title": "Widespread Token-Spraying Attacks Target Microsoft 365 Accounts For Email Compromise",
+    "link": "https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-23",
+    "excerpt": "Security researchers identified attempts to access corporate networks which have been linked to a major Microsoft 365-targeted BEC campaign using phishing, stolen session tokens and social engineering"
   },
   {
-    "title": "Sisi says Egypt will \u2018defend Saudi territory\u2019, but rules out attacking Yemen",
-    "link": "https://www.theafricareport.com/434221/sisi-says-egypt-will-defend-saudi-territory-but-rules-out-attacking-yemen/",
-    "source": "The Africa Report",
-    "date": "2026-10-22",
-    "excerpt": "President Abdel Fattah el-Sisi has made it clear that any Egyptian military support for Riyadh would be strictly defensive and would not involve attacking Yemen, as Houthi attacks threaten the kingdom\u2019s security and oil exports."
-  },
-  {
-    "title": "Niger: Two Western hostages released in Libya after more than 18 months in Islamic State captivity",
-    "link": "https://www.theafricareport.com/434212/niger-two-western-hostages-released-in-libya-after-more-than-18-months-in-islamic-state-captivity/",
-    "source": "The Africa Report",
-    "date": "2026-10-22",
-    "excerpt": "Claudia Abbt and Eva Gretzmacher, held hostage by Islamic State in Niger, have been freed and flown to Benghazi following mediation led by Saddam Haftar, who is using the breakthrough to expand his political influence across the Sahel."
-  },
-  {
-    "title": "Nigeria: Lagos built a night economy before it built a nighttime city",
-    "link": "https://www.theafricareport.com/433929/nigeria-lagos-built-a-night-economy-before-it-built-a-nighttime-city/",
-    "source": "The Africa Report",
-    "date": "2026-10-22",
-    "excerpt": "The nightlife in Lagos is more than music, clubs and late-night spending \u2013 it is a vast, largely overlooked economy that keeps drivers, vendors, hotels and payment platforms busy long after offices close. But as the city\u2019s second shift grows, the infrastructure and policies needed to support it are struggling to keep pace."
-  },
-  {
-    "title": "Nigeria 2027: Can Gbadebo Rhodes-Vivour break Tinubu\u2019s 27-year grip on Lagos?",
-    "link": "https://www.theafricareport.com/434169/nigeria-2027-can-gbadebo-rhodes-vivour-break-tinubus-27-year-grip-on-lagos/",
-    "source": "The Africa Report",
-    "date": "2026-10-22",
-    "excerpt": "After losing the 2023 governorship race, the opposition politician is preparing for another showdown with Bola Tinubu\u2019s powerful political machine. Now in the ADC party, he explains why he believes he can succeed where others have failed."
+    "title": "Attacks on Tech Firms Behind Most Third-Party Data Breach Victims",
+    "link": "https://www.infosecurity-magazine.com/news/tech-third-party-breach-victims/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-23",
+    "excerpt": "Kroll found that 69% of data breach victims in the past year were affected by a third-party breach, with attacks on tech companies the most common cause"
   },
   {
     "title": "EU Regulators to Investigate Booking.com Over Scam Risks",
@@ -523,26 +537,5 @@
     "source": "Infosecurity Magazine",
     "date": "2026-10-20",
     "excerpt": "A new IANS report has found that despite the growth of the head of AI security role, accountability for AI governance in firms remains unsettled"
-  },
-  {
-    "title": "Researchers Warn OpenCode Quietly Patched Critical RCE Flaw, Leaving Users At Risk",
-    "link": "https://www.infosecurity-magazine.com/news/opencode-quietly-patched-critical/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-10-20",
-    "excerpt": "OpenCode silently patched a critical RCE flaw, leaving vulnerable users unaware of the security risk, researchers at Pillar Security warned"
-  },
-  {
-    "title": "AI Agent Adoption Creates Risk as Oversight Struggles to Keep Pace, Splunk Finds",
-    "link": "https://www.infosecurity-magazine.com/news/ai-agent-adoption-oversight/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-10-20",
-    "excerpt": "Rapid adoption of agentic AI comes with potential business benefits. But if done incorrectly it also carries risks around AI activity management and security"
-  },
-  {
-    "title": "Siemens Customers Targeted by ClickFix Attackers Exploiting DLL Side-Loading Flaw",
-    "link": "https://www.infosecurity-magazine.com/news/siemens-clickfix-exploiting-side/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-10-20",
-    "excerpt": "Siemens identified the activity to be from the Romulus multi-platform ClickFix campaign, with Siemens Software Center users urged to apply an update"
   }
 ]
