@@ -1,5 +1,105 @@
 [
   {
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "source": "The Hacker News",
+    "date": "2026-10-25",
+    "excerpt": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "source": "The Hacker News",
+    "date": "2026-10-24",
+    "excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects python \u2014 widely deployed in under-resourced organizations \u2014 via rce, cve-.",
+      "category": "vulnerability",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "why_it_matters_africa": "If you run python, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "python",
+        "rce",
+        "cve-"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+    "source": "The Hacker News",
+    "date": "2026-10-24",
+    "excerpt": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects python \u2014 widely deployed in under-resourced organizations \u2014 via attackers.",
+      "category": "policy_regulation",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "why_it_matters_africa": "If you run python, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "python",
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+    "source": "The Hacker News",
+    "date": "2026-10-24",
+    "excerpt": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+    "source": "The Hacker News",
+    "date": "2026-10-24",
+    "excerpt": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "botnet"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
     "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
     "source": "The Hacker News",
@@ -205,101 +305,22 @@
     "backend": "heuristic"
   },
   {
-    "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-    "source": "The Hacker News",
-    "date": "2026-10-23",
-    "excerpt": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via cve-, botnet.",
-      "category": "vulnerability",
-      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "php",
-        "cve-",
-        "botnet"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-    "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For",
+    "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+    "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "source": "BleepingComputer",
+    "date": "2026-10-24",
+    "excerpt": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.",
+      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
       "why_it_matters_africa": "",
-      "countries": [],
+      "countries": [
+        "ML"
+      ],
       "suggested_tags": [
-        "sql-injection",
-        "zero-day"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-    "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates. eMudhra said it will replace affected customers' certificates with free ones from partners, though its",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-    "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-    "source": "The Hacker News",
-    "date": "2026-10-22",
-    "excerpt": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects gitlab, linux \u2014 widely deployed in under-resourced organizations \u2014 via rce, hacked.",
-      "category": "vulnerability",
-      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays.",
-      "why_it_matters_africa": "If you run gitlab, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "gitlab",
-        "rce",
-        "hacked"
+        "exploited"
       ]
     },
     "backend": "heuristic"
@@ -584,26 +605,6 @@
       "suggested_tags": [
         "php",
         "exploitation",
-        "attackers"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "GitLab warns of new max severity code execution vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-    "source": "BleepingComputer",
-    "date": "2026-10-22",
-    "excerpt": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects gitlab \u2014 widely deployed in under-resourced organizations \u2014 via attackers.",
-      "category": "other",
-      "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
-      "why_it_matters_africa": "If you run gitlab, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "gitlab",
         "attackers"
       ]
     },
@@ -904,21 +905,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "Africa\u2019s Cybersecurity Gap Is Not a Treaty Problem. It Is a Readiness Problem - African Arguments",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkFLNExDN2pUTnZxWHA4R1o5b2JWWURKYUVybFVmV040RVNfWktJVDhRRTFXblpzdE1US2k1bkljbG1vc2FOWWR5Y3ZlaDhGVE5YaDg0VnpKcGotanVDeTZIeE5nT3dGMG9mNzAyc3lTZXlNMHVSN2NyU3lpVlplYXd3dHpOcWtsUGpDeW1NNHREdm5TSmFpMzZqR3lfdjRHX0RGc3VEMmZ6dnVBT2lQeE5vOA?oc=5",
+    "title": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-20",
-    "excerpt": "Africa\u2019s Cybersecurity Gap Is Not a Treaty Problem. It Is a Readiness Problem African Arguments",
+    "date": "2026-10-24",
+    "excerpt": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Security story involving africa, african, directly relevant to the region.",
+      "relevance_reason": "Security story involving africa, mozambique, directly relevant to the region.",
       "category": "other",
-      "summary": "Africa\u2019s Cybersecurity Gap Is Not a Treaty Problem. It Is a Readiness Problem African Arguments",
+      "summary": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa",
       "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
+      "countries": [
+        "MZ"
+      ],
       "suggested_tags": [
         "africa",
-        "african"
+        "mozambique"
       ]
     },
     "backend": "heuristic"
@@ -944,6 +947,26 @@
     "backend": "heuristic"
   },
   {
+    "title": "Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans - Global South Opportunities",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuLV84NWlkQ1IyWndpOE8zekU4aFpZdEwtUGRyb01fX2laR2RIdlNCc01zbTRhbm9odl9oakkzNy00MjF3ekF4blRkQ0xlc0pVV1NWYi1NalR0VC1UbHhDVUJRT0Q1bm9iYmc?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-25",
+    "excerpt": "Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans Global South Opportunities",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, african, directly relevant to the region.",
+      "category": "other",
+      "summary": "Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans Global South Opportunities",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa",
+        "african"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "PHP2Shell Vulnerabilities Trigger Cybersecurity Alerts Across Africa - We are Tech",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDhzOThIVVFlSXpPemlUMnNZQWQ2bWZQNXhjd3Ztd0tyOThfXzNqbHhaak5tVGFrQ3owQ294ZWh4S3drSVowT3NyYXdwNUphZmdIVDNDXzJ2TVdLdGdKeDNGQTUxSjdzX1NkUkFscEpTZE1jY3UzVHY1QmprcWlxOXhWWmNSQzRxblNuNXBOa29iNktFeU5NUV95RHFtOXZuLWY0WEFIQVM0elNuRjA1emxWaU5fSVVtQkE?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -959,44 +982,6 @@
       "suggested_tags": [
         "africa",
         "php"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Cybersecurity: The 99 Per Cent Nobody Plans For - CIO Africa",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nMW11VEtwcEF0dTExcnVkWDFLbjNwb0lyZ18yWGdpMlhpOTNfMkhBTlM2Ql9SWi1hUHZRWFMxYmJsRzEwd2ZqSDdpMy1sd1d6eW43X3l3VVl0T3otNGc1LWNwOTZveHhPMmNXOFpIS2VhV3BwMUxZ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-23",
-    "excerpt": "Cybersecurity: The 99 Per Cent Nobody Plans For CIO Africa",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Cybersecurity: The 99 Per Cent Nobody Plans For CIO Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world - Daily Maverick",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFAwcVJlcXNIVEhJUzhOcWQxVXhETWJnVVZwVGFuLS1BalZCTGQ5TXZBWkxxWjlNRjVydTlLQk5NSWpCbkFWVE4tY2ZDQml6R3Bwb3h5R29TSkpTVXB3ektTQ2FWOGx1S0VuQk81c1laSkk5Z2QyaTB2RElvMnBNRWk4TWFReG9hT3pMMmpUNnZHQjhfblRoX3FxLXlieTVtNW5uVU9VUUdFNHVlZ1djQjhONHZ0SVFlZkh1TXZYckVSTFE3LTZ5cnhobHpiYXZfeDFHVEMyOA?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-23",
-    "excerpt": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
       ]
     },
     "backend": "heuristic"
@@ -1021,20 +1006,39 @@
     "backend": "heuristic"
   },
   {
-    "title": "AU digital summit to focus on AI, cybersecurity, inclusion - Channel Africa",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMkNuZzZha0gtYkxKSmRjYlVRS1hZRTM5REJuZXNXU2o0alg4TVJxU0RDMU5OTEZSRGtFQWoyRGJGazBuRW96cVdsWHVybTVucWViQnBZS29aenZlbjdsbmFxTGVhU1FKWHFYRFhkN2s5ajNHNlZZVUlJUFR5QWpVZWVRUDVlbTV5bkJISW1xR3U3d1F6dFdjdTIwckhfazVhMDgzdl9YcUpBNU9J?oc=5",
+    "title": "Cybersecurity: The Public Sector Is Pulling Apart - CIO Africa",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KYWdQRXJsU3BmSmxJVFMxS2RHb21VSTZFay02QUgyYWZMbzRxQWVCc3RnTGE4QkJZQ3pIeTA0amRPTm9sS0EzOEhTSVNIbXNfeWc2VHJYWk9Eb0Y0OW9tLWtydWhHMmRYdWVoQ0R1aWxyX0oyU01uTTVR?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-20",
-    "excerpt": "AU digital summit to focus on AI, cybersecurity, inclusion Channel Africa",
+    "date": "2026-10-22",
+    "excerpt": "Cybersecurity: The Public Sector Is Pulling Apart CIO Africa",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
       "category": "other",
-      "summary": "AU digital summit to focus on AI, cybersecurity, inclusion Channel Africa",
-      "why_it_matters_africa": "",
+      "summary": "Cybersecurity: The Public Sector Is Pulling Apart CIO Africa",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [],
       "suggested_tags": [
         "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world - Daily Maverick",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFAwcVJlcXNIVEhJUzhOcWQxVXhETWJnVVZwVGFuLS1BalZCTGQ5TXZBWkxxWjlNRjVydTlLQk5NSWpCbkFWVE4tY2ZDQml6R3Bwb3h5R29TSkpTVXB3ektTQ2FWOGx1S0VuQk81c1laSkk5Z2QyaTB2RElvMnBNRWk4TWFReG9hT3pMMmpUNnZHQjhfblRoX3FxLXlieTVtNW5uVU9VUUdFNHVlZ1djQjhONHZ0SVFlZkh1TXZYckVSTFE3LTZ5cnhobHpiYXZfeDFHVEMyOA?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-23",
+    "excerpt": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
       ]
     },
     "backend": "heuristic"
