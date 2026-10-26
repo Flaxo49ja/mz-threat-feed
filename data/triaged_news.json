@@ -1,5 +1,105 @@
 [
   {
+    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+    "source": "The Hacker News",
+    "date": "2026-10-26",
+    "excerpt": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "microsoft 365"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+    "source": "The Hacker News",
+    "date": "2026-10-26",
+    "excerpt": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud security company Wiz. A GitHub safeguard that pauses",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud security company Wiz.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+    "source": "The Hacker News",
+    "date": "2026-10-26",
+    "excerpt": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects npm \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
+      "category": "other",
+      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran.",
+      "why_it_matters_africa": "If you run npm, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "npm",
+        "malware"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "source": "The Hacker News",
+    "date": "2026-10-25",
+    "excerpt": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "hacked",
+        "unpatched"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "source": "The Hacker News",
+    "date": "2026-10-25",
+    "excerpt": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via exploitation.",
+      "category": "vulnerability",
+      "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
+      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "php",
+        "exploitation"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
     "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
     "source": "The Hacker News",
@@ -23,12 +123,12 @@
     "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
     "source": "The Hacker News",
     "date": "2026-10-24",
-    "excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+    "excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
     "triage": {
       "relevant": true,
       "relevance_reason": "Affects python \u2014 widely deployed in under-resourced organizations \u2014 via rce, cve-.",
       "category": "vulnerability",
-      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
       "why_it_matters_africa": "If you run python, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
@@ -200,106 +300,43 @@
     "backend": "heuristic"
   },
   {
-    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-    "source": "The Hacker News",
-    "date": "2026-10-23",
-    "excerpt": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+    "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+    "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+    "source": "BleepingComputer",
+    "date": "2026-10-26",
+    "excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via rce, cve-.",
+      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via rce, exploited.",
       "category": "vulnerability",
-      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it.",
+      "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
       "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
         "php",
         "rce",
-        "cve-"
+        "exploited"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-    "source": "The Hacker News",
-    "date": "2026-10-23",
-    "excerpt": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+    "source": "BleepingComputer",
+    "date": "2026-10-25",
+    "excerpt": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "phishing",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Critical Flaw in Python\u2019s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-    "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-    "source": "The Hacker News",
-    "date": "2026-10-23",
-    "excerpt": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects python \u2014 widely deployed in under-resourced organizations \u2014 via cve-.",
-      "category": "vulnerability",
-      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-      "why_it_matters_africa": "If you run python, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "python",
-        "cve-"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-    "source": "The Hacker News",
-    "date": "2026-10-23",
-    "excerpt": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects linux \u2014 widely deployed in under-resourced organizations \u2014 via rce, cve-.",
-      "category": "vulnerability",
-      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497).",
-      "why_it_matters_africa": "If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [
-        "ML"
-      ],
-      "suggested_tags": [
-        "linux",
-        "rce",
-        "cve-"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents\u2019 Token Balances",
-    "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-    "source": "The Hacker News",
-    "date": "2026-10-23",
-    "excerpt": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one.",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
       "why_it_matters_africa": "",
       "countries": [
         "ML"
       ],
       "suggested_tags": [
-        "news"
+        "npm"
       ]
     },
     "backend": "heuristic"
@@ -568,44 +605,41 @@
     "backend": "heuristic"
   },
   {
-    "title": "Machine speed attacks require machine speed detection and response",
-    "link": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-    "source": "BleepingComputer",
-    "date": "2026-10-22",
-    "excerpt": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
+    "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+    "link": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+    "source": "SecurityWeek",
+    "date": "2026-10-26",
+    "excerpt": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical.",
+      "summary": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
       "countries": [
         "ML"
       ],
       "suggested_tags": [
-        "phishing",
-        "credential"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-    "link": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-    "source": "BleepingComputer",
-    "date": "2026-10-22",
-    "excerpt": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+    "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+    "link": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+    "source": "SecurityWeek",
+    "date": "2026-10-25",
+    "excerpt": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via exploitation, attackers.",
-      "category": "vulnerability",
-      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
-      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "category": "other",
+      "summary": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "php",
-        "exploitation",
-        "attackers"
+        "news"
       ]
     },
     "backend": "heuristic"
@@ -770,44 +804,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Iran\u2019s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
-    "link": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-    "source": "SecurityWeek",
-    "date": "2026-10-23",
-    "excerpt": "After a three-month lull, Prince of Persia hid a Tornado C&#038;C server on US shared hosting, its first US-based server since 2016. The post Iran&#8217;s Prince of Persia APT Hosts C&#038;C in US for First Time Since 2016 appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "After a three-month lull, Prince of Persia hid a Tornado C&#038;C server on US shared hosting, its first US-based server since 2016. The post Iran&#8217;s Prince of Persia APT Hosts C&#038;C in US for First Time Since 2016 appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
-    "link": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
-    "source": "SecurityWeek",
-    "date": "2026-10-22",
-    "excerpt": "Corey Thuen hires hackers for what he calls \u2018the evil bit\u2019 \u2014 an adversarial streak he believes is either there or it isn\u2019t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Corey Thuen hires hackers for what he calls \u2018the evil bit\u2019 \u2014 an adversarial streak he believes is either there or it isn\u2019t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "FCC bans two devices with surveillance chips linked to Huawei",
     "link": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
     "source": "The Record",
@@ -905,28 +901,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-24",
-    "excerpt": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, mozambique, directly relevant to the region.",
-      "category": "other",
-      "summary": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [
-        "MZ"
-      ],
-      "suggested_tags": [
-        "africa",
-        "mozambique"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown - CISO Series",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CMnpIcVNoSG0wNDJraUZVM05RWHdBenJqZmVDeTlNazVPSE96MmEwb1ZxZndUb1dPV3NIeTBwZ092WGVJZUkxbU5VQm9MNXhwV2syOGl5UFhQMUlxS1ZSZk1KQ3hkMWpkWXc?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -947,21 +921,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans - Global South Opportunities",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuLV84NWlkQ1IyWndpOE8zekU4aFpZdEwtUGRyb01fX2laR2RIdlNCc01zbTRhbm9odl9oakkzNy00MjF3ekF4blRkQ0xlc0pVV1NWYi1NalR0VC1UbHhDVUJRT0Q1bm9iYmc?oc=5",
+    "title": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-25",
-    "excerpt": "Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans Global South Opportunities",
+    "date": "2026-10-24",
+    "excerpt": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Security story involving africa, african, directly relevant to the region.",
+      "relevance_reason": "Security story involving africa, mozambique, directly relevant to the region.",
       "category": "other",
-      "summary": "Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans Global South Opportunities",
+      "summary": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa",
       "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
+      "countries": [
+        "MZ"
+      ],
       "suggested_tags": [
         "africa",
-        "african"
+        "mozambique"
       ]
     },
     "backend": "heuristic"
@@ -987,17 +963,17 @@
     "backend": "heuristic"
   },
   {
-    "title": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme - Realnews Magazine",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFpzdVhpSU5kSjFjVVNNcklTNG56NXEzRkEyYVhvenZ6MlZjYm9VclFGODRIbXdIUnVybkJya0tTbjFENk43WnFacWxNTTR0QjBTbnJ1cTJfMXJPa0RtNW9lZTZJR0lvR3BzQy1ZeThTRmtOS1hMR1Q5XzVHMEluUE5IMVFuTkVuT0VMSEdkZFk1b1RGbHVhb0RjREYtanFzMUlSUnRzMW9nZGl4U19PeQ?oc=5",
+    "title": "Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity - Powers of Africa",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWdXdDlzdmVPV3U5dE9qd0MzTE9UUTJjZS1CXzlFNEEza0tGX00wQXJNalZhamc2a3N3VUY1dWdWemRRTkhjTDJRQTFKQ0xMMlpWU0U3eDc5VlZFaUJuX1R1VjZQVHlGaWl0WGJldXZUX0h1aDhhNkR3MjhyMFBsYkI4Y3hlTWdNSWY1azdoX1lWckIxbHJkZEtaOWNiSFdBejF4bnEzYkpHQlZQYVHSAbMBQVVfeXFMTUJGVE5LcWFUaXFFUkVfZXh4WWI2NXgwSnBnYU5fNFhsODFNam94cXFldnFQaHNFTDBFXzJKVzRWSllWLU1yRmNTZ3Z5Z3dRekNsTHVmYXo2UDFZd2Nsd3FZSlBEQ09rOS12eVVBWU1iVnRzYzFXRDdmRHo3NmtMMWJrUU12ZzFZRVo1VXlIUDlvYzBwQnFzSDV2dTBxZ204ZXh2d3Y4T0NJTzFyZ1E1WEdFUWc?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-22",
-    "excerpt": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme Realnews Magazine",
+    "date": "2026-10-21",
+    "excerpt": "Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity Powers of Africa",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
       "category": "other",
-      "summary": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme Realnews Magazine",
-      "why_it_matters_africa": "",
+      "summary": "Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity Powers of Africa",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [],
       "suggested_tags": [
         "africa"
@@ -1025,20 +1001,84 @@
     "backend": "heuristic"
   },
   {
-    "title": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world - Daily Maverick",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFAwcVJlcXNIVEhJUzhOcWQxVXhETWJnVVZwVGFuLS1BalZCTGQ5TXZBWkxxWjlNRjVydTlLQk5NSWpCbkFWVE4tY2ZDQml6R3Bwb3h5R29TSkpTVXB3ektTQ2FWOGx1S0VuQk81c1laSkk5Z2QyaTB2RElvMnBNRWk4TWFReG9hT3pMMmpUNnZHQjhfblRoX3FxLXlieTVtNW5uVU9VUUdFNHVlZ1djQjhONHZ0SVFlZkh1TXZYckVSTFE3LTZ5cnhobHpiYXZfeDFHVEMyOA?oc=5",
+    "title": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme - Realnews Magazine",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFpzdVhpSU5kSjFjVVNNcklTNG56NXEzRkEyYVhvenZ6MlZjYm9VclFGODRIbXdIUnVybkJya0tTbjFENk43WnFacWxNTTR0QjBTbnJ1cTJfMXJPa0RtNW9lZTZJR0lvR3BzQy1ZeThTRmtOS1hMR1Q5XzVHMEluUE5IMVFuTkVuT0VMSEdkZFk1b1RGbHVhb0RjREYtanFzMUlSUnRzMW9nZGl4U19PeQ?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-23",
-    "excerpt": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick",
+    "date": "2026-10-22",
+    "excerpt": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme Realnews Magazine",
     "triage": {
       "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "SA\u2019s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick",
+      "summary": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme Realnews Magazine",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "news"
+        "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Morocco Ranks Third in Africa for Cyber Threats in 2025 - Morocco World News",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWG9pbW1tLVZjRXJHeXVqZ2lhbUR0UDg0Z2YwSkVobFhUdThzNUNqTTZZQ3BxTTJ2NkJuNzJxZWxwN0R4UlhxTkNhZXgzYWhxYmxXeXFDbFdWRkNVQ2VyQVVrY0ZQaGdmSDAyR2NKbF9JWlpZUEZCb295eGtuX1dMN0w0VmdnUXB2STh3WURfMFlRV2tzQ0YxTEViN0RpbERYQmVodTZ3Zw?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-22",
+    "excerpt": "Morocco Ranks Third in Africa for Cyber Threats in 2025 Morocco World News",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, morocco, directly relevant to the region.",
+      "category": "other",
+      "summary": "Morocco Ranks Third in Africa for Cyber Threats in 2025 Morocco World News",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [
+        "MA"
+      ],
+      "suggested_tags": [
+        "africa",
+        "morocco"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud - Tech Build Africa",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yMU53NTdXbGFUUjZMVjQtckRPY2FjcHd4Z2RnVDdOdm9LNUE2bEY1d2E4eWNIZFZWVmQzVDl0V3JmOHN2UUVTSG15dEdrTFp4UGhuVzlZYVR2NDVmcmxhZExyUkZqSC1kZ09RWGwxT1ZFMnVWMFZDOFZYaw?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-22",
+    "excerpt": "PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud Tech Build Africa",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "category": "other",
+      "summary": "PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud Tech Build Africa",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Power\u00a0sisters: How Amina and Aisha Maina are building cross-border influence from Nigeria",
+    "link": "https://www.theafricareport.com/434419/power-sisters-how-amina-and-aisha-maina-are-building-cross-border-influence-from-nigeria/",
+    "source": "The Africa Report",
+    "date": "2026-10-26",
+    "excerpt": "One sister has spent nearly three decades in Nigeria\u2019s oil trade and serves as one of President Tinubu\u2019s economic advisers. The other is opening trade, travel and investment routes between Africa and the Caribbean.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "category": "other",
+      "summary": "One sister has spent nearly three decades in Nigeria\u2019s oil trade and serves as one of President Tinubu\u2019s economic advisers. The other is opening trade, travel and investment routes between Africa and the Caribbean.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
+      "suggested_tags": [
+        "africa",
+        "nigeria"
       ]
     },
     "backend": "heuristic"
@@ -1237,22 +1277,22 @@
     "backend": "heuristic"
   },
   {
-    "title": "Green hydrogen race in the Maghreb: Is Morocco still one step ahead?",
-    "link": "https://www.theafricareport.com/434218/green-hydrogen-race-in-the-maghreb-is-morocco-still-one-step-ahead/",
-    "source": "The Africa Report",
-    "date": "2026-10-23",
-    "excerpt": "Billions in investment and ambitious export plans are fuelling the Maghreb\u2019s green hydrogen push. But soaring costs, water scarcity and a shortage of committed buyers threaten to derail the pursuit of supplying Europe with low-carbon fuel. Here is a breakdown in infographics.",
+    "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
+    "link": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-26",
+    "excerpt": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Billions in investment and ambitious export plans are fuelling the Maghreb\u2019s green hydrogen push. But soaring costs, water scarcity and a shortage of committed buyers threaten to derail the pursuit of supplying Europe with low-carbon fuel.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "MA"
-      ],
+      "relevant": true,
+      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via rce, cve-.",
+      "category": "vulnerability",
+      "summary": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
+      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
       "suggested_tags": [
-        "morocco"
+        "php",
+        "rce",
+        "cve-"
       ]
     },
     "backend": "heuristic"
@@ -1526,25 +1566,6 @@
       "countries": [],
       "suggested_tags": [
         "ransomware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Head of AI Security Roles Surge in Large Organizations",
-    "link": "https://www.infosecurity-magazine.com/news/head-ai-security-roles/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-10-20",
-    "excerpt": "A new IANS report has found that despite the growth of the head of AI security role, accountability for AI governance in firms remains unsettled",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "A new IANS report has found that despite the growth of the head of AI security role, accountability for AI governance in firms remains unsettled",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
       ]
     },
     "backend": "heuristic"

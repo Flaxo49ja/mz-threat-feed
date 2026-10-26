@@ -39,13 +39,27 @@
 <body>
 <div class="wrap">
   <h1>🛰️ Africa/SADC Threat Intel Digest</h1>
-  <div class="sub">Weekly triage of cybersecurity news for IT/security staff at African organizations. Updated 2026-10-25 08:51 UTC &middot; 21 relevant of 77 triaged</div>
+  <div class="sub">Weekly triage of cybersecurity news for IT/security staff at African organizations. Updated 2026-10-26 09:32 UTC &middot; 23 relevant of 78 triaged</div>
 
   <h2>Relevant this week</h2>
   <div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html">Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-26 &middot; ML &middot; relevance: Affects npm — widely deployed in under-resourced organizations — via malware.</div>
+  <div>A malicious instruction file sitting in a developer&#x27;s Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer&#x27;s machine and stopped the agent before any code ran.</div>
+  <div class="why"><b>Why it matters here</b><br>If you run npm, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">npm</span> <span class="tag">malware</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html">PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity</a><span class="badge vulnerability">vulnerability</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-25 &middot; relevance: Affects php — widely deployed in under-resourced organizations — via exploitation.</div>
+  <div>In an update, Palo Alto Networks Unit 42 said it&#x27;s retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. &quot;What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,&quot; a spokesperson for the company told The Hacker News via</div>
+  <div class="why"><b>Why it matters here</b><br>If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">php</span> <span class="tag">exploitation</span></div>
+</div>
+<div class="card">
   <h3><a href="https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html">Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software</a><span class="badge vulnerability">vulnerability</span></h3>
   <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-24 &middot; relevance: Affects python — widely deployed in under-resourced organizations — via rce, cve-.</div>
-  <div>A memory-corruption flaw in Google&#x27;s Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program&#x27;s memory, potentially</div>
+  <div>A memory-corruption flaw in Google&#x27;s Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft&#x27;s .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program&#x27;s memory,</div>
   <div class="why"><b>Why it matters here</b><br>If you run python, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
   <div><span class="tag">python</span> <span class="tag">rce</span> <span class="tag">cve-</span></div>
 </div>
@@ -71,25 +85,11 @@
   <div><span class="tag">fortinet</span> <span class="tag">credential</span> <span class="tag">breach</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html">PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-23 &middot; relevance: Affects php — widely deployed in under-resourced organizations — via rce, cve-.</div>
-  <div>PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it.</div>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/">PHP2Shell security flaws now sucessfully exploited in the wild</a><span class="badge vulnerability">vulnerability</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-26 &middot; relevance: Affects php — widely deployed in under-resourced organizations — via rce, exploited.</div>
+  <div>Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]</div>
   <div class="why"><b>Why it matters here</b><br>If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">php</span> <span class="tag">rce</span> <span class="tag">cve-</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html">Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-23 &middot; relevance: Affects python — widely deployed in under-resourced organizations — via cve-.</div>
-  <div>Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file&#x27;s name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.</div>
-  <div class="why"><b>Why it matters here</b><br>If you run python, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">python</span> <span class="tag">cve-</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html">Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-23 &middot; ML &middot; relevance: Affects linux — widely deployed in under-resourced organizations — via rce, cve-.</div>
-  <div>Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their &quot;Node2Shell&quot; proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497).</div>
-  <div class="why"><b>Why it matters here</b><br>If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">linux</span> <span class="tag">rce</span> <span class="tag">cve-</span></div>
+  <div><span class="tag">php</span> <span class="tag">rce</span> <span class="tag">exploited</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/">PHP shares mitigation for new RCE vulnerability with no patch</a><span class="badge vulnerability">vulnerability</span></h3>
@@ -104,13 +104,6 @@
   <div>Hackers compromised the LiteLLM project&#x27;s PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]</div>
   <div class="why"><b>Why it matters here</b><br>If you run pypi, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
   <div><span class="tag">pypi</span> <span class="tag">malware</span> <span class="tag">credential</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/">Amazon says PHP2Shell exploitation began 4 days before patches</a><span class="badge vulnerability">vulnerability</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-22 &middot; relevance: Affects php — widely deployed in under-resourced organizations — via exploitation, attackers.</div>
-  <div>Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]</div>
-  <div class="why"><b>Why it matters here</b><br>If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
-  <div><span class="tag">php</span> <span class="tag">exploitation</span> <span class="tag">attackers</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/">In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware</a><span class="badge ransomware">ransomware</span></h3>
@@ -134,13 +127,6 @@
   <div><span class="tag">php</span> <span class="tag">exploitation</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5">Mozambique’s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-24 &middot; MZ &middot; relevance: Security story involving africa, mozambique, directly relevant to the region.</div>
-  <div>Mozambique’s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa</div>
-  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">africa</span> <span class="tag">mozambique</span></div>
-</div>
-<div class="card">
   <h3><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9CMnpIcVNoSG0wNDJraUZVM05RWHdBenJqZmVDeTlNazVPSE96MmEwb1ZxZndUb1dPV3NIeTBwZ092WGVJZUkxbU5VQm9MNXhwV2syOGl5UFhQMUlxS1ZSZk1KQ3hkMWpkWXc?oc=5">Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown - CISO Series</a><span class="badge other">other</span></h3>
   <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-23 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
   <div>Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown CISO Series</div>
@@ -148,11 +134,11 @@
   <div><span class="tag">africa</span> <span class="tag">php</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBuLV84NWlkQ1IyWndpOE8zekU4aFpZdEwtUGRyb01fX2laR2RIdlNCc01zbTRhbm9odl9oakkzNy00MjF3ekF4blRkQ0xlc0pVV1NWYi1NalR0VC1UbHhDVUJRT0Q1bm9iYmc?oc=5">Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans - Global South Opportunities</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-25 &middot; relevance: Security story involving africa, african, directly relevant to the region.</div>
-  <div>Apply Now for the Sycom Cybersecurity Scholarship 2026/27: Free Training, Certification Vouchers and Mentorship for Africans Global South Opportunities</div>
+  <h3><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5">Mozambique’s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-24 &middot; MZ &middot; relevance: Security story involving africa, mozambique, directly relevant to the region.</div>
+  <div>Mozambique’s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa</div>
   <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
-  <div><span class="tag">africa</span> <span class="tag">african</span></div>
+  <div><span class="tag">africa</span> <span class="tag">mozambique</span></div>
 </div>
 <div class="card">
   <h3><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDhzOThIVVFlSXpPemlUMnNZQWQ2bWZQNXhjd3Ztd0tyOThfXzNqbHhaak5tVGFrQ3owQ294ZWh4S3drSVowT3NyYXdwNUphZmdIVDNDXzJ2TVdLdGdKeDNGQTUxSjdzX1NkUkFscEpTZE1jY3UzVHY1QmprcWlxOXhWWmNSQzRxblNuNXBOa29iNktFeU5NUV95RHFtOXZuLWY0WEFIQVM0elNuRjA1emxWaU5fSVVtQkE?oc=5">PHP2Shell Vulnerabilities Trigger Cybersecurity Alerts Across Africa - We are Tech</a><span class="badge other">other</span></h3>
@@ -162,11 +148,39 @@
   <div><span class="tag">africa</span> <span class="tag">php</span></div>
 </div>
 <div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWdXdDlzdmVPV3U5dE9qd0MzTE9UUTJjZS1CXzlFNEEza0tGX00wQXJNalZhamc2a3N3VUY1dWdWemRRTkhjTDJRQTFKQ0xMMlpWU0U3eDc5VlZFaUJuX1R1VjZQVHlGaWl0WGJldXZUX0h1aDhhNkR3MjhyMFBsYkI4Y3hlTWdNSWY1azdoX1lWckIxbHJkZEtaOWNiSFdBejF4bnEzYkpHQlZQYVHSAbMBQVVfeXFMTUJGVE5LcWFUaXFFUkVfZXh4WWI2NXgwSnBnYU5fNFhsODFNam94cXFldnFQaHNFTDBFXzJKVzRWSllWLU1yRmNTZ3Z5Z3dRekNsTHVmYXo2UDFZd2Nsd3FZSlBEQ09rOS12eVVBWU1iVnRzYzFXRDdmRHo3NmtMMWJrUU12ZzFZRVo1VXlIUDlvYzBwQnFzSDV2dTBxZ204ZXh2d3Y4T0NJTzFyZ1E1WEdFUWc?oc=5">Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity - Powers of Africa</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-21 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>Cyber Africa Forum: Africa Faces the Urgent Challenge of Cybersecurity Powers of Africa</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
   <h3><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE9KYWdQRXJsU3BmSmxJVFMxS2RHb21VSTZFay02QUgyYWZMbzRxQWVCc3RnTGE4QkJZQ3pIeTA0amRPTm9sS0EzOEhTSVNIbXNfeWc2VHJYWk9Eb0Y0OW9tLWtydWhHMmRYdWVoQ0R1aWxyX0oyU01uTTVR?oc=5">Cybersecurity: The Public Sector Is Pulling Apart - CIO Africa</a><span class="badge other">other</span></h3>
   <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-22 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
   <div>Cybersecurity: The Public Sector Is Pulling Apart CIO Africa</div>
   <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
   <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPWG9pbW1tLVZjRXJHeXVqZ2lhbUR0UDg0Z2YwSkVobFhUdThzNUNqTTZZQ3BxTTJ2NkJuNzJxZWxwN0R4UlhxTkNhZXgzYWhxYmxXeXFDbFdWRkNVQ2VyQVVrY0ZQaGdmSDAyR2NKbF9JWlpZUEZCb295eGtuX1dMN0w0VmdnUXB2STh3WURfMFlRV2tzQ0YxTEViN0RpbERYQmVodTZ3Zw?oc=5">Morocco Ranks Third in Africa for Cyber Threats in 2025 - Morocco World News</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-22 &middot; MA &middot; relevance: Security story involving africa, morocco, directly relevant to the region.</div>
+  <div>Morocco Ranks Third in Africa for Cyber Threats in 2025 Morocco World News</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span> <span class="tag">morocco</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9yMU53NTdXbGFUUjZMVjQtckRPY2FjcHd4Z2RnVDdOdm9LNUE2bEY1d2E4eWNIZFZWVmQzVDl0V3JmOHN2UUVTSG15dEdrTFp4UGhuVzlZYVR2NDVmcmxhZExyUkZqSC1kZ09RWGwxT1ZFMnVWMFZDOFZYaw?oc=5">PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud - Tech Build Africa</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-22 &middot; relevance: Security story involving africa, directly relevant to the region.</div>
+  <div>PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud Tech Build Africa</div>
+  <div class="why"><b>Why it matters here</b><br>Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.</div>
+  <div><span class="tag">africa</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/">PHP Publishes Mitigation Advice for New RCE Flaw</a><span class="badge vulnerability">vulnerability</span></h3>
+  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-26 &middot; relevance: Affects php — widely deployed in under-resourced organizations — via rce, cve-.</div>
+  <div>PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected</div>
+  <div class="why"><b>Why it matters here</b><br>If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.</div>
+  <div><span class="tag">php</span> <span class="tag">rce</span> <span class="tag">cve-</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target/">Widespread Token-Spraying Attacks Target Microsoft 365 Accounts For Email Compromise</a><span class="badge phishing">phishing</span></h3>
@@ -192,6 +206,27 @@
 
   <h2>Not relevant (filtered out)</h2>
   <div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html">Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-26 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across</div>
+  
+  <div><span class="tag">microsoft 365</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html">Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-26 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>An automated campaign is using stolen GitHub tokens to plant workflows that print a repository&#x27;s secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud security company Wiz.</div>
+  
+  <div><span class="tag">attackers</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html">Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-25 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network&#x27;s access rules permit to connect to the target.</div>
+  
+  <div><span class="tag">hacked</span> <span class="tag">unpatched</span></div>
+</div>
+<div class="card">
   <h3><a href="https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html">OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</a><span class="badge other">other</span></h3>
   <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-25 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
   <div>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. &quot;Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no</div>
@@ -234,18 +269,11 @@
   <div><span class="tag">ransomware</span> <span class="tag">exposed</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html">Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-23 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of</div>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/">AI coding agents hijacked using AGENTS.md file in Downloads folder</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-25 &middot; ML &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>Researchers found a malicious AGENTS markdown instruction file in a customer&#x27;s Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]</div>
   
-  <div><span class="tag">phishing</span> <span class="tag">malware</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html">Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Hacker News</span> &middot; 2026-10-23 &middot; ML &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs&#x27; default client, which set no spending limit until releases on August 18 added one.</div>
-  
-  <div><span class="tag">news</span></div>
+  <div><span class="tag">npm</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/">BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot</a><span class="badge other">other</span></h3>
@@ -325,11 +353,18 @@
   <div><span class="tag">news</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/">Machine speed attacks require machine speed detection and response</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">BleepingComputer</span> &middot; 2026-10-22 &middot; ML &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical.</div>
+  <h3><a href="https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/">Mythos 5 Ignored Real-World Harm in July Attack</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-26 &middot; ML &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
+  <div>The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek .</div>
   
-  <div><span class="tag">phishing</span> <span class="tag">credential</span></div>
+  <div><span class="tag">news</span></div>
+</div>
+<div class="card">
+  <h3><a href="https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/">Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-25 &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .</div>
+  
+  <div><span class="tag">news</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/">China APT Uses AI Pentest Tool Artex in ConnectWise Attacks</a><span class="badge other">other</span></h3>
@@ -374,20 +409,6 @@
   <div><span class="tag">atlassian</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/">Iran’s Prince of Persia APT Hosts C&amp;C in US for First Time Since 2016</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-23 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>After a three-month lull, Prince of Persia hid a Tornado C&amp;#038;C server on US shared hosting, its first US-based server since 2016. The post Iran&amp;#8217;s Prince of Persia APT Hosts C&amp;#038;C in US for First Time Since 2016 appeared first on SecurityWeek .</div>
-  
-  <div><span class="tag">news</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/">Hacker Conversations: Corey Thuen and the Evil Bit</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">SecurityWeek</span> &middot; 2026-10-22 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>Corey Thuen hires hackers for what he calls ‘the evil bit’ — an adversarial streak he believes is either there or it isn’t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek .</div>
-  
-  <div><span class="tag">news</span></div>
-</div>
-<div class="card">
   <h3><a href="https://therecord.media/fcc-bans-devices-huawei-surveillance-chips">FCC bans two devices with surveillance chips linked to Huawei</a><span class="badge other">other</span></h3>
   <div class="meta"><span class="src">The Record</span> &middot; 2026-10-23 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
   <div>The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”</div>
@@ -423,11 +444,11 @@
   <div><span class="tag">africa</span></div>
 </div>
 <div class="card">
-  <h3><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFAwcVJlcXNIVEhJUzhOcWQxVXhETWJnVVZwVGFuLS1BalZCTGQ5TXZBWkxxWjlNRjVydTlLQk5NSWpCbkFWVE4tY2ZDQml6R3Bwb3h5R29TSkpTVXB3ektTQ2FWOGx1S0VuQk81c1laSkk5Z2QyaTB2RElvMnBNRWk4TWFReG9hT3pMMmpUNnZHQjhfblRoX3FxLXlieTVtNW5uVU9VUUdFNHVlZ1djQjhONHZ0SVFlZkh1TXZYckVSTFE3LTZ5cnhobHpiYXZfeDFHVEMyOA?oc=5">SA’s Presidency website taken down as cybersecurity flaw sparks warnings across the world - Daily Maverick</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Google News: Africa cybersecurity</span> &middot; 2026-10-23 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>SA’s Presidency website taken down as cybersecurity flaw sparks warnings across the world Daily Maverick</div>
+  <h3><a href="https://www.theafricareport.com/434419/power-sisters-how-amina-and-aisha-maina-are-building-cross-border-influence-from-nigeria/">Power sisters: How Amina and Aisha Maina are building cross-border influence from Nigeria</a><span class="badge other">other</span></h3>
+  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-26 &middot; NE NG &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
+  <div>One sister has spent nearly three decades in Nigeria’s oil trade and serves as one of President Tinubu’s economic advisers. The other is opening trade, travel and investment routes between Africa and the Caribbean.</div>
   
-  <div><span class="tag">news</span></div>
+  <div><span class="tag">africa</span> <span class="tag">nigeria</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.theafricareport.com/434360/ghanas-presidential-daughters-where-are-they/">Ghana’s presidential daughters: Nkrumah, Limann, Rawlings, Kufuor’s legacies in safe hands</a><span class="badge other">other</span></h3>
@@ -491,13 +512,6 @@
   <div>Instead of passing off Europe’s barely serviceable second-hand equipment and vehicles to Africa, an equal partnership should be established.</div>
   
   <div><span class="tag">africa</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.theafricareport.com/434218/green-hydrogen-race-in-the-maghreb-is-morocco-still-one-step-ahead/">Green hydrogen race in the Maghreb: Is Morocco still one step ahead?</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">The Africa Report</span> &middot; 2026-10-23 &middot; MA &middot; relevance: Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.</div>
-  <div>Billions in investment and ambitious export plans are fuelling the Maghreb’s green hydrogen push. But soaring costs, water scarcity and a shortage of committed buyers threaten to derail the pursuit of supplying Europe with low-carbon fuel.</div>
-  
-  <div><span class="tag">morocco</span></div>
 </div>
 <div class="card">
   <h3><a href="https://www.infosecurity-magazine.com/news/capcom-confirms-data-breach/">Gaming Giant Capcom Confirms Data Breach Exposed Users’ Personal Information</a><span class="badge other">other</span></h3>
@@ -575,13 +589,6 @@
   <div>Two critical vulnerabilities in PHP were leaked one day before their scheduled disclosure and security patches</div>
   
   <div><span class="tag">php</span></div>
-</div>
-<div class="card">
-  <h3><a href="https://www.infosecurity-magazine.com/news/head-ai-security-roles/">Head of AI Security Roles Surge in Large Organizations</a><span class="badge other">other</span></h3>
-  <div class="meta"><span class="src">Infosecurity Magazine</span> &middot; 2026-10-20 &middot; relevance: No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.</div>
-  <div>A new IANS report has found that despite the growth of the head of AI security role, accountability for AI governance in firms remains unsettled</div>
-  
-  <div><span class="tag">news</span></div>
 </div>
 
   <footer>
