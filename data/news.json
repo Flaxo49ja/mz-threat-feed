@@ -1,5 +1,89 @@
 [
   {
+    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "source": "The Hacker News",
+    "date": "2026-10-29",
+    "excerpt": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they"
+  },
+  {
+    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "source": "The Hacker News",
+    "date": "2026-10-29",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:"
+  },
+  {
+    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "source": "The Hacker News",
+    "date": "2026-10-29",
+    "excerpt": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as"
+  },
+  {
+    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared"
+  },
+  {
+    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+    "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on"
+  },
+  {
+    "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+    "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin contest in May. Microsoft fixed the Edge bugs the day after the contest,"
+  },
+  {
+    "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+    "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root"
+  },
+  {
+    "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical"
+  },
+  {
+    "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+    "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network. UEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine"
+  },
+  {
+    "title": "Wazuh and AI for Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate"
+  },
+  {
+    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution."
+  },
+  {
+    "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+    "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+    "source": "The Hacker News",
+    "date": "2026-10-28",
+    "excerpt": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations"
+  },
+  {
     "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
     "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
     "source": "The Hacker News",
@@ -21,88 +105,67 @@
     "excerpt": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service hosts Windows desktops used for FX trading,"
   },
   {
-    "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-    "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-    "source": "The Hacker News",
+    "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+    "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+    "source": "BleepingComputer",
     "date": "2026-10-28",
-    "excerpt": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must"
+    "excerpt": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]"
   },
   {
-    "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-    "source": "The Hacker News",
+    "title": "Discord to let search engines index public server messages",
+    "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+    "source": "BleepingComputer",
     "date": "2026-10-28",
-    "excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address"
+    "excerpt": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]"
   },
   {
-    "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-    "source": "The Hacker News",
+    "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+    "link": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+    "source": "BleepingComputer",
     "date": "2026-10-28",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in"
+    "excerpt": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]"
   },
   {
-    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published"
+    "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+    "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+    "source": "BleepingComputer",
+    "date": "2026-10-28",
+    "excerpt": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]"
   },
   {
-    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-    "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked"
+    "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+    "source": "BleepingComputer",
+    "date": "2026-10-28",
+    "excerpt": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]"
   },
   {
-    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-    "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in"
+    "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+    "source": "BleepingComputer",
+    "date": "2026-10-28",
+    "excerpt": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]"
   },
   {
-    "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-    "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,"
+    "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+    "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+    "source": "BleepingComputer",
+    "date": "2026-10-28",
+    "excerpt": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]"
   },
   {
-    "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve"
+    "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+    "source": "BleepingComputer",
+    "date": "2026-10-28",
+    "excerpt": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]"
   },
   {
-    "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain"
-  },
-  {
-    "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-    "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up"
-  },
-  {
-    "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-    "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next steps that we took were to disconnect that Amadey controller from all those"
-  },
-  {
-    "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-    "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-    "source": "The Hacker News",
-    "date": "2026-10-27",
-    "excerpt": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an encrypted item the user cannot read. The method got past"
+    "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "source": "BleepingComputer",
+    "date": "2026-10-28",
+    "excerpt": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]"
   },
   {
     "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
@@ -147,172 +210,116 @@
     "excerpt": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]"
   },
   {
-    "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-    "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-    "source": "BleepingComputer",
-    "date": "2026-10-27",
-    "excerpt": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]"
+    "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon\u2019s \u2018Silent Train\u2019 Network",
+    "link": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+    "source": "SecurityWeek",
+    "date": "2026-10-29",
+    "excerpt": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon\u2019s Silent Train network, which Lumen detailed. The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon&#8217;s &#8216;Silent Train&#8217; Network appeared first on SecurityWeek ."
   },
   {
-    "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-    "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-    "source": "BleepingComputer",
-    "date": "2026-10-27",
-    "excerpt": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]"
+    "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+    "link": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+    "source": "SecurityWeek",
+    "date": "2026-10-29",
+    "excerpt": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload. The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek ."
   },
   {
-    "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-    "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-    "source": "BleepingComputer",
-    "date": "2026-10-27",
-    "excerpt": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]"
+    "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+    "link": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+    "source": "SecurityWeek",
+    "date": "2026-10-29",
+    "excerpt": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications. The post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek ."
   },
   {
-    "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-    "source": "BleepingComputer",
-    "date": "2026-10-27",
-    "excerpt": "\u200bApple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]"
+    "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+    "link": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+    "source": "SecurityWeek",
+    "date": "2026-10-29",
+    "excerpt": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek ."
   },
   {
-    "title": "Energy giant ENGIE discloses data breach affecting customers",
-    "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-    "source": "BleepingComputer",
-    "date": "2026-10-27",
-    "excerpt": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]"
-  },
-  {
-    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-10-27",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]"
-  },
-  {
-    "title": "University of Copenhagen data breach exposes data of 525,000 people",
-    "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-    "source": "BleepingComputer",
-    "date": "2026-10-26",
-    "excerpt": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]"
-  },
-  {
-    "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-    "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-    "source": "BleepingComputer",
-    "date": "2026-10-26",
-    "excerpt": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]"
-  },
-  {
-    "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-    "source": "BleepingComputer",
-    "date": "2026-10-26",
-    "excerpt": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]"
-  },
-  {
-    "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
-    "link": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
+    "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+    "link": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
     "source": "SecurityWeek",
     "date": "2026-10-28",
-    "excerpt": "The company will use the Series B funds to expand its platform for securing AI agents\u2019 access to sensitive systems. The post Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise appeared first on SecurityWeek ."
+    "excerpt": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek ."
   },
   {
-    "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "link": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+    "title": "Upwind\u00a0Security Raises\u00a0$400 Million at\u00a0$3.8 Billion Valuation",
+    "link": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
     "source": "SecurityWeek",
     "date": "2026-10-28",
-    "excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek ."
+    "excerpt": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek ."
   },
   {
-    "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
-    "link": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+    "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+    "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
     "source": "SecurityWeek",
     "date": "2026-10-28",
-    "excerpt": "CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit. The post CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts appeared first on SecurityWeek ."
+    "excerpt": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek ."
   },
   {
-    "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of \u2018Tailworm\u2019 Flaws",
-    "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+    "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
+    "link": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
     "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of &#8216;Tailworm&#8217; Flaws appeared first on SecurityWeek ."
+    "date": "2026-10-28",
+    "excerpt": "FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers. The post TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices appeared first on SecurityWeek ."
   },
   {
-    "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
-    "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+    "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
+    "link": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
     "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on SecurityWeek ."
+    "date": "2026-10-28",
+    "excerpt": "The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization. The post China-Linked Hackers Exploit PHP2Shell to Root Firewalls appeared first on SecurityWeek ."
   },
   {
-    "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
-    "link": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+    "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+    "link": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
     "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek ."
+    "date": "2026-10-28",
+    "excerpt": "Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs. The post Long-Hidden Flaws Patched in EPICS Research Facility Control Software appeared first on SecurityWeek ."
   },
   {
-    "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
-    "link": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
-    "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek ."
-  },
-  {
-    "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-    "link": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-    "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
-    "link": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
-    "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek ."
-  },
-  {
-    "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
-    "link": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
-    "source": "SecurityWeek",
-    "date": "2026-10-27",
-    "excerpt": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
-    "link": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+    "title": "Court strikes down West Virginia law barring disclosure of public officials\u2019 personal data",
+    "link": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
     "source": "The Record",
-    "date": "2026-10-27",
-    "excerpt": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups."
+    "date": "2026-10-28",
+    "excerpt": "A federal appellate court panel said West Virginia's version of Daniel's Law \u2014 meant to shield the personal data of police and other officials \u2014 is unconstitutional."
   },
   {
-    "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
-    "link": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+    "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+    "link": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
     "source": "The Record",
-    "date": "2026-10-27",
-    "excerpt": "DOJ action against five foreign nationals \u2014 plus a sting in Madagascar \u2014 highlight the expanding global reach of the scam center industry."
+    "date": "2026-10-28",
+    "excerpt": "Hackers stole passport numbers, frequent flyer numbers, email addresses and phone numbers for about 2,000 customers."
   },
   {
-    "title": "Hackers repeatedly breached suppliers holding UK police data, watchdog finds",
-    "link": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
+    "title": "European digital rights nonprofit noyb sues Scale AI for \u2018invasive\u2019 worker surveillance",
+    "link": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
     "source": "The Record",
-    "date": "2026-10-27",
-    "excerpt": "His Majesty\u2019s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers."
+    "date": "2026-10-28",
+    "excerpt": "Noyb alleges the platform in some cases records freelancers\u2019 mouse clicks and keystrokes every few seconds and claims the collected information can be used to generate video documenting freelancers\u2019 entire workday."
   },
   {
-    "title": "University of New Mexico hospital diverts ambulances after cyberattack",
-    "link": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+    "title": "US sanctions Russians, North Koreans for laundering IT worker earnings",
+    "link": "https://therecord.media/north-korea-russia-sanctions",
     "source": "The Record",
-    "date": "2026-10-27",
-    "excerpt": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day."
+    "date": "2026-10-28",
+    "excerpt": "The U.S. Treasury Department sanctioned Russian and North Korean nationals for allegedly laundering the earnings of illicit IT workers on behalf of Pyongyang."
   },
   {
-    "title": "Malicious apps prey on Russians\u2019 anxiety about fuel prices, drone strikes",
-    "link": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
+    "title": "Moldova investigates possible foreign involvement in major government cyberattack",
+    "link": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
     "source": "The Record",
-    "date": "2026-10-27",
-    "excerpt": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said."
+    "date": "2026-10-28",
+    "excerpt": "Prime Minister Vasile Tofan said the incident may be part of a broader campaign targeting both citizens' personal data and government digital infrastructure, according to local media reports."
+  },
+  {
+    "title": "Huawei highlights AI-driven cybersecurity operations at Cyber Week Africa 2026 - Tech Review Africa",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeC1lZGk2Njc4TUNDUWU2cXBQbFBFdjE2eDQ2RXVfanE5SXRidlpEY05Kb0c0eF85MVltYmFCOHBkcnFmcGRqckpWRnc5bjFYQTJYRThxWXlVY01oRlV4dDkwaVpiSF90NVJ1Y19pMTFrU0N3V2JVLVQ0QnRBSFAwZ2hzTUE4bFJPSkVaSE9weFdobXNsU1dMVjJjUEdUME8tdTQ0OHNvWnJQX29YaWx5SUFuZU5GZmk5?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-28",
+    "excerpt": "Huawei highlights AI-driven cybersecurity operations at Cyber Week Africa 2026 Tech Review Africa"
   },
   {
     "title": "Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown - CISO Series",
@@ -322,13 +329,6 @@
     "excerpt": "Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown CISO Series"
   },
   {
-    "title": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-24",
-    "excerpt": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa"
-  },
-  {
     "title": "PHP2Shell Vulnerabilities Trigger Cybersecurity Alerts Across Africa - We are Tech",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDhzOThIVVFlSXpPemlUMnNZQWQ2bWZQNXhjd3Ztd0tyOThfXzNqbHhaak5tVGFrQ3owQ294ZWh4S3drSVowT3NyYXdwNUphZmdIVDNDXzJ2TVdLdGdKeDNGQTUxSjdzX1NkUkFscEpTZE1jY3UzVHY1QmprcWlxOXhWWmNSQzRxblNuNXBOa29iNktFeU5NUV95RHFtOXZuLWY0WEFIQVM0elNuRjA1emxWaU5fSVVtQkE?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -336,32 +336,46 @@
     "excerpt": "PHP2Shell Vulnerabilities Trigger Cybersecurity Alerts Across Africa We are Tech"
   },
   {
-    "title": "Cybersecurity: The Public Sector Is Pulling Apart - CIO Africa",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KYWdQRXJsU3BmSmxJVFMxS2RHb21VSTZFay02QUgyYWZMbzRxQWVCc3RnTGE4QkJZQ3pIeTA0amRPTm9sS0EzOEhTSVNIbXNfeWc2VHJYWk9Eb0Y0OW9tLWtydWhHMmRYdWVoQ0R1aWxyX0oyU01uTTVR?oc=5",
+    "title": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence - Tech Review Africa",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFNrYk5Ddm5HeVVyTXlRSlhvaklxR1FOWlBFRzRBSFQ5N1RURVFCSVZTMGZwRFVxQkJoS2JtQ1VSVzRwTERhcWlZN1h4S2J5V2RPbVhybkVjRUxpM1dxZ2c4ZkMxTkRSZFFFaUdaWjVYMkhEcDl3QXlBM2NpY3VwNG16TmY0NjN6ZDRyQjZqVXBWVTN3NXFOTllLYkhjbkVOeDhQemcyYmJaWGFrV3lSNkEzMk5jTmFXUERlYjl1Zi1BaGhvRmVfZ3EwcHNnRm9VaVE?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-22",
-    "excerpt": "Cybersecurity: The Public Sector Is Pulling Apart CIO Africa"
+    "date": "2026-10-24",
+    "excerpt": "Mozambique\u2019s INTIC promotes cybersecurity awareness and responsible use of artificial intelligence Tech Review Africa"
   },
   {
-    "title": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme - Realnews Magazine",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFpzdVhpSU5kSjFjVVNNcklTNG56NXEzRkEyYVhvenZ6MlZjYm9VclFGODRIbXdIUnVybkJya0tTbjFENk43WnFacWxNTTR0QjBTbnJ1cTJfMXJPa0RtNW9lZTZJR0lvR3BzQy1ZeThTRmtOS1hMR1Q5XzVHMEluUE5IMVFuTkVuT0VMSEdkZFk1b1RGbHVhb0RjREYtanFzMUlSUnRzMW9nZGl4U19PeQ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-22",
-    "excerpt": "AI, cybersecurity and digital trust: Cyber Africa Forum 2026 launches its programme Realnews Magazine"
+    "title": "AU should take up issue of African recruits to Russia, says Kenya foreign minister",
+    "link": "https://www.theafricareport.com/434844/au-should-take-up-issue-of-african-recruits-to-russia-says-kenya-foreign-minister/",
+    "source": "The Africa Report",
+    "date": "2026-10-29",
+    "excerpt": "Foreign minister Musalia Mudavadi has admitted that Kenya doesn\u2019t know how many of its citizens were recruited by Russia to fight in Ukraine, but says the matter should be taken up by the African Union."
   },
   {
-    "title": "Morocco Ranks Third in Africa for Cyber Threats in 2025 - Morocco World News",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWG9pbW1tLVZjRXJHeXVqZ2lhbUR0UDg0Z2YwSkVobFhUdThzNUNqTTZZQ3BxTTJ2NkJuNzJxZWxwN0R4UlhxTkNhZXgzYWhxYmxXeXFDbFdWRkNVQ2VyQVVrY0ZQaGdmSDAyR2NKbF9JWlpZUEZCb295eGtuX1dMN0w0VmdnUXB2STh3WURfMFlRV2tzQ0YxTEViN0RpbERYQmVodTZ3Zw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-22",
-    "excerpt": "Morocco Ranks Third in Africa for Cyber Threats in 2025 Morocco World News"
+    "title": "Congo cobalt: Build on its power",
+    "link": "https://www.theafricareport.com/434660/congo-cobalt-build-on-its-power/",
+    "source": "The Africa Report",
+    "date": "2026-10-29",
+    "excerpt": "Democratic Republic of Congo\u2019s cobalt cap sets the price. Only recycling and processing set the future."
   },
   {
-    "title": "PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud - Tech Build Africa",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yMU53NTdXbGFUUjZMVjQtckRPY2FjcHd4Z2RnVDdOdm9LNUE2bEY1d2E4eWNIZFZWVmQzVDl0V3JmOHN2UUVTSG15dEdrTFp4UGhuVzlZYVR2NDVmcmxhZExyUkZqSC1kZ09RWGwxT1ZFMnVWMFZDOFZYaw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-22",
-    "excerpt": "PalmPay Backs NPF-NCCC Cybersecurity Awareness Walk, Calls for Greater Customer Vigilance Against Fraud Tech Build Africa"
+    "title": "Yango, Rosatom, Nordgold: The Russian firms thriving in Africa despite sanctions",
+    "link": "https://www.theafricareport.com/434820/yango-rosatom-nordgold-the-russian-firms-thriving-in-africa-despite-sanctions/",
+    "source": "The Africa Report",
+    "date": "2026-10-29",
+    "excerpt": "As the third Russia\u2013Africa summit opens in Moscow, the Kremlin is seeking to revive its economic presence on the continent. From nuclear power to technology services, here is an analysis of its strategy."
+  },
+  {
+    "title": "Nigeria, Algeria, Liberia\u2026 African governments woo oil investors in licensing revival",
+    "link": "https://www.theafricareport.com/434764/nigeria-algeria-liberia-african-governments-woo-oil-investors-in-licensing-revival/",
+    "source": "The Africa Report",
+    "date": "2026-10-28",
+    "excerpt": "African oil and gas producers are overhauling fiscal terms and fast-tracking block licensing to capture global majors seeking acreage insulated from Middle Eastern supply chokepoints."
+  },
+  {
+    "title": "Inside Ecobank\u2019s boardroom power struggle and conflict-of-interest allegations",
+    "link": "https://www.theafricareport.com/434758/inside-ecobanks-boardroom-power-struggle-and-conflict-of-interest-allegations/",
+    "source": "The Africa Report",
+    "date": "2026-10-28",
+    "excerpt": "The last-minute cancellation of Ecobank\u2019s general meeting scheduled for 26 October has reignited concerns among minority shareholders. Here is an in-depth look at a corporate governance crisis under pressure."
   },
   {
     "title": "Nigeria 2027: Whoever wins, the same old economic problem awaits",
@@ -399,38 +413,108 @@
     "excerpt": "He promises change but makes no reshuffle. He creates the post of vice president but leaves it vacant. Cameroon President Paul Biya, 93, keeps the country guessing at the highest levels of government."
   },
   {
-    "title": "Get rich or get ruined: Ghana\u2019s youth caught in Africa\u2019s Ponzi trap",
-    "link": "https://www.theafricareport.com/434628/get-rich-or-get-ruined-ghanas-youth-caught-in-africas-ponzi-trap/",
-    "source": "The Africa Report",
-    "date": "2026-10-27",
-    "excerpt": "The apps promised to triple savings in 40 days. Then they went dark. Behind Ghana\u2019s online investment nightmare lies an economic crisis regulators cannot simply shut down."
+    "title": "ICO Reprimands Staffordshire Police After Domestic Abuse Breach",
+    "link": "https://www.infosecurity-magazine.com/news/ico-reprimand-staffordshire-police/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-29",
+    "excerpt": "The UK\u2019s privacy regulator has issued a reprimand to Staffordshire Police following a serious breach of personal information"
   },
   {
-    "title": "Tafouk TV, the new media arm of Moscow-backed Sahelian juntas",
-    "link": "https://www.theafricareport.com/434646/tafouk-tv-the-new-media-arm-of-moscow-backed-sahelian-juntas/",
-    "source": "The Africa Report",
-    "date": "2026-10-27",
-    "excerpt": "Launched by the military regimes of Mali, Burkina Faso and Niger, Tafouk TV aims to impose the Alliance of Sahel States\u2019 sovereignty-focused narrative. Encouraged by Russia, the broadcaster is emerging as repression against local journalists intensifies."
+    "title": "NIST Publishes Guidance to Meet Federal Post-Quantum Deadlines",
+    "link": "https://www.infosecurity-magazine.com/news/nist-guidance-post-quantum/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-29",
+    "excerpt": "The guidance sets out how federal agencies can prioritize PQC adoption for the most sensitive systems, to meet the 2031 transition deadline"
   },
   {
-    "title": "Nigeria\u2019s economy \u2018needs a coach, not just a referee\u2019",
-    "link": "https://www.theafricareport.com/434531/nigerias-economy-needs-a-coach-not-just-a-referee/",
-    "source": "The Africa Report",
-    "date": "2026-10-27",
-    "excerpt": "Having stabilised the economy, President Bola Tinubu faces a harder task: building businesses capable of competing abroad \u2014 without handing Nigeria\u2019s industrial giants a permanent advantage."
+    "title": "MR ROBOT Malware-as-a-Service Targets Indian Bank Customers",
+    "link": "https://www.infosecurity-magazine.com/news/robot-malware-indian-bank-customers/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-29",
+    "excerpt": "MR ROBOT Android malware rents banking trojans that steal one-time passwords and card data"
   },
   {
-    "title": "Kenya 2027: Why Nairobi governorship has become a coveted political prize",
-    "link": "https://www.theafricareport.com/434536/kenya-2027-why-nairobi-governorship-has-become-a-coveted-political-prize/",
-    "source": "The Africa Report",
-    "date": "2026-10-27",
-    "excerpt": "Nairobi\u2019s 2027 governor race is shaping up, with an increased number of aspirants expressing interest to capture Kenya\u2019s capital city\u2019s top political seat."
+    "title": "Japan\u2019s GMO Internet Urges Customers to Disconnect PCs",
+    "link": "https://www.infosecurity-magazine.com/news/japan-gmo-internet-disconnect/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-28",
+    "excerpt": "GMO Internet has told customers to unplug their PCs in advance of a possible ransomware attack"
   },
   {
-    "title": "Nigeria 2027: Adeleke vs Oyetola \u2013 can arch rivals put aside their feud to get Tinubu reelected?",
-    "link": "https://www.theafricareport.com/433936/nigeria-2027-adeleke-vs-oyetola-can-arch-rivals-put-aside-their-feud-to-get-tinubu-reelected/",
-    "source": "The Africa Report",
-    "date": "2026-10-26",
-    "excerpt": "After years of acrimonious political battles and a bloody election in Osun, Governor Ademola Adeleke and his predecessor, now federal minister Gboyega Oyetola, face the awkward task of campaigning for President Bola Tinubu\u2019s reelection."
+    "title": "Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries",
+    "link": "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-28",
+    "excerpt": "Attackers have used fake ChatGPT and Claude projects to distribute Yoba malware"
+  },
+  {
+    "title": "AI Is Turning CISOs Into Business-Risk Translators, Says Nvidia\u2019s Head of Cyber",
+    "link": "https://www.infosecurity-magazine.com/news/ai-is-turning-cisos-into/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-28",
+    "excerpt": "Nvidia\u2019s Mark Weatherford says CISOs must translate AI cybersecurity risks into business priorities, clarify risk ownership and balance innovation with security controls"
+  },
+  {
+    "title": "Energy Giant Engie Notifies Customers of Supply Chain Breach",
+    "link": "https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-28",
+    "excerpt": "An undisclosed number of Engie customers have had their data compromised after a supply chain incident"
+  },
+  {
+    "title": "Cyber Incident Forces UNM Health to Cancel Surgeries, Divert Ambulances",
+    "link": "https://www.infosecurity-magazine.com/news/cyber-unmhealth-surgeries/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "The University of New Mexico is working to restore systems following the incident, which has been claimed by the BYOD ransomware group"
+  },
+  {
+    "title": "Hackers Infect 953 Online Stores With Scanner-Evading Code",
+    "link": "https://www.infosecurity-magazine.com/news/hackers-infect-953-online-stores/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "Attackers have infected 953 online stores with a scanner-evading JavaScript loader since July 2025"
+  },
+  {
+    "title": "OpenAI Compaction Flaw Exposed AI Reasoning to Researchers",
+    "link": "https://www.infosecurity-magazine.com/news/openai-compaction-flaw-ai/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "Researchers uncovered an OpenAI API flaw that exposed hidden AI reasoning traces, prompting a fix and a $6000 bug bounty reward"
+  },
+  {
+    "title": "ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
+    "link": "https://www.infosecurity-magazine.com/news/isc2-launches-cyberai-workforce/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "ISC2\u2019s new Cyber-AI Workforce Coalition serves as a \u201cvendor-neutral convener\u201d to map the future of AI security careers, ISC2 CEO Scott Beale told Infosecurity"
+  },
+  {
+    "title": "Attackers Exploit Teams External Chat to Breach Organizations in Under 15 Minutes",
+    "link": "https://www.infosecurity-magazine.com/news/exploit-teams-chat-breach/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "Arctic Wolf warned that the function enables highly effective social engineering attacks, which lead to incidents such as ransomware"
+  },
+  {
+    "title": "Copenhagen University Breach Compromises Data on Half a Million People",
+    "link": "https://www.infosecurity-magazine.com/news/copenhagen-university-data-breach/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "Hackers have stolen personal information on over 520,000 people from the University of Copenhagen"
+  },
+  {
+    "title": "First ISC2 AI Security Certification Expected for Early 2027",
+    "link": "https://www.infosecurity-magazine.com/news/first-isc2-ai-security/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "ISC2 is seeking 3000 volunteers to enrol to a pilot exam phase for its upcoming AI security certification"
+  },
+  {
+    "title": "Watchdog Urges Police and Fire Service to Improve Cybersecurity",
+    "link": "https://www.infosecurity-magazine.com/news/watchdog-police-fire-service/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-10-27",
+    "excerpt": "UK police forces and fire and rescue services have been urged to strengthen cybersecurity as rising cyber threats outpace current defenses"
   }
 ]
