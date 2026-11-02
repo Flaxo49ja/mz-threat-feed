@@ -1,5 +1,26 @@
 [
   {
+    "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+    "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+    "source": "The Hacker News",
+    "date": "2026-11-02",
+    "excerpt": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that it investigated two such intrusions, one of which resulted in company"
+  },
+  {
+    "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+    "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+    "source": "The Hacker News",
+    "date": "2026-11-02",
+    "excerpt": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown"
+  },
+  {
+    "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+    "source": "The Hacker News",
+    "date": "2026-11-02",
+    "excerpt": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;"
+  },
+  {
     "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
     "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
     "source": "The Hacker News",
@@ -18,7 +39,7 @@
     "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
     "source": "The Hacker News",
     "date": "2026-11-01",
-    "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it"
+    "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI),"
   },
   {
     "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
@@ -84,25 +105,39 @@
     "excerpt": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post&nbsp"
   },
   {
-    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-    "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "source": "The Hacker News",
-    "date": "2026-10-30",
-    "excerpt": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won\u2019t break anything. Their concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application"
+    "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+    "link": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+    "source": "BleepingComputer",
+    "date": "2026-11-02",
+    "excerpt": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]"
   },
   {
-    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-    "source": "The Hacker News",
-    "date": "2026-10-30",
-    "excerpt": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence"
+    "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+    "source": "BleepingComputer",
+    "date": "2026-11-02",
+    "excerpt": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]"
   },
   {
-    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-    "source": "The Hacker News",
-    "date": "2026-10-30",
-    "excerpt": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut"
+    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+    "source": "BleepingComputer",
+    "date": "2026-11-01",
+    "excerpt": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]"
+  },
+  {
+    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+    "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "source": "BleepingComputer",
+    "date": "2026-11-01",
+    "excerpt": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]"
+  },
+  {
+    "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+    "source": "BleepingComputer",
+    "date": "2026-11-01",
+    "excerpt": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]"
   },
   {
     "title": "Northflank security breach leads to abuse of customers' AI API keys",
@@ -175,39 +210,46 @@
     "excerpt": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]"
   },
   {
-    "title": "Microsoft finally fixes VPN issues caused by September updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "source": "BleepingComputer",
-    "date": "2026-10-30",
-    "excerpt": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]"
+    "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+    "link": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "date": "2026-11-02",
+    "excerpt": "The extension performed host reconnaissance and attempted to create a reverse SSH tunnel. The post Malicious Claude Code Extension Served in Cursor Supply Chain Attack appeared first on SecurityWeek ."
   },
   {
-    "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-10-30",
-    "excerpt": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]"
+    "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+    "link": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+    "source": "SecurityWeek",
+    "date": "2026-11-02",
+    "excerpt": "The attackers used offensive agentic techniques to access the company\u2019s systems and internal tools. The post Chainalysis Discloses Data Breach Following AI-Driven Cyberattack appeared first on SecurityWeek ."
   },
   {
-    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-    "source": "BleepingComputer",
-    "date": "2026-10-30",
-    "excerpt": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]"
+    "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
+    "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
+    "source": "SecurityWeek",
+    "date": "2026-11-02",
+    "excerpt": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted. The post Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack appeared first on SecurityWeek ."
   },
   {
-    "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-    "source": "BleepingComputer",
-    "date": "2026-10-29",
-    "excerpt": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]"
+    "title": "FBI Flags Over 600 Addresses Tied to North Korea\u2019s Binance Heist",
+    "link": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+    "source": "SecurityWeek",
+    "date": "2026-11-02",
+    "excerpt": "The FBI has officially pinned the $6 billion Binance hack on North Korea\u2019s TraderTraitor as the attackers launder the stolen crypto. The post FBI Flags Over 600 Addresses Tied to North Korea&#8217;s Binance Heist appeared first on SecurityWeek ."
   },
   {
-    "title": "Binance probes potential $5.8 billion crypto-theft hack",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-    "source": "BleepingComputer",
-    "date": "2026-10-29",
-    "excerpt": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]"
+    "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+    "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+    "source": "SecurityWeek",
+    "date": "2026-11-02",
+    "excerpt": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks. The post Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+    "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+    "source": "SecurityWeek",
+    "date": "2026-11-01",
+    "excerpt": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on SecurityWeek ."
   },
   {
     "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
@@ -238,46 +280,11 @@
     "excerpt": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it. The post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on SecurityWeek ."
   },
   {
-    "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-    "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-    "source": "SecurityWeek",
-    "date": "2026-10-30",
-    "excerpt": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments. The post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Fresh WordPress Vulnerability in Attackers\u2019 Crosshairs",
-    "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-    "source": "SecurityWeek",
-    "date": "2026-10-30",
-    "excerpt": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers&#8217; Crosshairs appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-    "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-    "source": "SecurityWeek",
-    "date": "2026-10-30",
-    "excerpt": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders. The post Drupal Commerce Core Vulnerability Exploited Against Online Stores appeared first on SecurityWeek ."
-  },
-  {
-    "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-    "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "date": "2026-10-30",
-    "excerpt": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-    "link": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
-    "source": "SecurityWeek",
-    "date": "2026-10-30",
-    "excerpt": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek ."
-  },
-  {
-    "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians\u2019 Machines",
-    "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-    "source": "SecurityWeek",
-    "date": "2026-10-30",
-    "excerpt": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer\u2019s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians&#8217; Machines appeared first on SecurityWeek ."
+    "title": "FBI blames N. Korea\u2019s TraderTraitor for Binance theft, urges crypto industry to block transactions",
+    "link": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
+    "source": "The Record",
+    "date": "2026-11-02",
+    "excerpt": "The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week."
   },
   {
     "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
@@ -308,18 +315,11 @@
     "excerpt": "Ahmad Umar Agha, known online as \u201cTh3Pr0,\u201d was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers."
   },
   {
-    "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
-    "link": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-    "source": "The Record",
-    "date": "2026-10-30",
-    "excerpt": "The Investigatory Powers Commissioner\u2019s Office (IPCO) in its annual report for 2025, published Thursday, said it was \u201cvery concerned\u201d and \u201cdisappointed with the time it has taken GCHQ to investigate\u201d the issue."
-  },
-  {
-    "title": "Best affordable cybersecurity courses for Africans in 2026 - Connecting Africa",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVEwSjRuWjlrSHp0TW5wbEEtR3pJUW5jRHAxX05MV3puRzZZUVNMc2cxMTNhVXIyUFNiMWkzMkZuNXVvLUphOTFucnBSU0MwNFQ1a0tIYXdBTDhPSGZxaXM0WG41a3dPUGRiZHlhREFseF8zRjM2MVRvRHUtcUhvV3BwTFdSeVNGMXV0a2MxX3dBejg1cGRCZUlYV1E5dDh2ZXhZOUtqMGk?oc=5",
+    "title": "Heirs Technologies releases 2026 cybersecurity report, highlighting growing threats to Africa\u2019s digital economy - Technext24.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hYV9YaUVSNFQzYklyTFpQMHlVem4zZ0M3U3V1aVR1ZkdJbkQ4Z2U2dGxfd2FsNFVqc2hVWS1Xa1M2ZlI3ODl6UmVONXdicWIwcUh2V3ExNndEMkt3R2tzRHNwSGNOczZRVWJidXNVT2xURnpCRVlaNzVNdU5KQQ?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-30",
-    "excerpt": "Best affordable cybersecurity courses for Africans in 2026 Connecting Africa"
+    "date": "2026-11-02",
+    "excerpt": "Heirs Technologies releases 2026 cybersecurity report, highlighting growing threats to Africa\u2019s digital economy Technext24.com"
   },
   {
     "title": "Cyber Week Africa 2026 calls for stronger collaboration and investment in cybersecurity skills - Tech Review Africa",
@@ -329,6 +329,13 @@
     "excerpt": "Cyber Week Africa 2026 calls for stronger collaboration and investment in cybersecurity skills Tech Review Africa"
   },
   {
+    "title": "CBE President: Digital Trust Requires 24/7 Defence - CIO Africa",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdkJlOUhLbWtGX0Zzd2RyUTZUdzl0b2NLVzktOW9aRjhaa2ZidHlBdnUzWjhvWXMwWWJmNHo2N09KNkNnNkxUdTFpb2pqNXd0Vk5pdXJ1MVZDRklTNTZQVGk3YWZ5ZnpFemQ3WFQtMkhXNExUaTQzQlJIRXpaRnQwLS1tcDhiODRRYTJsMTdHTTJjV2dCX0locThEa2tQLW16ZVJqbGpqLW5pbjB6MnFUemF4Nlo?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-10-29",
+    "excerpt": "CBE President: Digital Trust Requires 24/7 Defence CIO Africa"
+  },
+  {
     "title": "Minister Savannah delivers address at Africa Cybersecurity Indaba - Times of Eswatini",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTURMRjEtOWViX0FQek1pUldPcmpIb25lN1FscjhWZzVxVzZ4S1k3VTZ1WTA0SG1ESFI3YVY4MUdGTk1iSDJkM3cxemp2OEZoSGhqSnZ3VF9mZmx4ZEF5Nm01UzN2SG1IajRPTUJuQVZNb0xaQ3B2dzVRSnpHVjBUamJTd2J6VEtDQWhfTVljWVJoYnVQX3RFX3FZZGloQQ?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -336,18 +343,32 @@
     "excerpt": "Minister Savannah delivers address at Africa Cybersecurity Indaba Times of Eswatini"
   },
   {
-    "title": "Cyber Week Africa 2026 concludes with focus on AI, cybersecurity - The Star, Kenya",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV3Z2V25UdWFjU09TeG5keUJfdlVFdFdFdHpQR0xTYjZrSW5Qb2J3TUNMUmxMT2Q4SVBpVVR2UjlTcUFnYnpjenFldDM4NVJWSWdpOWNaZEtrQ0FIeE9md3dIaTV3cTFrbG5CUl9CcFdfbU9KeWRqbmRtRXVfMnhYbFBrdTJNOGtnMzdYejdlYzVJMnh4ckZ4MmNGNktfS3hSeWUxek5meEstc3FIOUpJZXlXZ3VjbjdP?oc=5",
+    "title": "Why exporting tech services is South Africa\u2019s biggest growth opportunity - IOL",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmdLMC1USjdobWloMGlhUGgzQ1dBZzVFQXlXMGRpRlphM0ZsUDFfZ1dLb0FLN1JyclFka3RVWTNlWjJqcUpvUTY5dXIzdEpqQk5MMWt2RkxsN1FEbzJFWGFUY0JVdERlVENNcGF1dzkyaHh3VVJaQ2sxZHZHUUQ3cFJUbjB0TnpsOGRGZ1JzeTgtUm9fQmFqNnNZQTY5OVk4Q0xwWU9SU2RteXNjZ0RFWHNn?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-10-30",
-    "excerpt": "Cyber Week Africa 2026 concludes with focus on AI, cybersecurity The Star, Kenya"
+    "excerpt": "Why exporting tech services is South Africa\u2019s biggest growth opportunity IOL"
   },
   {
-    "title": "Mastercard sees cybersecurity as key growth enabler in Africa\u2019s $1.5 trillion digital economy - MyBroadband",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNb0ZiU1NmcjhENzM5OUR3TlcxN3BCb3hPU1daaWdJSFFrM3dWX0R1OFltOXJMVUFZczNBZ1VuRXhkVHVjS3NEUEg3bG5zVjBHNGJJLVFsTl9ieUtMS1NvQTFwQ09lRzlnQWdZQW13R0RIdFRJNTRKZml4RmJsdEFSWFpNbkxjRVlKX0NGSWhDYWdFOGt1RlNuNTJEM0JXSW16LXNFb2dFQnBEZVNaMEtzLTJpajdUWmo5Umo5S0hiNUZlTEhXYkhPSXdMZlgzZTFlYnBLTS1VX3BFTE9xOXIzSA?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-10-27",
-    "excerpt": "Mastercard sees cybersecurity as key growth enabler in Africa\u2019s $1.5 trillion digital economy MyBroadband"
+    "title": "BOA vs UBA: Why two pan-African banks are taking different paths",
+    "link": "https://www.theafricareport.com/434976/boa-vs-uba-why-two-pan-african-banks-are-taking-different-paths/",
+    "source": "The Africa Report",
+    "date": "2026-11-02",
+    "excerpt": "Bank of Africa and United Bank for Africa share regional and global ambitions. But their strategies, balance sheets and governance reveal two profoundly different lenders."
+  },
+  {
+    "title": "US-Africa Week Ahead: Mid-term elections could spell trouble for Trump\u2019s opaque deals",
+    "link": "https://www.theafricareport.com/435117/us-africa-week-ahead-mid-term-elections-could-spell-trouble-for-trumps-opaque-deals/",
+    "source": "The Africa Report",
+    "date": "2026-11-02",
+    "excerpt": "A Democratic victory in Congress could reshape Washington\u2019s approach to Africa, putting Trump\u2019s deportation deals, visa restrictions and minerals partnerships under fresh scrutiny. But how much can the opposition undo, and what should African governments and businesses prepare for?"
+  },
+  {
+    "title": "Ghana\u2019s school sex scandal: Who protects Africa\u2019s girls?",
+    "link": "https://www.theafricareport.com/435133/ghanas-school-sex-scandal-who-protects-africas-girls/",
+    "source": "The Africa Report",
+    "date": "2026-11-02",
+    "excerpt": "After allegations involving 19 female students, Ghana faces a harder question than whether it needs a sex offenders\u2019 register: why did protection fail before the scandal broke?"
   },
   {
     "title": "Civic turnarounds to the banking C-suite: Inside Kenny Fihla\u2019s pan-African power network",
@@ -399,25 +420,18 @@
     "excerpt": "The group led by Hennie Nel is aiming to double its profits by 2030, powered by the growth of Africa\u2019s mass market. But it is cautious about its potential role as a catalyst for infrastructure financing on the continent."
   },
   {
-    "title": "Western Sahara: 5 questions on Washington\u2019s strategy ahead of the UN vote",
-    "link": "https://www.theafricareport.com/434874/western-sahara-5-questions-on-washingtons-strategy-ahead-of-the-un-vote/",
-    "source": "The Africa Report",
-    "date": "2026-10-30",
-    "excerpt": "Just days before the US midterm elections, Washington wants to secure the adoption of a resolution that would accelerate the settlement of the conflict and radically transform MINURSO. But significant obstacles to an agreement remain."
+    "title": "FBI Attributes Binance Heist to North Korea\u2019s TraderTraitor",
+    "link": "https://www.infosecurity-magazine.com/news/fbi-attributes-binance-north/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-02",
+    "excerpt": "The FBI has blamed North Korean APT group TraderTraitor for the world\u2019s biggest cyber heist"
   },
   {
-    "title": "Cry for justice as Tanzania marks one year after deadly election violence",
-    "link": "https://www.theafricareport.com/434951/cry-for-justice-as-tanzania-marks-one-year-after-deadly-election-violence/",
-    "source": "The Africa Report",
-    "date": "2026-10-29",
-    "excerpt": "The call for justice and accountability echoed across Tanzania as the country marked the first anniversary of the killings of hundreds of people in its worst election violence on 29 October 2025."
-  },
-  {
-    "title": "Dangote refinery IPO: Nigeria\u2019s pension funds take their biggest equity bet",
-    "link": "https://www.theafricareport.com/434915/dangote-refinery-ipo-nigerias-pension-funds-take-their-biggest-equity-bet/",
-    "source": "The Africa Report",
-    "date": "2026-10-29",
-    "excerpt": "The Dangote refinery IPO didn\u2019t just test Nigeria\u2019s capital markets. It also tested whether its pension industry, the largest single domestic buyer of government securities, could make a large equity bet without weakening the sovereign debt market it has supported for two decades."
+    "title": "Chainalysis Warns Customers After \u201cOffensive Agentic\u201d Security Incident",
+    "link": "https://www.infosecurity-magazine.com/news/chainalysis-customers-offensive/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-02",
+    "excerpt": "Chainalysis reveals AI-driven attack that led to unauthorized activity"
   },
   {
     "title": "New Framework Puts Ransomware Resilience for AI Systems in Focus",
@@ -509,19 +523,5 @@
     "source": "Infosecurity Magazine",
     "date": "2026-10-28",
     "excerpt": "An undisclosed number of Engie customers have had their data compromised after a supply chain incident"
-  },
-  {
-    "title": "Cyber Incident Forces UNM Health to Cancel Surgeries, Divert Ambulances",
-    "link": "https://www.infosecurity-magazine.com/news/cyber-unmhealth-surgeries/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-10-27",
-    "excerpt": "The University of New Mexico is working to restore systems following the incident, which has been claimed by the BYOD ransomware group"
-  },
-  {
-    "title": "Hackers Infect 953 Online Stores With Scanner-Evading Code",
-    "link": "https://www.infosecurity-magazine.com/news/hackers-infect-953-online-stores/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-10-27",
-    "excerpt": "Attackers have infected 953 online stores with a scanner-evading JavaScript loader since July 2025"
   }
 ]
