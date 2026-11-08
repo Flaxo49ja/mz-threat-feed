@@ -301,6 +301,44 @@
     "backend": "heuristic"
   },
   {
+    "title": "Hackers pull off $133 million French bank heist via service provider",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+    "source": "BleepingComputer",
+    "date": "2026-11-07",
+    "excerpt": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+    "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+    "source": "BleepingComputer",
+    "date": "2026-11-07",
+    "excerpt": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
     "source": "BleepingComputer",
@@ -550,45 +588,6 @@
       "countries": [],
       "suggested_tags": [
         "exposed"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
-    "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-    "source": "BleepingComputer",
-    "date": "2026-11-05",
-    "excerpt": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-    "source": "BleepingComputer",
-    "date": "2026-11-05",
-    "excerpt": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects linux, openssh \u2014 widely deployed in under-resourced organizations \u2014 via attackers.",
-      "category": "other",
-      "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
-      "why_it_matters_africa": "If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "linux",
-        "attackers"
       ]
     },
     "backend": "heuristic"
@@ -884,6 +883,25 @@
     "backend": "heuristic"
   },
   {
+    "title": "Cybersecurity: Bringing humans back into the loop - Connecting Africa",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb19mdi1NVmRPYUlCV0VoRThtU3hxRUVnTnU1eG52aUVrSXFxXzU1RW1nMHNyWnZjUzZxSTBRbEdWZ0JhRk1YZkx3cWdLRFItVnc0b1RpXzN2ck04dzhXUnZLTldvSjJoVC1QQVp0cnlnV00wQ21pVXFScHZRSmJTSGw5dG8wQklRbGNzaVlwMVFqRk9vQ09HRVlQWQ?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-06",
+    "excerpt": "Cybersecurity: Bringing humans back into the loop Connecting Africa",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "category": "other",
+      "summary": "Cybersecurity: Bringing humans back into the loop Connecting Africa",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Cybastion, Cisco launch cybersecurity centre in C\u00f4te d\u2019Ivoire - Africa Business Communities",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOVA1QnRRRGNjYjVGRjlDN1FaSW9KVDhZOTkzZVNmdFN6c2RhTkcxb2NDeUZrMEY0aVRvTVA3bmE4OUwyQmxuTE5FbmNWMVZFUFplRFlqa2ZHUHFSdHhldE9xMkpUa1VXSE9OSHU1OWRVWFR5SDJyazlYY1pQN2FLbWtwdlcxeDlYTUU2aUdLTHRMdllTSklaaXRYVDJzOWU3Sy00TWxuazdIMUk?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -920,25 +938,6 @@
       ],
       "suggested_tags": [
         "cisco"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Cybersecurity: Bringing humans back into the loop - Connecting Africa",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb19mdi1NVmRPYUlCV0VoRThtU3hxRUVnTnU1eG52aUVrSXFxXzU1RW1nMHNyWnZjUzZxSTBRbEdWZ0JhRk1YZkx3cWdLRFItVnc0b1RpXzN2ck04dzhXUnZLTldvSjJoVC1QQVp0cnlnV00wQ21pVXFScHZRSmJTSGw5dG8wQklRbGNzaVlwMVFqRk9vQ09HRVlQWQ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-06",
-    "excerpt": "Cybersecurity: Bringing humans back into the loop Connecting Africa",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Cybersecurity: Bringing humans back into the loop Connecting Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
       ]
     },
     "backend": "heuristic"
@@ -1003,6 +1002,25 @@
     "backend": "heuristic"
   },
   {
+    "title": "Smart Africa, e-Crime Bureau partner on cyber security - Africa Business Communities",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjdBM014RVB2bXVFbHJkcnJiTTBwdVJaUXRvcExva1k3MG92SHhOZGxNZ01Nbm5td2xqLXZsUUhfdzZGUVRsRl9Zc0FKY2lNYmdCQy02YzV6a2NJNGE2NWg2VDRoLVVxNFJ0d1dsZjZtSU5WSnNDZXB2VFRzT0ZUTFZlWjJfTFdFZ0VrRlZodEV1elRrSUhHUkIxRnJ6eldsa1E?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-06",
+    "excerpt": "Smart Africa, e-Crime Bureau partner on cyber security Africa Business Communities",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "category": "other",
+      "summary": "Smart Africa, e-Crime Bureau partner on cyber security Africa Business Communities",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "South Sudan boosts digital finance cybersecurity cooperation - ITWeb Africa",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FfU3BoSUx2S0FzaFZkZUV0ZkJhQ2VSYnRlTmtPUG54Wi1nSDZpVlgyR25zckhSdGo3RVhmZ1RlRE9mQWdsQ0lFOEFRNjZsT0FXbFUyRkUtTFR0WkdFZU5URmFjYWhYMkgtSDBid2lWZG9ka1ZvZHRyaDNYa0JZanAyY25DSDZZbTZLN1dpLXQwdWpDdWJNYlA4Z1JBa2lfZFM5dkhNSjNnZw?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -1020,25 +1038,6 @@
       "suggested_tags": [
         "africa",
         "sudan"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Smart Africa, e-Crime Bureau partner on cyber security - Africa Business Communities",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjdBM014RVB2bXVFbHJkcnJiTTBwdVJaUXRvcExva1k3MG92SHhOZGxNZ01Nbm5td2xqLXZsUUhfdzZGUVRsRl9Zc0FKY2lNYmdCQy02YzV6a2NJNGE2NWg2VDRoLVVxNFJ0d1dsZjZtSU5WSnNDZXB2VFRzT0ZUTFZlWjJfTFdFZ0VrRlZodEV1elRrSUhHUkIxRnJ6eldsa1E?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-06",
-    "excerpt": "Smart Africa, e-Crime Bureau partner on cyber security Africa Business Communities",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Smart Africa, e-Crime Bureau partner on cyber security Africa Business Communities",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
       ]
     },
     "backend": "heuristic"
@@ -1063,20 +1062,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "SASSETA prioritises cybersecurity, digital forensics amid evolving skills needs - ITWeb Africa",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUTVIdWRIWEk2X2VrSXFCOFR4V3p5Z1lEMmhHSGlGOTZmZWRFQTBvcGgtRnpzQVI3dTdvQTVoNFJMNnFQWXpBa3VfejJaUEpLckliZE5vTHU5aW9HMHNfZmVpaEc4WXFucUNDOGxqd2FDRVBJRGNfWFRVN1B0WFpoS0NUS3I3OXpRWXM4Q1BXRzE4bmo0T1QzR0NOdEdnTEdqVkt0N0YwdV9qZWNzNXMwX1pQM2hIS0NKdk1tT1JMbFpqZw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-06",
-    "excerpt": "SASSETA prioritises cybersecurity, digital forensics amid evolving skills needs ITWeb Africa",
+    "title": "Nigeria 2027: The Igbo powerbrokers helping Seyi Tinubu penetrate Peter Obi\u2019s stronghold",
+    "link": "https://www.theafricareport.com/435664/nigeria-2027-the-igbo-powerbrokers-helping-seyi-tinubu-penetrate-peter-obis-stronghold/",
+    "source": "The Africa Report",
+    "date": "2026-11-08",
+    "excerpt": "The president\u2019s son has enlisted wealthy businessmen, former opposition loyalists and influential politicians to expand his City Boy Movement in the southeast, using cash, grassroots programmes and political connections to turn his father\u2019s electoral fortunes around in the region.",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "SASSETA prioritises cybersecurity, digital forensics amid evolving skills needs ITWeb Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
+      "summary": "The president\u2019s son has enlisted wealthy businessmen, former opposition loyalists and influential politicians to expand his City Boy Movement in the southeast, using cash, grassroots programmes and political connections to turn his father\u2019s electoral fortunes around in the region.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "NE",
+        "NG"
+      ],
       "suggested_tags": [
-        "africa"
+        "nigeria"
       ]
     },
     "backend": "heuristic"
@@ -1265,31 +1267,6 @@
       "countries": [
         "NE",
         "NG"
-      ],
-      "suggested_tags": [
-        "africa",
-        "african"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Ibrahim Index: Nigeria\u2019s lost decade of governance as South Africa slides and Kenya advances",
-    "link": "https://www.theafricareport.com/435451/ibrahim-index-nigerias-lost-decade-of-governance-as-south-africa-slides-and-kenya-advances/",
-    "source": "The Africa Report",
-    "date": "2026-11-05",
-    "excerpt": "Africa\u2019s most populous nation is the only country to have deteriorated across all four major governance dimensions over the past decade, according to the latest Ibrahim Index of African Governance.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Africa\u2019s most populous nation is the only country to have deteriorated across all four major governance dimensions over the past decade, according to the latest Ibrahim Index of African Governance.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "KE",
-        "NE",
-        "NG",
-        "ZA"
       ],
       "suggested_tags": [
         "africa",
