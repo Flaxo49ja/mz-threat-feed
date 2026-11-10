@@ -1,5 +1,96 @@
 [
   {
+    "title": "Beyond the Alert: The Case for Rich Network Data",
+    "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "At some point your security will fail. This isn\u2019t pessimism. It\u2019s not because your team and tools aren\u2019t sophisticated enough. It\u2019s the reason we have detections in the first place. And, it\u2019s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in. After the alert The alert tells you something happened. However, gaining"
+  },
+  {
+    "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple"
+  },
+  {
+    "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+    "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for"
+  },
+  {
+    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day\u2014the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web"
+  },
+  {
+    "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+    "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit"
+  },
+  {
+    "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+    "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made"
+  },
+  {
+    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after"
+  },
+  {
+    "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+    "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the"
+  },
+  {
+    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+    "source": "The Hacker News",
+    "date": "2026-11-10",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability"
+  },
+  {
+    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "source": "The Hacker News",
+    "date": "2026-11-09",
+    "excerpt": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,"
+  },
+  {
+    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+    "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+    "source": "The Hacker News",
+    "date": "2026-11-09",
+    "excerpt": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor"
+  },
+  {
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "source": "The Hacker News",
+    "date": "2026-11-09",
+    "excerpt": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file"
+  },
+  {
+    "title": "\u26a1 Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+    "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+    "source": "The Hacker News",
+    "date": "2026-11-09",
+    "excerpt": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed"
+  },
+  {
     "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
     "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
     "source": "The Hacker News",
@@ -14,200 +105,165 @@
     "excerpt": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker"
   },
   {
-    "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-    "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-    "source": "The Hacker News",
-    "date": "2026-11-09",
-    "excerpt": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could"
+    "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+    "source": "BleepingComputer",
+    "date": "2026-11-10",
+    "excerpt": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]"
   },
   {
-    "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-    "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-    "source": "The Hacker News",
-    "date": "2026-11-09",
-    "excerpt": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login. The researchers are highly confident that the attacker is a single person"
+    "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+    "source": "BleepingComputer",
+    "date": "2026-11-10",
+    "excerpt": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]"
   },
   {
-    "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-    "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-    "source": "The Hacker News",
-    "date": "2026-11-09",
-    "excerpt": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the"
+    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "source": "BleepingComputer",
+    "date": "2026-11-10",
+    "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]"
   },
   {
-    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-    "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-    "source": "The Hacker News",
-    "date": "2026-11-09",
-    "excerpt": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating"
+    "title": "Fireworks AI discloses new breach after cloud provider hack",
+    "link": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+    "source": "BleepingComputer",
+    "date": "2026-11-10",
+    "excerpt": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]"
   },
   {
-    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-    "source": "The Hacker News",
-    "date": "2026-11-09",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement"
-  },
-  {
-    "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-    "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-    "source": "The Hacker News",
-    "date": "2026-11-07",
-    "excerpt": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public"
-  },
-  {
-    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-    "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the"
-  },
-  {
-    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-    "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,"
-  },
-  {
-    "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-    "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "OpenAI on Thursday unveiled GPT\u20116 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as"
-  },
-  {
-    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-    "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates"
-  },
-  {
-    "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-    "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this"
-  },
-  {
-    "title": "The Flood is Coming And The Pipes Were Already Full",
-    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his"
-  },
-  {
-    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-    "source": "The Hacker News",
-    "date": "2026-11-06",
-    "excerpt": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed"
-  },
-  {
-    "title": "Ukraine dismantles crypto scam network that stole \u20ac4.3 million",
-    "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
     "source": "BleepingComputer",
     "date": "2026-11-09",
-    "excerpt": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than \u20ac4.3 million using a network of cryptocurrency investment scam call centers. [...]"
+    "excerpt": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]"
   },
   {
-    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+    "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
     "source": "BleepingComputer",
-    "date": "2026-11-08",
-    "excerpt": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]"
+    "date": "2026-11-09",
+    "excerpt": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]"
   },
   {
-    "title": "Hackers pull off $133 million French bank heist via service provider",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+    "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
     "source": "BleepingComputer",
-    "date": "2026-11-07",
-    "excerpt": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]"
+    "date": "2026-11-09",
+    "excerpt": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]"
   },
   {
-    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-    "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+    "title": "York University breach exposed personal information dating to 2007",
+    "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
     "source": "BleepingComputer",
-    "date": "2026-11-07",
-    "excerpt": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]"
+    "date": "2026-11-09",
+    "excerpt": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]"
   },
   {
-    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+    "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
     "source": "BleepingComputer",
-    "date": "2026-11-07",
-    "excerpt": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]"
+    "date": "2026-11-09",
+    "excerpt": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]"
   },
   {
-    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-    "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+    "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
     "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]"
+    "date": "2026-11-09",
+    "excerpt": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]"
   },
   {
-    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-    "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "title": "Binance denies data breach after alleged ShinyHunters claims",
+    "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
     "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]"
+    "date": "2026-11-09",
+    "excerpt": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]"
   },
   {
-    "title": "Fake security tools on GitHub push backdoors and infostealers",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
     "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]"
+    "date": "2026-11-09",
+    "excerpt": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]"
   },
   {
-    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+    "title": "The Biggest Threat to Your GRC Job Isn\u2019t AI. It\u2019s Ignoring AI.",
+    "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
     "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]"
+    "date": "2026-11-09",
+    "excerpt": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC workplace: data literacy, agent governance, and communication. [...]"
   },
   {
-    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-    "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+    "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
     "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "\u200bVeeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]"
+    "date": "2026-11-09",
+    "excerpt": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]"
   },
   {
-    "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-    "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+    "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+    "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
     "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]"
+    "date": "2026-11-09",
+    "excerpt": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]"
   },
   {
-    "title": "Chainalysis says breach exposed credentials for all customers",
-    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-    "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]"
+    "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+    "link": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+    "source": "SecurityWeek",
+    "date": "2026-11-10",
+    "excerpt": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek ."
   },
   {
-    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-    "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]"
+    "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
+    "link": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "date": "2026-11-10",
+    "excerpt": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek ."
   },
   {
-    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-    "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]"
+    "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators",
+    "link": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/",
+    "source": "SecurityWeek",
+    "date": "2026-11-10",
+    "excerpt": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack The post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared first on SecurityWeek ."
   },
   {
-    "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
-    "source": "BleepingComputer",
-    "date": "2026-11-06",
-    "excerpt": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]"
+    "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
+    "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+    "source": "SecurityWeek",
+    "date": "2026-11-10",
+    "excerpt": "The high-severity use-after-free in Chrome\u2019s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+    "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+    "source": "SecurityWeek",
+    "date": "2026-11-09",
+    "excerpt": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Plex2Shell Exploited Against QNAP NAS Users",
+    "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+    "source": "SecurityWeek",
+    "date": "2026-11-09",
+    "excerpt": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+    "link": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+    "source": "SecurityWeek",
+    "date": "2026-11-09",
+    "excerpt": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Italy\u2019s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister\u2019s Data on the Dark Web",
+    "link": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+    "source": "SecurityWeek",
+    "date": "2026-11-09",
+    "excerpt": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy&#8217;s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister&#8217;s Data on the Dark Web appeared first on SecurityWeek ."
   },
   {
     "title": "Hackers Exploiting \u2018SSHole\u2019 Authentication Bypass in OpenSSH",
@@ -224,95 +280,60 @@
     "excerpt": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company\u2019s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek ."
   },
   {
-    "title": "Over 3 Million People Hit by Frontline Education Data Breach",
-    "link": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
-    "source": "SecurityWeek",
+    "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+    "link": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+    "source": "The Record",
     "date": "2026-11-09",
-    "excerpt": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek ."
+    "excerpt": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information."
   },
   {
-    "title": "Google DeepMind\u2019s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
-    "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
-    "source": "SecurityWeek",
+    "title": "France blames Iran for fridge cyberattacks, says some caused fires",
+    "link": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+    "source": "The Record",
     "date": "2026-11-09",
-    "excerpt": "Working with cryptographers, DeepMind\u2019s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind&#8217;s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek ."
+    "excerpt": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities."
   },
   {
-    "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
-    "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
-    "source": "SecurityWeek",
-    "date": "2026-11-08",
-    "excerpt": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek ."
-  },
-  {
-    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-    "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-    "source": "SecurityWeek",
-    "date": "2026-11-07",
-    "excerpt": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-    "link": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-    "source": "SecurityWeek",
-    "date": "2026-11-06",
-    "excerpt": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan. The post Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks appeared first on SecurityWeek ."
-  },
-  {
-    "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-    "link": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-    "source": "SecurityWeek",
-    "date": "2026-11-06",
-    "excerpt": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise \u2018hello\u2019 attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days appeared first on SecurityWeek ."
-  },
-  {
-    "title": "DigiCert Data Breach Impacts Business Customer Information",
-    "link": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
-    "source": "SecurityWeek",
-    "date": "2026-11-06",
-    "excerpt": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek ."
-  },
-  {
-    "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-    "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-    "source": "SecurityWeek",
-    "date": "2026-11-06",
-    "excerpt": "Rated Critical for cybersecurity, OpenAI\u2019s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
-    "link": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+    "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+    "link": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
     "source": "The Record",
-    "date": "2026-11-06",
-    "excerpt": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies."
+    "date": "2026-11-09",
+    "excerpt": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident."
   },
   {
-    "title": "Certificate authority DigiCert reports data breach involving business customer info",
-    "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "title": "Ukraine arrests four in $5 million crypto scam targeting Germans",
+    "link": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
     "source": "The Record",
-    "date": "2026-11-06",
-    "excerpt": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account."
+    "date": "2026-11-09",
+    "excerpt": "Ukraine's cyber police said the four arrested men included the alleged leader of the scam call centers."
   },
   {
-    "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
-    "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+    "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+    "link": "https://therecord.media/cyberattack-germany-ai-mittwald",
     "source": "The Record",
-    "date": "2026-11-06",
-    "excerpt": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debts."
+    "date": "2026-11-09",
+    "excerpt": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed."
   },
   {
-    "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
-    "link": "https://therecord.media/ceo-spoofing-scammers-charged",
-    "source": "The Record",
-    "date": "2026-11-06",
-    "excerpt": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations."
+    "title": "Ghana CSA and Huawei Address AI Governance and Cybersecurity in Digital Finance - TechAfrica News",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbFBPWXpjS1VvS2Z6RS1FVGttNGdGeWxISzN2RlBoaTlaZ00teHZjeUZfdTZzc05uQkYtTWpnb1phcDRvaU9nbnlka0luYnFDWXY4Rnh4MEJEa004WkZyUXlWY2hnRnRXMHZUVl9KWmx4cmlEV29sQlNQZmlnR1pydXl4OGN0ZV9veGZHa1VpVWllWnI1U0NxaG9HeDk4TnBnY2tRSDVxbW00bTA?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-10",
+    "excerpt": "Ghana CSA and Huawei Address AI Governance and Cybersecurity in Digital Finance TechAfrica News"
   },
   {
-    "title": "EU accuses TikTok of trapping users in harmful \u2018rabbit holes\u2019",
-    "link": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
-    "source": "The Record",
-    "date": "2026-11-06",
-    "excerpt": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into \u201crabbit holes\u201d of content about sadness, self-harm and body image."
+    "title": "Egyptian tycoon Medhat Khalil's Raya signs three cloud and cybersecurity deals - Billionaires.Africa",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVDFhbUpPUGcwSDVpTmMwdHBNOHdEMTJkZ1Fzdno0d3hfMld4Q0pkYXZKeFJ1MldYU1dyMFdkSlliaXVhX05WdzJYM2lEREhqMjFzUFg1WDQydGpURkxxcFFnUEJjTnZfQWxjczdNTlVVS3M5ZEY2bFBQWmczY3A4ZWdSOVc3dGViQWNjYVZ0VkNkTjU1SEJEYnhhUTVTeklUNDJkZG5FS2NzYWdxOGJ2MERSbTU4dVFielFHdnFR?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-09",
+    "excerpt": "Egyptian tycoon Medhat Khalil's Raya signs three cloud and cybersecurity deals Billionaires.Africa"
+  },
+  {
+    "title": "Kenya Launches Sovereign Cybersecurity Operations Centre To Strengthen National Digital Defences - CIO Africa",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVjI5TjlFR0lSRWhheHlXaUF5YXAwWkZ0ajRaZzdSOXl1UWFKMzUtM1ZFSDB4U2FFNkJrcXZyMjJtS1QxUkotNFU1SnpESHdNWklNVEc1RENNdkloY0tkYlBJZld1MEVfYkYwMWFUM0NCckZZd2pyd1JfMU8tczdhR2hhc2h3MVdJb3c1RXVOTF9PZGF6X2VqWk5RYjdEbG41SV9BXzBWcEh2cE1pRHY5Zm1wN3d0eUJTRGc?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-10",
+    "excerpt": "Kenya Launches Sovereign Cybersecurity Operations Centre To Strengthen National Digital Defences CIO Africa"
   },
   {
     "title": "Cybersecurity: Bringing humans back into the loop - Connecting Africa",
@@ -322,18 +343,25 @@
     "excerpt": "Cybersecurity: Bringing humans back into the loop Connecting Africa"
   },
   {
-    "title": "Abidjan opens regional cybersecurity centre - ITWeb Africa",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ3IxbkVUR1U4emI3M1lWRHhPNHpjTDl3WHBVdkh1MlRPR3hxYVdmMU9WSjBiQ043NTNQVDNYZU81eFZ2SzZJRlktTmREbkQ5dlFSRTdralBmdlBwWGNRb3Y0ZWxMMm44VGtqdHlQaTFlT0hyVkJDTzYzWGZOSk85azBqM0NPbjFkb2E5TlpJcXRxTlk?oc=5",
+    "title": "Smart Africa, e-Crime Bureau partner on cyber security - Africa Business Communities",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjdBM014RVB2bXVFbHJkcnJiTTBwdVJaUXRvcExva1k3MG92SHhOZGxNZ01Nbm5td2xqLXZsUUhfdzZGUVRsRl9Zc0FKY2lNYmdCQy02YzV6a2NJNGE2NWg2VDRoLVVxNFJ0d1dsZjZtSU5WSnNDZXB2VFRzT0ZUTFZlWjJfTFdFZ0VrRlZodEV1elRrSUhHUkIxRnJ6eldsa1E?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-11-06",
-    "excerpt": "Abidjan opens regional cybersecurity centre ITWeb Africa"
+    "excerpt": "Smart Africa, e-Crime Bureau partner on cyber security Africa Business Communities"
   },
   {
-    "title": "C\u00f4te d\u2019Ivoire Launches Regional Cisco Cybersecurity Centre in Abidjan - TechAfrica News",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcWJfM3FPdFE4TVhMMHdrTXl5cFE3YmRkN0o1UGM5OEM1dzNmblcyS29pLXpWN3FoQ2NzTnVuQ3BUSXpVckgzVXlGQ1NfU2I3ZVYwVTY0MGlCM3JHRHhsNExrYUVKSVdsc2xQX0U3Yy10aGllU3R1QXFtbkRRbFRmXzkxb3RLM3lnUUh0bFk0SFpETEpsQXNwMUxmSGl2X2F4ZzRmREhlTENjWkU?oc=5",
+    "title": "Call for Applications: NITDA Executive Cybersecurity Workshop - MSME Africa",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLVhZY0k5cWtHMmRsY2U2bG91bVVmRm5jTmItUkRad2Q4QzFMdlZhX0NUMjRnNjRKbUo0Wm5wNmRDNmJRT0dpNVdWc0RQcW9KNkx4OEtPWWpGZVlLdnotNHliMUlxTDhUbHA2dlNyTWEwQVg3UWVpNEdKLVVQZGxHSXF5dzU2N1V4eFFlOW01SUgtR1Ay?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-06",
-    "excerpt": "C\u00f4te d\u2019Ivoire Launches Regional Cisco Cybersecurity Centre in Abidjan TechAfrica News"
+    "date": "2026-11-10",
+    "excerpt": "Call for Applications: NITDA Executive Cybersecurity Workshop MSME Africa"
+  },
+  {
+    "title": "Datacentrix Highlights OT Cybersecurity Risks for Industrial Firms - TechAfrica News",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlV6WUxLdU9RTmhKSjZ4LXFTU1FWWXBwRnFaQ0xIRDBKNG40Z1BDZE43REZJNXE1OXg1bTVIRmdhZzNKbEZRcUxMZUJlUm5XTFBFS1hKRFdxbEpxMi15cHdEdkQyc3RnMFVHc2VkZS1TS25kVVRkeUFYRXNmaDI4MS05bE5tRTBvOEJael9femtJV2thcGtkdUlVTTV0T3N0OG1IdWdHRFo?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-09",
+    "excerpt": "Datacentrix Highlights OT Cybersecurity Risks for Industrial Firms TechAfrica News"
   },
   {
     "title": "FX volatility, AI attacks raise Africa\u2019s cybersecurity costs - Punch Newspapers",
@@ -350,11 +378,74 @@
     "excerpt": "e-Crime Bureau Signs Cybersecurity Partnership with Smart Africa, Reinforcing its Global Expansion Novus Press Bulletin"
   },
   {
-    "title": "South Sudan boosts digital finance cybersecurity cooperation - ITWeb Africa",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FfU3BoSUx2S0FzaFZkZUV0ZkJhQ2VSYnRlTmtPUG54Wi1nSDZpVlgyR25zckhSdGo3RVhmZ1RlRE9mQWdsQ0lFOEFRNjZsT0FXbFUyRkUtTFR0WkdFZU5URmFjYWhYMkgtSDBid2lWZG9ka1ZvZHRyaDNYa0JZanAyY25DSDZZbTZLN1dpLXQwdWpDdWJNYlA4Z1JBa2lfZFM5dkhNSjNnZw?oc=5",
+    "title": "ISSAN Wins NITDA Award for Best Cybersecurity Awareness, Capacity Building Programme in Nigeria, Africa - THISDAYLIVE",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZUVSX0ZfdHhlT3cwRVNhQ0FtN2hzTkdneXZTTlJUZlNmclVBSDg5TmQzaHBOWTU0WTA3a0hhcHpnNHdtQXdwalEzeHNnYlpCZ2g0T3R5aWhreERzN2t1V0tMRnVoSExLNGVVLXo1WDhyT2ZGWjczS3pQUTZHY21YS2NmeDJOcGtoZ1pIekxHUF9tVkc0bmZFMDBUVzlFeGJLWjRiLUJqWlRuaTZOQUJybnJVTmgzeTFLV1R5TnNJOUQwRTNtMktKSklTYklySi1jZGhhVy1wVXo?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-09",
+    "excerpt": "ISSAN Wins NITDA Award for Best Cybersecurity Awareness, Capacity Building Programme in Nigeria, Africa THISDAYLIVE"
+  },
+  {
+    "title": "C\u00f4te d\u2019Ivoire Launches Regional Cisco Cybersecurity Centre in Abidjan - TechAfrica News",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcWJfM3FPdFE4TVhMMHdrTXl5cFE3YmRkN0o1UGM5OEM1dzNmblcyS29pLXpWN3FoQ2NzTnVuQ3BUSXpVckgzVXlGQ1NfU2I3ZVYwVTY0MGlCM3JHRHhsNExrYUVKSVdsc2xQX0U3Yy10aGllU3R1QXFtbkRRbFRmXzkxb3RLM3lnUUh0bFk0SFpETEpsQXNwMUxmSGl2X2F4ZzRmREhlTENjWkU?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-11-06",
-    "excerpt": "South Sudan boosts digital finance cybersecurity cooperation ITWeb Africa"
+    "excerpt": "C\u00f4te d\u2019Ivoire Launches Regional Cisco Cybersecurity Centre in Abidjan TechAfrica News"
+  },
+  {
+    "title": "Access Bank aims to sell up to 25% stakes in African subsidiaries, says Kumapayi",
+    "link": "https://www.theafricareport.com/435943/access-bank-aims-to-sell-up-to-25-stakes-in-african-subsidiaries-says-kumapayi/",
+    "source": "The Africa Report",
+    "date": "2026-11-10",
+    "excerpt": "Following years of rapid expansion, Access Bank plans to sell minority stakes in most of its African subsidiaries to local investors as it shifts focus from scale to value creation and capital management."
+  },
+  {
+    "title": "Africans abroad sent home $124bn last year \u2013 and states want a bigger share",
+    "link": "https://www.theafricareport.com/435825/africans-abroad-sent-home-124bn-last-year-and-states-want-a-bigger-share/",
+    "source": "The Africa Report",
+    "date": "2026-11-10",
+    "excerpt": "Remittances from the African diaspora far exceed development aid. But the windfall is unevenly shared, and sending money to the continent costs more than anywhere else in the world. Here is the breakdown in infographics."
+  },
+  {
+    "title": "Why moving money across Africa can be harder than sending it to London",
+    "link": "https://www.theafricareport.com/435839/why-moving-money-across-africa-can-be-harder-than-sending-it-to-london/",
+    "source": "The Africa Report",
+    "date": "2026-11-10",
+    "excerpt": "African businesses are expanding across borders, but fragmented regulation, foreign-exchange shortages and weak banking infrastructure hold them back. Banks and fintechs are looking for ways to close the gap."
+  },
+  {
+    "title": "Nigeria 2027: If Atiku is knocked out, does Tinubu or Obi gain?",
+    "link": "https://www.theafricareport.com/435865/nigeria-2027-if-atiku-is-knocked-out-does-tinubu-or-obi-gain/",
+    "source": "The Africa Report",
+    "date": "2026-11-10",
+    "excerpt": "With Atiku Abubakar\u2019s presidential nomination annulled by a court, the battle for his northern supporters could reshape Nigeria\u2019s election. But will they rally behind Peter Obi or strengthen Bola Tinubu\u2019s hand?"
+  },
+  {
+    "title": "Putin\u2019s Africa summit delivered the spectacle. But what\u2019s really on the table for both sides?",
+    "link": "https://www.theafricareport.com/435783/putins-africa-summit-delivered-the-spectacle-but-whats-really-on-the-table-for-both-sides/",
+    "source": "The Africa Report",
+    "date": "2026-11-10",
+    "excerpt": "Nearly half of Africa\u2019s leaders attended the third Russia-Africa summit in Moscow, seeking deals on arms, nuclear power and education. But with trade and investment still limited, how much can Moscow deliver on its promises and what does it want in return?"
+  },
+  {
+    "title": "Niger and Chad\u2019s drone-strike row exposes deep rifts in the Sahel",
+    "link": "https://www.theafricareport.com/435867/niger-and-chads-drone-strike-row-exposes-deep-rifts-in-the-sahel/",
+    "source": "The Africa Report",
+    "date": "2026-11-09",
+    "excerpt": "Smiles in Moscow and Algerian mediation mask clashing alliances over France, Russia and rebel groups."
+  },
+  {
+    "title": "Mo\u00efse Katumbi: \u2018We will go to Goma in the DRC to meet Joseph Kabila\u2019",
+    "link": "https://www.theafricareport.com/435780/moise-katumbi-we-will-go-to-goma-in-the-drc-to-meet-joseph-kabila/",
+    "source": "The Africa Report",
+    "date": "2026-11-09",
+    "excerpt": "The Democratic Republic of Congo\u2019s exiled opposition leader is touring Western capitals to sell an inclusive national dialogue \u2013 one that includes the rebels and the former president who leads them."
+  },
+  {
+    "title": "Absa\u2019s Russon warns African banks against \u2018lazy sovereign\u2019 lending",
+    "link": "https://www.theafricareport.com/435816/absas-russon-warns-african-banks-against-lazy-sovereign-lending/",
+    "source": "The Africa Report",
+    "date": "2026-11-09",
+    "excerpt": "Too much spare liquidity is flowing into government bonds rather than the real economy, says Absa\u2019s Charles Russon \u2013 and sovereign debt is far from risk-free"
   },
   {
     "title": "US-Africa Week Ahead: Congress returns with busy agenda",
@@ -371,60 +462,46 @@
     "excerpt": "Nigeria will soon release a new digital asset rulebook, after losing its status as Africa\u2019s largest crypto economy, with the regulator aiming for a market open to innovation and closed to fraud."
   },
   {
-    "title": "Assimi Go\u00efta in Russia: The Malian president and Vladimir Putin\u2019s blonde escort",
-    "link": "https://www.theafricareport.com/435766/assimi-goita-in-russia-the-malian-president-and-vladimir-putins-blonde-escort/",
-    "source": "The Africa Report",
+    "title": "Vanderbilt University Takes Systems Offline After Cyber Incident",
+    "link": "https://www.infosecurity-magazine.com/news/vanderbilt-university-cyber/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-10",
+    "excerpt": "The BYOD ransomware group has claimed to have locked the university\u2019s databases and stolen sensitive data from its systems"
+  },
+  {
+    "title": "France Blames Iran for Supermarket Fridge Hack, Requests International Arrest Warrants",
+    "link": "https://www.infosecurity-magazine.com/news/france-blames-iran-supermarket/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-10",
+    "excerpt": "The French authorities have tied the cyber-attack targeting supermarket fridges to Iran\u2019s Islamic Revolutionary Guard Corps"
+  },
+  {
+    "title": "Binance Investigates ShinyHunters Breach Claims",
+    "link": "https://www.infosecurity-magazine.com/news/binance-investigates-shinyhunters/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-10",
+    "excerpt": "Cryptocurrency exchange Binance says ShinyHunters\u2019 breach claims appear to be a scam"
+  },
+  {
+    "title": "Jailbroken AI Agent Ran Two-Week Attack on European Telecom",
+    "link": "https://www.infosecurity-magazine.com/news/operation-snowball-ai-telecom/",
+    "source": "Infosecurity Magazine",
     "date": "2026-11-09",
-    "excerpt": "The head of Bamako\u2019s ruling junta visited Moscow for the Russia-Africa summit on 28 and 29 October. The trip brought diplomatic and security talks, but also a shooting exercise that was filmed and shown on Malian national television. In the footage, a mysterious assistant caught the eye."
+    "excerpt": "Jailbroken DeepSeek agent spent two weeks attacking a European telecom, Malbear Labs found"
   },
   {
-    "title": "Big Oil turns its back on African refining as Dangote cashes in",
-    "link": "https://www.theafricareport.com/435774/big-oil-turns-its-back-on-african-refining-as-dangote-cashes-in/",
-    "source": "The Africa Report",
+    "title": "New Supply Chain Attack Compromises Tens of Thousands of GitHub Repositories",
+    "link": "https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/",
+    "source": "Infosecurity Magazine",
     "date": "2026-11-09",
-    "excerpt": "Record margins from the Middle East war are failing to lure the majors back to a business they say cannot pay its way on the continent"
+    "excerpt": "Security researchers have detected a malicious workflow affecting tens of thousands of GitHub repositories, including Uber-owned ones"
   },
   {
-    "title": "Ghana 2028: Who succeeds Mahama as ruling party power struggle begins?",
-    "link": "https://www.theafricareport.com/435717/ghana-2028-who-succeeds-mahama-as-ruling-party-power-struggle-begins/",
-    "source": "The Africa Report",
+    "title": "Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach",
+    "link": "https://www.infosecurity-magazine.com/news/email-sega-customers-vendor-breach/",
+    "source": "Infosecurity Magazine",
     "date": "2026-11-09",
-    "excerpt": "With President John Mahama barred from seeking another term, potential successors are positioning themselves for control of Ghana\u2019s National Democratic Congress."
-  },
-  {
-    "title": "Can Seyi Tinubu\u2019s Igbo powerbrokers turn the southeast against Peter Obi in 2027?",
-    "link": "https://www.theafricareport.com/435664/nigeria-2027-the-igbo-powerbrokers-helping-seyi-tinubu-penetrate-peter-obis-stronghold/",
-    "source": "The Africa Report",
-    "date": "2026-11-08",
-    "excerpt": "From business tycoons to former opposition supporters, the president\u2019s son has assembled an influential network in Nigeria\u2019s southeast. His City Boy Movement is gaining ground, but converting elite support into votes may prove a much harder task."
-  },
-  {
-    "title": "Ethiopia GDP rebasing: Africa\u2019s fifth-largest economy, same debts, bigger tax ambitions",
-    "link": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/",
-    "source": "The Africa Report",
-    "date": "2026-11-06",
-    "excerpt": "The revision lifts nominal GDP from Br15trn to Br24trn and improves debt ratios as the restructuring talks wind down. Economists say the real change will be felt at the tax office, not in the growth figures."
-  },
-  {
-    "title": "Tanzania: Lissu cleared of treason, but sentenced for inciting unrest",
-    "link": "https://www.theafricareport.com/435725/tanzania-lissu-cleared-of-treason-but-sentenced-for-inciting-unrest/",
-    "source": "The Africa Report",
-    "date": "2026-11-06",
-    "excerpt": "Tanzanian opposition leader Tundu Lissu was sentenced to four years in prison on Friday for inciting unrest, avoiding the heavier charge of treason that carries the death penalty, in a case that has drawn international condemnation."
-  },
-  {
-    "title": "Why Namibia\u2019s president broke a personal rule for Dangote\u2019s $2.5bn fuel project",
-    "link": "https://www.theafricareport.com/435594/why-namibias-president-broke-a-personal-rule-for-dangotes-2-5bn-fuel-project/",
-    "source": "The Africa Report",
-    "date": "2026-11-06",
-    "excerpt": "Netumbo Nandi-Ndaitwah says she will oversee Dangote\u2019s fuel storage and regional pipeline project herself, determined not to let bureaucracy cost Namibia another major investment."
-  },
-  {
-    "title": "US elections: Meet the 23 African-born lawmakers changing the face of government",
-    "link": "https://www.theafricareport.com/435564/us-elections-meet-the-23-african-born-lawmakers-changing-the-face-of-government/",
-    "source": "The Africa Report",
-    "date": "2026-11-06",
-    "excerpt": "The Democratic Party landslide win in the US midterm elections ushers in a new generation of diaspora leaders. Here are the profiles of the 23 diasporans who won their races."
+    "excerpt": "Gaming company Sega warned customers to be vigilant for suspicious emails after hackers compromised Japanese email delivery provider Arara"
   },
   {
     "title": "Cr\u00e9dit Mutuel Ark\u00e9a Targeted in Reported $133m Heist",
@@ -488,47 +565,5 @@
     "source": "Infosecurity Magazine",
     "date": "2026-11-05",
     "excerpt": "Trellix observed a 41.4% drop in China-nexus activity between April and September, which may reflect changing PRC strategic priorities"
-  },
-  {
-    "title": "GhostMap Bug Leaves Android Phones Stuck in Reboot Loop",
-    "link": "https://www.infosecurity-magazine.com/news/ghostmap-bug-android-phones-stuck/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-05",
-    "excerpt": "Bitdefender warns that unfixed GhostMap bug could force users to factory reset their device"
-  },
-  {
-    "title": "NATS Air Traffic Control Failure Cost UK Economy \u00a333m",
-    "link": "https://www.infosecurity-magazine.com/news/nats-air-traffic-control-fail-cost/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-05",
-    "excerpt": "Cyber Monitoring Centre report claims an IT failure at the UK\u2019s NATS air traffic services provider cost over \u00a330m"
-  },
-  {
-    "title": "China-Aligned Group Abuses Sogou Input Method to Deliver Malware",
-    "link": "https://www.infosecurity-magazine.com/news/slippynunchucks-sogou-dns-hijacking/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-04",
-    "excerpt": "SlippyNunchucks used DNS hijacking to turn Sogou brand promotions into a malware channel"
-  },
-  {
-    "title": "APT29 Watering Holes Target Unpatched iPhones and Android Devices",
-    "link": "https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-04",
-    "excerpt": "APT29 compromised Ukrainian analytics tracker Plerdy to serve n-day exploits to mobile users"
-  },
-  {
-    "title": "France Blood Service Cyber-Attack Sends Blood Storage Temperatures to 110\u00b0C",
-    "link": "https://www.infosecurity-magazine.com/news/france-blood-service-cyberattack/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-04",
-    "excerpt": "A supplier of the French National Blood Service was hit by a cyber-attack in which hackers turned cold rooms hosting blood samples up to 110\u00b0C (230\u00b0F)"
-  },
-  {
-    "title": "3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
-    "link": "https://www.infosecurity-magazine.com/news/3am-ransomware-hybrid-ai-uk-school/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-04",
-    "excerpt": "Bitdefender highlighted a unique human-AI approach during a September attack on a UK school estate, which resulted in financial data being exfiltrated"
   }
 ]
