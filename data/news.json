@@ -1,5 +1,19 @@
 [
   {
+    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+    "source": "The Hacker News",
+    "date": "2026-11-15",
+    "excerpt": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only"
+  },
+  {
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "source": "The Hacker News",
+    "date": "2026-11-14",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters"
+  },
+  {
     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
     "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
     "source": "The Hacker News",
@@ -91,18 +105,18 @@
     "excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay"
   },
   {
-    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-    "source": "The Hacker News",
-    "date": "2026-11-12",
-    "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet"
+    "title": "Cursor confirms security breach led to malicious Claude Code extension",
+    "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+    "source": "BleepingComputer",
+    "date": "2026-11-14",
+    "excerpt": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]"
   },
   {
-    "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-    "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-    "source": "The Hacker News",
-    "date": "2026-11-12",
-    "excerpt": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,"
+    "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+    "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+    "source": "BleepingComputer",
+    "date": "2026-11-14",
+    "excerpt": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]"
   },
   {
     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
@@ -196,18 +210,18 @@
     "excerpt": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]"
   },
   {
-    "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-    "source": "BleepingComputer",
-    "date": "2026-11-12",
-    "excerpt": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]"
+    "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+    "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+    "source": "SecurityWeek",
+    "date": "2026-11-14",
+    "excerpt": "The directive protects smartphones as part of a person\u2019s private sphere and requires \u201cfree and informed consent\u201d for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook appeared first on SecurityWeek ."
   },
   {
-    "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-    "source": "BleepingComputer",
-    "date": "2026-11-12",
-    "excerpt": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]"
+    "title": "Is AI Making Us Worse at Cybersecurity?",
+    "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+    "source": "SecurityWeek",
+    "date": "2026-11-14",
+    "excerpt": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there\u2019s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek ."
   },
   {
     "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
@@ -266,20 +280,6 @@
     "excerpt": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame. The post Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure appeared first on SecurityWeek ."
   },
   {
-    "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-    "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-    "source": "SecurityWeek",
-    "date": "2026-11-13",
-    "excerpt": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek ."
-  },
-  {
-    "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
-    "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
-    "source": "SecurityWeek",
-    "date": "2026-11-13",
-    "excerpt": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches. The post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek ."
-  },
-  {
     "title": "FBI flash alert says Artex tool automating cyberattacks at \u2018machine speed\u2019",
     "link": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
     "source": "The Record",
@@ -320,20 +320,6 @@
     "source": "Google News: Africa cybersecurity",
     "date": "2026-11-09",
     "excerpt": "Datacentrix Highlights OT Cybersecurity Risks for Industrial Firms TechAfrica News"
-  },
-  {
-    "title": "e-Crime Bureau partners Smart Africa to expand cybersecurity footprint across continent - Business & Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdVgwQ01RQVc4Y19QdkhwU3c0NnFtUk9acnBzRWFUaDlNZXZLYzJkaHM3elZ0THI4ZkU0UXdBVGprbGZGdnRNZnAyRXl1VUM5LUdyeUN3ZF9wWXdpRjZ6b2FNeGdPaThRQ1BsSGRoa2JoS1M1VVB5WDBVY2VseTN0QkNjektrTGZUMHFOV0NCckdfSndsMm0yanRGbVh1U0h2UjZRbVlfVHN3Mm4wVUFNRHBOaVcwYmhwMlZVcw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-13",
-    "excerpt": "e-Crime Bureau partners Smart Africa to expand cybersecurity footprint across continent Business & Financial Times"
-  },
-  {
-    "title": "Konza cybersecurity centre seeks to strengthen fight against rising digital threats - Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSktSZjBzYnVVcm9JM1gzS1loa3NScHNoYTh4cEJDSy03a3d3UENucUhJWFFYZ0ZydGdEQ3lrNUpKdTJnajZNajBlaEhnNjhqSk5wU1J6ZkFFU0xoeWRwT1Vtdzg3VWVNNFRDVFZ2NVBpbHVTX09BclRkeHVPRWxnR3RLMENVLTQwSXFNa1IycG9FVS04TTU2ZjdnbHRmV0JXTzBJVFh6VkhRcEFzaU14aHZMeDY2MjhULXdSWG1LbmdxeUQzQjNLeHdONnJoOTY1OWV3RjlCQXhGcUpYTV80TkhuWjFadw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-10",
-    "excerpt": "Konza cybersecurity centre seeks to strengthen fight against rising digital threats Business Daily"
   },
   {
     "title": "Charly Kodjo: Ivorian producer taking African cinema from Paris to the villages",
