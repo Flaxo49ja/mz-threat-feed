@@ -1,5 +1,212 @@
 [
   {
+    "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+    "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety. Make",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026).",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "exploited",
+        "exploitation"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects jira, jenkins \u2014 widely deployed in under-resourced organizations \u2014 via rce, cve-.",
+      "category": "vulnerability",
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.",
+      "why_it_matters_africa": "If you run jira, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "jira",
+        "rce",
+        "cve-"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Quality Isn\u2019t The Main Worry About AI Pentesting \u2014 Data Privacy and Production Safety Are",
+    "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both. AI pentesting has emerged as a way to run in-depth tests whenever teams need them, instead of waiting for the",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "rce",
+        "active-exploitation"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects oracle, java \u2014 widely deployed in under-resourced organizations \u2014 via remote code, cve-.",
+      "category": "vulnerability",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.",
+      "why_it_matters_africa": "If you run oracle, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "oracle",
+        "remote-code",
+        "cve-"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+    "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects pypi, python \u2014 widely deployed in under-resourced organizations \u2014 via credential, attackers.",
+      "category": "policy_regulation",
+      "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start.",
+      "why_it_matters_africa": "If you run pypi, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "pypi",
+        "credential",
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+    "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+    "source": "The Hacker News",
+    "date": "2026-11-18",
+    "excerpt": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects google workspace \u2014 widely deployed in under-resourced organizations \u2014 via breach.",
+      "category": "breach",
+      "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+      "why_it_matters_africa": "If you run google workspace, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "google workspace",
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
+    "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+    "source": "The Hacker News",
+    "date": "2026-11-17",
+    "excerpt": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects android, java \u2014 widely deployed in under-resourced organizations \u2014 via rce, bec.",
+      "category": "vulnerability",
+      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone.",
+      "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "android",
+        "rce",
+        "bec"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+    "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+    "source": "The Hacker News",
+    "date": "2026-11-17",
+    "excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects oracle, java \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
+      "category": "vulnerability",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "why_it_matters_africa": "If you run oracle, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "oracle",
+        "rce",
+        "remote-code"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+    "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+    "source": "The Hacker News",
+    "date": "2026-11-17",
+    "excerpt": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
     "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
     "source": "The Hacker News",
@@ -103,195 +310,236 @@
     "backend": "heuristic"
   },
   {
-    "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-    "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-    "source": "The Hacker News",
-    "date": "2026-11-17",
-    "excerpt": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+    "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+    "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+    "source": "BleepingComputer",
+    "date": "2026-11-18",
+    "excerpt": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+      "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "unpatched"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-    "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-    "source": "The Hacker News",
-    "date": "2026-11-17",
-    "excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "attackers"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-    "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "threat-actors"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-    "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+    "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "date": "2026-11-18",
+    "excerpt": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects windows, chrome \u2014 widely deployed in under-resourced organizations \u2014 via bec, malware.",
-      "category": "other",
-      "summary": "A default password opened doors it never should have. A trusted update delivered malware.",
-      "why_it_matters_africa": "If you run windows, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "windows",
-        "bec",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-    "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Attack activity against government-sector organizations, the same targets common across SADC.",
+      "relevance_reason": "Affects apache \u2014 widely deployed in under-resourced organizations \u2014 via rce, exploited.",
       "category": "vulnerability",
-      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.",
-      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "why_it_matters_africa": "If you run apache, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "unpatched"
+        "apache",
+        "rce",
+        "exploited"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-    "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-    "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects linux, rust \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
-      "category": "policy_regulation",
-      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners.",
-      "why_it_matters_africa": "If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "linux",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "exposed",
-        "attackers"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-    "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-    "source": "The Hacker News",
-    "date": "2026-11-16",
-    "excerpt": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "vmware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-    "source": "The Hacker News",
-    "date": "2026-11-15",
-    "excerpt": "Meta was fined \u20ac805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
+    "title": "Microsoft announces Windows Server 2028 with hardened security",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+    "source": "BleepingComputer",
+    "date": "2026-11-18",
+    "excerpt": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "Meta was fined \u20ac805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.",
+      "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "android"
+        "windows"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+    "source": "BleepingComputer",
+    "date": "2026-11-18",
+    "excerpt": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects atlassian, confluence \u2014 widely deployed in under-resourced organizations \u2014 via rce, attackers.",
+      "category": "vulnerability",
+      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+      "why_it_matters_africa": "If you run atlassian, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "atlassian",
+        "rce",
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+    "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects docker \u2014 widely deployed in under-resourced organizations \u2014 via exploited, credential.",
+      "category": "vulnerability",
+      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+      "why_it_matters_africa": "If you run docker, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "docker",
+        "exploited",
+        "credential"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+    "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+    "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Tor releases emergency update amid ongoing DDoS attack",
+    "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "ddos"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Flipper Devices launches $399 \u2018Flipper One\u2019 Linux-based multi-tool",
+    "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
+      "category": "other",
+      "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "linux"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+    "source": "BleepingComputer",
+    "date": "2026-11-17",
+    "excerpt": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects microsoft 365 \u2014 widely deployed in under-resourced organizations \u2014 via phishing.",
+      "category": "phishing",
+      "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+      "why_it_matters_africa": "If you run microsoft 365, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "microsoft 365",
+        "phishing"
       ]
     },
     "backend": "heuristic"
@@ -355,16 +603,251 @@
     "backend": "heuristic"
   },
   {
-    "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-    "source": "BleepingComputer",
-    "date": "2026-11-17",
-    "excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+    "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+    "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CISO Conversations: Patti Degnan \u2013 Part of the Job Is Deciding What Not to Do",
+    "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Patti Degnan\u2019s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow. The post CISO Conversations: Patti Degnan \u2013 Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Patti Degnan\u2019s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Chrome 158 Patches 204 Vulnerabilities",
+    "link": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "chrome"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+    "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek .",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Attack activity against hospital, healthcare-sector organizations, the same targets common across SADC.",
+      "relevance_reason": "Affects azure, pypi \u2014 widely deployed in under-resourced organizations \u2014 via credential.",
+      "category": "policy_regulation",
+      "summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek .",
+      "why_it_matters_africa": "If you run azure, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "azure",
+        "credential"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+    "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "rce",
+        "exploited"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+    "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "oracle"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+    "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects jira, jenkins \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
+      "category": "vulnerability",
+      "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .",
+      "why_it_matters_africa": "If you run jira, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "jira",
+        "rce",
+        "remote-code"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+    "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+    "source": "SecurityWeek",
+    "date": "2026-11-18",
+    "excerpt": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+    "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+    "source": "SecurityWeek",
+    "date": "2026-11-17",
+    "excerpt": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions. The post AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions. The post AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "threat-actors"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+    "link": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+    "source": "SecurityWeek",
+    "date": "2026-11-17",
+    "excerpt": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek .",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "CISA warns of \u2018Java4Shell,\u2019 an AI-found Java bug touching most of the Fortune 500",
+    "link": "https://therecord.media/cisa-issues-java4shell-alert",
+    "source": "The Record",
+    "date": "2026-11-18",
+    "excerpt": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java \u2014 one of the world\u2019s most used programming languages \u2014 after experts warned that it could allow an attacker to take over servers without a password.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java \u2014 one of the world\u2019s most used programming languages \u2014 after experts warned that it could allow an attacker to take over servers without a password.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "java"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Website management platform Optimizely confirms hackers put malicious code into customer sites",
+    "link": "https://therecord.media/optimizely-malicious-code-customer-sites",
+    "source": "The Record",
+    "date": "2026-11-17",
+    "excerpt": "Researchers said they found malicious JavaScript code on 178 different widely visited websites run through the Optimizely Web experimentation platform. The company confirmed the breach.",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects java \u2014 widely deployed in under-resourced organizations \u2014 via breach.",
+      "category": "breach",
+      "summary": "Researchers said they found malicious JavaScript code on 178 different widely visited websites run through the Optimizely Web experimentation platform. The company confirmed the breach.",
+      "why_it_matters_africa": "If you run java, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "java",
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Kazakh ransomware hacking suspect extradited from Italy",
+    "link": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+    "source": "The Record",
+    "date": "2026-11-17",
+    "excerpt": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Attack activity against healthcare, school-sector organizations, the same targets common across SADC.",
       "category": "ransomware",
-      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "summary": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
       "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
@@ -374,211 +857,35 @@
     "backend": "heuristic"
   },
   {
-    "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-    "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-    "source": "BleepingComputer",
+    "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+    "link": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+    "source": "The Record",
     "date": "2026-11-17",
-    "excerpt": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects gitlab, ios \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
-      "category": "other",
-      "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
-      "why_it_matters_africa": "If you run gitlab, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [
-        "ML"
-      ],
-      "suggested_tags": [
-        "gitlab",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-    "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
+    "excerpt": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks \u2014 now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
+      "summary": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks \u2014 now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-    "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "exploitation"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-    "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "microsoft 365"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Fandango says hackers stole payment card details from checkout pages",
-    "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Attack activity against payment-sector organizations, the same targets common across SADC.",
-      "category": "breach",
-      "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "data-breach",
-        "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-    "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Google warns that fully-automated AI attacks are coming soon",
-    "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "exploitation",
         "threat-actors"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+    "title": "California fines Hertz $1.5 million for breaking state data privacy law",
+    "link": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
+    "source": "The Record",
+    "date": "2026-11-17",
+    "excerpt": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
     "triage": {
       "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "windows"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Australian retail giant Coles investigates cybersecurity incident",
-    "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-    "source": "BleepingComputer",
-    "date": "2026-11-16",
-    "excerpt": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+      "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -588,373 +895,157 @@
     "backend": "heuristic"
   },
   {
-    "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-    "link": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
-    "source": "SecurityWeek",
-    "date": "2026-11-17",
-    "excerpt": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek .",
+    "title": "Nigeria, Kenya, Angola: Congress bucks Trump on democracy in Africa",
+    "link": "https://www.theafricareport.com/436750/nigeria-kenya-angola-congress-bucks-trump-on-democracy-in-africa/",
+    "source": "The Africa Report",
+    "date": "2026-11-18",
+    "excerpt": "The National Endowment for Democracy and its partners scramble to fill in the gap left by the demise of USAID\u2019s election monitoring.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "zero-day",
-        "exploited"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-    "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-    "source": "SecurityWeek",
-    "date": "2026-11-17",
-    "excerpt": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards. The post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards. The post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-    "link": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
-    "source": "SecurityWeek",
-    "date": "2026-11-17",
-    "excerpt": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects gitlab \u2014 widely deployed in under-resourced organizations \u2014 via exploited, malware.",
-      "category": "vulnerability",
-      "summary": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek .",
-      "why_it_matters_africa": "If you run gitlab, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "gitlab",
-        "exploited",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
-    "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users. The post Trump Administration Moves to Block China From Indirect Access to American AI Technology appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users. The post Trump Administration Moves to Block China From Indirect Access to American AI Technology appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Cursor Supply Chain Attack Started at Fireworks AI",
-    "link": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies. The post Cursor Supply Chain Attack Started at Fireworks AI appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies. The post Cursor Supply Chain Attack Started at Fireworks AI appeared first on SecurityWeek .",
+      "summary": "The National Endowment for Democracy and its partners scramble to fill in the gap left by the demise of USAID\u2019s election monitoring.",
       "why_it_matters_africa": "",
       "countries": [
-        "ML"
+        "AO",
+        "KE",
+        "NE",
+        "NG"
       ],
       "suggested_tags": [
+        "africa",
+        "kenya"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Rwanda migrant deportation centre: What we know about Europe\u2019s five-nation plan",
+    "link": "https://www.theafricareport.com/436787/rwanda-migrant-deportation-centre-what-we-know-about-europes-five-nation-plan/",
+    "source": "The Africa Report",
+    "date": "2026-11-18",
+    "excerpt": "The pitch is an open \u2018welcome centre\u2019, residence permits and a path into Rwandan society. NGOs fear it is the thin end of the wedge for all asylum seekers.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "The pitch is an open \u2018welcome centre\u2019, residence permits and a path into Rwandan society. NGOs fear it is the thin end of the wedge for all asylum seekers.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "RW"
+      ],
+      "suggested_tags": [
+        "rwanda"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "C\u00f4te d\u2019Ivoire: Can NSIA Banque turn strong growth into profitability?",
+    "link": "https://www.theafricareport.com/436752/cote-divoire-can-nsia-banque-turn-strong-growth-into-profitability/",
+    "source": "The Africa Report",
+    "date": "2026-11-18",
+    "excerpt": "NSIA\u2019s banking arm has climbed to fifth place in the WAEMU, overtaking two Moroccan giants. Driven by its Ivorian subsidiary, the group must now rise to the challenge of profitability.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "NSIA\u2019s banking arm has climbed to fifth place in the WAEMU, overtaking two Moroccan giants. Driven by its Ivorian subsidiary, the group must now rise to the challenge of profitability.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "MA"
+      ],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Zipline appoints veteran of retreating Uber to spearhead massive African expansion",
+    "link": "https://www.theafricareport.com/436680/zipline-appoints-veteran-of-retreating-uber-to-spearhead-massive-african-expansion/",
+    "source": "The Africa Report",
+    "date": "2026-11-18",
+    "excerpt": "As the American ride-hailing giant scales back its continental footprint, US robotics firm Zipline is counting on an architect of Uber\u2019s early expansion to succeed where ground transport struggles due to poor roads and hard-to-reach rural areas.",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "As the American ride-hailing giant scales back its continental footprint, US robotics firm Zipline is counting on an architect of Uber\u2019s early expansion to succeed where ground transport struggles due to poor roads and hard-to-reach rural areas.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "africa",
+        "african"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Nigeria-South Africa: A chastened Fani-Kayode meets the limits of loud diplomacy",
+    "link": "https://www.theafricareport.com/436739/nigeria-south-africa-a-chastened-fani-kayode-meets-the-limits-of-loud-diplomacy/",
+    "source": "The Africa Report",
+    "date": "2026-11-17",
+    "excerpt": "Nigeria\u2019s new high commissioner picked a fight with South Africa\u2019s presidency within hours of presenting his credentials. A summons from DIRCO has softened his tone \u2013 but not the doubts about his posting.",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, south africa, directly relevant to the region.",
+      "category": "other",
+      "summary": "Nigeria\u2019s new high commissioner picked a fight with South Africa\u2019s presidency within hours of presenting his credentials. A summons from DIRCO has softened his tone \u2013 but not the doubts about his posting.",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [
+        "NE",
+        "NG",
+        "ZA"
+      ],
+      "suggested_tags": [
+        "africa",
+        "south africa",
         "credential"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
-    "link": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "It will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028. The post Google Project Zero Sets Course for 30-Day Disclosure Deadline appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "It will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028. The post Google Project Zero Sets Course for 30-Day Disclosure Deadline appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
-    "link": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks. The post Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks. The post Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "hacked",
-        "threat-actors"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-    "link": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "Kaspersky suspects exploitation of Telegram\u2019s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Kaspersky suspects exploitation of Telegram\u2019s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "rce",
-        "exploitation"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-    "link": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "exploited",
-        "cve-"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-    "link": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
-    "source": "SecurityWeek",
-    "date": "2026-11-16",
-    "excerpt": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted. The post Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted. The post Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "threat-actors"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Uber says nearly 150,000 impacted by third-party breach",
-    "link": "https://therecord.media/uber-says-150000-impacted-third-party-breach",
-    "source": "The Record",
-    "date": "2026-11-18",
-    "excerpt": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber\u2019s account.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber\u2019s account.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "credential",
-        "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
-    "link": "https://therecord.media/california-sues-openai-hugging-face",
-    "source": "The Record",
-    "date": "2026-11-16",
-    "excerpt": "\"OpenAI thwarted the Attorney General\u2019s efforts to investigate these incidents, including by refusing to provide detailed information about the full universe of incidents known to the company,\u201d California alleges in a new lawsuit.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "\"OpenAI thwarted the Attorney General\u2019s efforts to investigate these incidents, including by refusing to provide detailed information about the full universe of incidents known to the company,\u201d California alleges in a new lawsuit.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Match fined $10 million for alleged Tinder privacy violations",
-    "link": "https://therecord.media/ireland-tinder-privacy-fine",
-    "source": "The Record",
-    "date": "2026-11-16",
-    "excerpt": "Ireland\u2019s data protection regulator will fine the Match Group as a result of the dating app Tinder allegedly failing to provide users with their personal data held by the company upon request.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Ireland\u2019s data protection regulator will fine the Match Group as a result of the dating app Tinder allegedly failing to provide users with their personal data held by the company upon request.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Italian regulator fines Meta $886 million for violating data privacy law",
-    "link": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
-    "source": "The Record",
-    "date": "2026-11-16",
-    "excerpt": "The crackdown on Meta\u2019s Facebook platform involved the company\u2019s alleged use of its \u201ccamera roll\u201d suggestions option, launched in 2023, to browse Android users\u2019 photo galleries to recommend posts they could enhance with personal photos and videos.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "The crackdown on Meta\u2019s Facebook platform involved the company\u2019s alleged use of its \u201ccamera roll\u201d suggestions option, launched in 2023, to browse Android users\u2019 photo galleries to recommend posts they could enhance with personal photos and videos.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "android"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "King Charles opens new HQ for National Cyber Force, UK\u2019s offensive hacking unit",
-    "link": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
-    "source": "The Record",
-    "date": "2026-11-16",
-    "excerpt": "A building near the Lancashire village of Samlesbury in northwest England is officially the headquarters for the secretive unit that runs the Britain's offensive cyber operations.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "A building near the Lancashire village of Samlesbury in northwest England is officially the headquarters for the secretive unit that runs the Britain's offensive cyber operations.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Mauritania Partners Cybastion on Cybersecurity and Digital Skills - TechAfrica News",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaVRCNXY2TDUyXy1xOG9TQm9BZWlkVWZRaDdMeHE3aGpKSE9oYmR0X0ExSjRkc3lRZDh1NTU0YzNhYS16b1E2TGpLaTlBdTVQSmpNR05ZU00td1RUTVJONWs2d2F3aGQyTEs3ZVF1ZU1NTmh6cXpDM2lGaFZNSDF0RzRDZV9hSEFLZkFaSC1lNS1KZw?oc=5",
-    "source": "Google News: Africa cybersecurity",
+    "title": "Western Sahara: Polisario mobilises for battle, but can its ageing army take on Morocco?",
+    "link": "https://www.theafricareport.com/436666/western-sahara-polisario-mobilises-for-battle-but-can-its-ageing-army-take-on-morocco/",
+    "source": "The Africa Report",
     "date": "2026-11-17",
-    "excerpt": "Mauritania Partners Cybastion on Cybersecurity and Digital Skills TechAfrica News",
+    "excerpt": "Following its call for mobilisation, the Polisario Front is raising the stakes in its confrontation with Morocco. But how much military muscle does the Sahrawi independence movement have? From troop strength and Soviet-era tanks to artillery and Algerian backing, we examine its capacity to fight against Morocco\u2019s increasingly sophisticated military.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Mauritania Partners Cybastion on Cybersecurity and Digital Skills TechAfrica News",
+      "summary": "Following its call for mobilisation, the Polisario Front is raising the stakes in its confrontation with Morocco. But how much military muscle does the Sahrawi independence movement have?",
       "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Experts brainstorm on a cybersecurity model law for Africa - Economic Commission for Africa (ECA)",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMk9JNjkxRjh1QW4zdUZSOUJ0b2dXZXpQTEhjbVJmRkxQQ2NXNlZwNGZLdDdMLTBHZWU3dGNCWlYtUXJuS0x0YTVPOGJtT1FJX2ViZFJLVU5wOGJCNzdnUzJ5OVhUelplSzV5SGRHM3lGcUZybWloeWRNdy1HUXVVWExIQWM?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-16",
-    "excerpt": "Experts brainstorm on a cybersecurity model law for Africa Economic Commission for Africa (ECA)",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "policy_regulation",
-      "summary": "Experts brainstorm on a cybersecurity model law for Africa Economic Commission for Africa (ECA)",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Rabat Hosts ECOWAS Women in Cybersecurity Initiative - The North Africa Post",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaDRiczVzd2IzSkRxeVp3RF9hNmFfM194emRBU1pBbktZb0RXbUU4bTFNX3pyYWd3SmpTRlFLVHQwTTdzYmp3bTJYcndjVkxEbUlYVWdGYjVPem5OcXRmVkxJTjBac1ZqNE94Nlo5OTkwNUZwUHU2anUwa2wyZ2NyR091YkYxWmU3YWl1ZFF2Sy1NQWhpZEFZ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-15",
-    "excerpt": "Rabat Hosts ECOWAS Women in Cybersecurity Initiative The North Africa Post",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Rabat Hosts ECOWAS Women in Cybersecurity Initiative The North Africa Post",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [
+        "DZ",
         "MA"
       ],
       "suggested_tags": [
-        "africa"
+        "morocco",
+        "algeria"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "[Interview] Allan Juma, Lead Cybersecurity Engineer, ESET - Africa Business Communities",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMENYeTF5M0w2bFVZVmtvdXNoOUp6S3BHcTFWeDFYMVhidEtfblJ2cU02VXJhdDVtNGRSd2sycUFJTFRxLUJTRE9pWGpoR0p0OC03ZUF4MnV1X1NLb2NYZVhnemNTRFRsSjAwbU55WmF0ckZpamhYZUVFQjZ1WUN5Tkg2Nl9pZThHT1VzblJCVG9rbkdxM0dFQVo0eTlTSUtxb1E?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-12",
-    "excerpt": "[Interview] Allan Juma, Lead Cybersecurity Engineer, ESET Africa Business Communities",
+    "title": "Paul Biya\u2019s secret army: Inside Cameroon\u2019s elite battalion",
+    "link": "https://www.theafricareport.com/436602/paul-biyas-secret-army-inside-cameroons-elite-battalion/",
+    "source": "The Africa Report",
+    "date": "2026-11-17",
+    "excerpt": "The Bataillon d\u2019Intervention Rapide (BIR) is the backbone of Cameroon\u2019s security, deployed from the Far North to the Atlantic coast. But behind the powerful force lies a secretive world of funding, Israeli advisers and a tightly guarded chain of command.",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "[Interview] Allan Juma, Lead Cybersecurity Engineer, ESET Africa Business Communities",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
+      "summary": "The Bataillon d\u2019Intervention Rapide (BIR) is the backbone of Cameroon\u2019s security, deployed from the Far North to the Atlantic coast. But behind the powerful force lies a secretive world of funding, Israeli advisers and a tightly guarded chain of command.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "CM"
+      ],
       "suggested_tags": [
-        "africa"
+        "news"
       ]
     },
     "backend": "heuristic"
@@ -1030,129 +1121,18 @@
     "backend": "heuristic"
   },
   {
-    "title": "Africa\u2019s single currency is a \u2018pipe dream\u2019, warns South Africa\u2019s central bank chief",
-    "link": "https://www.theafricareport.com/436438/africas-single-currency-is-a-pipe-dream-warns-south-africas-central-bank-chief/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "Four African central bank governors debate the future of monetary union, arguing that financial integration must come before a common currency.",
+    "title": "Russian Espionage Actor Star Blizzard Focuses on Cloud Identities for Mass Data Theft",
+    "link": "https://www.infosecurity-magazine.com/news/russian-star-blizzard-cloud-data/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-18",
+    "excerpt": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group\u2019s growing focus on compromising cloud environments to steal data and facilitate further attacks",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Four African central bank governors debate the future of monetary union, arguing that financial integration must come before a common currency.",
+      "summary": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group\u2019s growing focus on compromising cloud environments to steal data and facilitate further attacks",
       "why_it_matters_africa": "",
-      "countries": [
-        "ZA"
-      ],
-      "suggested_tags": [
-        "africa",
-        "african"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "South Africa: Why MTN wants all of Telkom, not just its fibre network",
-    "link": "https://www.theafricareport.com/436549/south-africa-why-mtn-wants-all-of-telkom-not-just-its-fibre-network/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "Acquiring Openserve alone would offer a cleaner path past antitrust regulators, but Telkom\u2019s refusal to split its mobile and fixed-line businesses leaves MTN facing a complex buyout.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Acquiring Openserve alone would offer a cleaner path past antitrust regulators, but Telkom\u2019s refusal to split its mobile and fixed-line businesses leaves MTN facing a complex buyout.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ZA"
-      ],
-      "suggested_tags": [
-        "africa",
-        "south africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Kribi vs Pointe-Noire: Which port will rule Central Africa?",
-    "link": "https://www.theafricareport.com/436522/kribi-vs-pointe-noire-which-port-will-rule-central-africa/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "The ports in Cameroon and the Republic of the Congo can handle the world\u2019s largest container ships, and both are investing heavily to capture the boom in regional trade. The winner may be decided inland, by who builds the better road and rail links.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "The ports in Cameroon and the Republic of the Congo can handle the world\u2019s largest container ships, and both are investing heavily to capture the boom in regional trade. The winner may be decided inland, by who builds the better road and rail links.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "CD",
-        "CM"
-      ],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "US-Africa Week Ahead: South Africa courts US tech from California to Cape Town",
-    "link": "https://www.theafricareport.com/436450/us-africa-week-ahead-south-africa-courts-us-tech-from-california-to-cape-town/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "South African President Ramaphosa and his delegation, including ambassador to the US Roelf Meyer, arrive in San Jose for a Silicon Valley tour to explore \u2018global AI developments, technological innovation, investment opportunities and partnerships\u2019.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "South African President Ramaphosa and his delegation, including ambassador to the US Roelf Meyer, arrive in San Jose for a Silicon Valley tour to explore \u2018global AI developments, technological innovation, investment opportunities and partnerships\u2019.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ZA"
-      ],
-      "suggested_tags": [
-        "africa",
-        "african"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Ethiopia\u2019s stock market faces liquidity test as it courts foreign investors",
-    "link": "https://www.theafricareport.com/436437/ethiopias-stock-market-faces-liquidity-test-as-it-courts-foreign-investors/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "Ethiopia\u2019s nascent stock exchange is courting foreign investors and domestic fund managers to boost sluggish trading volumes and build deeper market liquidity.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Ethiopia\u2019s nascent stock exchange is courting foreign investors and domestic fund managers to boost sluggish trading volumes and build deeper market liquidity.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ET"
-      ],
-      "suggested_tags": [
-        "ethiopia"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "DRC finance minister: \u2018A country with 70% of the world\u2019s cobalt can\u2019t just take the price\u2019",
-    "link": "https://www.theafricareport.com/436433/drc-finance-minister-a-country-with-70-of-the-worlds-cobalt-cant-just-take-the-price/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "Doudou Fwamba on Kinshasa\u2019s debut international bond, cobalt quotas and attracting investment amid war and Ebola.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Doudou Fwamba on Kinshasa\u2019s debut international bond, cobalt quotas and attracting investment amid war and Ebola.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "CD"
-      ],
+      "countries": [],
       "suggested_tags": [
         "news"
       ]
@@ -1160,23 +1140,99 @@
     "backend": "heuristic"
   },
   {
-    "title": "Dangote wants Ghana\u2019s cocoa; can he help break the raw-export trap?",
-    "link": "https://www.theafricareport.com/436424/dangote-wants-ghanas-cocoa-but-can-africa-break-the-raw-export-trap/",
-    "source": "The Africa Report",
-    "date": "2026-11-16",
-    "excerpt": "Africa\u2019s richest man is eyeing a 500,000-tonne cocoa deal in Ghana. But drought, falling harvests and underused factories threaten the country\u2019s processing ambitions.",
+    "title": "Three AI Models Agree on Just One of 121 Potential Code Flaws",
+    "link": "https://www.infosecurity-magazine.com/news/ai-models-vulnerability-findings/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-18",
+    "excerpt": "Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Africa\u2019s richest man is eyeing a 500,000-tonne cocoa deal in Ghana. But drought, falling harvests and underused factories threaten the country\u2019s processing ambitions.",
+      "summary": "Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Watchdog Warns UK Government Is Falling Short on Risk Management",
+    "link": "https://www.infosecurity-magazine.com/news/watchdog-government-risk/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-18",
+    "excerpt": "National Audit Office report claims risk management failures are leading to poor government decisions",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "National Audit Office report claims risk management failures are leading to poor government decisions",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Anthropic Cuts Disclosure Deadline to 30 Days For Serious Bugs",
+    "link": "https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-17",
+    "excerpt": "Anthropic will publish serious flaws found by its AI models 30 days after reporting them",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Anthropic will publish serious flaws found by its AI models 30 days after reporting them",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Optimizely Flaw Exploited to Serve Malicious Code to Visitors of 178 Organizations",
+    "link": "https://www.infosecurity-magazine.com/news/optimizely-hack-malware-178-orgs/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-17",
+    "excerpt": "An attacker abused an Optimizely flaw to plant malicious code on websites of 178 organizations",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "An attacker abused an Optimizely flaw to plant malicious code on websites of 178 organizations",
       "why_it_matters_africa": "",
       "countries": [
-        "GH"
+        "ML"
       ],
       "suggested_tags": [
-        "africa",
-        "ghana"
+        "exploited"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Microsoft Warns of Coordinated Phishing Campaign Leveraging M365 Service Outage",
+    "link": "https://www.infosecurity-magazine.com/news/microsoft-phishing-service-outage/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-17",
+    "excerpt": "Microsoft said the high volume campaign was likely designed to capture user credentials, and urged organizations to investigate signs of compromise",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Microsoft said the high volume campaign was likely designed to capture user credentials, and urged organizations to investigate signs of compromise",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "phishing",
+        "credential"
       ]
     },
     "backend": "heuristic"
@@ -1351,120 +1407,6 @@
       "countries": [],
       "suggested_tags": [
         "threat-actors"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Microsoft 365 Outage Set to Ramp up Security Risks to Organizations",
-    "link": "https://www.infosecurity-magazine.com/news/microsoft-365-outage-security/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-13",
-    "excerpt": "While Microsoft resolves the global M365 and Outlook outage, cybersecurity teams remain on high alert as cybercriminals prepare to exploit the chaos",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "While Microsoft resolves the global M365 and Outlook outage, cybersecurity teams remain on high alert as cybercriminals prepare to exploit the chaos",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "outlook"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Phishing Rises Three Times Faster in Europe Than Globally, Proofpoint Finds",
-    "link": "https://www.infosecurity-magazine.com/news/phishing-rises-faster-europe/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-13",
-    "excerpt": "New Proofpoint research reveals phishing detections surged 4.5x across Europe year over year, compared with 1.5x globally",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "New Proofpoint research reveals phishing detections surged 4.5x across Europe year over year, compared with 1.5x globally",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "phishing"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "AI Set to Revolutionize Ransomware Following \u201cStagnant\u201d Few Years",
-    "link": "https://www.infosecurity-magazine.com/news/ai-revolutionize-ransomware/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-13",
-    "excerpt": "TrendAI\u2019s Bob McArdle said ransomware techniques will change significantly in the next year, with AI making attacks more dangerous and profitable",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "TrendAI\u2019s Bob McArdle said ransomware techniques will change significantly in the next year, with AI making attacks more dangerous and profitable",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "ransomware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Weak Passwords Expose SQL Servers to Cryptominer and Gh0st RAT",
-    "link": "https://www.infosecurity-magazine.com/news/fortinet-sql-server-cryptominer/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-12",
-    "excerpt": "Fortinet finds weak SQL Server passwords used to deliver a miner and Gh0st RAT",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Fortinet finds weak SQL Server passwords used to deliver a miner and Gh0st RAT",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "fortinet"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Hacked Asian Telcos Used to Intercept Taiwanese Calls and Texts",
-    "link": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-12",
-    "excerpt": "Enea linked SilentAir and Liminal Panda to attacks on Asian mobile operators",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Enea linked SilentAir and Liminal Panda to attacks on Asian mobile operators",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "hacked"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
-    "link": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-12",
-    "excerpt": "Lego has taken its BrickLink Marketplace offline after detecting unusual activity as the company investigates the incident",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Lego has taken its BrickLink Marketplace offline after detecting unusual activity as the company investigates the incident",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
       ]
     },
     "backend": "heuristic"
