@@ -1,5 +1,61 @@
 [
   {
+    "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+    "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+    "source": "The Hacker News",
+    "date": "2026-11-21",
+    "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,"
+  },
+  {
+    "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+    "source": "The Hacker News",
+    "date": "2026-11-21",
+    "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,"
+  },
+  {
+    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+    "source": "The Hacker News",
+    "date": "2026-11-21",
+    "excerpt": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal"
+  },
+  {
+    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "source": "The Hacker News",
+    "date": "2026-11-21",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in"
+  },
+  {
+    "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+    "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+    "source": "The Hacker News",
+    "date": "2026-11-20",
+    "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4."
+  },
+  {
+    "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+    "source": "The Hacker News",
+    "date": "2026-11-20",
+    "excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,"
+  },
+  {
+    "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+    "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+    "source": "The Hacker News",
+    "date": "2026-11-20",
+    "excerpt": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped"
+  },
+  {
+    "title": "The Path to AI Autonomy in the SOC",
+    "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+    "source": "The Hacker News",
+    "date": "2026-11-20",
+    "excerpt": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027. The pressure"
+  },
+  {
     "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
     "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
     "source": "The Hacker News",
@@ -49,60 +105,39 @@
     "excerpt": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated"
   },
   {
-    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific"
+    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+    "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+    "source": "BleepingComputer",
+    "date": "2026-11-20",
+    "excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]"
   },
   {
-    "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-    "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The"
+    "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+    "source": "BleepingComputer",
+    "date": "2026-11-20",
+    "excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]"
   },
   {
-    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-    "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed"
+    "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+    "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+    "source": "BleepingComputer",
+    "date": "2026-11-20",
+    "excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]"
   },
   {
-    "title": "Everything Is a Web Application, Including Your Firewall",
-    "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong."
+    "title": "Still tracking company passwords in spreadsheets? You\u2019re flying blind.",
+    "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+    "source": "BleepingComputer",
+    "date": "2026-11-20",
+    "excerpt": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]"
   },
   {
-    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-    "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we"
-  },
-  {
-    "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-    "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said. The project released fixed versions"
-  },
-  {
-    "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-    "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no"
-  },
-  {
-    "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-    "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -"
+    "title": "N-able says recent security breach led to major service outage",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+    "source": "BleepingComputer",
+    "date": "2026-11-20",
+    "excerpt": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]"
   },
   {
     "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
@@ -175,39 +210,25 @@
     "excerpt": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]"
   },
   {
-    "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]"
+    "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
+    "link": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+    "source": "SecurityWeek",
+    "date": "2026-11-20",
+    "excerpt": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp\u2019s security team, and it may have been used to make scam messages more credible. The post WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign appeared first on SecurityWeek ."
   },
   {
-    "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]"
+    "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
+    "link": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+    "source": "SecurityWeek",
+    "date": "2026-11-20",
+    "excerpt": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek ."
   },
   {
-    "title": "Microsoft confirms app installation, launch issues after hotpatch",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]"
-  },
-  {
-    "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-    "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]"
-  },
-  {
-    "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-    "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-    "source": "BleepingComputer",
-    "date": "2026-11-18",
-    "excerpt": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]"
+    "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
+    "link": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
+    "source": "SecurityWeek",
+    "date": "2026-11-20",
+    "excerpt": "Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems. The post Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday appeared first on SecurityWeek ."
   },
   {
     "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
@@ -259,60 +280,46 @@
     "excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker\u2019s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek ."
   },
   {
-    "title": "Nvidia Responds to Gentlemen Ransomware Claim",
-    "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
-    "source": "SecurityWeek",
-    "date": "2026-11-19",
-    "excerpt": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
-    "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
-    "source": "SecurityWeek",
-    "date": "2026-11-19",
-    "excerpt": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek ."
-  },
-  {
-    "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
-    "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
-    "source": "SecurityWeek",
-    "date": "2026-11-19",
-    "excerpt": "The company will use the funds to accelerate the development and distribution of its security platform. The post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
-    "link": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+    "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+    "link": "https://therecord.media/west-virginia-legislature-cyberattack",
     "source": "The Record",
-    "date": "2026-11-19",
-    "excerpt": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House\u2019s steadfast opposition to regulating AI."
+    "date": "2026-11-20",
+    "excerpt": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities."
   },
   {
-    "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
-    "link": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+    "title": "US companies\u2019 use of Chinese open weight AI draws rebuke from House chairmen",
+    "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
     "source": "The Record",
-    "date": "2026-11-19",
-    "excerpt": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims."
+    "date": "2026-11-20",
+    "excerpt": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects."
   },
   {
-    "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
-    "link": "https://therecord.media/cisa-losapio-nomination-trump",
+    "title": "Container Store restores systems after cyberattack",
+    "link": "https://therecord.media/container-store-restores-systems-cyberattack",
     "source": "The Record",
-    "date": "2026-11-19",
-    "excerpt": "President Donald Trump\u2019s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any \u201cgaps\u201d within the organization while also denying the Capitol came under attack on January 6, 2021."
+    "date": "2026-11-20",
+    "excerpt": "The firm\u2019s parent company, Neighborhood Intelligence, said in a statement that The Container Store has \u201crestored its website and systems following a cybersecurity incident this past weekend.\u201d"
   },
   {
-    "title": "UK court confirms British government served Apple with secret encryption notice",
-    "link": "https://therecord.media/apple-uk-encryption-notice",
+    "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+    "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
     "source": "The Record",
-    "date": "2026-11-19",
-    "excerpt": "The British government served Apple with a secret legal notice targeting the company\u2019s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge what had been widely reported."
+    "date": "2026-11-20",
+    "excerpt": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said."
   },
   {
-    "title": "European Commission confirms cyberattack, says hackers used AI tool",
-    "link": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+    "title": "NSA resumes normal operations following internal network disruptions",
+    "link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
     "source": "The Record",
-    "date": "2026-11-19",
-    "excerpt": "POLITICO had reported CERT-EU had identified the attackers\u2019 use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups."
+    "date": "2026-11-20",
+    "excerpt": "Certain facilities remain under \u201cCode Orange\u201d for non-essential employees, meaning delayed openings and some must check in with their supervisors."
+  },
+  {
+    "title": "Africa's biggest airline digs into hackers targeting 5.38 million customer accounts as it connects the U.S., Canada and South Africa - Business Insider Africa",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWRDMTdoWlJ5cGJwUHhuQTlfWUtQaGlKamxtaTNDOG85VXV3U1c0SzJta2FmR2hlcUVSYWpURjY5cFpQZUllSXZZZ09xV0ppcEpQc1cxUk5BRzJOV2hQWVBOWWVVN0VZZFB4WklONk5kM1I1MW1lQmtlUjhHQmdvR2o0cUZtYWZpdzVtcFNmdUhkeklDMTFZbEhQcFg3cWRjR1lkd3lFY0Zid1BVT2JEQlR2Ulc5aW5BWU1xcVFyQmxIUGJvOXc1ejZ2cTJ2WkZkMzNYbkpR?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-20",
+    "excerpt": "Africa's biggest airline digs into hackers targeting 5.38 million customer accounts as it connects the U.S., Canada and South Africa Business Insider Africa"
   },
   {
     "title": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap - Biometric Update",
@@ -322,18 +329,18 @@
     "excerpt": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap Biometric Update"
   },
   {
+    "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge - Dark Reading",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUFRzYjNRZktDYVNQSW0zeEV6RW40ZF9ZNmpPb21fVkt1M0o5MFl6MS1iaUdFT1c0R3EwMzU4Q2NRNi1iYnF0cjVTZ3NBNnlKVWdMVDdKMHgwQnlCOEZzUERGdFRzWHRqUS1iWGc0TmJieDdHeXZhMTJ4R1NIN1FnWEF6U0pSZ0hZaF80Z0pyTWFUbUpFTjE2Rm5RRUs4Vm8?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-19",
+    "excerpt": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge Dark Reading"
+  },
+  {
     "title": "Ethiopian Airlines reports cybersecurity breach, warns customer data may be exposed - Anadolu Ajans\u0131",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcXF1MUYyVm54amc2UU84b1lEdzNZdlcyeGZKdFpCYXdnbFU2aC1SNmR1ZzNOVGV0ZjZtNHBDSDlXOVZ1WWFoM3JzdWtFYUdHZHA0Yl8zYUh1MnlxZllKYkptZVFfY015b1dLNnFwVGJHRVZUVi1BWEVwNkpIRGUwRV9rM2tsVGdoUVdvcy1VSXM3akhISWFEbXhCMGVLaGtYOW9iWHNGS2xoY0EyS2M1MzU1akhYOVBia1JHb2swUQ?oc=5",
     "source": "Google News: Africa cybersecurity",
     "date": "2026-11-19",
     "excerpt": "Ethiopian Airlines reports cybersecurity breach, warns customer data may be exposed Anadolu Ajans\u0131"
-  },
-  {
-    "title": "Seacom backs African SME cybersecurity - ITWeb Africa",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSS1SSTA4YnVpVHBaaVFETWtwenFZY1hmWTdnTHZMaWFLY0VMbElDX0Q2ODcyN2xNMkI1ZFJZRkIya3pGR241RVZFQmM5dmpXcXhKQ1QxUGtVaGR5TWdfalhYUGd3VWVpRHdwWFhKb3c2dEh5ekV1MURLQ19OLVNReWlQaG9CLVhDQXFpNw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-18",
-    "excerpt": "Seacom backs African SME cybersecurity ITWeb Africa"
   },
   {
     "title": "Benin wants to be Africa\u2019s AI testbed. Cybersecurity is its starting point - TechCabal",
@@ -348,6 +355,27 @@
     "source": "Google News: Africa cybersecurity",
     "date": "2026-11-19",
     "excerpt": "OPINION | SA urgently needs to prioritise AI cybersecurity readiness SABC News"
+  },
+  {
+    "title": "Central African Republic: How Wagner\u2019s gold stands in the way of peace",
+    "link": "https://www.theafricareport.com/437055/central-african-republic-how-wagners-gold-stands-in-the-way-of-peace/",
+    "source": "The Africa Report",
+    "date": "2026-11-20",
+    "excerpt": "As Bangui and N\u2019Djamena attempt to negotiate the return of three rebel Central African Republic (CAR) leaders who have taken refuge in Chad, the talks drag on. The interests of the Russian group Wagner and its allies in the operation of a gold mine are among the obstacles."
+  },
+  {
+    "title": "Ethiopia-Eritrea: Why Badme, the town that sparked a bloody war, is back in the firing line",
+    "link": "https://www.theafricareport.com/437126/ethiopia-eritrea-why-badme-the-town-that-sparked-a-bloody-war-is-back-in-the-firing-line/",
+    "source": "The Africa Report",
+    "date": "2026-11-20",
+    "excerpt": "Eritrean troops have retaken Badme as reports of drone strikes and heavy artillery bombardments this week raise fears of another war over a town awarded to Asmara 25 years ago."
+  },
+  {
+    "title": "Perseus Mining CEO Craig Jones: \u2018High gold price makes acquisitions more complex\u2019",
+    "link": "https://www.theafricareport.com/437146/perseus-mining-ceo-craig-jones-high-gold-price-makes-acquisitions-more-complex/",
+    "source": "The Africa Report",
+    "date": "2026-11-20",
+    "excerpt": "In Tanzania and C\u00f4te d\u2019Ivoire, gold producer Perseus Mining is accelerating its expansion to exceed 500,000 ounces a year. Its CEO sets out his strategy in the face of surging prices and looks back at the impact of African states taking greater control of the mining sector."
   },
   {
     "title": "Nigeria: Dangote IPO is a chance to rethink financial inclusion",
@@ -399,25 +427,18 @@
     "excerpt": "On a tour of Lebanon and Morocco, the US representative to the UN confirmed Washington\u2019s support for settling the Sahara issue under Moroccan autonomy. He also warned all parties of the risks of a military option."
   },
   {
-    "title": "Telecom towers: MTN clears hurdle in Central African IHS takeover",
-    "link": "https://www.theafricareport.com/436928/telecom-towers-mtn-clears-hurdle-in-central-african-ihs-takeover/",
-    "source": "The Africa Report",
-    "date": "2026-11-19",
-    "excerpt": "The CEMAC regulator has given conditional approval to MTN\u2019s acquisition of IHS. The operator must submit terms to reassure its rivals, particularly in Cameroon, where the stakes are especially high."
+    "title": "JPMorgan Confirms Customer Data Breach Following Third-Party Compromise",
+    "link": "https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-20",
+    "excerpt": "Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site"
   },
   {
-    "title": "Ethiopia\u2019s Dashen Bank in equity talks with foreign investors ahead of listing",
-    "link": "https://www.theafricareport.com/436898/ethiopias-dashen-bank-in-equity-talks-with-foreign-investors-ahead-of-listing/",
-    "source": "The Africa Report",
-    "date": "2026-11-19",
-    "excerpt": "Ethiopia\u2019s Dashen Bank is negotiating equity stakes with regional strategic investors to secure technology and expertise ahead of its planned stock market listing."
-  },
-  {
-    "title": "COP31 in Turkey: 5 questions to understand what\u2019s in it for Africa",
-    "link": "https://www.theafricareport.com/436782/cop31-in-turkey-5-questions-to-understand-whats-in-it-for-africa/",
-    "source": "The Africa Report",
-    "date": "2026-11-19",
-    "excerpt": "As COP31 draws to a close against an unfavourable international backdrop for African countries, which of the continent\u2019s priorities are still on the table?"
+    "title": "Ransomware Recovery Takes 20 Days for the Typical Victim, Report Finds",
+    "link": "https://www.infosecurity-magazine.com/news/ransomware-recovery-20-days/",
+    "source": "Infosecurity Magazine",
+    "date": "2026-11-20",
+    "excerpt": "A new Rubrik report has shown that ransomware victims face 20-day median recovery time, with 28% of recovery cases taking longer than six weeks"
   },
   {
     "title": "Mail Bombing Attacks Fuel IT Helpdesk Impersonation Scams",
@@ -425,13 +446,6 @@
     "source": "Infosecurity Magazine",
     "date": "2026-11-20",
     "excerpt": "Researchers have uncovered a large-scale campaign in which attackers flood inboxes with emails before impersonating IT helpdesk staff to gain access to user accounts"
-  },
-  {
-    "title": "JPMorgan Confirms Customer Data Breach Following Third-Party Compromise",
-    "link": "https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-20",
-    "excerpt": "Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site"
   },
   {
     "title": "Suspected North Korea-Aligned Group Hides C2 on Solana Blockchain",
@@ -516,12 +530,5 @@
     "source": "Infosecurity Magazine",
     "date": "2026-11-18",
     "excerpt": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group\u2019s growing focus on compromising cloud environments to steal data and facilitate further attacks"
-  },
-  {
-    "title": "Three AI Models Agree on Just One of 121 Potential Code Flaws",
-    "link": "https://www.infosecurity-magazine.com/news/ai-models-vulnerability-findings/",
-    "source": "Infosecurity Magazine",
-    "date": "2026-11-18",
-    "excerpt": "Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap"
   }
 ]
