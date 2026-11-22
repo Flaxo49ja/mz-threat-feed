@@ -1,5 +1,65 @@
 [
   {
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "source": "The Hacker News",
+    "date": "2026-11-22",
+    "excerpt": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "attackers"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "source": "The Hacker News",
+    "date": "2026-11-22",
+    "excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects linux \u2014 widely deployed in under-resourced organizations \u2014 via rce.",
+      "category": "vulnerability",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.",
+      "why_it_matters_africa": "If you run linux, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "linux",
+        "rce"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+    "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+    "source": "The Hacker News",
+    "date": "2026-11-21",
+    "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts.",
+      "why_it_matters_africa": "",
+      "countries": [
+        "ML"
+      ],
+      "suggested_tags": [
+        "credential"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
     "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
     "source": "The Hacker News",
@@ -243,61 +303,84 @@
     "backend": "heuristic"
   },
   {
-    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-    "source": "The Hacker News",
-    "date": "2026-11-20",
-    "excerpt": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+    "source": "BleepingComputer",
+    "date": "2026-11-21",
+    "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
     "triage": {
       "relevant": true,
-      "relevance_reason": "Affects windows \u2014 widely deployed in under-resourced organizations \u2014 via zero-day, unpatched.",
-      "category": "vulnerability",
-      "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.",
-      "why_it_matters_africa": "If you run windows, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevance_reason": "Affects kubernetes \u2014 widely deployed in under-resourced organizations \u2014 via credential, breach.",
+      "category": "breach",
+      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "why_it_matters_africa": "If you run kubernetes, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
-        "windows",
-        "zero-day",
-        "unpatched"
+        "kubernetes",
+        "credential",
+        "breach"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-    "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
+    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+    "source": "BleepingComputer",
+    "date": "2026-11-21",
+    "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
     "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer.",
-      "why_it_matters_africa": "",
+      "relevant": true,
+      "relevance_reason": "Affects entra \u2014 widely deployed in under-resourced organizations \u2014 via exploited, data breach.",
+      "category": "vulnerability",
+      "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+      "why_it_matters_africa": "If you run entra, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
       "countries": [],
       "suggested_tags": [
+        "entra",
+        "exploited",
+        "data-breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+    "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+    "source": "BleepingComputer",
+    "date": "2026-11-21",
+    "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects android \u2014 widely deployed in under-resourced organizations \u2014 via botnet, malware.",
+      "category": "other",
+      "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+      "why_it_matters_africa": "If you run android, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "android",
+        "botnet",
         "malware"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-    "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-    "source": "The Hacker News",
-    "date": "2026-11-19",
-    "excerpt": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
+    "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+    "source": "BleepingComputer",
+    "date": "2026-11-21",
+    "excerpt": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via cve-.",
-      "category": "vulnerability",
-      "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.",
-      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "php",
-        "cve-"
+        "breach",
+        "hacked"
       ]
     },
     "backend": "heuristic"
@@ -518,84 +601,59 @@
     "backend": "heuristic"
   },
   {
-    "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-    "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+    "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+    "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+    "source": "SecurityWeek",
+    "date": "2026-11-22",
+    "excerpt": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+      "summary": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "data-breach",
-        "breach"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-    "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via rce, attackers.",
-      "category": "vulnerability",
-      "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
-      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "php",
-        "rce",
-        "attackers"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Five warning signs of ransomware breach before encryption or data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+    "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+    "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+    "source": "SecurityWeek",
+    "date": "2026-11-21",
+    "excerpt": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups.",
+      "summary": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
       "why_it_matters_africa": "",
-      "countries": [
-        "ML"
-      ],
+      "countries": [],
       "suggested_tags": [
-        "ransomware",
-        "credential"
+        "news"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Critical NGINX \u2018NGINX2Root\u2019 bugs let attackers hijack servers",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-    "source": "BleepingComputer",
-    "date": "2026-11-19",
-    "excerpt": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+    "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
+    "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+    "source": "SecurityWeek",
+    "date": "2026-11-21",
+    "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers&#8217; AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects nginx, linux \u2014 widely deployed in under-resourced organizations \u2014 via attackers.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
-      "why_it_matters_africa": "If you run nginx, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers&#8217; AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "nginx",
-        "attackers"
+        "zero-day",
+        "exploited"
       ]
     },
     "backend": "heuristic"
@@ -737,67 +795,6 @@
     "backend": "heuristic"
   },
   {
-    "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-    "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-    "source": "SecurityWeek",
-    "date": "2026-11-20",
-    "excerpt": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-    "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-    "source": "SecurityWeek",
-    "date": "2026-11-19",
-    "excerpt": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects vmware, vcenter \u2014 widely deployed in under-resourced organizations \u2014 via zero-day, exploited.",
-      "category": "vulnerability",
-      "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
-      "why_it_matters_africa": "If you run vmware, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "vmware",
-        "zero-day",
-        "exploited"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-    "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-    "source": "SecurityWeek",
-    "date": "2026-11-19",
-    "excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker\u2019s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via rce, exploitation.",
-      "category": "vulnerability",
-      "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker\u2019s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
-      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "php",
-        "rce",
-        "exploitation"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
     "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
     "link": "https://therecord.media/west-virginia-legislature-cyberattack",
     "source": "The Record",
@@ -893,6 +890,25 @@
     "backend": "heuristic"
   },
   {
+    "title": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap - Biometric Update",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0k5aWpwYkc4VE9lLUV3Y1R2VWp2VWdGenVtVTVBOXQ1NGRZNVI2WWRNSkRyc2V4elA1S2ptdk9QNFNXMXkyVk84SGtjUkxla21oWWVJQTE0cXpLOWhkcmFSdE1VWTRYQzJBb2thZXBiaDR2cDVYRGhvU0I5XzVXZGRSLXZxUWtMejFQbnRLcVNJSDhpX1QwNWtkcHk1N08tWEtkV2M3NlpTTXB2c3JLVklIWS0xWmhf?oc=5",
+    "source": "Google News: Africa cybersecurity",
+    "date": "2026-11-19",
+    "excerpt": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap Biometric Update",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "category": "other",
+      "summary": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap Biometric Update",
+      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "countries": [],
+      "suggested_tags": [
+        "africa"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Africa's biggest airline digs into hackers targeting 5.38 million customer accounts as it connects the U.S., Canada and South Africa - Business Insider Africa",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWRDMTdoWlJ5cGJwUHhuQTlfWUtQaGlKamxtaTNDOG85VXV3U1c0SzJta2FmR2hlcUVSYWpURjY5cFpQZUllSXZZZ09xV0ppcEpQc1cxUk5BRzJOV2hQWVBOWWVVN0VZZFB4WklONk5kM1I1MW1lQmtlUjhHQmdvR2o0cUZtYWZpdzVtcFNmdUhkeklDMTFZbEhQcFg3cWRjR1lkd3lFY0Zid1BVT2JEQlR2Ulc5aW5BWU1xcVFyQmxIUGJvOXc1ejZ2cTJ2WkZkMzNYbkpR?oc=5",
     "source": "Google News: Africa cybersecurity",
@@ -915,106 +931,23 @@
     "backend": "heuristic"
   },
   {
-    "title": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap - Biometric Update",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0k5aWpwYkc4VE9lLUV3Y1R2VWp2VWdGenVtVTVBOXQ1NGRZNVI2WWRNSkRyc2V4elA1S2ptdk9QNFNXMXkyVk84SGtjUkxla21oWWVJQTE0cXpLOWhkcmFSdE1VWTRYQzJBb2thZXBiaDR2cDVYRGhvU0I5XzVXZGRSLXZxUWtMejFQbnRLcVNJSDhpX1QwNWtkcHk1N08tWEtkV2M3NlpTTXB2c3JLVklIWS0xWmhf?oc=5",
+    "title": "President Ramaphosa emphasises data sovereignty, cybersecurity in AI partnerships - South African Government News Agency",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHdHdnFqREJOOE5vbE9CckQxclVXbV91all5WnJDQ1Q5TFNqc1Y5SGlrcEYwd1hGUFJCMGlNVFBxUjhjYXhNUnc5QXY0SlJWTkJseVRPaThtTTloV0V0T3o4SGxJQ0ZRMXR3OERxR0ZoR1ZGckJJZkp6Q2JQYlh2U0pxVENhcGlIcTVaQ013Ukg2enFpcEh4Tzc4c1pCM241bUMwaFZJSVhyaTIyRDQ0aVFEcTBPUUE?oc=5",
     "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-19",
-    "excerpt": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap Biometric Update",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Africa\u2019s expanding digital ID infrastructure faces a cybersecurity capacity gap Biometric Update",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge - Dark Reading",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUFRzYjNRZktDYVNQSW0zeEV6RW40ZF9ZNmpPb21fVkt1M0o5MFl6MS1iaUdFT1c0R3EwMzU4Q2NRNi1iYnF0cjVTZ3NBNnlKVWdMVDdKMHgwQnlCOEZzUERGdFRzWHRqUS1iWGc0TmJieDdHeXZhMTJ4R1NIN1FnWEF6U0pSZ0hZaF80Z0pyTWFUbUpFTjE2Rm5RRUs4Vm8?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-19",
-    "excerpt": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge Dark Reading",
+    "date": "2026-11-21",
+    "excerpt": "President Ramaphosa emphasises data sovereignty, cybersecurity in AI partnerships South African Government News Agency",
     "triage": {
       "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
       "category": "other",
-      "summary": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge Dark Reading",
+      "summary": "President Ramaphosa emphasises data sovereignty, cybersecurity in AI partnerships South African Government News Agency",
       "why_it_matters_africa": "",
       "countries": [
-        "NE",
-        "NG"
+        "ZA"
       ],
       "suggested_tags": [
         "africa",
-        "nigeria"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Ethiopian Airlines reports cybersecurity breach, warns customer data may be exposed - Anadolu Ajans\u0131",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcXF1MUYyVm54amc2UU84b1lEdzNZdlcyeGZKdFpCYXdnbFU2aC1SNmR1ZzNOVGV0ZjZtNHBDSDlXOVZ1WWFoM3JzdWtFYUdHZHA0Yl8zYUh1MnlxZllKYkptZVFfY015b1dLNnFwVGJHRVZUVi1BWEVwNkpIRGUwRV9rM2tsVGdoUVdvcy1VSXM3akhISWFEbXhCMGVLaGtYOW9iWHNGS2xoY0EyS2M1MzU1akhYOVBia1JHb2swUQ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-19",
-    "excerpt": "Ethiopian Airlines reports cybersecurity breach, warns customer data may be exposed Anadolu Ajans\u0131",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving ethiopia, directly relevant to the region.",
-      "category": "breach",
-      "summary": "Ethiopian Airlines reports cybersecurity breach, warns customer data may be exposed Anadolu Ajans\u0131",
-      "why_it_matters_africa": "Regional story: organizations in Ethiopia should check whether the described exposure or technique applies to their own systems.",
-      "countries": [
-        "ET"
-      ],
-      "suggested_tags": [
-        "ethiopia",
-        "breach",
-        "exposed"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Benin wants to be Africa\u2019s AI testbed. Cybersecurity is its starting point - TechCabal",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QMGZpckZOMXRGdEdKQVlFMGhTUG5tWEYtdmxOTE85N2NEcnAzZExGcS1HYWVmaHZ6VzZoc3BwbTVRTTMzMTl2ejc4MkJjR3V2SWhqUjdkeXRDcUF3ZGhnZmxsajI4My1sLVlGYm0wenMwbnA2eFFjTjN3?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-17",
-    "excerpt": "Benin wants to be Africa\u2019s AI testbed. Cybersecurity is its starting point TechCabal",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Benin wants to be Africa\u2019s AI testbed. Cybersecurity is its starting point TechCabal",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [
-        "BJ"
-      ],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "OPINION | SA urgently needs to prioritise AI cybersecurity readiness - SABC News",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91MGM3Qmt3N0Z2ZlVpV3hieGdfOTM5eVZFU2drbmg3Z3RXWGxJYTkxZE9GV1p0OGRfZU1xTWQySE9GQ2VqOGZIT1hUODRmbEpvR2FmUE5Ddw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-19",
-    "excerpt": "OPINION | SA urgently needs to prioritise AI cybersecurity readiness SABC News",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "OPINION | SA urgently needs to prioritise AI cybersecurity readiness SABC News",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
+        "african"
       ]
     },
     "backend": "heuristic"
