@@ -1,5 +1,62 @@
 [
   {
+    "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+    "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+    "source": "The Hacker News",
+    "date": "2026-11-28",
+    "excerpt": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+    "source": "The Hacker News",
+    "date": "2026-11-27",
+    "excerpt": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus. The activity is assessed to have comprised five intrusions in Thailand",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus.",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+    "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+    "source": "The Hacker News",
+    "date": "2026-11-27",
+    "excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+    "triage": {
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+      "why_it_matters_africa": "",
+      "countries": [],
+      "suggested_tags": [
+        "news"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
     "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
     "source": "The Hacker News",
@@ -244,16 +301,16 @@
     "backend": "heuristic"
   },
   {
-    "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-    "source": "The Hacker News",
-    "date": "2026-11-25",
-    "excerpt": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline. The bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial",
+    "title": "pCloud confirms password manager hack after suspicious login alerts",
+    "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+    "source": "BleepingComputer",
+    "date": "2026-11-27",
+    "excerpt": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday.",
+      "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
@@ -263,42 +320,100 @@
     "backend": "heuristic"
   },
   {
-    "title": "Credential Remediation Is Slow When You Don\u2019t Know What Will Break",
-    "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-    "source": "The Hacker News",
-    "date": "2026-11-25",
-    "excerpt": "TL;DR More than 64% still valid after four years: GitGuardian\u2019s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the",
+    "title": "New Boston Scientific data breach exposes personal, medical info",
+    "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+    "source": "BleepingComputer",
+    "date": "2026-11-27",
+    "excerpt": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "TL;DR More than 64% still valid after four years: GitGuardian\u2019s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the",
+      "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
       "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "bec",
-        "credential"
+        "data-breach",
+        "breach"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-    "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-    "source": "The Hacker News",
-    "date": "2026-11-25",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+    "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+    "source": "BleepingComputer",
+    "date": "2026-11-27",
+    "excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects drupal \u2014 widely deployed in under-resourced organizations \u2014 via rce, remote code.",
-      "category": "vulnerability",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.",
-      "why_it_matters_africa": "If you run drupal, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
+      "category": "other",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "drupal",
-        "rce",
-        "remote-code"
+        "remote-code",
+        "zero-day"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+    "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+    "source": "BleepingComputer",
+    "date": "2026-11-27",
+    "excerpt": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Attack activity against government-sector organizations, the same targets common across SADC.",
+      "category": "breach",
+      "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "breach",
+        "hacked"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+    "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+    "source": "BleepingComputer",
+    "date": "2026-11-27",
+    "excerpt": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Attack activity against isp-sector organizations, the same targets common across SADC.",
+      "category": "vulnerability",
+      "summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks.",
+      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "unpatched"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
+    "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+    "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+    "source": "BleepingComputer",
+    "date": "2026-11-27",
+    "excerpt": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Affects vpn \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
+      "category": "other",
+      "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+      "why_it_matters_africa": "If you run vpn, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "vpn",
+        "malware"
       ]
     },
     "backend": "heuristic"
@@ -479,126 +594,6 @@
         "chrome",
         "zero-day",
         "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-    "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-    "source": "BleepingComputer",
-    "date": "2026-11-26",
-    "excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects outlook \u2014 widely deployed in under-resourced organizations \u2014 via malware.",
-      "category": "other",
-      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
-      "why_it_matters_africa": "If you run outlook, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "outlook",
-        "malware"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-    "source": "BleepingComputer",
-    "date": "2026-11-25",
-    "excerpt": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Affects php \u2014 widely deployed in under-resourced organizations \u2014 via exploited, exposed.",
-      "category": "vulnerability",
-      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-      "why_it_matters_africa": "If you run php, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
-      "countries": [],
-      "suggested_tags": [
-        "php",
-        "exploited",
-        "exposed"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "1Password customer data stolen after employee GitHub account breach",
-    "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-    "source": "BleepingComputer",
-    "date": "2026-11-25",
-    "excerpt": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-      "why_it_matters_africa": "",
-      "countries": [
-        "ML"
-      ],
-      "suggested_tags": [
-        "data-breach",
-        "breach"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-    "source": "BleepingComputer",
-    "date": "2026-11-25",
-    "excerpt": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-    "source": "BleepingComputer",
-    "date": "2026-11-25",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "unpatched"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-    "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-    "source": "BleepingComputer",
-    "date": "2026-11-25",
-    "excerpt": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
       ]
     },
     "backend": "heuristic"
@@ -803,6 +798,25 @@
     "backend": "heuristic"
   },
   {
+    "title": "Japan\u2019s education ministry discloses breach of government procurement system",
+    "link": "https://therecord.media/japan-education-ministry-cyberattack",
+    "source": "The Record",
+    "date": "2026-11-27",
+    "excerpt": "Japan\u2019s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+    "triage": {
+      "relevant": true,
+      "relevance_reason": "Attack activity against government, ministry-sector organizations, the same targets common across SADC.",
+      "category": "breach",
+      "summary": "Japan\u2019s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+      "why_it_matters_africa": "If you run affected software, verify you are on a patched version; unpatched instances are the most common entry point for small teams without dedicated security staff.",
+      "countries": [],
+      "suggested_tags": [
+        "breach"
+      ]
+    },
+    "backend": "heuristic"
+  },
+  {
     "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
     "link": "https://therecord.media/sap-germany-cyberattack-github",
     "source": "The Record",
@@ -879,206 +893,64 @@
     "backend": "heuristic"
   },
   {
-    "title": "Microsoft: China\u2019s Salt Typhoon hackers are using Artex",
-    "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
-    "source": "The Record",
-    "date": "2026-11-25",
-    "excerpt": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+    "title": "Kidist Tesfaye: The Ethiopian-American whose trip home led to Ethiopia\u2019s first femtech start-up",
+    "link": "https://www.theafricareport.com/437753/kidist-tesfaye-the-ethiopian-american-whose-trip-home-led-to-ethiopias-first-femtech-start-up/",
+    "source": "The Africa Report",
+    "date": "2026-11-28",
+    "excerpt": "At 23, Kidist Tesfaye abandoned a promising career in US banking to volunteer at a government hospital in her birth country. Ten years on, the YeneHealth founder talks about her scepticism of imported healthcare solutions, and her disillusionment with corporate America.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+      "summary": "At 23, Kidist Tesfaye abandoned a promising career in US banking to volunteer at a government hospital in her birth country. Ten years on, the YeneHealth founder talks about her scepticism of imported healthcare solutions, and her disillusionment with corporate America.",
       "why_it_matters_africa": "",
-      "countries": [],
+      "countries": [
+        "ET"
+      ],
       "suggested_tags": [
-        "breach"
+        "ethiopia"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "stc Bahrain Completes Nationwide Cybersecurity and AI Awareness Sessions for Schools - TechAfrica News",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcUlIVGg5M3kwUHlELWZGeWd1aG1Jc1RkWVgtbjNpVW15dmpUNFVJOGVibkM3eV9DVU9vTzZySlZ4M2wzb3VHR2R1dVpUZUpDZXR5amh3RkFlVTE1a3F3aC1UYWUyajNHWXVvQ1lrZmZZbE9iRDBrWWZEckYtYmtQbVY0VERpNXFQN1NPbmk0bm9BbW5aak41TWJCVEc2UkJPNWtQQUNDZXdaWm9aaDZ0SFQ2VUZGeERrUmlyOQ?oc=5",
-    "source": "Google News: Africa cybersecurity",
+    "title": "South Africa: 10 things about Herman Mashaba, Johannesburg\u2019s new mayor",
+    "link": "https://www.theafricareport.com/437035/south-africa-10-things-about-herman-mashaba-johannesburgs-new-mayor/",
+    "source": "The Africa Report",
     "date": "2026-11-27",
-    "excerpt": "stc Bahrain Completes Nationwide Cybersecurity and AI Awareness Sessions for Schools TechAfrica News",
+    "excerpt": "Herman Mashaba made his fortune selling hair products to black South Africans and his political name railing against undocumented migrants.",
     "triage": {
       "relevant": false,
       "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "stc Bahrain Completes Nationwide Cybersecurity and AI Awareness Sessions for Schools TechAfrica News",
+      "summary": "Herman Mashaba made his fortune selling hair products to black South Africans and his political name railing against undocumented migrants.",
       "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "news"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Aeon raises another $1 million to build cybersecurity infrastructure for Africa - Condia",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rUWExLXRsWG8tY1JDcEtqd1hMR3hDN0FOd1dNTHFjT2N4c1JZcWEtdk9tcmtmbFlEOGh4dHNmdkUyWlhyOGJGbEZ3aXNiTm9hWVljODFoLTk3dTVTTkIyY3VSUjBmYl9IU0pJdVZhN1drYnM?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-25",
-    "excerpt": "Aeon raises another $1 million to build cybersecurity infrastructure for Africa Condia",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Aeon raises another $1 million to build cybersecurity infrastructure for Africa Condia",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Why businesses need a more proactive approach to cybersecurity - ITWeb Africa",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOanQzT2RLeHhKekJHbnpTaXF1bW54b0cwQlNFam1YczJrd09wa0s4VV9yU3I0VzVLWDNkaDhrbVNwbGJYVDZJSTAxejBTY2NPSkY1R3dnN0lZRW1fMVVFd0xjZU5HOHRfNFo1QUtXLVp0VVgyZ1IwMWQxWXYxQ3hRZ2Z6dlNNM2dkUzBIU1hnVzVwendlaWdwZThral9faTZ2d3J6d1BWa1FaRnZw?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-26",
-    "excerpt": "Why businesses need a more proactive approach to cybersecurity ITWeb Africa",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "Why businesses need a more proactive approach to cybersecurity ITWeb Africa",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Nigerian cybersecurity startup Aeon doubles its pre-seed round to $2 million - Tech In Africa",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQekVJb1VlV1Y2dVNMVmJPWnc1X2xpLXZlbDBDOGIzb1R2aHNyRzI5RHNKNXBnSjBNOHRNN0ZocnZfRk1oc3lxTHJzc2puLUlaTDNlVHQtS3FaV2M4d2JLQmNsS0I5VkR4OGtZeEEyS0F2NDh3MnNXRlN1M21pdlUtWlhjVDM0bDJNeVF3ZjlaWGJQSWFLRFlqakZtbEN2dXdBdVdaMlhxeFk?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-26",
-    "excerpt": "Nigerian cybersecurity startup Aeon doubles its pre-seed round to $2 million Tech In Africa",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Nigerian cybersecurity startup Aeon doubles its pre-seed round to $2 million Tech In Africa",
-      "why_it_matters_africa": "",
-      "countries": [
-        "NE",
-        "NG"
-      ],
-      "suggested_tags": [
-        "africa",
-        "nigeria"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "European Union reaffirms partnership with Mozambique to strengthen cybersecurity - EEAS",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVGhmYXJoUDNOMVpXS3hSNTZudV9FQXpUVEpxX2h6Nkk4d2h2dGtHeW16WmtDMUpETjlmdWZGd1h2XzA2OGpadGJNd2N5LWhLcF9SeEZ4amk5czZ2Z2NKMEllUE52U1Npd1dXazM0cllfaWE4OEtqSmdkSWYyemVGT01zR2s5NEJTYk1QNHJFcFRBS3hSU2sya1FfT0stYWg0N09ybnFjdEwxSDBRU3lBZ3gyYzRLNVJZVkdhREt4MEFYR2s?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-23",
-    "excerpt": "European Union reaffirms partnership with Mozambique to strengthen cybersecurity EEAS",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "European Union reaffirms partnership with Mozambique to strengthen cybersecurity EEAS",
-      "why_it_matters_africa": "",
-      "countries": [
-        "MZ"
-      ],
-      "suggested_tags": [
-        "mozambique"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Benin\u2019s ASIN launches CISO guide to strengthen cybersecurity governance across Africa - Tech Review Africa",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlVLek5WaXZvQ0drZUpCZGxJeUdtT3piZE5FakR3bzd1MHJlU3JlWnUwTld1RWdXTDJHcGhKMjA4UHg3TERBZktoZnRQcURsbnY3bXRCMGQtLVVjeGRPVTZRRk9fTV9OaDlUMDdrRUZQLTVBbThSazBrWU5HQlJaUWJIa2dPRU11NmtUdko1QnRvVzFYaGM5UDNobzA2WlRaQnpsZWtFbGVuZWx2YU5xd0o5OUoyc1hQYUxkeVZTM24?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-26",
-    "excerpt": "Benin\u2019s ASIN launches CISO guide to strengthen cybersecurity governance across Africa Tech Review Africa",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Benin\u2019s ASIN launches CISO guide to strengthen cybersecurity governance across Africa Tech Review Africa",
-      "why_it_matters_africa": "",
-      "countries": [
-        "BJ"
-      ],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Nigerian cybersecurity startup Aeon extends pre-seed round to $2m - - Disrupt Africa",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOWJYLUdxTUtfbDhtNjlzYV91b2NKblg2SVBSbHlQRlRmem0tUkJjOUJHbkhDY21UVkhqQzVrX3VYZk5neFdWa291VjBtbklXNU52Z292WlpxbFVBUWpGQmtQVDlNdzdHTFlMRF94cDVTZGlrVXNHcHBlcTAweWtueUE2dXV0XzhyTWs1dUROb1o2bmI1X1pmdmdMaVZ5V0lDcWlPUQ?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-26",
-    "excerpt": "Nigerian cybersecurity startup Aeon extends pre-seed round to $2m - Disrupt Africa",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "Industry, business, or political news with no vulnerability, incident, or technique defenders can act on.",
-      "category": "other",
-      "summary": "Nigerian cybersecurity startup Aeon extends pre-seed round to $2m - Disrupt Africa",
-      "why_it_matters_africa": "",
-      "countries": [
-        "NE",
-        "NG"
-      ],
-      "suggested_tags": [
-        "africa",
-        "nigeria"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "EasyEquities suspends platform access after cybersecurity incident in South Africa - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSGJsVmFMMGJxQUxGXzZBaERfWjRueVJ5S1N0cF9wSXgyX3p6c0xQX3RHQldFR0Z0X0xvZU0yM1ZHeXBPQl9HVHowblA5T04ta21wSEhqZG5RZFcwLWY4cjl6TldUS1dWRVBNbzhYTjlKb2N4TkR2eW1ZdFl2Q25McTJMMzhzZEJpS0pGZm1IeVFVcnlxT1JNbHBwM28?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-26",
-    "excerpt": "EasyEquities suspends platform access after cybersecurity incident in South Africa Traders Union",
-    "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, south africa, directly relevant to the region.",
-      "category": "other",
-      "summary": "EasyEquities suspends platform access after cybersecurity incident in South Africa Traders Union",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
       "countries": [
         "ZA"
       ],
       "suggested_tags": [
         "africa",
-        "south africa"
+        "african"
       ]
     },
     "backend": "heuristic"
   },
   {
-    "title": "AI-Driven Cyberattacks Threaten Africa\u2019s Digital Future, Digital Encode Warns - Techeconomy",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVU42X0c3S2dtdUVLNjVtdGlCOWFKOWRKM0xRdnp4eG56TUVIbGpWNWRVcGFzZnk2dXdnMFdCWGp2eGM1WG9DbzA5cld3TW1obUtBWjFuUXBNMHliVGZ3ZlNYdlVodU94NTZwYlJCWkljOFpEaGhjaDAxWEIzUm80N2RacFplOFZqaG1oa0Rnc3BJaEpOc2xoS2g5dzJKVDg?oc=5",
-    "source": "Google News: Africa cybersecurity",
-    "date": "2026-11-24",
-    "excerpt": "AI-Driven Cyberattacks Threaten Africa\u2019s Digital Future, Digital Encode Warns Techeconomy",
+    "title": "S&P says Africa\u2019s rating debate has shifted as AfCRA, AfDB step up",
+    "link": "https://www.theafricareport.com/437864/sp-says-africas-rating-debate-has-shifted-as-afcra-afdb-step-up/",
+    "source": "The Africa Report",
+    "date": "2026-11-27",
+    "excerpt": "African institutions and global rating agencies are shifting focus from accusations of bias to deepening domestic credit analysis and strengthening sovereign financial data.",
     "triage": {
-      "relevant": true,
-      "relevance_reason": "Security story involving africa, directly relevant to the region.",
+      "relevant": false,
+      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
       "category": "other",
-      "summary": "AI-Driven Cyberattacks Threaten Africa\u2019s Digital Future, Digital Encode Warns Techeconomy",
-      "why_it_matters_africa": "Regional story: organizations in the region should check whether the described exposure or technique applies to their own systems.",
+      "summary": "African institutions and global rating agencies are shifting focus from accusations of bias to deepening domestic credit analysis and strengthening sovereign financial data.",
+      "why_it_matters_africa": "",
       "countries": [],
       "suggested_tags": [
-        "africa"
+        "africa",
+        "african"
       ]
     },
     "backend": "heuristic"
@@ -1224,68 +1096,6 @@
       "suggested_tags": [
         "africa",
         "african"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Darboe vs Barrow vs Bensouda: Gambia\u2019s presidential election becomes a three-way family feud",
-    "link": "https://www.theafricareport.com/437762/gambia-2026-the-political-godfather-who-must-defeat-his-breakaway-proteges-to-become-president/",
-    "source": "The Africa Report",
-    "date": "2026-11-26",
-    "excerpt": "All three came up through the same opposition party. Now the mentor, the incumbent and the former mayor are splitting the vote, and under first-past-the-post a small swing could decide who wins.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "All three came up through the same opposition party. Now the mentor, the incumbent and the former mayor are splitting the vote, and under first-past-the-post a small swing could decide who wins.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "GM"
-      ],
-      "suggested_tags": [
-        "bec"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "FIFA: 10 things about Philippe Diallo, the surprise candidate Africa doesn\u2019t want",
-    "link": "https://www.theafricareport.com/437705/fifa-10-things-about-philippe-diallo-the-surprise-candidate-africa-doesnt-want/",
-    "source": "The Africa Report",
-    "date": "2026-11-26",
-    "excerpt": "Chosen by UEFA to succeed Gianni Infantino as head of FIFA, Philippe Diallo is struggling to be heard in Africa amidst the chants of support for the powerful incumbent\u2019s bid for reelection.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Chosen by UEFA to succeed Gianni Infantino as head of FIFA, Philippe Diallo is struggling to be heard in Africa amidst the chants of support for the powerful incumbent\u2019s bid for reelection.",
-      "why_it_matters_africa": "",
-      "countries": [],
-      "suggested_tags": [
-        "africa"
-      ]
-    },
-    "backend": "heuristic"
-  },
-  {
-    "title": "Why has Niger expelled the Mahamid Arabs back to Chad?",
-    "link": "https://www.theafricareport.com/437677/why-has-niger-expelled-the-mahamid-arabs-back-to-chad/",
-    "source": "The Africa Report",
-    "date": "2026-11-26",
-    "excerpt": "Accusations and denials fly as Niamey\u2019s decision to expel the herder group reawakens a historical feud with N\u2019Djamena.",
-    "triage": {
-      "relevant": false,
-      "relevance_reason": "No African angle, and no widely-deployed-platform issue with a transferable lesson for low-resource defenders.",
-      "category": "other",
-      "summary": "Accusations and denials fly as Niamey\u2019s decision to expel the herder group reawakens a historical feud with N\u2019Djamena.",
-      "why_it_matters_africa": "",
-      "countries": [
-        "NE",
-        "TD"
-      ],
-      "suggested_tags": [
-        "news"
       ]
     },
     "backend": "heuristic"
